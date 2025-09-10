@@ -1,4 +1,4 @@
-In-Depth Analysis: Harvey AI
+In-Depth Analysis: Harvey AI:
 1. How They Built It (The Architecture and Approach)
 Harvey's architecture is a sophisticated blend of cutting-edge AI models and specialized legal data.
 Foundation on Advanced LLMs: Harvey is built on top of OpenAI's most powerful models (like GPT-4). This provides the raw generative and reasoning capabilities. However, they do not simply use the public-facing model.
@@ -16,4 +16,16 @@ Due Diligence: Rapidly scanning thousands of documents to extract specific infor
 Source-Attributed Output: This is key to building trust. Harvey's responses are not just a block of text. They are designed to include citations and direct references back to the source documents it used for its analysis. This allows the lawyer to quickly verify the AI's output, aligning perfectly with your project's goal for a reliable "Citation Engine."
 
 
-
+Few questions answered by an experienced lawyer, on chat, couldnt get him on call:
+1. On an average week, roughly what percentage of your time is dedicated to legal research and related tasks?
+Ans: couple of hours daily
+2. What different types of legal information do you most frequently search for? (e.g., case law, statutes, regulations, legal articles, etc.)
+Ans: yes, case laws, statutes, and yes, articles on the subject matter and also 
+3.What specific part of the legal research process do you find the most time-consuming and tedious? Could you share an example?
+Ans: No legal research is tedious if you know precisely the point or the issue, you are looking for. Once the issue is crystallized, then research becomes easy.
+4. What are your main concerns regarding citation accuracy? Have you ever faced issues due to an incorrect or outdated citation?
+Ans: yes citation accuracy is indeed an issue and have faced incorrect citations.
+5.If you could design the perfect AI assistant for your legal research, what are the top 3-5 tasks you would want it to perform for you?
+Ans: I don’t know what is meant by tasks to be performed. Needs more clarity. 
+6.What are your biggest concerns or hesitations about incorporating AI into your legal practice? (e.g., accuracy, data confidentiality, reliability).
+Ans: Accuracy is the biggest concern. The reasons are: interpretation of laws  and drawing inferences from facts and circumstances, are very dynamic things, wherein sometimes, depending upon the context, may is considered as shall and shall is considered as may; and, AND may be considered as disjunctive instead of injunctive; and equally “commas” plays a significant role in appreciating the pleadings and evidences / documents. In such circumstances, to what extent ai can appreciate the documents, statutes, rules and regulations becomes doubtful.
