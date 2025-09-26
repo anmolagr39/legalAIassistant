@@ -1,0 +1,28 @@
+1. Create vocabulary from the data(extraction and chunking)
+Data encoding can be done using BPE (medium sized vocab) 
+Resources: https://github.com/karpathy/minbpe
+
+General video for the entire process (https://youtu.be/9Ge0sMm65jo?si=Q-TtRW7a-R8gL0N3)
+
+
+2. https://youtu.be/hsOJhs3_UCM?si=5L7PlQ7P_42XYNKu
+This is the second video we can use to implement KG structure for the db after we are done with the schema. KG db can be stored in neo4j db.
+
+PIPELINE:
+Query → embed user query.
+
+Vector DB: retrieve top-K chunks (each chunk must carry chunk_id, doc_id, text, kg_node_ids, vector_score).
+
+KG: collect all kg_node_ids from those chunks, run a 1–2 hop traversal to fetch related triples and source_chunks.
+
+Optional KG expansion: fetch canonical chunks for top KG nodes (their source_chunks) and add to candidate pool.
+
+Re-rank candidate chunks using a combined vector+graph score (or keep two lists: text hits + KG bullets).
+
+Build prompt: include KG bullets (triples) + top chunk excerpts (with chunk ids) + explicit instruction to cite chunk ids for each factual claim.
+
+LLM: generate answer.
+
+Post-check: validate every cited case/statute against the KG (existence, overruling) and mark/flag if inconsistent.
+
+
