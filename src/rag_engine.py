@@ -143,9 +143,23 @@ class FIRRagEngine:
         if not os.path.exists(csv_path):
             raise FileNotFoundError(f"Dataset not found: {csv_path}")
         
-        # Load dataset
-        df = pd.read_csv(csv_path)
-        print(f"📊 Loaded {len(df)} records")
+        # Load dataset with proper encoding handling
+        try:
+            df = pd.read_csv(csv_path, encoding='utf-16', quotechar='"', escapechar='\\')
+        except UnicodeError:
+            try:
+                df = pd.read_csv(csv_path, encoding='latin-1', quotechar='"', escapechar='\\')
+            except:
+                df = pd.read_csv(csv_path, encoding='utf-8', quotechar='"', escapechar='\\')
+        except pd.errors.ParserError:
+            # Try with different quote handling
+            try:
+                df = pd.read_csv(csv_path, encoding='utf-16', quoting=1)  # QUOTE_ALL
+            except:
+                df = pd.read_csv(csv_path, encoding='utf-16', sep=',', on_bad_lines='skip')
+        
+        print(f"📊 Loaded {len(df)} records with {len(df.columns)} columns")
+        print(f"📋 Columns: {list(df.columns)}")
         
         # Get or create collection
         try:
