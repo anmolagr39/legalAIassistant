@@ -10,9 +10,9 @@ __pycache__/
 *$py.class
 *.so
 
-# Data files
-data/chroma_db/
-data/processed/
+# Data files (commented out to include in repo)
+# data/chroma_db/
+# data/processed/
 
 # Environment variables
 .env

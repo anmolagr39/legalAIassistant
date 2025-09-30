@@ -1,0 +1,2 @@
+legal-rag-system/data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
+legal-rag-system/data/chroma_db/** filter=lfs diff=lfs merge=lfs -text
