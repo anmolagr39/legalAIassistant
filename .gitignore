@@ -20,8 +20,9 @@ chroma_db_IPC/
 *.db
 *.sqlite3
 
-# Large Data Files
+# Large Data Files (but allow FIR_DATASET.csv)
 *.csv
+!FIR_DATASET.csv
 data/
 datasets/
 pastcases/
