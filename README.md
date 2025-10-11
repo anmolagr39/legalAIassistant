@@ -44,11 +44,19 @@ pip install -r requirements.txt
 
 ## 📖 Usage
 
-### Data Ingestion
+### First Time Setup - Data Ingestion
+Before querying, you need to ingest the FIR dataset to create the vector database:
+
 ```bash
-# Ingest FIR dataset into the vector database
-python main.py --mode ingest --csv "path/to/your/FIR_DATASET.csv"
+# Ingest the included FIR dataset (creates chroma_db folder)
+python main.py --mode ingest --csv "FIR_DATASET.csv"
 ```
+
+This will:
+- Process 3,480+ FIR records
+- Create semantic embeddings
+- Generate ~933 text chunks
+- Store everything in a local ChromaDB database
 
 ### Querying the System
 ```bash
@@ -58,7 +66,10 @@ python main.py --mode query --query "What are the IPC sections for cheating?" --
 # Example queries:
 python main.py --mode query --query "Cases related to fraud" --api-key "your_api_key"
 python main.py --mode query --query "IPC sections for theft" --api-key "your_api_key"
+python main.py --mode query --query "mention sections of ipc for cheating" --api-key "your_api_key"
 ```
+
+**Note**: The system works even without a Gemini API key - it will use rule-based fallback analysis.
 
 ### Alternative Runner
 ```bash
@@ -75,9 +86,13 @@ legalAIassistant/
 │   └── rag_engine.py      # Core RAG engine implementation
 ├── main.py                # Main CLI application entry point
 ├── run_rag.py            # Alternative runner script
+├── FIR_DATASET.csv       # Sample FIR dataset (3,480+ records)
 ├── requirements.txt       # Python dependencies
 ├── README.md             # Project documentation
-└── .gitignore           # Git ignore rules
+├── .gitignore           # Git ignore rules
+└── chroma_db/           # Vector database (created after ingestion)
+    ├── chroma.sqlite3    # ChromaDB metadata
+    └── [collection_id]/   # Vector embeddings and documents
 ```
 
 ## 🧩 Architecture
