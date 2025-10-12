@@ -1,0 +1,68 @@
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Python cache
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env.local
+.env.production
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Large data files and databases
+chroma_db/
+data/chroma_db/
+*/chroma_db/
+**/chroma_db/
+
+# Large CSV files
+**/data/processed/
+data/processed/
+*.csv
+!requirements*.csv
+
+# Binary data files
+*.bin
+*.pickle
+
+# Past cases data directories (exclude data, keep code)
+past_cases_rag/Object_casedocs/
+past_cases_rag/chroma_db/
+past_cases_rag/venv/
+
+# Legal RAG system data directories
+legal-rag-system/data/chroma_db/
+legal-rag-system/data/processed/
