@@ -1,25 +1,52 @@
-# Past Cases RAG System
+# Legal Assistant RAG System
 
-This directory contains the Retrieval-Augmented Generation (RAG) system for legal case analysis.
-
-## Structure
-
-- `src/` - Source code for RAG processing, utilities, and main logic
-- `tests/` - Test files for the RAG system  
-- `Object_casedocs/` - Legal case documents (not included in version control)
-- `chroma_db/` - Vector database files (not included in version control)
+A Retrieval-Augmented Generation system for Indian Supreme Court case documents using ChromaDB and Gemini 2.5 Flash.
 
 ## Setup
 
-1. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+1. Create virtual environment:
+```bash
+python -m venv venv
+venv\Scripts\activate  # Windows
+```
 
-2. Add your case documents to the `Object_casedocs/` directory
-3. Run the ingestion process to build the vector database
-4. Use the RAG system to query legal cases
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Data Files
+3. Create `.env` file with your Google API key:
+```
+GOOGLE_API_KEY=your_gemini_api_key_here
+```
 
-Note: Large data files (case documents and vector databases) are excluded from version control for size reasons.
+4. Initialize the database:
+```bash
+python main.py --init
+```
+
+5. Ingest documents:
+```bash
+python main.py --ingest
+```
+
+6. Query the system:
+```bash
+python main.py --query "What are the landmark cases on fundamental rights?"
+```
+
+## Usage
+
+```bash
+python main.py --help
+```
+
+## Dataset
+Contains 2,914 Indian Supreme Court case documents in text format.
+
+## Architecture
+- **Document Processing**: Extract and chunk legal documents
+- **Vector Database**: ChromaDB for semantic search
+- **Embeddings**: Sentence transformers for text embeddings
+- **LLM**: Gemini 2.5 Flash for response generation
+- **Interface**: Command-line interface for testing

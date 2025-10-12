@@ -1,0 +1,25 @@
+# Core RAG Dependencies
+chromadb>=0.4.15
+google-generativeai>=0.3.0
+langchain>=0.0.330
+langchain-google-genai>=0.0.5
+langchain-chroma>=0.1.0
+
+# Embedding and Processing
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+
+# Text Processing
+nltk>=3.8
+regex>=2023.8.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# CLI and Logging
+click>=8.1.0
+rich>=13.0.0
+colorama>=0.4.0
