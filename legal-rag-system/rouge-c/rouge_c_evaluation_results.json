@@ -1,0 +1,204 @@
+{
+  "aggregate_metrics": {
+    "rouge_l": {
+      "avg_precision": 0.10319768866494053,
+      "std_precision": 0.05563435051430126,
+      "avg_recall": 0.3708998871065942,
+      "std_recall": 0.12607460752716682,
+      "avg_f1": 0.15180875681492095,
+      "std_f1": 0.05864081582015299
+    },
+    "token_overlap": {
+      "avg_precision": 0.21039854180841128,
+      "std_precision": 0.057769140178797605,
+      "avg_recall": 0.5457389020196937,
+      "std_recall": 0.15489855547747441,
+      "avg_f1": 0.29606105778716085,
+      "std_f1": 0.06409288816451235
+    },
+    "semantic_similarity": {
+      "avg_combined": 0.8467251405119895,
+      "std_combined": 0.04119200818887458,
+      "avg_individual": 0.7461192645225674,
+      "std_individual": 0.03505230143548996,
+      "avg_max": 0.8267033621668816,
+      "std_max": 0.050392195182440654
+    },
+    "summary": {
+      "total_pairs": 10,
+      "avg_contexts_per_query": 5.0
+    }
+  },
+  "individual_results": [
+    {
+      "rouge_l": {
+        "precision": 0.07333333333333333,
+        "recall": 0.532258064516129,
+        "f1": 0.12890625
+      },
+      "token_overlap": {
+        "precision": 0.1527777777777778,
+        "recall": 0.6226415094339622,
+        "f1": 0.24535315985130113
+      },
+      "semantic_similarity": 0.748093917965889,
+      "avg_context_similarity": 0.6974186629056931,
+      "max_context_similarity": 0.7587299048900604,
+      "num_contexts": 5,
+      "question": "What are the fundamental rights in the Constitution?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.06273062730627306,
+        "recall": 0.6666666666666666,
+        "f1": 0.11467116357504215
+      },
+      "token_overlap": {
+        "precision": 0.17307692307692307,
+        "recall": 0.9,
+        "f1": 0.2903225806451613
+      },
+      "semantic_similarity": 0.8408495187759399,
+      "avg_context_similarity": 0.8052766501903534,
+      "max_context_similarity": 0.8752791881561279,
+      "num_contexts": 5,
+      "question": "How can constitutional amendments be made?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.06770833333333333,
+        "recall": 0.26804123711340205,
+        "f1": 0.1081081081081081
+      },
+      "token_overlap": {
+        "precision": 0.17010309278350516,
+        "recall": 0.4125,
+        "f1": 0.24087591240875916
+      },
+      "semantic_similarity": 0.8434146046638489,
+      "avg_context_similarity": 0.7053243026137352,
+      "max_context_similarity": 0.7795110940933228,
+      "num_contexts": 5,
+      "question": "What is the procedure for impeachment of the President?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.09668508287292818,
+        "recall": 0.35,
+        "f1": 0.1515151515151515
+      },
+      "token_overlap": {
+        "precision": 0.23756906077348067,
+        "recall": 0.589041095890411,
+        "f1": 0.33858267716535434
+      },
+      "semantic_similarity": 0.859900176525116,
+      "avg_context_similarity": 0.7645082622766495,
+      "max_context_similarity": 0.798390120267868,
+      "num_contexts": 5,
+      "question": "What are the powers of the Supreme Court?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.0653950953678474,
+        "recall": 0.2222222222222222,
+        "f1": 0.10105263157894737
+      },
+      "token_overlap": {
+        "precision": 0.16149068322981366,
+        "recall": 0.3023255813953488,
+        "f1": 0.21052631578947367
+      },
+      "semantic_similarity": 0.8569056689739227,
+      "avg_context_similarity": 0.7144001215696335,
+      "max_context_similarity": 0.8416606783866882,
+      "num_contexts": 5,
+      "question": "What is the role of the Election Commission?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.08439897698209718,
+        "recall": 0.2894736842105263,
+        "f1": 0.1306930693069307
+      },
+      "token_overlap": {
+        "precision": 0.1683673469387755,
+        "recall": 0.4024390243902439,
+        "f1": 0.23741007194244604
+      },
+      "semantic_similarity": 0.8309687972068787,
+      "avg_context_similarity": 0.7266912668943405,
+      "max_context_similarity": 0.7450277656316757,
+      "num_contexts": 5,
+      "question": "How are states reorganized under the Constitution?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.23300970873786409,
+        "recall": 0.384,
+        "f1": 0.29003021148036257
+      },
+      "token_overlap": {
+        "precision": 0.30158730158730157,
+        "recall": 0.6031746031746031,
+        "f1": 0.40211640211640215
+      },
+      "semantic_similarity": 0.8237724602222443,
+      "avg_context_similarity": 0.7706198692321777,
+      "max_context_similarity": 0.829270601272583,
+      "num_contexts": 5,
+      "question": "What are the directive principles of state policy?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.09740259740259741,
+        "recall": 0.32967032967032966,
+        "f1": 0.15037593984962408
+      },
+      "token_overlap": {
+        "precision": 0.2682926829268293,
+        "recall": 0.5641025641025641,
+        "f1": 0.36363636363636365
+      },
+      "semantic_similarity": 0.8885259032249451,
+      "avg_context_similarity": 0.7233569563366473,
+      "max_context_similarity": 0.876273512840271,
+      "num_contexts": 5,
+      "question": "What is the procedure for declaring emergency?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.06464646464646465,
+        "recall": 0.35555555555555557,
+        "f1": 0.10940170940170939
+      },
+      "token_overlap": {
+        "precision": 0.16744186046511628,
+        "recall": 0.5806451612903226,
+        "f1": 0.259927797833935
+      },
+      "semantic_similarity": 0.8641287088394165,
+      "avg_context_similarity": 0.7730198949575424,
+      "max_context_similarity": 0.8773716688156128,
+      "num_contexts": 5,
+      "question": "What are the qualifications for becoming a Member of Parliament?"
+    },
+    {
+      "rouge_l": {
+        "precision": 0.18666666666666668,
+        "recall": 0.3111111111111111,
+        "f1": 0.23333333333333334
+      },
+      "token_overlap": {
+        "precision": 0.30327868852459017,
+        "recall": 0.4805194805194805,
+        "f1": 0.37185929648241206
+      },
+      "semantic_similarity": 0.910691648721695,
+      "avg_context_similarity": 0.7805766582489013,
+      "max_context_similarity": 0.8855190873146057,
+      "num_contexts": 5,
+      "question": "How is the Chief Justice of India appointed?"
+    }
+  ]
+}
