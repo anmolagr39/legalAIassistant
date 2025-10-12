@@ -1,0 +1,408 @@
+{
+  "evaluation_timestamp": "2025-10-13 00:57:16",
+  "individual_results": [
+    {
+      "query": "What are the Supreme Court decisions on citizenship and nationality disputes?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, there is no information available regarding Supreme Court decisions specifically addressing citizenship and nationality disputes. The documents discuss various other legal topics, such as:\n\n*   Procedure in criminal cases (Main Pal v State of Haryana, 2010)\n*   Judicial review of legislation (Prabhakaran Nair v State Of Tamil Nadu, 1987)\n*   Jurisdiction of Cooperative Courts (Margret Almeida v The Bombay Catholic Co-Operative Housing Society Ltd., 2012)\n*   Fairness in administrative actions (K.I. Shephard v Union Of India, 1987)\n\nTo answer the question about Supreme Court decisions on citizenship and nationality disputes, I would need access to cases that deal directly with those issues.",
+      "rag_metadata": {
+        "processing_time_ms": 2393,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "What are the Supreme Court decisions on citizenship and nationality disputes?",
+        "answer_length": 107,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.21794871794871795,
+          "recall": 0.017894736842105262,
+          "f1": 0.03307392996108949
+        },
+        "token_overlap": {
+          "precision": 0.3939393939393939,
+          "recall": 0.05009633911368015,
+          "f1": 0.08888888888888889
+        },
+        "legal_term_overlap": {
+          "precision": 0.5714285714285714,
+          "recall": 0.4,
+          "f1": 0.47058823529411764
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.42687857151031494,
+          "max_similarity": 0.4473084807395935,
+          "avg_similarity": 0.4181111454963684
+        },
+        "overall_score": 0.25485740641360277
+      }
+    },
+    {
+      "query": "How do courts determine whether a person is a foreigner under the Foreigners Act?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, here's how courts determine whether a person is a foreigner under the Foreigners Act:\n\n**Burden of Proof**\n\n*   According to *Masud Khan v State Of Uttar Pradesh* (Supreme Court of India, 26 September 1973), under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The individual must establish that they are a citizen of India. If this burden is not discharged, it can be held that the person is a foreigner.\n\n**Issue Estoppel**\n\n*   *Masud Khan v State Of Uttar Pradesh* (Supreme Court of India, 26 September 1973) also discusses the principle of issue estoppel. If a competent court has previously determined that a person is *not* a foreigner, this finding may preclude the prosecution from presenting evidence to disturb that finding in subsequent trials, even for different offenses. This is based on the principle that a previously decided issue of fact should not be relitigated.\n\n**Missing Information**\n\nThe provided documents do not offer a comprehensive explanation of all factors considered when determining if someone is a foreigner. For example, the documents do not detail:\n\n*   Specific criteria used to determine citizenship under the Citizenship Act, which would be relevant in determining if someone is *not* a foreigner.\n*   The definition of \"foreigner\" under the Foreigners Act itself.\n*   The types of evidence that can be used to prove or disprove citizenship.\n*   The impact of amendments to the Foreigners Act on the determination of who is considered a foreigner.",
+      "rag_metadata": {
+        "processing_time_ms": 3152,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "How do courts determine whether a person is a foreigner under the Foreigners Act?",
+        "answer_length": 268,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.3184713375796178,
+          "recall": 0.07727975270479134,
+          "f1": 0.12437810945273632
+        },
+        "token_overlap": {
+          "precision": 0.5319148936170213,
+          "recall": 0.13333333333333333,
+          "f1": 0.21321961620469082
+        },
+        "legal_term_overlap": {
+          "precision": 1.0,
+          "recall": 0.1,
+          "f1": 0.18181818181818182
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.6942224502563477,
+          "max_similarity": 0.6942224502563477,
+          "avg_similarity": 0.6070951223373413
+        },
+        "overall_score": 0.3034095894329891
+      }
+    },
+    {
+      "query": "What are the key rulings on rent control and tenant eviction laws?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents from the Supreme Court of India case *Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.* (September 3, 1987), the key rulings on rent control and tenant eviction laws are as follows:\n\n**1. Balancing Landlord and Tenant Rights:**\n\n*   The court emphasizes that rent control legislation must fairly balance the rights of landlords and tenants, and should not be construed solely in favor of the tenant (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n*   The Act must be construed to harmonize the rights of landlords while protecting tenants and serving the purpose of solving the acute shortage of accommodation by providing a rational basis for eviction and encouraging building and rebuilding (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n\n**2. Restrictions on Landlord's Rights:**\n\n*   Rent control laws impose restrictions on a landlord's common law rights or rights under the Transfer of Property Act to evict a tenant after the termination of tenancy (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n*   These restrictions are justified by the acute shortage of accommodation and the need to protect tenants against unrestricted eviction (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n\n**3. Legislative Policy and Variation Across States:**\n\n*   The nature, form, and extent of restrictions on landlord's rights and the extent of protection given to tenants is a matter of legislative policy and judgment, which varies from state to state depending on local conditions (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n\n**4. Re-induction of Tenants After Reconstruction:**\n\n*   The Tamil Nadu Rent Act does not contain provisions for re-induction of tenants after reconstruction, unlike statutes in Maharashtra, Karnataka, Kerala, and West Bengal (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n*   The absence of such a provision, however, does not automatically make the Act unfair or self-defeating (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n\n**5. Bona Fide Requirement for Eviction:**\n\n*   Applications for eviction should not be a pretext for evicting the tenant to obtain higher rentals (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987 referencing *Metalware Co. etc. v. Bansilal Sharma and others etc.*, [1979] 3 S.C.R. 1107).\n\n**6. Waiver of Benefit:**\n\n*   Referencing *Murlidhar Agarwal and another v. State of U.P. and others*, [1975] 1 S.C.R. 575, the court notes that a person can contract to waive a benefit conferred upon them by a statute, provided that no question of public policy is involved (*Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.*, September 3, 1987).\n\n**Missing Information:**\n\nThe provided documents do not offer a comprehensive overview of rent control and tenant eviction laws. Specifically, the documents lack details on:\n\n*   Specific grounds for eviction under the Tamil Nadu Rent Act (other than demolition and reconstruction).\n*   The process and criteria for fixing fair rent.\n*   The specific provisions of the Maharashtra, Karnataka, Kerala, and West Bengal rent control acts regarding re-induction of tenants.\n*   The definition of \"public policy\" in the context of rent control legislation.\n*   Whether the Tamil Nadu Rent Act violates Article 14 of the Constitution due to the lack of re-induction provisions.",
+      "rag_metadata": {
+        "processing_time_ms": 5395,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "What are the key rulings on rent control and tenant eviction laws?",
+        "answer_length": 558,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.21772151898734177,
+          "recall": 0.12573099415204678,
+          "f1": 0.15940685820203893
+        },
+        "token_overlap": {
+          "precision": 0.6388888888888888,
+          "recall": 0.3058510638297872,
+          "f1": 0.4136690647482014
+        },
+        "legal_term_overlap": {
+          "precision": 0.8,
+          "recall": 0.5714285714285714,
+          "f1": 0.6666666666666666
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.6606765985488892,
+          "max_similarity": 0.7355061173439026,
+          "avg_similarity": 0.6184951663017273
+        },
+        "overall_score": 0.47510479704144903
+      }
+    },
+    {
+      "query": "How do courts handle cases involving negotiable instruments and cheque bounce?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, here's how courts handle cases involving negotiable instruments and cheque bounce, specifically focusing on Section 138 of the Negotiable Instruments Act, 1881:\n\n**Presumptions in Cheque Bounce Cases**\n\nIn *Hiten P. Dalal v. Bratindranath Banerjee* (Supreme Court of India, July 11, 2001), the court addressed presumptions available to the holder of a cheque in a Section 138 case. The court noted that when a cheque is presented and dishonored due to insufficient funds, and the drawer fails to make payment after receiving notice, the bank is entitled to rely on presumptions under Sections 118, 138, and 139 of the Negotiable Instruments Act.\n\n*   **Section 118:** Presumes that every negotiable instrument was made or drawn for consideration.\n*   **Section 139:** Presumes that the holder of a cheque received the cheque for the discharge, in whole or in part, of any debt or other liability.\n\nThe effect of these presumptions, as stated in *Hiten P. Dalal v. Bratindranath Banerjee* (Supreme Court of India, July 11, 2001), is to place the *evidential burden* on the appellant (the drawer of the cheque) to prove that the cheque was *not* received by the Bank towards the discharge of any liability. The court emphasizes that the execution of the cheque by the appellant was admitted, and it was not in dispute that the cheques were dishonored due to insufficient funds.\n\n**Conditions for Section 138 applicability**\n\n*Hiten P. Dalal v. Bratindranath Banerjee* (Supreme Court of India, July 11, 2001) mentions that all three conditions for Section 138 applicability were not denied in the case.\n\n**Missing Information**\n\nThe provided documents do not elaborate on:\n\n*   The specific defenses available to the drawer of the cheque to rebut the presumptions.\n*   The standard of proof required to rebut the presumptions.\n*   The consequences of failing to rebut the presumptions.\n*   Detailed procedure of trial under section 138.\n*   Whether oversight in returning the cheque affects the case.\n\nTherefore, while the documents highlight the initial presumptions favoring the cheque holder, they lack comprehensive information on the entire legal process and potential defenses in a cheque bounce case.",
+      "rag_metadata": {
+        "processing_time_ms": 3868,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "How do courts handle cases involving negotiable instruments and cheque bounce?",
+        "answer_length": 351,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.2559241706161137,
+          "recall": 0.1409921671018277,
+          "f1": 0.1818181818181818
+        },
+        "token_overlap": {
+          "precision": 0.5126050420168067,
+          "recall": 0.2747747747747748,
+          "f1": 0.35777126099706746
+        },
+        "legal_term_overlap": {
+          "precision": 0.3333333333333333,
+          "recall": 0.2,
+          "f1": 0.25
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.8186236619949341,
+          "max_similarity": 0.8186237215995789,
+          "avg_similarity": 0.6407626867294312
+        },
+        "overall_score": 0.40205327620254583
+      }
+    },
+    {
+      "query": "What is the Supreme Court's approach to issue estoppel in criminal proceedings?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, the Supreme Court's approach to issue estoppel in criminal proceedings can be summarized as follows:\n\n**Core Principles of Issue Estoppel**\n\nThe Supreme Court has considered the principle of issue estoppel in several cases, notably in *Masud Khan v State Of Uttar Pradesh* (Supreme Court of India, 26 September 1973). The court, referencing *The King v. Wilkes* (77 C.L.R.511), explains that issue estoppel arises when a point has been determined in favor of a prisoner in a previous criminal trial, and that same point is brought into question in a second criminal trial of the same prisoner (Document 1).  The Crown's allegation in the subsequent proceeding must be inconsistent with the acquittal in the previous proceeding.\n\n*Masud Khan v State Of Uttar Pradesh* (Supreme Court of India, 26 September 1973) further clarifies that issue estoppel operates as *res judicata* against the prosecution. It does not bar the trial and conviction for a different offence, but it *precludes* the reception of evidence to disturb a finding of fact already decided in favor of the accused (Document 2). This is true even if the accused is subsequently tried for a different offence. The court cites *Pritam Singhs case 1955 Indlaw SC 111* as a basis for this principle.\n\n**Conditions for Issue Estoppel to Apply**\n\nThe Supreme Court in *Masud Khan v State Of Uttar Pradesh* (Supreme Court of India, 26 September 1973) emphasizes that issue estoppel applies only if both the earlier and subsequent proceedings are criminal prosecutions (Document 3). If the subsequent proceeding is not a criminal prosecution, such as an action under the Foreigners (Internment) Order for deportation, issue estoppel does not arise. The court references *Pritam Singh v. State of Punjab (AIR 1956 SC 415), 1955 Indlaw SC 111*, *Manipur Administration v. Thokchom, Bira Singh (1964 7 SCR 123) 1964 Indlaw SC 413* and *Piara Singh S. State of Punjab* in relation to issue estoppel.\n\n**Summary**\n\nIn summary, the Supreme Court recognizes issue estoppel as a principle that prevents the re-litigation of factual issues already decided in a prior criminal trial, provided the subsequent proceeding is also a criminal prosecution. The prior finding must have been in favor of the accused, and the Crown's current allegations must be inconsistent with that prior finding.\n\n**Missing Information**\n\nThe provided documents do not offer specific examples of how issue estoppel has been applied in concrete cases, beyond the general principles. Further information would be needed to understand the nuances of its application, such as:\n\n*   Specific examples of factual scenarios where issue estoppel was successfully or unsuccessfully invoked.\n*   Discussion of the burden of proof on the accused to establish issue estoppel.\n*   Analysis of how issue estoppel interacts with other legal principles, such as the right against self-incrimination.\n*   More recent case law on issue estoppel.",
+      "rag_metadata": {
+        "processing_time_ms": 4782,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "What is the Supreme Court's approach to issue estoppel in criminal proceedings?",
+        "answer_length": 469,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.36538461538461536,
+          "recall": 0.09563758389261745,
+          "f1": 0.15159574468085105
+        },
+        "token_overlap": {
+          "precision": 0.6235294117647059,
+          "recall": 0.16798732171156894,
+          "f1": 0.264669163545568
+        },
+        "legal_term_overlap": {
+          "precision": 0.5,
+          "recall": 0.08333333333333333,
+          "f1": 0.14285714285714285
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.8351716995239258,
+          "max_similarity": 0.8351716995239258,
+          "avg_similarity": 0.7101052403450012
+        },
+        "overall_score": 0.34857343765187193
+      }
+    },
+    {
+      "query": "How do courts deal with demolition and reconstruction cases under rent acts?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents from the case of *Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.* (Supreme Court of India, 3 September 1987), here's how courts deal with demolition and reconstruction cases under rent acts:\n\n**Key Considerations in Demolition and Reconstruction Cases:**\n\n*   **Bona Fide Requirement:** The Rent Controller must assess the landlord's bona fide requirement for demolition and reconstruction under relevant sections of the Rent Act, such as Section 14(1)(b) of the Tamil Nadu Rent Act (Document 3, Document 5). The landlord's financial capacity to undertake the project is a factor, but not the sole determinant (Document 5). The Rent Controller has to consider the totality of the circumstances (Document 5).\n*   **Condition of the Building:** The condition of the building is a crucial factor. If the building is a recent construction in sound condition, the landlord's bona fide requirement might be harder to establish (Document 5). There must be a need for immediate demolition (Document 4).\n*   **Time for Completion:** Rent acts may specify time limits for demolition and reconstruction. For instance, demolition must be completed within three months of recovering possession, although the Controller can extend this period for recorded reasons (Document 2).\n*   **Tenant's Re-induction:** A key point of contention is whether the tenant has a right to be re-inducted after reconstruction. The court notes a distinction between repairs and reconstruction. Rent acts may provide for re-induction in case of repairs but not necessarily in cases of reconstruction (Document 1). The court in *Prabhakaran Nair* rationalizes this difference by stating that after a long period of reconstruction, it is expected that the tenant would have found suitable accommodation elsewhere (Document 1).\n*   **Purpose of the Rent Act:** While acknowledging that landlords requiring premises for rebuilding would cause hardship to tenants, the court also recognizes that the purpose of the Rent Act is to protect tenants as long as possible, but not when eviction is unavoidable (Document 4).\n\n**Missing Information:**\n\nThe provided documents do not offer a comprehensive overview of all relevant factors considered by courts in demolition and reconstruction cases under rent acts. For example, the specific provisions of the Tamil Nadu Rent Act regarding the landlord's obligations, tenant's rights, and the process for obtaining eviction orders are not detailed. Furthermore, the documents do not discuss the burden of proof on the landlord to establish their bona fide intention, or the specific criteria used to assess the structural integrity of the building.\n\n**Comparison of Holdings:**\n\nThe *Prabhakaran Nair* case emphasizes the importance of balancing the landlord's right to develop their property with the tenant's right to protection against unfair eviction. The court acknowledges the hardship caused to tenants but also recognizes the practical difficulties of re-induction after a lengthy reconstruction period. The case also highlights the need for the Rent Controller to consider all relevant factors and circumstances when determining the landlord's bona fide requirement.",
+      "rag_metadata": {
+        "processing_time_ms": 5144,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "How do courts deal with demolition and reconstruction cases under rent acts?",
+        "answer_length": 482,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.1829652996845426,
+          "recall": 0.11909650924024641,
+          "f1": 0.1442786069651741
+        },
+        "token_overlap": {
+          "precision": 0.43023255813953487,
+          "recall": 0.2578397212543554,
+          "f1": 0.3224400871459695
+        },
+        "legal_term_overlap": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.675809919834137,
+          "max_similarity": 0.6907411813735962,
+          "avg_similarity": 0.6613896489143372
+        },
+        "overall_score": 0.28563215348632015
+      }
+    },
+    {
+      "query": "What are the landmark judgments on special courts and their jurisdiction?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, here's what I can tell you about landmark judgments on special courts and their jurisdiction:\n\n**Jurisdiction of Special Courts**\n\n*   **Supreme Court Legal and Committee Representing v Union Of India (October 7, 1994):** This case discusses the jurisdiction of a special court in relation to the date of the offense. It distinguishes between offenses committed before and after a specific date (April 5, 1991). The court states that the special court's jurisdiction unquestionably applies to offenses committed *after* April 5, 1991. It also mentions Judge Ghare's view that he does not have jurisdiction to entertain cases relating to offenses committed prior to 4-1-1991, extending the disability to 5-4-1991.\n*   **Supreme Court Legal and Committee Representing v Union Of India (October 7, 1994):** This case also refers to an unreported decision that the court overrules. The Division Bench concluded that cases filed under the Act prior to 29-5-1989 shall be tried by the Court of Session, cases filed on and after 29-5-1989 shall be tried by the Special Court, and if cognizance of a case is taken by a Sessions Court during a transitional period, the Sessions Court shall not be required to transfer the case to the Special Court if it has substantially proceeded with the trial.\n\n**Missing Information**\n\nThe provided documents do not offer a comprehensive overview of landmark judgments on special courts. To provide a more complete answer, I would need information on:\n\n*   **The specific Act or legislation** that creates and governs the special courts mentioned in the *Supreme Court Legal and Committee Representing v Union Of India* cases. Knowing the Act would allow me to research other relevant case law interpreting its provisions.\n*   **The specific powers and limitations** of the special courts in question.\n*   **Case law discussing the rationale** behind establishing special courts and how their jurisdiction differs from that of ordinary courts.\n*   **Case law addressing the transfer of cases** between ordinary courts and special courts.\n\nWithout this additional context, it is difficult to provide a more detailed analysis of the landmark judgments on special courts and their jurisdiction.",
+      "rag_metadata": {
+        "processing_time_ms": 3983,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "What are the landmark judgments on special courts and their jurisdiction?",
+        "answer_length": 351,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.3557692307692308,
+          "recall": 0.14653465346534653,
+          "f1": 0.20757363253856945
+        },
+        "token_overlap": {
+          "precision": 0.5,
+          "recall": 0.18789808917197454,
+          "f1": 0.27314814814814814
+        },
+        "legal_term_overlap": {
+          "precision": 0.5,
+          "recall": 0.1111111111111111,
+          "f1": 0.1818181818181818
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.5802628993988037,
+          "max_similarity": 0.8106438517570496,
+          "avg_similarity": 0.5907675623893738
+        },
+        "overall_score": 0.31070071547592576
+      }
+    },
+    {
+      "query": "How do courts interpret constitutional validity of state legislation?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, here's how the Supreme Court interprets the constitutional validity of state legislation:\n\n**Constitutional Validity and Judicial Review**\n\nThe Supreme Court has the power to determine the constitutional validity of state laws (Misrilal Jain v State of Orissa, May 2, 1977). However, the court also recognizes the importance of maintaining a balance of power between the legislature and the judiciary. Courts must be vigilant to ensure this balance is not upset, but concerns about safeguarding judicial power should not lead to \"conjuring up trespasses for invalidating laws\" (Misrilal Jain v State of Orissa, May 2, 1977).\n\n**Legislative Power to Cure Defects**\n\nIf a state law suffers from a defect, the legislature can cure it by complying with legal or constitutional requirements (Misrilal Jain v State of Orissa, May 2, 1977). This includes obtaining the necessary sanction and imposing a new tax, even with retrospective effect (Misrilal Jain v State of Orissa, May 2, 1977). The imposition of taxes or validation of actions taken under void laws is a function of the legislature, not the judiciary (Misrilal Jain v State of Orissa, May 2, 1977).\n\n**Retrospective Legislation**\n\nThe power to legislate includes the power to legislate retrospectively as well as prospectively (Misrilal Jain v State of Orissa, May 2, 1977). The fact that an enactment operates entirely in the past does not affect the legislature's competence to pass it, provided it falls within the list on which that competence can operate (Misrilal Jain v State of Orissa, May 2, 1977).\n\n**Article 144A (Prior to its Omission)**\n\nPrior to its omission, Article 144A of the Constitution stipulated that a minimum of seven judges of the Supreme Court must sit to determine any question regarding the constitutional validity of a central or state law (Misrilal Jain v State of Orissa, May 2, 1977). Furthermore, a central or state law could not be declared constitutionally invalid unless a majority of not less than two-thirds of the judges sitting for that purpose held it to be invalid (Misrilal Jain v State of Orissa, May 2, 1977).\n\n**Missing Information:**\n\nThe provided context does not elaborate on the specific grounds on which a state law might be challenged as constitutionally invalid. For example, it does not detail potential violations of fundamental rights, conflicts with central laws, or breaches of the state legislature's competence as defined by the Constitution. Further information would be needed to understand the specific criteria and tests the Court applies when assessing constitutional validity beyond the procedural aspects and the legislature's power to cure defects.",
+      "rag_metadata": {
+        "processing_time_ms": 4186,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "How do courts interpret constitutional validity of state legislation?",
+        "answer_length": 425,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.2893772893772894,
+          "recall": 0.1115819209039548,
+          "f1": 0.16106014271151886
+        },
+        "token_overlap": {
+          "precision": 0.6083916083916084,
+          "recall": 0.20714285714285716,
+          "f1": 0.3090586145648313
+        },
+        "legal_term_overlap": {
+          "precision": 0.625,
+          "recall": 0.8333333333333334,
+          "f1": 0.7142857142857143
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.5266615748405457,
+          "max_similarity": 0.7697189450263977,
+          "avg_similarity": 0.5788832306861877
+        },
+        "overall_score": 0.42776651160065254
+      }
+    },
+    {
+      "query": "What remedies are available for illegal detention and habeas corpus petitions?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, it is difficult to provide a comprehensive answer regarding remedies available for illegal detention and habeas corpus petitions. The documents touch upon detention but do not fully explain the remedies available.\n\n**Information Missing:**\n\nTo adequately answer the question, the following information is needed:\n\n*   **Specific grounds for challenging detention:** The documents do not detail the specific legal grounds upon which a detention can be challenged as illegal (e.g., violation of Article 22 of the Constitution, mala fide intention, procedural irregularities).\n*   **Specific remedies:** The documents do not explicitly list the remedies available in a habeas corpus petition beyond the possibility of release on bail or declaring detention void. Information is needed on remedies like compensation, investigation of the detaining authority's actions, etc.\n*   **Detailed procedure for habeas corpus:** The documents do not describe the procedure for filing a habeas corpus petition before the Supreme Court or High Courts.\n*   **Relevant case law on habeas corpus:** The documents do not cite landmark cases that define the scope and limitations of habeas corpus in India.\n\n**Analysis of Provided Documents:**\n\n*   **Supreme Court Legal Aid Committee Representing v. Union of India (October 7, 1994):** This case mentions a petition filed under Article 32 of the Constitution concerning the detention of foreigners. The petitioners sought a direction to treat the further detention of foreigners as void or to release them on bail if they were languishing in jails as undertrials for over two years. This suggests that *release on bail* or a declaration that the detention is *void* are potential remedies. However, the court also notes the issue of invidious distinction between citizens and non-citizens, which complicates the analysis.\n*   **Naresh Kumar Goyal v. Union of India and Others (October 5, 2005):** This case discusses preventive detention and the execution of a detention order. It highlights that detention is not punitive but preventive, aimed at protecting society. The appellant argued that the detaining authority's inaction in arresting him showed that the detention order was for an unjustified purpose. While the case doesn't directly address remedies, it implies that *challenging the validity of the detention order* based on mala fide intention or procedural lapses is a possible avenue.\n*   **P. Mahalingam and another v. Monica Kumar and another (December 16, 2011):** This case is irrelevant as it deals with a complaint to the police and does not discuss detention or habeas corpus.\n\n**Conclusion:**\n\nBased on the limited information, potential remedies for illegal detention that can be inferred are:\n\n1.  **Release on Bail:** (Supreme Court Legal Aid Committee Representing v. Union of India, October 7, 1994)\n2.  **Declaration of Detention as Void:** (Supreme Court Legal Aid Committee Representing v. Union of India, October 7, 1994)\n3.  **Challenging the Validity of the Detention Order:** (Naresh Kumar Goyal v. Union of India and Others, October 5, 2005) based on mala fide intention or procedural lapses.\n\nHowever, a comprehensive understanding of remedies requires more information on the grounds for challenging detention, the specific remedies available, the procedure for habeas corpus, and relevant case law.",
+      "rag_metadata": {
+        "processing_time_ms": 5536,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "What remedies are available for illegal detention and habeas corpus petitions?",
+        "answer_length": 510,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.1337386018237082,
+          "recall": 0.06340057636887608,
+          "f1": 0.08602150537634409
+        },
+        "token_overlap": {
+          "precision": 0.3727810650887574,
+          "recall": 0.1571072319201995,
+          "f1": 0.2210526315789474
+        },
+        "legal_term_overlap": {
+          "precision": 0.7,
+          "recall": 0.4666666666666667,
+          "f1": 0.56
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.6361913084983826,
+          "max_similarity": 0.6361913681030273,
+          "avg_similarity": 0.554886519908905
+        },
+        "overall_score": 0.37581636136341856
+      }
+    },
+    {
+      "query": "How do Supreme Court decisions handle securities transaction related offences?",
+      "retrieved_contexts": 5,
+      "generated_answer": "Based on the provided documents, here's how the Supreme Court of India has handled securities transaction-related offenses, specifically focusing on the jurisdiction of the Special Court established under the Act:\n\n**Jurisdiction of the Special Court**\n\nThe Supreme Court case of *Hiten P. Dalal v. Bratindranath Banerjee* (Supreme Court of India, 11 July 2001, Judge: Ruma Pal) addresses the jurisdiction of the Special Court concerning offenses related to securities transactions. The Court clarifies that the jurisdiction of the Special Court, both in criminal and civil matters, is limited to transactions in securities that occurred after April 1, 1991, and on or before June 6, 1992 (Document 2). This period is specified in Section 3(2) of the Act, and the Court emphasizes that this period refers to the *transactions* themselves, not the *offense* (Document 2).\n\n**Focus on the Transaction Period**\n\nThe Court in *Hiten P. Dalal v. Bratindranath Banerjee* emphasizes that the entire operation of the Act revolves around transactions in securities during the specified statutory period (Document 3). The Act was enacted on June 6, 1992, to establish a Special Court for the trial of offenses relating to transactions in securities and matters connected or incidental to those transactions (Document 5). The jurisdiction of the Special Court, as defined in Section 7, is limited to offenses referred to in Section 3(2) of the Act, which pertains to offenses relating to transactions in securities within the April 1, 1991 to June 6, 1992 timeframe (Document 5).\n\n**Clarification Regarding *Minoo Mehta v. Shavak D. Mehta***\n\nThe Supreme Court in *Hiten P. Dalal v. Bratindranath Banerjee* addresses potential contradictions arising from the case of *Minoo Mehta v. Shavak D. Mehta* (1998 Indlaw SC 438). The Court clarifies that *Minoo Mehta* does not contradict the principle that the Special Court's jurisdiction is tied to the specified period. In *Minoo Mehta*, both the securities transaction (sale of shares) and the offense (misappropriation of proceeds) occurred within the April 1, 1991 to June 6, 1992 period (Document 3). Therefore, the Special Court had jurisdiction. The Court notes that in *Minoo Mehta*, the judges did not distinguish between the transaction and the offense because they overlapped (Document 4).\n\n**Purpose of the Act**\n\nThe Statement of Objects and Reasons of the Act, as mentioned in *Hiten P. Dalal v. Bratindranath Banerjee*, highlights that the Act was enacted in response to large-scale irregularities and malpractices in government and other securities transactions involving brokers and employees of banks and financial institutions (Document 1).\n\n**Missing Information**\n\nThe provided documents do not elaborate on the specific *types* of securities transaction-related offenses that fall under the Special Court's jurisdiction beyond the temporal limitation. Further information would be needed to understand what constitutes an \"offense relating to transactions in securities\" for the purposes of the Act. For example, it would be helpful to know if offenses such as insider trading, market manipulation, or fraud are specifically addressed.",
+      "rag_metadata": {
+        "processing_time_ms": 5133,
+        "num_sources": 5,
+        "model_used": "gemini-2.0-flash-exp",
+        "status": "success"
+      },
+      "rouge_c_results": {
+        "question": "How do Supreme Court decisions handle securities transaction related offences?",
+        "answer_length": 482,
+        "num_contexts": 5,
+        "rouge_l": {
+          "precision": 0.2161290322580645,
+          "recall": 0.12072072072072072,
+          "f1": 0.15491329479768787
+        },
+        "token_overlap": {
+          "precision": 0.535031847133758,
+          "recall": 0.302158273381295,
+          "f1": 0.38620689655172413
+        },
+        "legal_term_overlap": {
+          "precision": 0.75,
+          "recall": 0.5,
+          "f1": 0.6
+        },
+        "semantic_similarity": {
+          "combined_similarity": 0.7778388261795044,
+          "max_similarity": 0.7363346219062805,
+          "avg_similarity": 0.6834854483604431
+        },
+        "overall_score": 0.4797397543822291
+      }
+    }
+  ],
+  "batch_statistics": {
+    "num_evaluations": 10,
+    "rouge_l": {
+      "mean_f1": 0.1404120006504192,
+      "std_f1": 0.04701009932986916,
+      "min_f1": 0.03307392996108949,
+      "max_f1": 0.20757363253856945
+    },
+    "token_overlap": {
+      "mean_f1": 0.28501243723740366,
+      "std_f1": 0.09073580478709002,
+      "min_f1": 0.08888888888888889,
+      "max_f1": 0.4136690647482014
+    },
+    "legal_term_overlap": {
+      "mean_f1": 0.3768034122740005,
+      "std_f1": 0.24060705808551633,
+      "min_f1": 0.0,
+      "max_f1": 0.7142857142857143
+    },
+    "semantic_similarity": {
+      "mean": 0.6632337510585785,
+      "std": 0.12251497478094021,
+      "min": 0.42687857151031494,
+      "max": 0.8351716995239258
+    },
+    "overall_score": {
+      "mean": 0.3663654003051005,
+      "std": 0.07492761655269431,
+      "min": 0.25485740641360277,
+      "max": 0.4797397543822291
+    }
+  }
+}
