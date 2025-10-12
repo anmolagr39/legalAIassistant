@@ -1,33 +1,23 @@
-# Virtual environments
-venv/
+# Data files
+data/
+*.csv
+*.sqlite3
+*.bin
+*.db
+
+# Environment
 legal_rag_env/
-env/
-ENV/
+venv/
+.env
+
+# ChromaDB
+chroma_db/
+
+# Large files
+*.zip
+*.tar.gz
 
 # Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-
-# Data files (commented out to include in repo)
-# data/chroma_db/
-# data/processed/
-
-# Environment variables
-.env
-
-# IDE
-.vscode/
-.idea/
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
+*.pyc
+*.pyo
