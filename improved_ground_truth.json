@@ -1,0 +1,48 @@
+{
+  "section 140 military uniform soldier sailor airman punishment": [
+    "fir_0_0",
+    "fir_21_0"
+  ],
+  "section 127 receiving stolen property knowing dishonestly": [
+    "fir_1_0",
+    "fir_20_0",
+    "fir_19_0"
+  ],
+  "section 128 prisoner escape public servant negligence": [
+    "fir_2_0"
+  ],
+  "theft stealing property dishonestly movable sections": [
+    "fir_304_0",
+    "fir_306_0",
+    "fir_303_0",
+    "fir_307_0",
+    "fir_305_0"
+  ],
+  "fraud cheating deception dishonestly inducing sections": [
+    "fir_340_0",
+    "fir_344_0",
+    "fir_341_0",
+    "fir_343_0",
+    "fir_342_0",
+    "fir_345_0"
+  ],
+  "assault violence hurt voluntarily causing sections": [
+    "fir_259_0",
+    "fir_226_0",
+    "fir_225_0",
+    "fir_227_0",
+    "fir_226_1",
+    "fir_260_0",
+    "fir_228_0"
+  ],
+  "cognizable offense police arrest warrant sections": [],
+  "non-bailable offense bail court magistrate sections": [],
+  "military uniform wearing illegally impersonation punishment": [
+    "fir_0_0",
+    "fir_21_0"
+  ],
+  "FIR filing military uniform violation procedure": [
+    "fir_0_0",
+    "fir_21_0"
+  ]
+}
