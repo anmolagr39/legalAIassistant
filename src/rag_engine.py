@@ -244,89 +244,81 @@ class FIRRagEngine:
     
     def _analyze_cheating_cases(self, documents: List[str]) -> str:
         """Analyze documents for cheating-related information"""
+        # Generic document analysis: extract IPC sections, top matches to query-like terms,
+        # and return a concise, neutral summary. This replaces the old cheating-specific
+        # analyzer so the system can handle arbitrary legal queries.
         all_text = " ".join(documents)
-        
-        # Extract IPC sections
+
+        # Extract IPC sections present in the retrieved documents
         ipc_sections = self._extract_ipc_sections(all_text)
-        
-        # Common cheating-related sections
-        cheating_sections = {
-            '420': 'Cheating and dishonestly inducing delivery of property',
-            '415': 'Cheating',
-            '406': 'Criminal breach of trust',
-            '467': 'Forgery of valuable security',
-            '468': 'Forgery for purpose of cheating',
-            '471': 'Using as genuine a forged document',
-            '419': 'Cheating by personation',
-            '463': 'Forgery'
-        }
-        
-        # Find relevant sections
-        relevant_sections = []
-        for section in ipc_sections:
-            if section in cheating_sections:
-                relevant_sections.append(f"IPC {section}: {cheating_sections[section]}")
-        
-        # If no specific sections found, provide common cheating sections
-        if not relevant_sections:
-            relevant_sections = [
-                "IPC 420: Cheating and dishonestly inducing delivery of property",
-                "IPC 415: Cheating",
-                "IPC 419: Cheating by personation"
-            ]
-        
-        # Extract key information from documents
-        key_info = []
-        for doc in documents[:3]:  # Analyze first 3 documents
-            if 'cheat' in doc.lower() or 'fraud' in doc.lower():
-                # Extract relevant parts
-                lines = doc.split('|')
-                for line in lines:
-                    if any(keyword in line.lower() for keyword in ['cheat', 'fraud', 'deceiv', 'dishonest']):
-                        key_info.append(line.strip())
-        
-        # Build response
+
+        # Gather short snippets that include likely legal keywords to surface context
+        keywords = ['cheat', 'fraud', 'theft', 'assault', 'punish', 'sentence', 'bailable', 'cognizable', 'offence', 'section']
+        snippets = []
+        for doc in documents[:6]:
+            # split by pipe or sentence boundaries to find compact snippets
+            parts = re.split(r'\||\.|;|\n', doc)
+            for part in parts:
+                lower = part.lower()
+                if any(k in lower for k in keywords):
+                    snippet = part.strip()
+                    if snippet and snippet not in snippets:
+                        snippets.append(snippet)
+                if len(snippets) >= 6:
+                    break
+            if len(snippets) >= 6:
+                break
+
+        # Build a neutral structured response
         response_parts = []
-        response_parts.append("**IPC Sections for Cheating:**")
-        for section in relevant_sections[:5]:  # Limit to 5 sections
-            response_parts.append(f"• {section}")
-        
-        if key_info:
-            response_parts.append("\n**Relevant Case Information:**")
-            for info in key_info[:3]:  # Limit to 3 pieces of info
-                response_parts.append(f"• {info}")
-        
+        if ipc_sections:
+            response_parts.append("IPC sections found:")
+            for s in sorted(ipc_sections)[:10]:
+                response_parts.append(f"• IPC {s}")
+        else:
+            response_parts.append("No explicit IPC section numbers were found in the retrieved documents.")
+
+        if snippets:
+            response_parts.append("\nRepresentative snippets from retrieved documents:")
+            for snip in snippets[:5]:
+                response_parts.append(f"• {snip}")
+
+        # If empty, provide a gentle guidance message
+        if not ipc_sections and not snippets:
+            response_parts.append("\nNo specific legal phrases detected. Provide a more targeted query (e.g., 'IPC 420 cheating').")
+
         return "\n".join(response_parts)
     
     def generate_legal_response(self, query: str, context_docs: List[str]) -> str:
         """Generate response using Gemini or fallback analysis"""
-        
-        # If Gemini is available, try to use it with minimal tokens
+        # Build a succinct prompt using the user's query and a short context snippet.
+        # This avoids hardcoding any specific offense domain.
+        short_context = "".join(context_docs[:2])[:800] if context_docs else "No context available"
+        prompt = (
+            f"You are a legal assistant. Answer the user's query concisely using the retrieved context. "
+            f"User query: {query}\nContext: {short_context}\nProvide:\n- Key IPC sections found (if any)\n- Short summary relevant to the query\n- Up to 3 representative snippets from the context."
+        )
+
+        # If Gemini is available, try to use it with low token usage
         if self.config.GEMINI_API_KEY and self.gemini_model:
             try:
-                # Very short prompt to conserve quota
-                context = context_docs[0][:500] if context_docs else "No context"
-                prompt = f"IPC sections for cheating based on: {context[:200]}"
-                
                 response = self.gemini_model.generate_content(
                     prompt,
                     generation_config={
-                        'temperature': 0.1,
-                        'max_output_tokens': 100  # Very limited to save quota
+                        'temperature': 0.0,
+                        'max_output_tokens': 200
                     }
                 )
-                
-                if response and response.text:
+                if response and getattr(response, 'text', None):
                     return response.text
-                    
             except Exception as e:
                 if "429" in str(e) or "quota" in str(e).lower():
-                    print("⚠️ Quota exceeded, using fallback analysis")
+                    print("⚠️ Gemini quota or rate limit; falling back to local analysis")
                 else:
-                    print(f"⚠️ Generation failed: {e}")
-        
-        # Fallback: Use rule-based analysis
-        print("📋 Using rule-based analysis (Gemini unavailable)")
+                    print(f"⚠️ Gemini generation error: {e}")
+
+        # Local fallback: use the generic analyzer which is query-agnostic
+        print("📋 Using local rule-based analysis (Gemini unavailable or fallback)")
         return self._analyze_cheating_cases(context_docs)
     
     def query(self, user_query: str) -> Dict:
