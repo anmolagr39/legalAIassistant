@@ -27,7 +27,7 @@ from config.neo4j_config import Neo4jConnection
 from extraction.gemini_extractor import GeminiExtractor
 
 # Get API key
-GEMINI_API_KEY = os.getenv('GEMINI_API_KEY', 'AIzaSyA5aqm_rKXyuei5tLu26a1o4iOpMeUad_g')
+GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
 
 class SystemType(Enum):
