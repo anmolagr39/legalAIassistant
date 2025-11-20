@@ -1,0 +1,31 @@
+# Core Dependencies
+neo4j==5.14.1
+python-dotenv==1.0.1
+
+# Google Gemini API
+google-generativeai==0.8.3
+
+# Data Processing
+pandas==2.2.3
+numpy==1.26.4
+
+# NLP & Embeddings
+sentence-transformers==3.2.1
+spacy==3.8.2
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.11.4
+
+# Text Processing
+nltk==3.9.1
+regex==2024.9.11
+
+# Utilities
+tqdm==4.66.5
+python-json-logger==2.0.7
+
+# GraphRAG (optional - for later)
+langchain==0.3.7
+langchain-google-genai==2.0.4
+langchain-community==0.3.5

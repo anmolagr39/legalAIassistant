@@ -1,0 +1,37 @@
+# Environment
+.env
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+*.pkl
+*.pickle
+processed_data/
+temp/
+
+# ChromaDB
+chroma_db/
+**/chroma_db/
+*.chroma
+chroma.sqlite3
+
+# Neo4j
+neo4j_data/
