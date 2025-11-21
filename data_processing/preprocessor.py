@@ -34,6 +34,11 @@ class LegalTextPreprocessor:
     @staticmethod
     def extract_section_number(text: str) -> str:
         """Extract IPC section number from text"""
+        if not text or pd.isna(text):
+            return None
+            
+        text = str(text)
+        
         # Pattern: Section 123, Section 123A, s. 123, sec 123
         patterns = [
             r'(?:Section|section|Sec|sec|s\.)\s*(\d+[A-Z]?)',
@@ -153,15 +158,29 @@ class FIRDatasetLoader:
         processed = []
         
         for idx, row in df.iterrows():
+            # Extract section number from URL (format: .../section-140)
+            url = str(row.get('URL', ''))
+            section_num = None
+            
+            # Try to extract from URL first
+            url_match = re.search(r'/section-(\d+[A-Z]?)', url)
+            if url_match:
+                section_num = url_match.group(1)
+            else:
+                # Fallback to extracting from description or offense
+                section_num = self.preprocessor.extract_section_number(row.get('Description', ''))
+                if not section_num:
+                    section_num = f"Section_{idx}"
+            
             section_data = {
-                'section_number': self.preprocessor.extract_section_number(row['URL']) or f"Section_{idx}",
+                'section_number': section_num,
                 'description': self.preprocessor.clean_text(row.get('Description', '')),
                 'offense': self.preprocessor.clean_text(row.get('Offense', '')),
                 'punishment': self.preprocessor.clean_text(row.get('Punishment', '')),
                 'cognizable': str(row.get('Cognizable', '')),
                 'bailable': str(row.get('Bailable', '')),
                 'court': str(row.get('Court', '')),
-                'url': str(row.get('URL', ''))
+                'url': url
             }
             processed.append(section_data)
         

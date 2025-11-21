@@ -43,8 +43,42 @@ class QueryRouter:
     
     def __init__(self, gemini_api_key: str):
         genai.configure(api_key=gemini_api_key)
-        self.model = genai.GenerativeModel('gemini-2.5-flash')
+        # Use Gemini 2.0 Flash-Lite for better free tier quota
+        self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
         
+    def _create_fallback_routing(self, query: str) -> Dict:
+        """Create fallback routing based on simple keyword matching"""
+        import re
+        query_lower = query.lower()
+        systems = []
+        
+        # Check for IPC references
+        if re.search(r'\bipc\b|\bsection\b|\b\d{2,3}\b', query_lower):
+            systems.extend([SystemType.KNOWLEDGE_GRAPH, SystemType.IPC_RAG])
+            reasoning = "Fallback: Detected IPC-related query"
+        
+        # Check for article/constitution references
+        elif re.search(r'\barticle\b|\bconstitution\b|\bfundamental right', query_lower):
+            systems.extend([SystemType.KNOWLEDGE_GRAPH, SystemType.LEGAL_ACTS_RAG])
+            reasoning = "Fallback: Detected constitutional query"
+        
+        # Check for case references
+        elif re.search(r'\bcase\b|\bjudgment\b|\bprecedent\b|\bsupreme court', query_lower):
+            systems.extend([SystemType.KNOWLEDGE_GRAPH, SystemType.PAST_CASES_RAG])
+            reasoning = "Fallback: Detected case law query"
+        
+        # Default to knowledge graph
+        else:
+            systems.append(SystemType.KNOWLEDGE_GRAPH)
+            reasoning = "Fallback: Default to knowledge graph"
+        
+        return {
+            "systems": systems,
+            "reasoning": reasoning,
+            "query_type": "factual",
+            "requires_multiple": len(systems) > 1
+        }
+    
     def analyze_query(self, query: str) -> Dict:
         """
         Analyze query and determine which systems to use
@@ -95,7 +129,7 @@ Format (copy exactly):
 System names MUST be from: knowledge_graph, ipc_rag, past_cases_rag, legal_acts_rag
 
 Examples:
-- "What is IPC section XYZ?" → knowledge_graph + ipc_rag
+- "What is IPC section 302?" → knowledge_graph + ipc_rag
 - "Cases involving murder" → knowledge_graph + past_cases_rag
 - "Article 21 right to life" → knowledge_graph + legal_acts_rag
 - "Who is judge XYZ?" → knowledge_graph only
@@ -107,32 +141,18 @@ Examples:
                 prompt,
                 generation_config={
                     'temperature': 0.0,
-                    'max_output_tokens': 300,
-                    'response_mime_type': 'application/json'
+                    'max_output_tokens': 500,
                 }
             )
             
             # Check if response has text
             if not response.candidates or not response.candidates[0].content.parts:
-                print(f"⚠️ API returned no content (finish_reason: {response.candidates[0].finish_reason if response.candidates else 'unknown'})")
-                # Fallback: Use both KG and IPC RAG for IPC queries
-                import re
-                if re.search(r'\bipc\b|\bsection\b|\b\d{2,3}\b', query.lower()):
-                    return {
-                        "systems": [SystemType.KNOWLEDGE_GRAPH, SystemType.IPC_RAG],
-                        "reasoning": "Fallback for IPC query due to API issue",
-                        "query_type": "factual",
-                        "requires_multiple": True
-                    }
-                else:
-                    return {
-                        "systems": [SystemType.KNOWLEDGE_GRAPH],
-                        "reasoning": "Fallback due to API issue",
-                        "query_type": "factual",
-                        "requires_multiple": False
-                    }
+                finish_reason = response.candidates[0].finish_reason if response.candidates else 'unknown'
+                print(f"⚠️ API returned no content (finish_reason: {finish_reason})")
+                return self._create_fallback_routing(query)
             
             response_text = response.text.strip()
+            print(f"\n🔍 Raw API Response:\n{response_text}\n")
             
             # Extract JSON from markdown code blocks if present
             if "```json" in response_text:
@@ -140,37 +160,34 @@ Examples:
             elif "```" in response_text:
                 response_text = response_text.split("```")[1].split("```")[0].strip()
             
-            # Remove control characters that break JSON parsing
+            # Clean response text
             import re
-            # Remove control characters including newlines, tabs, etc.
+            # Remove control characters
             response_text = re.sub(r'[\x00-\x1f\x7f-\x9f]', ' ', response_text)
             # Remove extra whitespace
             response_text = re.sub(r'\s+', ' ', response_text).strip()
-            
-            # Remove trailing commas before closing braces/brackets (common JSON error)
-            # Handle comma before } or ]
+            # Remove trailing commas
             response_text = re.sub(r',(\s*[}\]])', r'\1', response_text)
             
-            # Fix incomplete JSON - add missing closing braces
+            # Fix incomplete JSON
             open_braces = response_text.count('{')
             close_braces = response_text.count('}')
             if open_braces > close_braces:
-                # Add missing closing braces
-                response_text += '\n' + '}' * (open_braces - close_braces)
+                response_text += '}' * (open_braces - close_braces)
             
-            # Fix incomplete JSON - close incomplete strings
-            # Count quotes to see if there's an unclosed string
+            # Fix unclosed strings
             if response_text.count('"') % 2 != 0:
                 response_text += '"'
-                # Also add the missing closing brace if needed
                 if response_text.count('{') > response_text.count('}'):
-                    response_text += '\n}'
+                    response_text += '}'
+            
+            print(f"🔧 Cleaned Response:\n{response_text}\n")
             
             result = json.loads(response_text)
             
             # Convert system names to enums
             systems = []
-            for sys_name in result["systems"]:
+            for sys_name in result.get("systems", []):
                 try:
                     systems.append(SystemType(sys_name))
                 except ValueError:
@@ -182,13 +199,12 @@ Examples:
         except json.JSONDecodeError as e:
             print(f"⚠️ JSON parsing error: {e}")
             print(f"Response text: {response_text}")
-            # Fallback: use knowledge_graph only
-            return {
-                "systems": [SystemType.KNOWLEDGE_GRAPH],
-                "reasoning": "Fallback due to parsing error",
-                "query_type": "factual",
-                "requires_multiple": False
-            }
+            return self._create_fallback_routing(query)
+        except Exception as e:
+            print(f"⚠️ Error in analyze_query: {e}")
+            import traceback
+            traceback.print_exc()
+            return self._create_fallback_routing(query)
 
 
 class KnowledgeGraphSystem:
@@ -219,66 +235,124 @@ class KnowledgeGraphSystem:
                 "results": []
             }
     
+    def _get_all_node_names(self) -> str:
+        """Get ALL node names from database to include in prompt"""
+        node_data = ""
+        
+        # Get ALL case names
+        try:
+            cases = self.conn.execute_query(
+                "MATCH (c:Case) RETURN c.case_name ORDER BY c.case_name"
+            )
+            node_data += f"\nALL CASE NAMES ({len(cases)} total):\n"
+            for r in cases:
+                node_data += f"  - {r['c.case_name']}\n"
+        except:
+            pass
+        
+        # Get ALL judges
+        try:
+            judges = self.conn.execute_query(
+                "MATCH (j:Judge) RETURN j.name ORDER BY j.name"
+            )
+            node_data += f"\nALL JUDGE NAMES ({len(judges)} total):\n"
+            for r in judges:
+                node_data += f"  - {r['j.name']}\n"
+        except:
+            pass
+        
+        # Get ALL IPC sections
+        try:
+            sections = self.conn.execute_query(
+                "MATCH (s:IPCSection) RETURN s.section_number ORDER BY toInteger(s.section_number)"
+            )
+            node_data += f"\nALL IPC SECTIONS ({len(sections)} total):\n"
+            section_nums = [r['s.section_number'] for r in sections]
+            node_data += f"  {', '.join(section_nums)}\n"
+        except:
+            pass
+        
+        # Get ALL articles
+        try:
+            articles = self.conn.execute_query(
+                "MATCH (a:Article) RETURN a.article_number, a.title ORDER BY toInteger(a.article_number)"
+            )
+            if articles:
+                node_data += f"\nALL CONSTITUTIONAL ARTICLES ({len(articles)} total):\n"
+                for r in articles:
+                    node_data += f"  - Article {r['a.article_number']}: {r['a.title']}\n"
+        except:
+            pass
+        
+        # Get ALL courts
+        try:
+            courts = self.conn.execute_query(
+                "MATCH (c:Court) RETURN c.name ORDER BY c.name"
+            )
+            node_data += f"\nALL COURTS ({len(courts)} total):\n"
+            for r in courts:
+                node_data += f"  - {r['c.name']}\n"
+        except:
+            pass
+        
+        return node_data
+    
     def _generate_cypher(self, query: str) -> str:
         """Generate Cypher query using Gemini"""
-        # Get ALL node names from the database for accurate query generation
-        all_cases_query = "MATCH (c:Case) RETURN c.name as name ORDER BY c.name"
-        all_judges_query = "MATCH (j:Judge) RETURN j.name as name ORDER BY j.name"
-        all_ipc_query = "MATCH (i:IPCSection) RETURN i.section as section, i.offense as offense ORDER BY i.section"
-        all_articles_query = "MATCH (a:Article) RETURN a.number as number, a.title as title ORDER BY a.number"
-        all_courts_query = "MATCH (c:Court) RETURN c.name as name"
         
-        # Fetch all node names
-        all_cases = self.conn.execute_query(all_cases_query)
-        all_judges = self.conn.execute_query(all_judges_query)
-        all_ipc_sections = self.conn.execute_query(all_ipc_query)
-        all_articles = self.conn.execute_query(all_articles_query)
-        all_courts = self.conn.execute_query(all_courts_query)
+        schema_info = """
+        Graph Schema:
+        - Nodes: Case, IPCSection, Judge, Court, Article, Offense, Punishment
+        - Relationships:
+          * (Case)-[:GOVERNED_BY]->(IPCSection)
+          * (Case)-[:DECIDED_BY]->(Judge)
+          * (Case)-[:HEARD_IN]->(Court)
+          * (Case)-[:REFERS_TO]->(Article)
+          * (Case)-[:CITES]->(Case)
+          * (IPCSection)-[:PRESCRIBES]->(Offense)
+          * (IPCSection)-[:PRESCRIBES]->(Punishment)
         
-        # Format node lists for the prompt
-        case_names = [c['name'] for c in all_cases[:100]]  # Limit to first 100 for context
-        judge_names = [j['name'] for j in all_judges]
-        ipc_sections = [f"{i['section']}: {i['offense']}" for i in all_ipc_sections[:50]]
-        article_info = [f"Article {a['number']}: {a['title']}" for a in all_articles]
-        court_names = [c['name'] for c in all_courts]
+        Node Properties:
+        - Case: case_name, date, summary, citations
+        - IPCSection: section_number, offense, punishment, bailable, cognizable
+        - Judge: name
+        - Court: name
+        - Article: article_number, title, provisions, part
+        - Offense: offense_type
+        - Punishment: punishment_type
+        """
         
-        prompt = f"""Convert this natural language query to Cypher for Neo4j.
+        # Get all actual node names
+        all_nodes = self._get_all_node_names()
+        schema_info += all_nodes
+        
+        prompt = f"""You are a Neo4j Cypher query expert for a legal knowledge graph.
 
-Database Schema:
-- Case nodes: name, citation, year
-- Judge nodes: name
-- IPCSection nodes: section, offense, punishment
-- Article nodes: number, title
-- Court nodes: name
+{schema_info}
 
-EXACT NODE NAMES IN DATABASE:
+Convert this natural language question into a Cypher query:
+"{query}"
 
-Cases (showing first 100 of {len(all_cases)}):
-{json.dumps(case_names, indent=2)}
+CRITICAL: Return ONLY the raw Cypher query text, NO JSON, NO explanations, NO formatting.
 
-Judges (all {len(all_judges)}):
-{json.dumps(judge_names, indent=2)}
+Rules:
+1. Return ONLY the Cypher query as plain text
+2. Use LIMIT 10 for queries that might return many results
+3. Use toLower() for case-insensitive text matching
+4. Use CONTAINS for partial text matching
+5. Always include relevant node properties in RETURN clause
 
-IPC Sections (showing first 50 of {len(all_ipc_sections)}):
-{json.dumps(ipc_sections, indent=2)}
+Examples:
 
-Articles (all {len(all_articles)}):
-{json.dumps(article_info, indent=2)}
 
-Courts (all {len(all_courts)}):
-{json.dumps(court_names, indent=2)}
 
-Relationships:
-- (Case)-[:DECIDED_BY]->(Judge)
-- (Case)-[:GOVERNED_BY]->(IPCSection)
-- (Case)-[:CITES]->(Case)
-- (Case)-[:HEARD_IN]->(Court)
+IMPORTANT: 
+- Use the EXACT node names from the lists above when generating queries
+- If user mentions a case/judge name, find the exact match from the lists above
+- Use proper property matching with exact values from the data
 
-IMPORTANT: Use the EXACT node names listed above in your Cypher query. For IPC sections, use the section number (e.g., "303", "302") from the list above.
-
-User Query: {query}
-
-Return ONLY the Cypher query, no explanation:"""
+Now generate ONLY the Cypher query for: "{query}"
+Cypher query:"""
 
         # Use Gemini directly for Cypher generation
         import google.generativeai as genai
@@ -392,39 +466,88 @@ class PastCasesRagSystem:
     """Interface to Past Cases RAG system"""
     
     def __init__(self):
-        # Import here
-        original_path = sys.path.copy()
-        sys.path = [p for p in sys.path if not p.endswith('legalkg')]
-        sys.path.insert(0, past_cases_path)
+        # Add past_cases_rag src to path
+        src_path = os.path.join(past_cases_path, 'src')
+        if src_path not in sys.path:
+            sys.path.insert(0, src_path)
         
         try:
-            from rag.vector_db import ChromaVectorDB
-            from rag.rag_system import LegalRAGSystem
+            import chromadb
+            import google.generativeai as genai
             
-            # Initialize with proper paths
-            chroma_path = os.path.join(os.path.dirname(__file__), '3rags', 'past_cases_rag', 'chroma_db')
-            self.vector_db = ChromaVectorDB(persist_directory=chroma_path)
-            self.rag = LegalRAGSystem(self.vector_db)
+            # Configure Gemini
+            genai.configure(api_key=GEMINI_API_KEY)
             
-            # Check if data exists
+            # Initialize ChromaDB (go up from src to root, then to chroma_db)
+            past_cases_root = os.path.dirname(past_cases_path)  # Remove /src
+            chroma_path = os.path.join(past_cases_root, 'chroma_db')
+            self.client = chromadb.PersistentClient(path=chroma_path)
+            
+            # Get collection
             try:
-                count = self.vector_db.collection.count()
+                self.collection = self.client.get_collection("supreme_court_cases")
+                count = self.collection.count()
                 print(f"✅ Past Cases RAG initialized with {count} documents")
-            except:
-                print("⚠️ Past Cases RAG collection empty. Run ingestion first.")
-        finally:
-            sys.path = original_path
+            except Exception as e:
+                print(f"⚠️ Past Cases RAG collection not found: {e}")
+                self.collection = None
+                
+            self.model = genai.GenerativeModel('gemini-2.0-flash-lite')
+            
+        except Exception as e:
+            print(f"⚠️ Past Cases RAG initialization error: {e}")
+            self.collection = None
+            self.model = None
         
     def query(self, user_query: str) -> Dict:
         """Query Past Cases RAG system"""
         try:
-            result = self.rag.query(user_query)
+            if not self.collection or not self.model:
+                return {
+                    "source": "Past Cases RAG",
+                    "error": "System not initialized",
+                    "answer": "",
+                    "count": 0
+                }
+            
+            # Query ChromaDB
+            results = self.collection.query(
+                query_texts=[user_query],
+                n_results=3
+            )
+            
+            if not results['documents'] or not results['documents'][0]:
+                return {
+                    "source": "Past Cases RAG",
+                    "answer": "No relevant cases found.",
+                    "retrieved_docs": [],
+                    "count": 0
+                }
+            
+            # Get documents
+            docs = results['documents'][0]
+            metadatas = results['metadatas'][0] if results['metadatas'] else [{}] * len(docs)
+            
+            # Generate answer using Gemini
+            context = "\n\n".join([f"Document {i+1}:\n{doc[:500]}" for i, doc in enumerate(docs)])
+            
+            prompt = f"""Based on the following case documents, answer this question: {user_query}
+
+Retrieved Cases:
+{context}
+
+Provide a concise answer citing the relevant cases."""
+
+            response = self.model.generate_content(prompt)
+            answer = response.text if response.candidates else "Unable to generate answer"
+            
             return {
                 "source": "Past Cases RAG",
-                "answer": result.get("answer", result.get("response", "")),
-                "retrieved_docs": result.get("contexts", result.get("sources", [])),
-                "count": len(result.get("contexts", result.get("sources", [])))
+                "answer": answer,
+                "retrieved_docs": [{"content": doc[:200], "metadata": meta} for doc, meta in zip(docs, metadatas)],
+                "count": len(docs)
             }
+            
         except Exception as e:
             print(f"❌ Past Cases RAG error: {e}")
             import traceback
@@ -450,12 +573,14 @@ class LegalActsRagSystem:
             from vector_store import VectorStore
             from rag_system import LegalRAG
             
-            persist_dir = os.path.join(os.path.dirname(__file__), '3rags', 'legal-rag-system', 'chroma_db')
+            # Correct path: data/chroma_db not just chroma_db
+            persist_dir = os.path.join(os.path.dirname(__file__), '3rags', 'legal-rag-system', 'data', 'chroma_db')
             self.vector_store = VectorStore(persist_dir)
+            # Correct collection names: constitution_articles and legal_acts (not legal_acts_chunks)
             self.rag = LegalRAG(
                 self.vector_store,
                 "constitution_articles",
-                "legal_acts_chunks",
+                "legal_acts",
                 api_key=GEMINI_API_KEY
             )
             
@@ -628,8 +753,17 @@ Answer:"""
                     'max_output_tokens': 800
                 }
             )
+            
+            # Check if response has valid text
+            if not response.candidates or not response.candidates[0].content.parts:
+                # Fallback: Create answer from context directly
+                return f"Based on the retrieved information: {context[:500]}..."
+            
             return response.text.strip()
         except Exception as e:
+            # Return a fallback answer with available context
+            if "finish_reason" in str(e) and "2" in str(e):
+                return f"Unable to generate answer due to API restrictions. Retrieved information: {context[:500]}..."
             return f"Error generating answer: {e}"
     
     def interactive_mode(self):
@@ -674,6 +808,11 @@ Answer:"""
                     # Show count
                     count = sys_result.get("count", 0)
                     print(f"   Retrieved: {count} results")
+                    
+                    # Show Cypher query for KG
+                    if "cypher" in sys_result and sys_result["cypher"]:
+                        print(f"   🔍 Cypher Query:")
+                        print(f"      {sys_result['cypher']}")
                     
                     # Show KG results
                     if "results" in sys_result and sys_result["results"]:
