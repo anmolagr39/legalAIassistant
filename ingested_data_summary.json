@@ -1,0 +1,1980 @@
+{
+  "ipc_rag": {
+    "total_count": 933,
+    "samples": [
+      {
+        "content": "URL: https://lawrato.com/indian-kanoon/ipc/section-140 | Description: Description of IPC Section 140\r\nAccording to section 140 of Indian penal code, Whoever, not being a soldier, sailor or airman in t...",
+        "metadata": {
+          "source": "fir_dataset",
+          "doc_id": "fir_0",
+          "row_index": 0
+        }
+      },
+      {
+        "content": "rs a uniform or carries something resembling a military uniform to deceive others into believing they are a soldier, sailor, or airman, they can be punished with up to three months in jail, a fine of ...",
+        "metadata": {
+          "row_index": 0,
+          "doc_id": "fir_0",
+          "source": "fir_dataset"
+        }
+      },
+      {
+        "content": "URL: https://lawrato.com/indian-kanoon/ipc/section-127 | Description: Description of IPC Section 127\r\nAccording to section 127 of Indian penal code, Whoever receives any property knowing the same to h...",
+        "metadata": {
+          "doc_id": "fir_1",
+          "source": "fir_dataset",
+          "row_index": 1
+        }
+      },
+      {
+        "content": "and the property can be forfeited. | Offense: Receiving property taken by war or depredation mentioned in sections 125 And 126 | Punishment: 7 Years + Fine + forfeiture of property | Cognizable: Cogni...",
+        "metadata": {
+          "row_index": 1,
+          "source": "fir_dataset",
+          "doc_id": "fir_1"
+        }
+      },
+      {
+        "content": "URL: https://lawrato.com/indian-kanoon/ipc/section-128 | Description: Description of IPC Section 128\r\nAccording to section 128 of Indian penal code, Whoever, being a public servant and having the cust...",
+        "metadata": {
+          "source": "fir_dataset",
+          "doc_id": "fir_2",
+          "row_index": 2
+        }
+      },
+      {
+        "content": "d with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Public servant voluntarily allowing prisoner of State or war in his custody to escape | Punishment: Impri...",
+        "metadata": {
+          "source": "fir_dataset",
+          "doc_id": "fir_2",
+          "row_index": 2
+        }
+      },
+      {
+        "content": "URL: https://lawrato.com/indian-kanoon/ipc/section-129 | Description: Description of IPC Section 129\r\nAccording to section 129 of Indian penal code, Whoever, being a public servant and having the cust...",
+        "metadata": {
+          "doc_id": "fir_3",
+          "source": "fir_dataset",
+          "row_index": 3
+        }
+      },
+      {
+        "content": "n jail and may also be fined. | Offense: Public servant negligently suffering prisoner of State or war in his custody to escape | Punishment: Simple Imprisonment 3 Years + Fine | Cognizable: Cognizabl...",
+        "metadata": {
+          "doc_id": "fir_3",
+          "row_index": 3,
+          "source": "fir_dataset"
+        }
+      },
+      {
+        "content": "URL: https://lawrato.com/indian-kanoon/ipc/section-130 | Description: Description of IPC Section 130\r\nAccording to section 130 of Indian penal code, Whoever knowingly aids or assists any State prisone...",
+        "metadata": {
+          "doc_id": "fir_4",
+          "row_index": 4,
+          "source": "fir_dataset"
+        }
+      },
+      {
+        "content": "ner or prisoner of war escape from lawful custody, rescues them, hides them after their escape, or resists their recapture, they can be punished with life imprisonment or imprisonment of up to ten yea...",
+        "metadata": {
+          "doc_id": "fir_4",
+          "row_index": 4,
+          "source": "fir_dataset"
+        }
+      }
+    ],
+    "all_documents": [
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-140 | Description: Description of IPC Section 140\r\nAccording to section 140 of Indian penal code, Whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such a soldier, sailor or airman with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.\r\n\r\n\r\nIPC 140 in Simple Words\r\nIf someone who is not a military member wears a uniform or carries something resembling a military uniform to deceive others into believing the",
+      "rs a uniform or carries something resembling a military uniform to deceive others into believing they are a soldier, sailor, or airman, they can be punished with up to three months in jail, a fine of up to five hundred rupees, or both. | Offense: Wearing the dress or carrying any token used by a soldier, sailor or airman with intent that it may be believed that he is such a soldier, sailor or airman | Punishment: 3 Months or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-127 | Description: Description of IPC Section 127\r\nAccording to section 127 of Indian penal code, Whoever receives any property knowing the same to have been taken in the commission of any of the offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received.\r\n\r\n\r\nIPC 127 in Simple Words\r\nIf someone receives property knowing it was taken during the commission of certain offenses (mentioned in sections 125 and 126), they can be punished with imprisonment of up to seven years, fined, and the property can be forfeited. | Offense: Receiving property taken by war or depredation mention",
+      "and the property can be forfeited. | Offense: Receiving property taken by war or depredation mentioned in sections 125 And 126 | Punishment: 7 Years + Fine + forfeiture of property | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-128 | Description: Description of IPC Section 128\r\nAccording to section 128 of Indian penal code, Whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 128 in Simple Words\r\nIf a public servant, responsible for the custody of a State prisoner or prisoner of war, intentionally allows the prisoner to escape from confinement, they can be punished with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Publi",
+      "d with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Public servant voluntarily allowing prisoner of State or war in his custody to escape | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-129 | Description: Description of IPC Section 129\r\nAccording to section 129 of Indian penal code, Whoever, being a public servant and having the custody of any State prisoner or prisoner of war, negligently suffers such prisoner to escape from any place of confinement in which such prisoner is confined, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to fine.\r\n\r\n\r\nIPC 129 in Simple Words\r\nIf a public servant, responsible for the custody of a State prisoner or prisoner of war, carelessly allows the prisoner to escape from confinement, they can be punished with up to three years in jail and may also be fined. | Offense: Public servant negligently suffering prisoner of State or w",
+      "n jail and may also be fined. | Offense: Public servant negligently suffering prisoner of State or war in his custody to escape | Punishment: Simple Imprisonment 3 Years + Fine | Cognizable: Cognizable | Bailable: Bailable | Court: Magistrate First Class",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-130 | Description: Description of IPC Section 130\r\nAccording to section 130 of Indian penal code, Whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 130 in Simple Words\r\nIf someone knowingly helps a State prisoner or prisoner of war escape from lawful custody, rescues them, hides them after their escape, or r",
+      "ner or prisoner of war escape from lawful custody, rescues them, hides them after their escape, or resists their recapture, they can be punished with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Aiding escape of, rescuing or harbouring, such prisoner, or offering Any resistance to the recapture of such prisoner | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-131 | Description: Description of IPC Section 131\r\nAccording to section 131 of Indian penal code, Whoever abets the committing of mutiny by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India or attempts to seduce any such officer, soldier, sailor or airman from his allegiance or his duty, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 131 in Simple Words\r\nIf someone encourages the commission of mutiny by an officer, soldier, sailor, or airman in the Indian Army, Navy, or Air Force or tries to lead them astray from their loyalty or duty, they can be punished with life im",
+      "Air Force or tries to lead them astray from their loyalty or duty, they can be punished with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Abetting mutiny, or attempting to seduce an officer, soldier sailor or airman from his allegiance or duty | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-132 | Description: Description of IPC Section 132\r\nAccording to section 132 of Indian penal code, Whoever abets the committing of mutiny by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 132 in Simple Words\r\nIf someone encourages the commission of mutiny by an officer, soldier, sailor, or airman in the Indian Army, Navy, or Air Force, and mutiny occurs as a result, the abettor can be punished with death, life imprisonment, or imprisonment for up to ten y",
+      "a result, the abettor can be punished with death, life imprisonment, or imprisonment for up to ten years, and may also be fined. | Offense: Abetment of mutiny, if mutiny is committed in consequence thereof | Punishment: Death or Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-133 | Description: Description of IPC Section 133\r\nAccording to section 133 of Indian penal code, Whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine.\r\n\r\n\r\nIPC 133 in Simple Words\r\nIf someone encourages an officer, soldier, sailor, or airman to assault a superior officer while the superior officer is performing their duties, the abettor can be punished with up to three years in jail and a fine. | Offense: Abetment of an assault by An officer, soldier, sailor Or airman on hi",
+      "in jail and a fine. | Offense: Abetment of an assault by An officer, soldier, sailor Or airman on his superior officer, when in the execution of his office | Punishment: 3 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Magistrate First Class",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-134 | Description: Description of IPC Section 134\r\nAccording to section 134 of Indian penal code, Whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall, if such assault be committed in consequence of that abetment be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.\r\n\r\n\r\nIPC 134 in Simple Words\r\nIf someone encourages an officer, soldier, sailor, or airman to assault a superior officer while the superior officer is performing their duties, and the assault occurs as a result, the abettor can be punished with up to seven years in",
+      "ir duties, and the assault occurs as a result, the abettor can be punished with up to seven years in jail and a fine. | Offense: Abetment of such assault, if the assault is committed | Punishment: 7 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Magistrate First Class",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-135 | Description: Description of IPC Section 135\r\nAccording to section 135 of Indian penal code, Whoever, abets the desertion of any officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.\r\n\r\n\r\nIPC 135 in Simple Words\r\nIf someone encourages or supports the desertion of an officer, soldier, sailor, or airman from the Indian Army, Navy, or Air Force, they can be punished with up to two years in jail, a fine, or both.\r\n\r\nCited by\r\nRafiq Ahmedbhai Paliwala vs The State Of Gujarat\r\nKartar Singh vs State Of Punjab | Offense: Abetment of the desertion of an officer, soldier, sailor",
+      "\nKartar Singh vs State Of Punjab | Offense: Abetment of the desertion of an officer, soldier, sailor or airman | Punishment: 2 Years or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-136 | Description: Description of IPC Section 136\r\nAccording to section 136 of Indian penal code, Whoever, except as hereinafter excepted, knowing or having reason to believe that an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, has deserted, harbours such officer, soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine or with both.\r\n\r\n\r\nIPC 136 in Simple Words\r\nIf someone knowingly shelters or hides a deserted officer, soldier, sailor, or airman from the Indian Army, Navy, or Air Force, they can be punished with up to two years in jail, a fine, or both. | Offense: Harbouring such an officer, soldier, sailor",
+      "ith up to two years in jail, a fine, or both. | Offense: Harbouring such an officer, soldier, sailor or airman who has deserted | Punishment: 2 Years or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-122 | Description: Description of IPC Section 122\r\nAccording to section 122 of Indian penal code, Whoever collects men, arms or ammunition or otherwise prepares to wage war with the intention of either waging or being prepared to wage war against the Government of India, shall be punished with imprisonment for life or imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 122 in Simple Words\r\nIf someone gathers people, weapons, or prepares for war with the intention of waging or being ready to wage war against the Government of India, they can be punished with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Collecting arms, etc., with The int",
+      "prisonment of up to ten years, and may also be fined. | Offense: Collecting arms, etc., with The intention of waging War against the Government of India | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-137 | Description: Description of IPC Section 137\r\nAccording to section 137 of Indian penal code, The master or person in charge of a merchant vessel, on board of which any deserter from the Army, Navy or Air Force of the Government of India is concealed, shall, though ignorant of such concealment, be liable to a penalty not exceeding five hundred rupees, if he might have known of such concealment but for some neglect of his duty as such master or person in charge, or but for some want of discipline on board of the vessel.\r\n\r\n\r\nIPC 137 in Simple Words\r\nIf a deserter from the Indian Army, Navy, or Air Force is hidden on a merchant vessel, and the master or person in charge could have known about it but neglected their duty or lacked discipl",
+      " the master or person in charge could have known about it but neglected their duty or lacked discipline, they can be penalized with a fine of up to five hundred rupees, even if they were unaware of the concealment. | Offense: Deserter concealed on board merchant vessel, through negligence of master or person in charge thereof | Punishment: Fine | Cognizable: Non-Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-138 | Description: Description of IPC Section 138\r\nAccording to section 138 of Indian penal code, Whoever abets what he knows to be an act of insubordination by an officer, soldier, sailor or airman, in the Army, Navy or air Force, of the Government of India, shall, if such act of insubordination be committed in consequence of that abetment, be punished with imprisonment of either description for a term which may extend to six months, or with fine, or with both.\r\n\r\n\r\nIPC 138 in Simple Words\r\nIf someone encourages and supports an act of insubordination by a military officer, soldier, sailor, or airman, and that act is committed as a result, they can be punished with up to six months in jail, a fine, or both.\r\n\r\nCited by\r\nVishnu Dutt Sharma ",
+      "hey can be punished with up to six months in jail, a fine, or both.\r\n\r\nCited by\r\nVishnu Dutt Sharma vs Daya Sapra\r\nSuryalakshmi Cotton Mills Ltd vs Rajvir Industries Ltd and Ors\r\nJohn K Abraham vs Simon C Abraham and Anr\r\nRajneesh Aggarwal vs Amit J Bhalla\r\nK M Ibrahim vs K P Mohammed and Anr | Offense: Abetment of act of insubordination by an officer, soldier, sailor or airman, if the offence be committed in consequence | Punishment: 6 Months or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-121A | Description: Description of IPC Section 121A\r\nAccording to section 121A of Indian penal code, Whoever within or without India conspires to commit any of the offences punishable by section 121, or conspires to overawe, by means of criminal force or the show of criminal force, the Central Government or any State Government, shall be punished with imprisonment for life, or with imprisonment of either description which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 121A in Simple Words\r\nSection 121A of the Indian Penal Code states that anyone who conspires to commit certain serious offences or intends to use criminal force against the Central Government or any State Government may face punishment of life imprisonmen",
+      "force against the Central Government or any State Government may face punishment of life imprisonment or imprisonment up to ten years, along with a possible fine. | Offense: Conspiring to commit certain offences against the State | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-122 | Description: Description of IPC Section 122\r\nAccording to section 122 of Indian penal code, Whoever collects men, arms or ammunition or otherwise prepares to wage war with the intention of either waging or being prepared to wage war against the Government of India, shall be punished with imprisonment for life or imprisonment of either description for a term not exceeding ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 122 in Simple Words\r\nIf someone gathers people, weapons, or prepares for war with the intention of waging or being ready to wage war against the Government of India, they can be punished with life imprisonment or imprisonment of up to ten years, and may also be fined. | Offense: Collecting arms, etc., with The int",
+      "prisonment of up to ten years, and may also be fined. | Offense: Collecting arms, etc., with The intention of waging War against the Government of India | Punishment: Imprisonment for Life or 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-123 | Description: Description of IPC Section 123\r\nAccording to section 123 of Indian penal code, Whoever, by any act, or by any illegal omission, conceals the existence of a design to wage war against the Government of India, intending by such concealment to facilitate, or knowing it to be likely that such concealment will facilitate, the waging of such war, shall be punished with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\r\n\r\n\r\nIPC 123 in Simple Words\r\nIf someone hides or fails to report a plan to wage war against the Government of India, intending to help or knowing it might help the war, they can be punished with imprisonment of up to ten years and may also be fined. | ",
+      "ht help the war, they can be punished with imprisonment of up to ten years and may also be fined. | Offense: Concealing with intent to facilitate a design to wage War | Punishment: 10 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-124 | Description: Description of IPC Section 124\r\nAccording to section 124 of Indian penal code, Whoever, with the intention of inducing or compelling the President of India, or Governor of any State, to exercise or refrain from exercising in any manner any of the lawful powers of such President or Governor, assaults or wrongfully restrains, or attempts wrongfully to restrain, or overawes, by means of criminal force or the show of criminal force, or attempts so to overawe, such President or Governor, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.\r\n\r\n\r\nIPC 124 in Simple Words\r\nIf someone assaults or wrongfully restrains the President of India or Govern",
+      "PC 124 in Simple Words\r\nIf someone assaults or wrongfully restrains the President of India or Governor of a State with the intention of influencing their lawful powers, they can be punished with imprisonment of up to seven years and may also be fined. | Offense: Assaulting President, Governor, etc., with intent to compel or restrain the exercise of any lawful power | Punishment: 7 Years + Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-124A | Description: Description of IPC Section 124A\r\nAccording to section 124A of Indian penal code, Whoever by words, either spoken or written, or by signs, or by visible representation, or otherwise, brings or attempts to bring into hatred or contempt, or excites or attempts to excite disaffection towards, the Government established by law in India, a shall be punished with imprisonment for life, to which fine may be added, or with imprisonment which may extend to three years, to which fine may be added, or with fine.\r\n\r\n\r\nIPC 124A in Simple Words\r\nSection 124A of the Indian Penal Code punishes those who attempt to bring hatred, contempt, or disaffection towards the Government of India through spoken or written words, signs, or visible r",
+      "or disaffection towards the Government of India through spoken or written words, signs, or visible representations, with either life imprisonment or imprisonment up to three years, along with a possible fine. | Offense: Sedition | Punishment: Imprisonment for Life + Fine or 3 Years + Fine or Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-125 | Description: Description of IPC Section 125\r\nAccording to section 125 of Indian penal code, Whoever wages war against the Government of any Asiatic Power in alliance or at peace with the Government of India or attempts to wage such war, or abets the waging of such war, shall be punished with imprisonment for life, to which fine may be added, or with imprisonment of either description for a term which may extend to seven years, to which fine may be added, or with fine.\r\n\r\n\r\nIPC 125 in Simple Words\r\nIf someone wages war against or attempts to wage war against a Government of an Asian country allied or at peace with India, or aids in doing so, they can be punished with life imprisonment, or imprisonment of up to seven years, and may als",
+      "g so, they can be punished with life imprisonment, or imprisonment of up to seven years, and may also be fined.\r\n\r\n\r\nCited by\r\nUnion Of India vs Yasmeen Mohammad Zahid\r\nMunish Bhasin and Ors vs State\r\nJulita Nirmal Chandra Nayak vs Nirmal Chandra Nayak\r\nVimalben Ajitbhai Patel vs Vatslabeen Ashokbhai Patel\r\nShamim Bano vs Asraf Khan | Offense: Waging war against any Asiatic power in alliance or at peace with the Government of India, or abetting the waging of such war | Punishment: Imprisonment for Life + Fine or 7 Years + Fine or Fine | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-126 | Description: Description of IPC Section 126\r\nAccording to section 126 of Indian penal code, Whoever commits depredation, or makes preparations to commit depredation, on the territories of any Power in alliance or at peace with the Government of India, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of any property used or intended to be used in committing such depredation, or acquired by such depredation.\r\n\r\n\r\nIPC 126 in Simple Words\r\nIf someone commits or prepares to commit any harmful act on the territories of a country allied or at peace with India, they can be punished with imprisonment of up to seven years, fined, and any pro",
+      "at peace with India, they can be punished with imprisonment of up to seven years, fined, and any property used or gained in the act can be forfeited. | Offense: Committing depredation On the territories of any power in alliance or at peace with the Government of India | Punishment: 7 Years + Fine + forfeiture of property | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Court of Session",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-140 | Description: Description of IPC Section 140\r\nAccording to section 140 of Indian penal code, Whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such a soldier, sailor or airman with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.\r\n\r\n\r\nIPC 140 in Simple Words\r\nIf someone who is not a military member wears a uniform or carries something resembling a military uniform to deceive others into believing the",
+      "rs a uniform or carries something resembling a military uniform to deceive others into believing they are a soldier, sailor, or airman, they can be punished with up to three months in jail, a fine of up to five hundred rupees, or both. | Offense: Wearing the dress or carrying any token used by a soldier, sailor or airman with intent that it may be believed that he is such a soldier, sailor or airman | Punishment: 3 Months or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-153 | Description: Description of IPC Section 153\r\nAccording to section 153 of Indian penal code, Whoever malignantly, or wantonly by doing anything which is illegal, gives provocation to any person intending or knowing it to be likely that such provocation will cause the offence of rioting to be committed, shall, if the offence of rioting be committed in consequence of such provocation, be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both, and if the offence of rioting be not committed, with imprisonment of either description for a term which may extend to six months, or with fine, or with both.\r\n\r\n\r\nIPC 153 in Simple Words\r\nIf someone intentionally provokes another person",
+      "h fine, or with both.\r\n\r\n\r\nIPC 153 in Simple Words\r\nIf someone intentionally provokes another person in a way that may lead to a riot, they can be punished with up to one year in jail, a fine, or both if a riot occurs, and up to six months in jail, a fine, or both if a riot doesn't happen. | Offense: Wantonly giving provocation with intent to cause riot, If rioting be committed | Punishment: 1 Year or Fine or Both | Cognizable: Cognizable | Bailable: Bailable | Court: Any Magistrate",
+      "URL: https://lawrato.com/indian-kanoon/ipc/section-153A | Description: Description of IPC Section 153A\r\nAccording to section 153A of Indian penal code,\r\nWhoever\r\nby words, either spoken or written, or by signs or by visible representations or otherwise, promotes or attempts to promote, on grounds of religion, race, place of birth, residence, language, caste or community or any other ground whatsoever, disharmony or feelings of enmity, hatred or ill-will between different religious, racials, language or regional groups or castes or communities, or\r\ncommits any act which is prejudicial to the maintenance of harmony between different religious, racial, language or regional groups or castes or communities, and which disturbs or is likely to disturb the public tranquility, or\r\norganizes any exe",
+      "ommunities, and which disturbs or is likely to disturb the public tranquility, or\r\norganizes any exercise, movement, drill or other similar activity intending that the participants in such activity shall use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, or participates in such activity intending to use or be trained to use criminal force or violence or knowing it to be likely that the participants in such activity will use or be trained to use criminal force or violence, against any religious, racial, language or regional group or caste or community and such activity for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amon",
+      "for any reason whatsoever causes or is likely to cause fear or alarm or a feeling of insecurity amongst members of such religious, racial, language or regional group or caste or community, shall be punished with imprisonment which may extend to three years, or with fine, or with both.\r\nOffence committed in place of worship, etc ├óΓé¼ΓÇ¥ Whoever commits an offence specified in sub-section (1) in any place of worship or in any assembly engaged in the performance of religious worship or religious ceremonies, shall be punished with imprisonment which may extend to five years and shall also be liable to fine.\r\n\r\n\r\nIPC 153A in Simple Words\r\nSection 153A of the Indian Penal Code punishes those who promote disharmony or feelings of hatred between different religious, racial, language, or regional ",
+      "promote disharmony or feelings of hatred between different religious, racial, language, or regional groups, or engage in acts prejudicial to maintaining harmony, with imprisonment up to three years, or fine, or both, and up to five years of imprisonment with fine if the offence is committed in a place of worship or during religious ceremonies. | Offense: Promoting enmity between classes | Punishment: 3 Years or Fine or Both | Cognizable: Cognizable | Bailable: Non-Bailable | Court: Magistrate First Class"
+    ],
+    "all_metadata": [
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_0",
+        "row_index": 0
+      },
+      {
+        "row_index": 0,
+        "doc_id": "fir_0",
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_1",
+        "source": "fir_dataset",
+        "row_index": 1
+      },
+      {
+        "row_index": 1,
+        "source": "fir_dataset",
+        "doc_id": "fir_1"
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_2",
+        "row_index": 2
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_2",
+        "row_index": 2
+      },
+      {
+        "doc_id": "fir_3",
+        "source": "fir_dataset",
+        "row_index": 3
+      },
+      {
+        "doc_id": "fir_3",
+        "row_index": 3,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_4",
+        "row_index": 4,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_4",
+        "row_index": 4,
+        "source": "fir_dataset"
+      },
+      {
+        "row_index": 5,
+        "doc_id": "fir_5",
+        "source": "fir_dataset"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 5,
+        "doc_id": "fir_5"
+      },
+      {
+        "row_index": 6,
+        "source": "fir_dataset",
+        "doc_id": "fir_6"
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_6",
+        "row_index": 6
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 7,
+        "doc_id": "fir_7"
+      },
+      {
+        "row_index": 7,
+        "source": "fir_dataset",
+        "doc_id": "fir_7"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 8,
+        "doc_id": "fir_8"
+      },
+      {
+        "row_index": 8,
+        "doc_id": "fir_8",
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_9",
+        "source": "fir_dataset",
+        "row_index": 9
+      },
+      {
+        "doc_id": "fir_9",
+        "row_index": 9,
+        "source": "fir_dataset"
+      },
+      {
+        "row_index": 10,
+        "doc_id": "fir_10",
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_10",
+        "row_index": 10,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_11",
+        "source": "fir_dataset",
+        "row_index": 11
+      },
+      {
+        "doc_id": "fir_11",
+        "row_index": 11,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_12",
+        "source": "fir_dataset",
+        "row_index": 12
+      },
+      {
+        "doc_id": "fir_12",
+        "source": "fir_dataset",
+        "row_index": 12
+      },
+      {
+        "doc_id": "fir_13",
+        "row_index": 13,
+        "source": "fir_dataset"
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_13",
+        "row_index": 13
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 14,
+        "doc_id": "fir_14"
+      },
+      {
+        "doc_id": "fir_14",
+        "source": "fir_dataset",
+        "row_index": 14
+      },
+      {
+        "row_index": 15,
+        "doc_id": "fir_15",
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_15",
+        "source": "fir_dataset",
+        "row_index": 15
+      },
+      {
+        "doc_id": "fir_16",
+        "row_index": 16,
+        "source": "fir_dataset"
+      },
+      {
+        "row_index": 16,
+        "source": "fir_dataset",
+        "doc_id": "fir_16"
+      },
+      {
+        "row_index": 17,
+        "source": "fir_dataset",
+        "doc_id": "fir_17"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 17,
+        "doc_id": "fir_17"
+      },
+      {
+        "doc_id": "fir_18",
+        "source": "fir_dataset",
+        "row_index": 18
+      },
+      {
+        "doc_id": "fir_18",
+        "row_index": 18,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_19",
+        "row_index": 19,
+        "source": "fir_dataset"
+      },
+      {
+        "doc_id": "fir_19",
+        "source": "fir_dataset",
+        "row_index": 19
+      },
+      {
+        "row_index": 20,
+        "doc_id": "fir_20",
+        "source": "fir_dataset"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 20,
+        "doc_id": "fir_20"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 21,
+        "doc_id": "fir_21"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 21,
+        "doc_id": "fir_21"
+      },
+      {
+        "doc_id": "fir_22",
+        "source": "fir_dataset",
+        "row_index": 22
+      },
+      {
+        "row_index": 22,
+        "source": "fir_dataset",
+        "doc_id": "fir_22"
+      },
+      {
+        "row_index": 23,
+        "source": "fir_dataset",
+        "doc_id": "fir_23"
+      },
+      {
+        "source": "fir_dataset",
+        "row_index": 23,
+        "doc_id": "fir_23"
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_23",
+        "row_index": 23
+      },
+      {
+        "source": "fir_dataset",
+        "doc_id": "fir_23",
+        "row_index": 23
+      }
+    ]
+  },
+  "legal_rag": {},
+  "past_cases_rag": {
+    "total_count": 1068,
+    "samples": [
+      {
+        "content": "Masud Khan v State Of Uttar Pradesh\nSupreme Court of India 26 September 1973\nWrit Petition No. 117 of 1973\nThe Judgment was delivered by : A. Alagiriswami, J. 1. Petitioner Masud Khan prays for his release on the ground that he, an Indian citizen has been illegally arrested and confined to, jail und...",
+        "metadata": {
+          "total_sections": "9",
+          "start_char": "0",
+          "contains_judgment": "True",
+          "case_id": "C1",
+          "date": "26 September 1973",
+          "contains_citation": "False",
+          "file_path": "Object_casedocs\\C1.txt",
+          "case_name": "Masud Khan v State Of Uttar Pradesh",
+          "word_count": "119",
+          "end_char": "681",
+          "court": "Supreme Court of India",
+          "paragraph_numbers": "[]",
+          "judge": "A. Alagiriswami",
+          "cleaned_length": "8852",
+          "chunk_size": "681",
+          "petition_number": "Writ Petition No. 117 ",
+          "original_length": "8868",
+          "chunk_id": "C1_0"
+        }
+      },
+      {
+        "content": "was in Government service in Pakistan in P.W.D. as a Darogha and had given his permanent address as Hyderabad (Sind). 2. If these statements were correct the petitioner would clearly be a Pakistani national. When this fact was brought out in the counter affidavit filled on behalf of the respondent, ...",
+        "metadata": {
+          "chunk_size": "1256",
+          "date": "26 September 1973",
+          "original_length": "8868",
+          "case_name": "Masud Khan v State Of Uttar Pradesh",
+          "chunk_id": "C1_1",
+          "cleaned_length": "8852",
+          "case_id": "C1",
+          "judge": "A. Alagiriswami",
+          "paragraph_numbers": "[]",
+          "end_char": "1939",
+          "total_sections": "9",
+          "contains_judgment": "True",
+          "start_char": "683",
+          "word_count": "213",
+          "contains_citation": "True",
+          "petition_number": "Writ Petition No. 117 ",
+          "file_path": "Object_casedocs\\C1.txt",
+          "court": "Supreme Court of India"
+        }
+      },
+      {
+        "content": "went to Pakistan is a matter peculiarly within his knowledge and the produced no evidence in support of that statement. 3. Considering the frequent change of ground which the petitioner has resorted to, a mere statement from him cannot be accepted as true. Nor can we accept his contention that it is...",
+        "metadata": {
+          "file_path": "Object_casedocs\\C1.txt",
+          "chunk_id": "C1_2",
+          "contains_citation": "False",
+          "chunk_size": "952",
+          "paragraph_numbers": "[]",
+          "end_char": "2774",
+          "judge": "A. Alagiriswami",
+          "case_id": "C1",
+          "date": "26 September 1973",
+          "original_length": "8868",
+          "case_name": "Masud Khan v State Of Uttar Pradesh",
+          "court": "Supreme Court of India",
+          "contains_judgment": "False",
+          "petition_number": "Writ Petition No. 117 ",
+          "cleaned_length": "8852",
+          "word_count": "172",
+          "total_sections": "9",
+          "start_char": "1822"
+        }
+      },
+      {
+        "content": "even though he may have come to India on a Pakistani passport in 1956. That question does not arise here. 4. We are not prepared to assume that the petitioner should be deemed to have been present in India on 26-1-1950, as was urged on behalf of the petitioner. There is no room for any such presumpt...",
+        "metadata": {
+          "case_name": "Masud Khan v State Of Uttar Pradesh",
+          "total_sections": "9",
+          "case_id": "C1",
+          "judge": "A. Alagiriswami",
+          "word_count": "158",
+          "petition_number": "Writ Petition No. 117 ",
+          "chunk_size": "847",
+          "start_char": "2655",
+          "cleaned_length": "8852",
+          "contains_citation": "False",
+          "end_char": "3502",
+          "chunk_id": "C1_3",
+          "contains_judgment": "True",
+          "paragraph_numbers": "[]",
+          "file_path": "Object_casedocs\\C1.txt",
+          "date": "26 September 1973",
+          "original_length": "8868",
+          "court": "Supreme Court of India"
+        }
+      },
+      {
+        "content": "claim that he is an Indian citizen cannot be dealt with under the Foreigners (Internment) Order, 1962 must be rejected. 5. It appears, however, that in 1960 he had been prosecuted before the Sub-Divisional Magistrate, Fatehpur under s. 14 of the Foreigner--, Act and was acquitted on the ground that ...",
+        "metadata": {
+          "case_id": "C1",
+          "chunk_id": "C1_4",
+          "start_char": "3397",
+          "paragraph_numbers": "[]",
+          "file_path": "Object_casedocs\\C1.txt",
+          "contains_judgment": "True",
+          "chunk_size": "1504",
+          "total_sections": "9",
+          "word_count": "272",
+          "date": "26 September 1973",
+          "contains_citation": "True",
+          "cleaned_length": "8852",
+          "petition_number": "Writ Petition No. 117 ",
+          "case_name": "Masud Khan v State Of Uttar Pradesh",
+          "court": "Supreme Court of India",
+          "original_length": "8868",
+          "end_char": "4901",
+          "judge": "A. Alagiriswami"
+        }
+      }
+    ],
+    "all_documents": [
+      "Masud Khan v State Of Uttar Pradesh\nSupreme Court of India 26 September 1973\nWrit Petition No. 117 of 1973\nThe Judgment was delivered by : A. Alagiriswami, J. 1. Petitioner Masud Khan prays for his release on the ground that he, an Indian citizen has been illegally arrested and confined to, jail under Paragraph 5 of the Foreigners (Internment) Order, 1962. He had come to India from Pakistan on the basis of a Pakistani passport dated 137-1954and Indian visa dated 9-4-1956. In his application for visa he had stated that he had migrated to Pakistan in 1948 and was in Government service in Pakistan in P.W.D. as a Darogha and had given his permanent address as Hyderabad (Sind).",
+      "was in Government service in Pakistan in P.W.D. as a Darogha and had given his permanent address as Hyderabad (Sind). 2. If these statements were correct the petitioner would clearly be a Pakistani national. When this fact was brought out in the counter affidavit filled on behalf of the respondent, the petitioner filed a further affidavit stating that he was appointed as a Police Constable in Hasanganj Police Station, District Fatehpur, U.P. in February 1947 and continued as a Police Constable till the middle of 1950 when he was dismissed from service, and that he went to Pakistan in the year 1951.In the reply affidavit filed on behalf of the respondent it is stated that one Md. Masood Khan son of Zahoor Khan was enrolled as Police Constable on 16-9-1947 and he was discharged from service on 20-5-1949. It is fairly clear that this information culled from the English Order Book from 1-101947 to 27-12-1951 refers to the petitioner. While, therefore, it is established that the petitioner did not go to Pakistan in 1948, it cannot be said that it has been established that the petitioner went to Pakistan only in 1951.When he went to Pakistan is a matter peculiarly within his knowledge and the produced no evidence in support of that statement.",
+      "went to Pakistan is a matter peculiarly within his knowledge and the produced no evidence in support of that statement. 3. Considering the frequent change of ground which the petitioner has resorted to, a mere statement from him cannot be accepted as true. Nor can we accept his contention that it is for the respondent to establish that lie did not go to Pakistan in 1951 but that he went on some other date. The petitioner has also alleged that he was married in U.P. on 25th December, 1949.Even assuming that this statement is correct; the petitioner cannot establish that he is a citizen of India unless lie succeeds in establishing that he was in India on 26-1-1950. If he bad been in India on 26-1-1950 but had gone to Pakistan in 1951 it would be for the Central Government to decide whether he is a Pakistani national or an Indian citizen even though he may have come to India on a Pakistani passport in 1956. That question does not arise here.",
+      "even though he may have come to India on a Pakistani passport in 1956. That question does not arise here. 4. We are not prepared to assume that the petitioner should be deemed to have been present in India on 26-1-1950, as was urged on behalf of the petitioner. There is no room for any such presumption. Under s-9 of the Foreigners Act whenever a question arises whether a person is or is not a foreigner the onus of proving that he is not a foreigner lies upon him. The burden is therefore, upon the petitioner to establish that be is a citizen of India in the manner claimed by him and therefore be is not a foreigner. This burden not having been discharged by the petitioner it should be held that he is a foreigner and his claim that he is an Indian citizen cannot be dealt with under the Foreigners (Internment) Order, 1962 must be rejected.",
+      "claim that he is an Indian citizen cannot be dealt with under the Foreigners (Internment) Order, 1962 must be rejected. 5. It appears, however, that in 1960 he had been prosecuted before the Sub-Divisional Magistrate, Fatehpur under s. 14 of the Foreigner--, Act and was acquitted on the ground that he was not a foreigner. It was therefore contended that the question whether the petitioner is -a foreigner or not is a matter of issue estoppels. The decision that he was not a foreigner seems to have been based on the decision of the Allahabad High Court in Mohd. Hanif Khan v. State (AIR 1960 All. 434). 1959 Indlaw ALL 154It was held there that a Pakistani national who entered into India before the amendment to the Foreigners Act in 1957, when he could not be considered to be a foreigner, could not be so held because of that amendment. That decision was that of a learned Single Judge. On the point at issue he differed from an earlier decision of a learned Single Judge of the same Court in Ali Sher v. The State (AIR 1960 All. 431). 1959 Indlaw ALL 153But he decided that case before him on a different point and did not think it necessary to refer the case before him to a Bench for considering which of the two decisions was correct on the question regarding the nationality of a person who came to India on a Pakistani passport before 1957. There are thus two conflicting decisions of the same court on the same point and the Magistrate who decided the petitioners case followed one of them.",
+      "of the same court on the same point and the Magistrate who decided the petitioners case followed one of them. 6. But that apart, this matter could bedecided on another point.. The question of issue-estoppels has been considered by this Court in Pritam Singh v. State, of Punjab (AIR 1956 SC 415), 1955 Indlaw SC 111 Manipur Administration v. Thokchom, Bira Singh (1964 7 SCR 123) 1964 Indlaw SC 413 and Piara Singh S. State of Punjab. Issue-estoppels arises only if the earlier as well as the subsequent proceedings were criminal prosecutions. In the present case while the earlier one was a criminal prosecution the present is merely an action taken, under the Foreigners (Internment) Order for the purpose of deporting the petitioner out of India.",
+      "is merely an action taken, under the Foreigners (Internment) Order for the purpose of deporting the petitioner out of India. 7. It is nota criminal prosecution. The principle of issue estoppels is simply this : that where an issue of fact has been tried by a competent court on a former occasion and a finding has been reached in favored an accused, such a finding would constitute an estoppels or res judicator against the prosecution not as a bar to the trial and conviction of the accused for a different or distinct offence but as precluding the reception of evidence to disturb that finding of fact when the accused is tried subsequently, even for different offence which might be permitted by law. Pritam Singhs case 1955 Indlaw SC 111 (supra) was based on the decision of the Privy Council in Sambasivam v. Public, Prosecutor, Federation of Malaya (1950 A.C. 458). In that case Lord McDermott speaking for the Board said:\nThe effect of a verdict of acquittal pronounced by a competent court on a lawful charge and after a lawful trial is not completely stated by saying that the person acquitted cannot be tried again for the same offence. To that it must be added that the verdict is binding and conclusive in all subsequent proceedings between the parties to the adjudication.\nIt should bekept clearly in mind that the proceeding referred to herein is a criminal prosecution. The plea of issue-estoppels not the same as the, plea of double jeopardy or aura foist acquit. In The King v. Wilkes (77 C.L.R.511)\nDivon, J.",
+      "same as the, plea of double jeopardy or aura foist acquit. In The King v. Wilkes (77 C.L.R.511) Divon, J. 8. Referring to the question of issue estoppel said. view that there is an issue estoppels, if it appears by record of itself or as explained by proper evidence, that the same point was determined in favour of a prisoner in a previous criminal trial which is brought in issue on a second criminal trial of the same prisoners There must be prior proceeding determined against the Crown necessarily involving an issue which again arises in a subsequent proceeding by the Crown against the same prisoner. The allegation of the Crown in the subsequent proceeding must itself be inconsistent with the acquittal of the prisoner in the previous proceeding. But if such a condition of affairs arises I see no reason why the ordinary rules of issue-estoppels should not apply Issue-estoppels concerned with the judicial establishment of a proposition of law or fact between parties. It depends upon well-known doctrines which control the reiteration of issues which are settled by prior litigation.\nThe emphasis here again would be seen to be on the determination of, criminal liability. In Marz v. The Queen (96 C.L.R. 62) the High Court of Australia said The Crown is as much precluded by an estoppels by judgment in criminal proceedings as is a subject in civil proceedings The laws which gives effect to issue estoppels is not concerned with the correctness or incorrectness of the finding which amounts to an estoppels, still less with the process of reasoning by which the finding was reached. in fact It is enough that an issue or issues have been distinctly raised or found. Once that is done, then, so long as the finding stands, if there be any subsequent litigation between the same parties, no allegations legally inconsistent with the finding, may be made by one of them against the other.\nHere again it is to be remembered that the principle applies to two criminal proceedings and the proceeding with which we are now concerned is not a criminal proceeding. We therefore hold that there is no substance in this contention.",
+      "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.\nSupreme Court of India 3 September 1987\nWrit Petition No. 506 of 1986\nThe Judgment was delivered by: Sabyasachi Mukharji, J.",
+      "Court of India 3 September 1987 Writ Petition No. 506 of 1986 The Judgment was delivered by: Sabyasachi Mukharji, J. 1. There is much ado about nothing about these cases. These petitions seek to challenge the vires of s. 14(1)(b) and s. 16(2) as well as incidentally s. 30(ii) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 (hereinafter called the Tamil Nadu Rent Act) on the ground of being arbitrary, discriminatory and unreasonable. Different petitions deal with different facts. It is not necessary to set these out exhaustively but it would be appropriate to deal with the facts of Writ Petition No. 506 of 1986 as a typical one in order to appreciate the points in issue. In Writ Petition No. 506 of 1986, the respondent-landlord on or about 21st of March, 1978 after purchasing the premises No.95, Thyagaraja Road, T. Nagar, Madras from the erstwhile owner, filed an eviction petition in the court of Small Causes, Madras for eviction of the petitioner herein from the premises where the petitioner had been carrying on a hotel business serving meals etc. for four decades. The grounds in the eviction petition were non-payment of rent under sec- tion 10(2)(1) of the Tamil Nadu Rent Act, unlawful sub- letting u/s. 10(2)(ii)(a), causing damages to the premises u/s. 10(2)(iii) and also for the purposes of demolition and reconstruction under s. 14(1)(b).",
+      "10(2)(ii)(a), causing damages to the premises u/s. 10(2)(iii) and also for the purposes of demolition and reconstruction under s. 14(1)(b). 2. The learned Judge of the trial court ordered eviction under s. 14(1)(b) of the Tamil Nadu Rent Act only for demolition and reconstruction and dismissed the other grounds, and that is the only ground with which we are concerned in this appeal. On 25th of February, 1981 the Appellate Court dismissed the petitioners appeal by saying that the landlords were rich people and capable of demolition and reconstruction in order to put the premises to a more profitable use by putting up their own showroom. On September 30, 1982 the High Court dismissed the civil revision petition of the petitioner and granted time till 31st of January, 1983 for the petitioner to vacate the premises in question. The petitioner thereafter filed a special leave petition against the judgment and order of the High Court in this Court.",
+      "The petitioner thereafter filed a special leave petition against the judgment and order of the High Court in this Court. 3. This Court initially ordered show cause notice and also granted ad interim ex-parte stay of dispossession. On 29th January, 1983 the City Civil Court, Madras granted interim injunction restraining the respondents from demolishing the building till the disposal of the application in the suit filed by the petitioner against the erstwhile owner and the present landlords for specific performance of an agreement to sell the premises to the petitioner. According to the petitioner the injunction was confirmed and was still continuing and the said suit for specific performance was also pending in the City Civil Court, Madras.",
+      "and was still continuing and the said suit for specific performance was also pending in the City Civil Court, Madras. 4. On 17th of February, 1986 this Court dismissed the special leave petition after notice but directed that the decree for eviction would not be executed till 17.11.86. It was observed by this Court that the petitioner would be at liberty to file a writ petition u/art. 32 of the Constitution, if so advised, challenging the validity of s. 14(1)(b) of the Tamil Nadu Rent Act as mentioned on behalf of the petitioner. The petitioner filed this writ petition challenging the validity of s. 14(1)(b) and s. 16(2) of the Tamil Nadu Rent Act on the ground that these were arbitrary, discriminatory, unreasonable and unconstitutional. The petitioner contends in this writ petition that consequently the eviction order passed under s. 14(1)(b) and confirmed in appeal is also illegal. The aforesaid several of the writ petitions are on this issue.",
+      "s. 14(1)(b) and confirmed in appeal is also illegal. The aforesaid several of the writ petitions are on this issue. 5. The main ground of attack on this aspect seems to be that while other Rent Acts in case of eviction for demolition permit and direct that after reconstruction the tenant should be inducted as tenant or given the opportunity to have the same space in the reconstructed building, in the instant Act no such option is given and no such obligation imposed upon the landlord and as such the impugned provision is illegal as being discriminatory against the tenant. In order to examine the various aspects on this contention, it will be necessary to examine in detail the relevant provisions of the Act. It should be borne in mind, however, that this was an Act passed to amend and consolidate the law relating to the regulation of the letting of residential and non-residential buildings and the control of rents of such buildings and the prevention of unreasonable eviction of tenants in the State of Tamil Nadu. S. 14 of the Tamil Nadu Rent Act states as follows:-",
+      "eviction of tenants in the State of Tamil Nadu. S. 14 of the Tamil Nadu Rent Act states as follows:- 14. Recovery of possession by landlord for repairs or for reconstruction.\n(1) Notwithstanding anything contained in this Act, but subject to the provisions of ss. 12 and 13, on an application made by a landlord, the Controller shall, if he is satisfied-\n(a) that the building is bona fide required by the landlord for carrying out repairs which cannot be carried out without the building being vacated; or\n(b) that the building is bona fide required by the landlord for the immediate purpose of demolishing it and such demolition is to be made for the purpose of erecting a new building on the site of the building sought to be demolished, pass an order directing the tenant to deliver possession of the building to the landlord before a specified date.\n(2) No order directing the tenant to deliver possession of the building under this section shall be passed-\n(a) on the ground specified in cl. (a) of subsection (1), unless the landlord gives an undertaking that the building shall, on completion of the repairs, be offered to the tenant, who delivered possession in pursuance of an order under sub-s. (1) for his re-occupation before the expiry of three months from the date of recovery of possession by the landlord, or before the expiry of such further period as the Controller may, for reasons to be recorded in writing, allow; or\n(b) on the ground specified in cl. (b) of subsection (1), unless the landlord gives an undertaking that the work of demolishing any material portion of the building shall be substantially commenced by him not later than one month and shall be completed before the expiry of three months from the date he recovers possession of the entire building or before the expiry of such further period as the Controller may, for reasons to be recorded in writing, allow.\n(3) Nothing contained in this section shall entitle the landlord who has recovered possession of the building for repairs to convert a residential building into a non-residential building or a non-residential building into a residential building unless such conversion is permitted by the Controller at the time of passing an order under subs. (1).\n(4) Notwithstanding an order passed by the Controller under cl. (a) of sub-s. (1) directing the tenant to deliver possession of the building, such tenant shall be deemed to continue to be the tenant, but the landlord shall not be entitled to any rent for the period commencing on the date of delivery of possession of the building by the tenant to the landlord and ending with the date on which the building is offered to the tenant by the landlord in pursuance of the undertaking under cl. (a) of subs. (2).\n(5) Nothing in this section shall entitle any landlord of a building in respect of which the Government shall be deemed to be the tenant to make any application under this section. S. 15 empowers the tenant to re-occupy after repairs. There is no such provision in case of eviction on the ground of bona fide need for demolition and reconstruction. This is one of the grounds of challenge.",
+      "eviction on the ground of bona fide need for demolition and reconstruction. This is one of the grounds of challenge. 6. S. 16 deals with the right of the tenant to occupy the building if it is not demolished. Sub-s. (2) which was amended and introduced by Act 23 of 1973 dealing with the reconstructed building reads as follows:\n16(2) Where in pursuance of an order passed by the Controller under cl. (b) of sub-s. (1) of section 14, any building is totally demolished and a new building is erected in its place, all the provisions of this Act shall cease to apply to such new building for a period of five years from the date on which the construction of such new building is completed and notified to the local authority concerned. 7. In this connection s. 30 which exempts certain buildings may be referred to and sub-section (i) is important. It reads as follows:",
+      "connection s. 30 which exempts certain buildings may be referred to and sub-section (i) is important. It reads as follows: 30. Exemption in the case of certain buildings- Nothing contained in this Act shall apply to-\n(i) any building for a period of five years from the date on which the construction is completed and notified to local authority concerned; or\n(ii) any residential building or part thereof occupied by any one tenant if the monthly rent paid by him in respect of that building or part exceeds (four hundred rupees). 8. In this appeal we are not concerned with cl. (ii) of s. 30 the challenge to whose validity has been accepted by this Court in Rattan Arya and others v. State of Tamil Nadu and another, [1986] 3 S.C.C. 3851986 Indlaw SC 417. S. 30(ii) of the Tamil Nadu Rent Act has been struck down as violative of Art. 14.",
+      "Indlaw SC 417. S. 30(ii) of the Tamil Nadu Rent Act has been struck down as violative of Art. 14. 9. Various submissions were urged in support of the several writ petitions. Sree Raju Ramachandran contended that in most of the Indian statutes dealing with eviction of tenants, there are provisions of re-induction of the tenant where the eviction is obtained on the ground of reconstruction after the premises in question is reconstructed. It was submitted that in those statutes, there is obligation on the landlord to reconstruct within a certain period and the corresponding right on the tenant evicted to be re-inducted at the market rate to be fixed by the Rent Controller or by such authority as the Court may direct.",
+      "at the market rate to be fixed by the Rent Controller or by such authority as the Court may direct. 10. Our attention was drawn to several statutes, namely, Maharashtra, Karnataka, Kerala, West Bengal and numerous others where there are provisions for re-induction of other tenants in the premises after reconstruction. Most of the provisions of other statutes provide for such induction while the Tamil Nadu Rent Act does not. On this ground it was submitted, that firstly, that this is violative of Art. 14 of the Constitution. It was further submitted that s. 16(2) of the Tamil Nadu Rent Act says that where in pursuance of an order of eviction passed by the Rent Controller under s. 14(1)(b) any building is totally demolished and a new building is erected in its place, all the provisions of the Act shall cease to apply to such new building for a period of five years.",
+      "all the provisions of the Act shall cease to apply to such new building for a period of five years. 11. It was submitted that neither the old tenant nor any new tenant was thus entitled to protection of the Rent Control Act after reconstruction. The old tenant cannot also get into the new building as of right. This discrimination against the tenants in Tamil Nadu is invidious and violates Art. 14 of the Constitution. Secondly, it was submitted that if in case of repairs which also dislodges the tenants for limited period, the tenants have a right to get into the premises after repairs under the Tamil Nadu Rent Act, it is unreasonable that tenants should not have the same right in case of reconstruction. It was urged that once the building is ready for occupation it should make no difference whether the readiness is after repairs or after construction. It was urged that in both cases the tenants go out during the period of building work, and they should equally come back into the building after repairs or reconstruction. It was submitted on this ground also that not enjoining re- induction of the evicted tenant after reconstruction is discriminatory and unconstitutional.",
+      "submitted on this ground also that not enjoining re- induction of the evicted tenant after reconstruction is discriminatory and unconstitutional. 12. The classification of buildings reconstructed differently from the buildings repaired is not valid, as it has no relation to the object or purpose of the Act. Furthermore, that all the tenants belong to one class and they could not be treated differently. On this aspect it was further submitted that the provisions of re-induction in most of the Rent Acts re- presented the standard of reasonableness in the landlord and the tenant law and the philosophy of Rent Control Legislation. It re-presented the national consensus of reasonable standard. Therefore, any provision which according to learned counsel appearing for the different parties in the writ petitions, was in variance with that standard was unreasonable and as such violative of Art. 14 of the Constitution. In aid of this submission various contentions were urged. We are, however, unable to accept this submission.",
+      "of the Constitution. In aid of this submission various contentions were urged. We are, however, unable to accept this submission. 13. Learned Attorney General appearing for the respondents submitted before us that the main provision of s. 14(1)(b) enables a landlord to make an application to the Rent Controller and the Rent Controller, if he was satisfied that the building was bona fide required by the landlord for the immediate purpose of demolishing it for the purpose of erecting a new building on the site of the building sought to be demolished might pass an order directing the tenant to deliver possession of the building to the landlord before a specified date. In the case of an application under s. 14(1)(a) of the Tamil Nadu Rent Act namely bona fide requirement for carrying out repairs it cannot be carried out without the building being vacated and it has to be done within three months to enable the tenant to re-occupy the building. It has further to be borne in mind that in the case of demolition and re-construction, the landlord has to undertake that the work of demolishing any material portion of the building shall be substantially commenced by him not later than one month and the entire demolition work shall be completed before the expiry of three months from the date he recovers possession of the entire building.",
+      "work shall be completed before the expiry of three months from the date he recovers possession of the entire building. 14. See in this connection the provisions of s. 16 of the said Act. The demolition has therefore to be completed within three months. In the case of massive buildings demolition can overtake six months or even a year and hence the provision that for reasons to be recorded in writing, the Controller may allow such further period. It has further to be borne in mind that after such demolition the re-construction of a new building on the same site is bound to take time and such time depends upon the nature of the building to be erected and it might take years it was argued. During that period a tenant was bound to have found some other suitable alternative accommodation; on the other hand in the case of a building for repairs, a tenant may arrange for temporary accommodation for a few months and return back to the building. Therefore provision for reinduction in the case of repairs and absence of such a provision in the case of demolition and reconstruction is quite understandable and rational.",
+      "of repairs and absence of such a provision in the case of demolition and reconstruction is quite understandable and rational. 15. It has to be borne in mind that it is not practicable and would be anamolous to expect a landlord to take back a tenant after a long lapse of time during which time the tenant must necessarily have found some suitable accommodation elsewhere. This is the true purpose behind s. 14(1)(b) read with s. 14(2)(b). In the aforesaid view of the matter, we are unable to accept the submission that in providing for re-induction of the tenant in case of repairs and not providing for such re-induction in case of reconstruction, there is any unreasonable and irrational classification without any basis.",
+      "and not providing for such re-induction in case of reconstruction, there is any unreasonable and irrational classification without any basis. 16. The other submission as noted above was that in most of the Rent Acts, there was provision for re-induction of the tenants but there was no such provision in case of reconstruction in the Tamil Nadu Rent Act. In The State of Madhya Pradesh v. G.C. Mandawar, [1955] 1 S.C.R. 599 1954 Indlaw SC 40, a Constitution Bench of this Court observed that Art. 14 of the Constitution does not authorise the striking down of a law of one State on the ground that in contrast with a law of another State on the same subject its provisions are discriminatory. Nor does it contemplate a law of the Centre or of the State dealing with similar subjects being held to be unconstitutional by a process of comparative study of the provisions of two enactments. The source of authority for the two statutes being different, Art. 14 can have no application it was observed.",
+      "enactments. The source of authority for the two statutes being different, Art. 14 can have no application it was observed. 17. It is necessary now to deal with the submission that the section is unreasonable. For this, one has to bear in mind the public purpose behind the legislation. The Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 was passed in 1960. A similar enactment which was in operation from 1949 to 1960 did not contain any provision like ss. 14 to 16 providing for eviction of the tenant on the ground of demolition and reconstruction. 18. In 1949, however, the enactment contained a provision empowering the Government to exempt any building or class of buildings from all or any of the provisions of the Act. When the landlords desired to evict tenants on the ground of demolition and re-construction, they resorted to the remedy of moving the Government by an application for exemption u/s. 13 of the 1949 Act.",
+      "they resorted to the remedy of moving the Government by an application for exemption u/s. 13 of the 1949 Act. 19. The Government by notification used to exempt any building or class of buildings from all or any of the provisions of the Act. In this connection reference may be made to the decision in S. Kannappa Pillai and another v. B. Venkatarathnam, (78 Law Weekly 363). The Government in that case when passing the order of exemption used to impose condition that the landlord should complete the re-construction within four months from the date on which the premises were vacated by the tenants and that he should take back the old tenants into the reconstructed building at the rate demanded by the landlord subject to the fixation of fair rent. However, in view of the tenants conduct in resorting to writ proceedings challenging the order of exemption and in filing suits and having delayed the process of demolition and reconstruction, the Court in the exercise of discretion refused to extend the benefit of the condition as to re- induction in favour of the tenants. The further remedy was by writ proceedings before the High Court by the landlord or the tenant who felt aggrieved as the case may be.",
+      "writ proceedings before the High Court by the landlord or the tenant who felt aggrieved as the case may be. 20. It was submitted on behalf of the respondents by the learned Attorney General that the Legislature in view of the experience gained from 1949 to 1960 enacted ss. 14 to 16 of the Act and which were introduced in the Act of 1960.",
+      "1949 to 1960 enacted ss. 14 to 16 of the Act and which were introduced in the Act of 1960. 21. It was urged that the 1960 Act had improved the position. It had provided as a ground of eviction of the tenant the requirement of the landlord for demolition and re-construction of the building leaving it to a judicial authority viz. Rent Controller to decide the matter with one statutory right of appeal and a further right of revision to the District Court or the High Court as the case may be. It was on this ground urged that leaving the matter to judicial adjudication as to the ground for eviction, it cannot be held to be arbitrary, unreasonable or unjust. This point has to be judged keeping in view the main purpose of the Act in question and the relevant submissions on this aspect.",
+      "be judged keeping in view the main purpose of the Act in question and the relevant submissions on this aspect. 22. It may be borne in mind that historically the Constitutionality of s. 13 of the Act of 1949 was upheld on the touchstone of Art. 14 both by the Madras High Court and on appeal by this Court in P.J. Irani v. The State of Madras, [1962] 2 S.C.R. 169 1961 Indlaw SC 69. It was held that s. 13 of the Act did not violate Art. 14 and was not unconstitutional. Enough guidance, according to the judgment of the majority of learned judges, was afforded by the preamble and the operative provisions of the Act for the exercise of the discretionary power vested in the government. It was observed that the power u/s. 13 of the Act was to be exercised in cases where the protection given by the Act caused great hardship to the landlord or was the subject of abuse by the tenants. It was held by Sinha, C.J., Ayyangar and Mudholkar, JJ. that s. 13 was ultra vires and void. An order made u/s. 13 was subject to judicial review on the grounds that (a) it was discriminatory, (b) it was made on grounds which were not germane or relevant to the policy and purpose of the Act, and (c) it was made on grounds which were mala fide. While S.K. Das and A.K. Sarkar, JJ. emphasised that the order passed by the government u/s. 13 was a competent and legal order. All that the court had to see was whether the power had been used for any extraneous purpose, i.e. not for achieving the object for which the power was granted.",
+      "power had been used for any extraneous purpose, i.e. not for achieving the object for which the power was granted. 23. The Act of 1960 contains a corresponding provision for exemption in s. 29 of the Act which corresponds to s. 13 of the Act of 1949 was also upheld by this Court in S. Kandaswamy Chettiar v. State of Tamil Nadu and another, [1985] 2 SCR 398 1984 Indlaw SC 354. Dealing with s. 29 of the Act this Court observed that the rationale behind the conferral of such power to grant exemptions or to make exceptions was that an inflexible application of the provisions of the Act might under some circumstances result in unnecessary hardship entirely disproportionate to the good which will result from a literal enforcement of the Act and also the practical impossibility of anticipating in advance such hardship to such exceptional cases. In the matter of beneficial legislations also there were bound to be cases in which an inflexible application of the provisions of the enactment might result in unnecessary and undue hardship not contemplated by the legislature. The power to grant exemption under s. 29 of the Act, therefore, has been conferred not for making any discrimination between tenants and tenants but to avoid undue hardship or abuse of the beneficial provisions that might result from uniform application of such provisions to cases which deserve different treatment.",
+      "abuse of the beneficial provisions that might result from uniform application of such provisions to cases which deserve different treatment. 24. The decision reiterated that the Tamil Nadu Rent Act was a piece of beneficial legislation intended to remedy the two evils of rackrenting (exaction of exorbitant rents) and unreasonable eviction generated by a large scale of influx of population to big cities and urban areas in the post Second World War period creating acute shortage of accommodation in such areas and the enactment avowedly protects the rights of tenants in occupation of buildings in such areas from being charged unreasonable rents and from being unreasonably evicted therefrom. In that view of the matter it had made a rational classification of buildings belonging to government and buildings belonging to religious, charitable, educational and other public institutions and the different treatment accorded to such buildings u/s. 10(3)(b) of the Act.",
+      "religious, charitable, educational and other public institutions and the different treatment accorded to such buildings u/s. 10(3)(b) of the Act. 25. The scope of this Act was discussed by this Court in Raval and Co. v. K.C. Ramachandran  Ors., [1974] 2 S.C.R. 629 1973 Indlaw SC 283, where the majority of the court at pages 635 to 636 observed:-\nAll these show that the Madras Legislature had applied its mind to the problem of housing and control of rents and provided a scheme of its own. It did not proceed on the basis that the legislation regarding rent control was only for the benefit of the tenants. It wanted it to be fair both to the landlord as well as the tenant. Apparently it realised that the pegging of the rents at the 1940 rates had discouraged building construction activity which ultimately is likely to affect every body and therefore in order to encourage new constructions exempted them altogether from the provisions of the Act. It did not proceed on the basis that all tenants belonged to the weaker section of the community and needed protection and that all landlords belonged to the better off classes. It confined the protection of the Act to the weaker section paying rents below Rs.250. It is clear, therefore, that the Madras Legislature deliberately proceeded on the basis that fair rent was to be fixed which was to be fair both to the landlords as well as to the tenants and that only the poorer classes of tenants needed protection. The facile assumption on the basis of which an argument was advanced before this Court that all Rent Acts are intended for the protection of tenants and, therefore, this Act also should be held to be intended only for the protection of tenants breaks down when the provisions of the Act are examined in detail. The provision that both the tenant as well as the landlord can apply for fixation of a fair rent would become meaningless if fixation of fair rent can only be downwards from the contracted rent and the contract rent was not to be increased. Of course, it has happened over the last few years that rents have increased enormously and that is why it is argued on behalf of the tenants that the contract rents should not be changed. If we could contemplate a situation where rents and prices are coming down this argument will break down. It is a realisation of the fact that prices and rents have enormously increased and therefore if the rents are pegged at 1940 rates there would be no new construction and the community as a whole would suffer that led the Madras Legislature to exempt new buildings from the scope of the Act. It realised apparently how dangerous was the feeling that only fools build houses for wise men to live in. At the time the 1960 Act was passed the Madras Legislature had before it the precedent of the Madras Cultivating Tenants (Payment of Fair Rent) Act, 1956. That Act provides for fixation of fair rent. It also provides that the contract rent, if lower, will be payable during the contract period. Even if the contract rent is higher only the fair rent will be payable. After the contract period is over only the fair rent is payable. The Madras Legislature having this Act in mind still made only the fair rent payable and not the contract rent if it happens to be lower. It is clear, therefore, that the fair rent under the present Act is payable during the contract period as well as after the expiry of the contract period.",
+      "under the present Act is payable during the contract period as well as after the expiry of the contract period. 26. The Act sought to restore the balance in the scale which is otherwise weighted in favour of the stronger party which had larger bargaining power. The Act balances the scales and regulates the rights of the parties fairly and cannot be construed only in favour of the tenant.",
+      "the scales and regulates the rights of the parties fairly and cannot be construed only in favour of the tenant. 27. In Murlidhar Agarwal and another v. State of U.P. and others, [1975] 1 S.C.R. 5751974 Indlaw SC 264 this Court had occasion to deal with this matter. In that case, powers of High Court to interfere with revisional orders passed by State Government under section 7F of U.P. Temporary Control of Rent and Eviction Act, 1947 were challenged. The Court was of the view that if a provision was enacted for the benefit of a person or class of persons, there was nothing which precluded him or them from contracting to waive the benefit, provided that no question of public policy was involved. In doing so, the question arose what was the public policy involved in the said Rent Act. There can be no doubt about the policy of the law, namely, the protection of a weaker class in the community from harassment of frivolous suits. But the question is, is there a public policy behind it which precludes a tenant from waiving it Mathew, J. reiterated that public policy does not remain static in any given community. It may vary from generation to generation and even in the same generation. Public policy would be almost useless if it were to remain in fixed moulds for all time. The Rent Act, however, balances both the sides, the landlord and the tenant.",
+      "remain in fixed moulds for all time. The Rent Act, however, balances both the sides, the landlord and the tenant. 28. The main provision of S. 14(1)(b) enables a landlord to make an application to the Rent Controller and the Rent Controller, if he is satisfied that the building is bonafide required by the landlord for the immediate purpose of demolishing it for the purpose of erecting a new building on the site of the building sought to be demolished may pass an order directing the tenant to deliver possession of the building to the landlord before a specified date. 29. S. 16 provides for the tenant to occupy the building if it is not demolished in certain contingencies. The scheme of the section was very carefully analysed in Shah Bhojraj Kuverji Oil Mills and Ginning Factory v. Subbash Chandra Yograj Sinha, [1962] 2 S.C.R. 159 1961 Indlaw SC 472.",
+      "Bhojraj Kuverji Oil Mills and Ginning Factory v. Subbash Chandra Yograj Sinha, [1962] 2 S.C.R. 159 1961 Indlaw SC 472. 30. In Metalware and Co. etc. v. Bansilal Sharma and Ors. etc., [1979] 3 S.C.R. 11071979 Indlaw SC 225 this Court emphasised that the phrase used in s. 14(1)(b) of the Act was the building was bona fide required by the landlord for the immediate purpose of demolition and reconstruction and the same clearly referred to the bona fide requirement of the landlord. This Court emphasised that the requirement in terms was not that the building should need immediate demolition and reconstruction. The state or condition of the building and the extent to which it could stand without immediate demolition and reconstruction in future would not be a totally irrelevant factor while determining the bona fide requirement of the landlord. This Court emphasised that if the Rent Controller had to be satisfied about the bona fide requirement of the landlord which meant genuineness of his claim in that behalf the Rent Controller would have to take into account all the surrounding circumstances including not merely the factors of the landlord being possessed of sufficient means or funds to undertake the project and steps taken by him in that regard but also the existing condition of the building, its age and situation and possibility or otherwise of its being put to a more profitable use after reconstruction. All these factors being relevant must enter the verdict of the Rent Controller on the question of the bona fide requirement of the landlord under s. 14(1)(b).",
+      "the verdict of the Rent Controller on the question of the bona fide requirement of the landlord under s. 14(1)(b). 31. The fact that a landlord being possessed of sufficient means to undertake the project of demolition and reconstruction by itself might not be sufficient to establish his bona fide requirement if the building happened to be a very recent construction in a perfectly sound condition and its situation might prevent its being put to a more profitable use after reconstruction. The Rent Controller has thus to take into account the totality of the circumstances and the factors referred to in the judgment by lesser or greater significance depending upon whether in the scheme of the concerned enactment there is or there is not a provision for re-induction of the evicted tenant into the new construction. Reference was made to the decision of this Court in Neta Ram v. Jiwan Lal, [1962] Suppl. 2 S.C.R. 623 1962 Indlaw SC 123. There must be bona fide need of the landlord on all the conditions required to be fulfilled. That being the scheme of the section, it cannot be said, in our opinion, that the section was arbitrary and excessive powers were given to the landlords. Absence of provision for re-induction does not ipso facto make the provisions of the Act unfair or make the Act self defeating.",
+      "provision for re-induction does not ipso facto make the provisions of the Act unfair or make the Act self defeating. 32. It has been borne in mind that the provisions of the Act imposed restrictions on the landlords right under the common law or the Transfer of Property Act to evict the tenant after termination of his tenancy. The rationale of these restrictions on the landlords rights is the acute shortage of accommodation and the consequent need to give protection to the tenants against unrestricted eviction. The nature, the form and the extent of the restrictions to be imposed on the landlords right and the consequent extent of protection to be given to the tenants is a matter of legislative policy and judgment. It is inevitably bound to vary from one State to another depending on local and peculiar conditions prevailing in the State and the individual States appreciation of the needs and problems of its people. When we are confronted with the problem of a legislation being violative of Article 14, we are not concerned with the wisdom or lack of legislative enactment but we are concerned with the illegality of the legislation. There may be more than one view about the appropriateness or effectiveness or extent of the restrictions. There may be also more than one view about the relaxation of the restrictions on the landlords right of eviction. This fact is reflected in the different provisions made in different Acts about the grounds for eviction. For example, in case of Assam, Meghalaya, Andhra Pradesh, Delhi, Haryana, Orissa, Tripura, East Punjab, Madhya Pradesh, Tamil Nadu, Kerala, Mysore, Himachal Pradesh and Pondicherry, no particular duration for arrears of rent is prescribed, which would entitle a landlord to maintain an action for ejectment of his tenant.\nHowever, in other cases a certain period is prescribed. For instance, two months in Bihar, West Bengal and Jammu and Kashmir, three months in Goa and Tripura, four months in Uttar Pradesh, six months in Bombay and Rajasthan. Again some Rent Acts require that before an action for ejectment on the ground of arrears is instituted, a notice demanding rent should be served on the tenant-for example- Bombay, Delhi, Kerala, Tripura, Jammu and Kashmir, Madhya Pradesh and U.P. Rent Acts. In such cases the tenant is given one chance to pay up the arrears. Again different Rent Acts provide different facts and circumstances on the basis of which premises could be recovered on the ground of bona fide personal requirement. Generally the bona fide requirement extends both to residential as well as commercial premises. However, the Delhi Rent Control Act restricts the right on account of the bona fide need of the landlords right to premises let for residential use only.\nFurther, Bihar, Bombay, Goa, Jammu and Kashmir, Karnataka, Tamil Nadu, U.P. and West Bengal Rent Acts provide for partial eviction. But there is no such provision in the other Acts. It is obvious from the above that there can be no fixed and inflexible criteria or grounds governing imposition of restrictions on the landlords right or for relaxation of those restrictions in certain cases. Ultimately it is a matter of legislative policy and judgment.\nCourts are not concerned with the unwisdom of legislation.\nIn short, unconstitutionality and not unwisdom of a legislation is the narrow area of judicial review..",
+      "the unwisdom of legislation. In short, unconstitutionality and not unwisdom of a legislation is the narrow area of judicial review.. 33. See in this connection the observations of Krishna Iyer, J. in Murthy Match Works, etc. etc. v. The Asstt. Collector of Central Excise, etc., [1974] 3 S.C.R. 121 1974 Indlaw SC 509. This Court approved the above passage from the American Jurisprudence and emphasised that in a classification for governmental purposes there cannot be an exact exclusion or inclusion of persons and things. It is important to bear in mind the Constitutional command for a state to afford equal protection of the law sets a goal not attainable by the invention and application of a precise formula. Therefore, a large latitude is allowed to the States for classification upon any reasonable basis. See also in this connection the observations of this Court in Re The Special Courts Bill, 1978, [1979] 2 S.C.R. 476 1978 Indlaw SC 352 where Chandrachud, C.J.speaking for the Court at pages 534to537 of the report laid down the propositions guiding Art. 14 and emphasised that the classification need not be constituted by an exact or scientific exclusion nor insist on delusive exactness or apply doctrinaire tests for determining the validity of classification in any given case. Classification therefore, is justified if it is not palpably arbitrary. We also in view of the different provisions we have discussed bear in mind the fact that there is no such consensus among the different States about the right of re-induction of tenant in case of eviction required for demolition. It will depend on the particular State and, appreciation of the need and problem at a particular point of time by that State concerned. The purpose underlying s. 14(1)(b) read with s. 16(2) of the Tamil Nadu Rent Act is to remove or mitigate the disinclination on the part of landlords to expend moneys for demolition of dilapidated buildings and reconstruct new buildings in their places. It is a matter of which judicial notice can be taken that the return from old and dilapidated buildings is very meagre and in several cases such buildings prove uneconomic for the landlords with the result that the condition of the building deteriorates and there are even collapses of such buildings. It is for this purpose that the landlord is given by s. 14(1)(b) read with s. 16 an incentive in the form of exemption from the provisions of the Rent Act in respect of reconstructed building for the limited and short duration of five years. The policy under s. 14(1)(b) read with s. 16 is not in essence different from the policy adopted by different States of giving exemption for a limited duration to newly constructed buildings.",
+      "essence different from the policy adopted by different States of giving exemption for a limited duration to newly constructed buildings. 34. These provisions, namely, exemption of new buildings from the provisions of the Rent Act for a period of five years or ten years has been upheld as constitutional. See in this connection the observations of this Court in the case of Punjab Tin Supply Co., Chandigarh  Ors. v. The Central Govt.  Ors., [1984] 1 SCC 206 1983 Indlaw SC 259 and Mohinder Kumar v. State of Haryana and Anr, [1985] 4 S.C.C. 221 at pages 226-2271985 Indlaw SC 262. There the Court emphasised that it is entirely for the Legislature to decide whether any measures, and if so, what measures are to be adopted for remedying the situation and for ameliorating the hardship of tenants. The Legislature may very well come to a conclusion that it is the shortage of buildings which has resulted in scarcity of accommodation and has created a situation where the demand for accommodation is far in excess of the requisite supply, and, it is because of such acute scarcity of accommodation the landlords are in a position to exploit the situation to the serious detriment of the tenants.\nThe Court observed at pages 226to227 of the report as under:\nThe Legislature in its wisdom may properly consider that in effecting an improvement of the situation and for mitigating the hardship of the tenanted class caused mainly due to shortage of buildings, it will be proper to encourage construction of new buildings, as construction of new buildings will provide more accommodation, easing the situation to a large extent, and will ultimately result in benefiting the tenants. As in view of the rigours of Rent Control Legislation, persons with means may not be inclined to invest in construction of new houses, the Legislature to attract investment in construction of new houses may consider it reasonable to provide for adequate incentives so that new constructions may come up. It is an elementary law of economics that anybody who wants to invest his money in any venture will expect a fair return on the investment made. As acute scarcity of accommodation is to an extent responsible for the landlord and tenant problem, a measure adopted by the Legislature for seeking to meet the situation by encouraging the construction of new buildings for the purpose of mitigating the hardship of tenants must be considered to be a step in the right direction. The provision for exemption from the operation of the Rent Control Legislation by way of incentive to persons with means to construct new houses has been made in S. 1(3) of the Act by the Legislature in the legitimate hope that construction of new buildings will ultimately result in mitigation of the hardship of the tenants. Such incentive has a clear nexus with the object to be achieved and cannot be considered to be unreasonable or arbitrary. Any such incentive offered for the purpose of construction of new buildings with the object of easing the situation of scarcity of accommodation for ameliorating the conditions of the tenants, cannot be said to be unreasonable, provided the nature and character of the incentive and the measure of exemption allowed are not otherwise unreasonable and arbitrary. The exemption to be allowed must be for a reasonable and a definite period. An exemption for an indefinite period or a period which in the facts and circumstances of any particular case may be considered to be unduly long, may be held to be arbitrary. The exemption must necessarily be effective from a particular date and must be with the object of promoting new constructions. With the commencement of the Act, the provisions of the Rent Act with all the restrictions and rigours become effective. Buildings which have been constructed before the commencement of the Act were already there and the question of any kind of impetus or incentive to such buildings does not arise. The Legislature, therefore, very appropriately allowed the benefit of the exemption to the buildings, the construction of which commenced or was completed on or after the commencement of the Act. This exemption in respect of buildings coming up or to come up on or after the date of commencement of the Act is likely to serve the purpose of encouraging new buildings to be constructed. There is therefore nothing arbitrary or unreasonable in fixing the date of commencement of the Act from which the exemption is to be operative.",
+      "arbitrary or unreasonable in fixing the date of commencement of the Act from which the exemption is to be operative. 35. S. 14(1)(b) has sufficient inbuilt guidelines. The requirements to be satisfied before initiating action under this provision have been judicially laid down by the Madras High Court by Anantanarayanan, J. as he then was, in Mehsin Bhai v. Hale and company, G. T. Madras, [1964] 2 Madras Law Journal 147. Anantanarayanan, J. observed at page 147 as follows:\n What the section really required is that the landlord must satisfy the Court that the building was bona fide required by him, for the immediate purpose of demolition. I am totally unable to see how the present state of the building, and the extent to which it could stand without immediate demolition and reconstruction, in the future, are not relevant considerations in assessing the bona fides of the landlord. On the one hand, landlords may bona fide require such buildings, particularly old buildings, in their own interest, for demolition and reconstruction. On the other hand, it is equally possible that the mere fact that the building is old, is taken advantage of by the landlord to put forward such pretext his real object being ulterior, and not bona fide for the purpose of reconstruction. The Courts have to apply several criteria, and to judge upon the totality of the facts. But the Courts cannot exclude the possibility that the ancient or relatively old character of the building which may nevertheless be in quite a good and sound condition, is being taken advantage of by a landlord in order to make such an application with an ulterior purpose, which purpose might be, for instance, to obtain far more advantageous terms of rent in the future. What the section really contemplates is a bona fide requirement; that necessarily implied that it is in the interests of the landlord to demolish and reconstruct the building, and that the fact that the building is old is not merely a pretext for advancing the application, with the object of evicting the tenant, and of obtaining higher rentals.",
+      "not merely a pretext for advancing the application, with the object of evicting the tenant, and of obtaining higher rentals. 36. This Court also emphasised this aspect in the decision of Metalware  Co. etc. v. Bansilal Sharma and others etc., [1979] 3 S.C.R. 1107 at pages 1117-11181979 Indlaw SC 225.",
+      "of Metalware Co. etc. v. Bansilal Sharma and others etc., [1979] 3 S.C.R. 1107 at pages 1117-11181979 Indlaw SC 225. 37. We are therefore unable to accept the submission that absence of the right of induction of tenants in reconstructed premises is either arbitrary or unreasonable. The submission that s. 16(2) which provides that when a building is totally demolished and on which a new building is erected shall be exempt from all the provisions of the Act for a period of five years is bad is also unsustainable. See in this connection the observations of this Court in M/s. Punjab Tin Supply Co., Chandigarh etc. etc. v. The Central Government and others, [1984] 1 S.C.R. 428 1983 Indlaw SC 259 and Motor General Traders and another etc. etc. v. State of Andhra Pradesh and others etc. etc., [1984] 1 S.C.R. 594 at page 605 1983 Indlaw SC 256. It was submitted that the fact that in these cases exemption was after the first construction of the building and not after demolition and re-construction but that would not make any difference to the principle applicable.",
+      "of the building and not after demolition and re-construction but that would not make any difference to the principle applicable. 38. The principle underlying such exemption for a period of five years is not discriminatory against tenants, nor is it against the policy of the Act. It only serves as an incentive to the landlord for creation of additional housing accommodation to meet the growing needs of persons who have no accommodation to reside or to carry on business. It does not create a class of landlords who will forever be kept outside the scope of the Act as the provision balances the interests of the landlords on the one hand and the tenants on the other in a reasonable way. This Court in Atam Prakash v. State of Haryana and others, [1986] 2 S.C.C. 249 1986 Indlaw SC 276 also judged the rules of classification in dealing with the Punjab Pre-emption Act, 1913.",
+      "S.C.C. 249 1986 Indlaw SC 276 also judged the rules of classification in dealing with the Punjab Pre-emption Act, 1913. 39. This Court emphasised in Panchamal Narayan Shenoy v. Basthi Venkatesha Shenoy, [1970] 3 S.C.R. 734 1970 Indlaw SC 346 that in considering the reasonable and bona fide requirements of the landlord under this clause, the desire of the landlord to put the property to a more profitable use after demolition and reconstruction is also a factor that may be taken into account in favour of the landlord. It was also emphasised that it was not necessary that the landlord should go further and establish under this clause that the condition of the building is such that it requires immediate demolition.",
+      "go further and establish under this clause that the condition of the building is such that it requires immediate demolition. 40. Our attention was drawn to certain observations of Chatterjee, J. of the Calcutta High Court in Jiwanlal  Co. and others v. Manot and Co., Ltd., (64 Calcutta Weekly Notes 932 at page 937) that where the landlord had established a case of building and rebuilding the tenants undoubtedly would suffer on ejectment. The learned Judge was of the view that though the landlords required the premises for the purpose of building and rebuilding, it was not desirable that the tenants should be ejected. The learned Judge emphasised that the purpose of the Act was to protect the tenants as long as possible and to eject them only when it was not otherwise possible. The landlords did not require it for their own use and occupation.",
+      "them only when it was not otherwise possible. The landlords did not require it for their own use and occupation. 41. They wanted it for the advantage of increased accommodation. The learned Judge was of the view that if the tenants were ejected, then for the time being, far from the problem being solved, it would create difficulties for the public as well as for themselves. We are, however, unable to accept this principle. It is true that the Act must be so construed that it harmonises the rights of the landlords and at the same time protects the tenants and also serves best the purpose of the Act and one of the purposes of the Act is to solve the acute shortage of accommodation by making a rational basis for eviction and to encourage building and rebuilding which is at the root of all causes of shortage of accommodation.",
+      "for eviction and to encourage building and rebuilding which is at the root of all causes of shortage of accommodation. 42. It was held by a learned single Judge of the Madras High Court (one of us-Natarajan J.) in M/s. Patel Roadways Private Limited, Madras v. State of Tamil Nadu and others, (A.I.R. 1985 Madras 119) 1984 Indlaw MAD 261 that the provisions of the Tamil Nadu Act were not violative of Art. 14 and Art. 19(1)(f) of the Act. But that was in a slightly different context.",
+      "were not violative of Art. 14 and Art. 19(1)(f) of the Act. But that was in a slightly different context. 43. Post war migration of human beings en bloc place to place, the partition of the country and uprooting of the people from their hearth and home, explosion of population, are the various vital factors leading to the present acute shortage of housing. It has to be borne in mind that the urge for land and yearning for hearth and home are as perennial emotions as hunger and sex are, as Poet Rabindranath would say meaning thereby, it is not wealth-I seek, it is not fame that I want, I crave for a home expressing the eternal yearning of all living beings for habitat."
+    ],
+    "all_metadata": [
+      {
+        "total_sections": "9",
+        "start_char": "0",
+        "contains_judgment": "True",
+        "case_id": "C1",
+        "date": "26 September 1973",
+        "contains_citation": "False",
+        "file_path": "Object_casedocs\\C1.txt",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "word_count": "119",
+        "end_char": "681",
+        "court": "Supreme Court of India",
+        "paragraph_numbers": "[]",
+        "judge": "A. Alagiriswami",
+        "cleaned_length": "8852",
+        "chunk_size": "681",
+        "petition_number": "Writ Petition No. 117 ",
+        "original_length": "8868",
+        "chunk_id": "C1_0"
+      },
+      {
+        "chunk_size": "1256",
+        "date": "26 September 1973",
+        "original_length": "8868",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "chunk_id": "C1_1",
+        "cleaned_length": "8852",
+        "case_id": "C1",
+        "judge": "A. Alagiriswami",
+        "paragraph_numbers": "[]",
+        "end_char": "1939",
+        "total_sections": "9",
+        "contains_judgment": "True",
+        "start_char": "683",
+        "word_count": "213",
+        "contains_citation": "True",
+        "petition_number": "Writ Petition No. 117 ",
+        "file_path": "Object_casedocs\\C1.txt",
+        "court": "Supreme Court of India"
+      },
+      {
+        "file_path": "Object_casedocs\\C1.txt",
+        "chunk_id": "C1_2",
+        "contains_citation": "False",
+        "chunk_size": "952",
+        "paragraph_numbers": "[]",
+        "end_char": "2774",
+        "judge": "A. Alagiriswami",
+        "case_id": "C1",
+        "date": "26 September 1973",
+        "original_length": "8868",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "court": "Supreme Court of India",
+        "contains_judgment": "False",
+        "petition_number": "Writ Petition No. 117 ",
+        "cleaned_length": "8852",
+        "word_count": "172",
+        "total_sections": "9",
+        "start_char": "1822"
+      },
+      {
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "total_sections": "9",
+        "case_id": "C1",
+        "judge": "A. Alagiriswami",
+        "word_count": "158",
+        "petition_number": "Writ Petition No. 117 ",
+        "chunk_size": "847",
+        "start_char": "2655",
+        "cleaned_length": "8852",
+        "contains_citation": "False",
+        "end_char": "3502",
+        "chunk_id": "C1_3",
+        "contains_judgment": "True",
+        "paragraph_numbers": "[]",
+        "file_path": "Object_casedocs\\C1.txt",
+        "date": "26 September 1973",
+        "original_length": "8868",
+        "court": "Supreme Court of India"
+      },
+      {
+        "case_id": "C1",
+        "chunk_id": "C1_4",
+        "start_char": "3397",
+        "paragraph_numbers": "[]",
+        "file_path": "Object_casedocs\\C1.txt",
+        "contains_judgment": "True",
+        "chunk_size": "1504",
+        "total_sections": "9",
+        "word_count": "272",
+        "date": "26 September 1973",
+        "contains_citation": "True",
+        "cleaned_length": "8852",
+        "petition_number": "Writ Petition No. 117 ",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "court": "Supreme Court of India",
+        "original_length": "8868",
+        "end_char": "4901",
+        "judge": "A. Alagiriswami"
+      },
+      {
+        "contains_judgment": "True",
+        "chunk_size": "749",
+        "court": "Supreme Court of India",
+        "case_id": "C1",
+        "chunk_id": "C1_5",
+        "paragraph_numbers": "[]",
+        "total_sections": "9",
+        "petition_number": "Writ Petition No. 117 ",
+        "judge": "A. Alagiriswami",
+        "contains_citation": "True",
+        "start_char": "4782",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "cleaned_length": "8852",
+        "word_count": "126",
+        "date": "26 September 1973",
+        "file_path": "Object_casedocs\\C1.txt",
+        "end_char": "5531",
+        "original_length": "8868"
+      },
+      {
+        "chunk_size": "1526",
+        "word_count": "264",
+        "case_id": "C1",
+        "file_path": "Object_casedocs\\C1.txt",
+        "judge": "A. Alagiriswami",
+        "start_char": "5422",
+        "total_sections": "9",
+        "contains_judgment": "True",
+        "contains_citation": "True",
+        "petition_number": "Writ Petition No. 117 ",
+        "court": "Supreme Court of India",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "end_char": "6948",
+        "chunk_id": "C1_6",
+        "original_length": "8868",
+        "paragraph_numbers": "[]",
+        "date": "26 September 1973",
+        "cleaned_length": "8852"
+      },
+      {
+        "contains_citation": "False",
+        "paragraph_numbers": "[]",
+        "original_length": "8868",
+        "end_char": "8958",
+        "court": "Supreme Court of India",
+        "total_sections": "9",
+        "chunk_id": "C1_7",
+        "date": "26 September 1973",
+        "contains_judgment": "True",
+        "judge": "A. Alagiriswami",
+        "start_char": "6824",
+        "word_count": "363",
+        "cleaned_length": "8852",
+        "file_path": "Object_casedocs\\C1.txt",
+        "case_name": "Masud Khan v State Of Uttar Pradesh",
+        "case_id": "C1",
+        "chunk_size": "2134",
+        "petition_number": "Writ Petition No. 117 "
+      },
+      {
+        "chunk_size": "178",
+        "court": "Supreme Court of India",
+        "end_char": "178",
+        "original_length": "50684",
+        "cleaned_length": "50604",
+        "contains_citation": "False",
+        "contains_judgment": "True",
+        "judge": "Sabyasachi Mukharji",
+        "petition_number": "Writ Petition No. 506 ",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "date": "3 September 1987",
+        "case_id": "C10",
+        "chunk_id": "C10_0",
+        "file_path": "Object_casedocs\\C10.txt",
+        "start_char": "0",
+        "total_sections": "47",
+        "paragraph_numbers": "[]",
+        "word_count": "31"
+      },
+      {
+        "paragraph_numbers": "[]",
+        "contains_citation": "False",
+        "petition_number": "Writ Petition No. 506 ",
+        "judge": "Sabyasachi Mukharji",
+        "total_sections": "47",
+        "chunk_size": "1378",
+        "cleaned_length": "50604",
+        "chunk_id": "C10_1",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "word_count": "230",
+        "court": "Supreme Court of India",
+        "end_char": "1558",
+        "start_char": "180",
+        "case_id": "C10",
+        "file_path": "Object_casedocs\\C10.txt",
+        "original_length": "50684",
+        "date": "3 September 1987"
+      },
+      {
+        "start_char": "1442",
+        "word_count": "158",
+        "paragraph_numbers": "[]",
+        "cleaned_length": "50604",
+        "court": "Supreme Court of India",
+        "end_char": "2398",
+        "total_sections": "47",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_size": "956",
+        "chunk_id": "C10_2",
+        "contains_judgment": "True",
+        "date": "3 September 1987",
+        "original_length": "50684",
+        "contains_citation": "False",
+        "petition_number": "Writ Petition No. 506 ",
+        "judge": "Sabyasachi Mukharji",
+        "case_id": "C10",
+        "file_path": "Object_casedocs\\C10.txt"
+      },
+      {
+        "total_sections": "47",
+        "paragraph_numbers": "[]",
+        "judge": "Sabyasachi Mukharji",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "word_count": "118",
+        "court": "Supreme Court of India",
+        "cleaned_length": "50604",
+        "date": "3 September 1987",
+        "original_length": "50684",
+        "contains_citation": "False",
+        "start_char": "2259",
+        "file_path": "Object_casedocs\\C10.txt",
+        "chunk_size": "749",
+        "chunk_id": "C10_3",
+        "contains_judgment": "True",
+        "end_char": "3008",
+        "case_id": "C10",
+        "petition_number": "Writ Petition No. 506 "
+      },
+      {
+        "original_length": "50684",
+        "chunk_size": "959",
+        "paragraph_numbers": "[]",
+        "cleaned_length": "50604",
+        "end_char": "3847",
+        "total_sections": "47",
+        "judge": "Sabyasachi Mukharji",
+        "date": "3 September 1987",
+        "court": "Supreme Court of India",
+        "word_count": "159",
+        "file_path": "Object_casedocs\\C10.txt",
+        "petition_number": "Writ Petition No. 506 ",
+        "case_id": "C10",
+        "chunk_id": "C10_4",
+        "contains_citation": "False",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "start_char": "2888"
+      },
+      {
+        "paragraph_numbers": "[]",
+        "file_path": "Object_casedocs\\C10.txt",
+        "total_sections": "47",
+        "chunk_id": "C10_5",
+        "start_char": "3730",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "end_char": "4810",
+        "contains_citation": "False",
+        "petition_number": "Writ Petition No. 506 ",
+        "contains_judgment": "True",
+        "court": "Supreme Court of India",
+        "chunk_size": "1080",
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "word_count": "188",
+        "case_id": "C10",
+        "original_length": "50684",
+        "date": "3 September 1987"
+      },
+      {
+        "date": "3 September 1987",
+        "court": "Supreme Court of India",
+        "original_length": "50684",
+        "cleaned_length": "50604",
+        "petition_number": "Writ Petition No. 506 ",
+        "paragraph_numbers": "[]",
+        "contains_citation": "False",
+        "start_char": "4695",
+        "contains_judgment": "True",
+        "case_id": "C10",
+        "judge": "Sabyasachi Mukharji",
+        "file_path": "Object_casedocs\\C10.txt",
+        "end_char": "7841",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "total_sections": "47",
+        "chunk_id": "C10_6",
+        "chunk_size": "3146",
+        "word_count": "544"
+      },
+      {
+        "paragraph_numbers": "[]",
+        "cleaned_length": "50604",
+        "word_count": "156",
+        "court": "Supreme Court of India",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_id": "C10",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_size": "867",
+        "judge": "Sabyasachi Mukharji",
+        "original_length": "50684",
+        "total_sections": "47",
+        "chunk_id": "C10_7",
+        "contains_citation": "False",
+        "contains_judgment": "True",
+        "end_char": "8609",
+        "petition_number": "Writ Petition No. 506 ",
+        "date": "3 September 1987",
+        "start_char": "7742"
+      },
+      {
+        "paragraph_numbers": "[]",
+        "chunk_size": "841",
+        "chunk_id": "C10_8",
+        "word_count": "152",
+        "date": "3 September 1987",
+        "court": "Supreme Court of India",
+        "start_char": "8493",
+        "judge": "Sabyasachi Mukharji",
+        "petition_number": "Writ Petition No. 506 ",
+        "end_char": "9334",
+        "total_sections": "47",
+        "cleaned_length": "50604",
+        "case_id": "C10",
+        "original_length": "50684",
+        "file_path": "Object_casedocs\\C10.txt",
+        "contains_judgment": "False",
+        "contains_citation": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors."
+      },
+      {
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_id": "C10_9",
+        "case_id": "C10",
+        "original_length": "50684",
+        "total_sections": "47",
+        "paragraph_numbers": "[]",
+        "start_char": "9212",
+        "judge": "Sabyasachi Mukharji",
+        "end_char": "9935",
+        "court": "Supreme Court of India",
+        "file_path": "Object_casedocs\\C10.txt",
+        "date": "3 September 1987",
+        "chunk_size": "723",
+        "petition_number": "Writ Petition No. 506 ",
+        "cleaned_length": "50604",
+        "word_count": "123",
+        "contains_judgment": "False",
+        "contains_citation": "True"
+      },
+      {
+        "paragraph_numbers": "[]",
+        "end_char": "10713",
+        "case_id": "C10",
+        "file_path": "Object_casedocs\\C10.txt",
+        "petition_number": "Writ Petition No. 506 ",
+        "chunk_id": "C10_10",
+        "word_count": "153",
+        "original_length": "50684",
+        "judge": "Sabyasachi Mukharji",
+        "date": "3 September 1987",
+        "total_sections": "47",
+        "court": "Supreme Court of India",
+        "chunk_size": "875",
+        "contains_citation": "False",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "start_char": "9838",
+        "contains_judgment": "True",
+        "cleaned_length": "50604"
+      },
+      {
+        "petition_number": "Writ Petition No. 506 ",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "start_char": "10614",
+        "case_id": "C10",
+        "judge": "Sabyasachi Mukharji",
+        "total_sections": "47",
+        "file_path": "Object_casedocs\\C10.txt",
+        "contains_judgment": "False",
+        "date": "3 September 1987",
+        "court": "Supreme Court of India",
+        "word_count": "203",
+        "original_length": "50684",
+        "cleaned_length": "50604",
+        "end_char": "11802",
+        "chunk_id": "C10_11",
+        "paragraph_numbers": "[]",
+        "chunk_size": "1188",
+        "contains_citation": "False"
+      },
+      {
+        "original_length": "50684",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_id": "C10_12",
+        "end_char": "12734",
+        "start_char": "11703",
+        "date": "3 September 1987",
+        "paragraph_numbers": "[]",
+        "contains_judgment": "False",
+        "judge": "Sabyasachi Mukharji",
+        "contains_citation": "False",
+        "total_sections": "47",
+        "cleaned_length": "50604",
+        "petition_number": "Writ Petition No. 506 ",
+        "word_count": "161",
+        "court": "Supreme Court of India",
+        "chunk_size": "1031",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_id": "C10"
+      },
+      {
+        "court": "Supreme Court of India",
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "chunk_size": "1345",
+        "date": "3 September 1987",
+        "contains_citation": "False",
+        "original_length": "50684",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "end_char": "13934",
+        "case_id": "C10",
+        "start_char": "12589",
+        "word_count": "229",
+        "chunk_id": "C10_13",
+        "contains_judgment": "True",
+        "total_sections": "47",
+        "petition_number": "Writ Petition No. 506 ",
+        "paragraph_numbers": "[]",
+        "file_path": "Object_casedocs\\C10.txt"
+      },
+      {
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "chunk_size": "1124",
+        "original_length": "50684",
+        "case_id": "C10",
+        "file_path": "Object_casedocs\\C10.txt",
+        "court": "Supreme Court of India",
+        "chunk_id": "C10_14",
+        "contains_citation": "False",
+        "contains_judgment": "False",
+        "word_count": "197",
+        "total_sections": "47",
+        "paragraph_numbers": "[]",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "date": "3 September 1987",
+        "end_char": "14929",
+        "start_char": "13805",
+        "petition_number": "Writ Petition No. 506 "
+      },
+      {
+        "word_count": "123",
+        "end_char": "15536",
+        "paragraph_numbers": "[]",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "total_sections": "47",
+        "chunk_id": "C10_15",
+        "contains_judgment": "False",
+        "chunk_size": "725",
+        "judge": "Sabyasachi Mukharji",
+        "case_id": "C10",
+        "court": "Supreme Court of India",
+        "contains_citation": "False",
+        "petition_number": "Writ Petition No. 506 ",
+        "original_length": "50684",
+        "file_path": "Object_casedocs\\C10.txt",
+        "cleaned_length": "50604",
+        "date": "3 September 1987",
+        "start_char": "14811"
+      },
+      {
+        "petition_number": "Writ Petition No. 506 ",
+        "file_path": "Object_casedocs\\C10.txt",
+        "original_length": "50684",
+        "judge": "Sabyasachi Mukharji",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "total_sections": "47",
+        "word_count": "174",
+        "contains_citation": "True",
+        "chunk_id": "C10_16",
+        "end_char": "16409",
+        "start_char": "15411",
+        "paragraph_numbers": "[]",
+        "case_id": "C10",
+        "date": "3 September 1987",
+        "cleaned_length": "50604",
+        "court": "Supreme Court of India",
+        "chunk_size": "998"
+      },
+      {
+        "case_id": "C10",
+        "contains_judgment": "False",
+        "date": "3 September 1987",
+        "start_char": "16268",
+        "total_sections": "47",
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "chunk_id": "C10_17",
+        "chunk_size": "937",
+        "file_path": "Object_casedocs\\C10.txt",
+        "contains_citation": "True",
+        "original_length": "50684",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "end_char": "17205",
+        "petition_number": "Writ Petition No. 506 ",
+        "word_count": "161",
+        "court": "Supreme Court of India",
+        "paragraph_numbers": "[]"
+      },
+      {
+        "chunk_size": "1212",
+        "petition_number": "Writ Petition No. 506 ",
+        "end_char": "18295",
+        "total_sections": "47",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_judgment": "True",
+        "contains_citation": "False",
+        "original_length": "50684",
+        "date": "3 September 1987",
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "start_char": "17083",
+        "case_id": "C10",
+        "paragraph_numbers": "[]",
+        "chunk_id": "C10_18",
+        "court": "Supreme Court of India",
+        "word_count": "210",
+        "file_path": "Object_casedocs\\C10.txt"
+      },
+      {
+        "petition_number": "Writ Petition No. 506 ",
+        "start_char": "18186",
+        "chunk_id": "C10_19",
+        "cleaned_length": "50604",
+        "date": "3 September 1987",
+        "contains_judgment": "False",
+        "total_sections": "47",
+        "original_length": "50684",
+        "contains_citation": "True",
+        "case_id": "C10",
+        "judge": "Sabyasachi Mukharji",
+        "end_char": "18525",
+        "word_count": "64",
+        "court": "Supreme Court of India",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_size": "339",
+        "paragraph_numbers": "[]"
+      },
+      {
+        "start_char": "18418",
+        "end_char": "19207",
+        "file_path": "Object_casedocs\\C10.txt",
+        "judge": "Sabyasachi Mukharji",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_id": "C10_20",
+        "total_sections": "47",
+        "court": "Supreme Court of India",
+        "word_count": "146",
+        "date": "3 September 1987",
+        "cleaned_length": "50604",
+        "chunk_size": "789",
+        "contains_citation": "True",
+        "petition_number": "Writ Petition No. 506 ",
+        "paragraph_numbers": "[]",
+        "case_id": "C10",
+        "original_length": "50684"
+      },
+      {
+        "contains_judgment": "True",
+        "end_char": "20637",
+        "court": "Supreme Court of India",
+        "start_char": "19117",
+        "paragraph_numbers": "[]",
+        "chunk_size": "1520",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "petition_number": "Writ Petition No. 506 ",
+        "total_sections": "47",
+        "judge": "Sabyasachi Mukharji",
+        "cleaned_length": "50604",
+        "original_length": "50684",
+        "file_path": "Object_casedocs\\C10.txt",
+        "contains_citation": "True",
+        "case_id": "C10",
+        "chunk_id": "C10_21",
+        "word_count": "287",
+        "date": "3 September 1987"
+      },
+      {
+        "judge": "Sabyasachi Mukharji",
+        "original_length": "50684",
+        "total_sections": "47",
+        "petition_number": "Writ Petition No. 506 ",
+        "cleaned_length": "50604",
+        "paragraph_numbers": "[]",
+        "file_path": "Object_casedocs\\C10.txt",
+        "word_count": "233",
+        "date": "3 September 1987",
+        "contains_judgment": "True",
+        "chunk_size": "1395",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_citation": "True",
+        "chunk_id": "C10_22",
+        "start_char": "20527",
+        "end_char": "21922",
+        "court": "Supreme Court of India",
+        "case_id": "C10"
+      },
+      {
+        "court": "Supreme Court of India",
+        "total_sections": "47",
+        "contains_judgment": "False",
+        "petition_number": "Writ Petition No. 506 ",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_id": "C10",
+        "chunk_size": "971",
+        "cleaned_length": "50604",
+        "end_char": "22779",
+        "contains_citation": "False",
+        "date": "3 September 1987",
+        "judge": "Sabyasachi Mukharji",
+        "start_char": "21808",
+        "chunk_id": "C10_23",
+        "original_length": "50684",
+        "paragraph_numbers": "[]",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "word_count": "149"
+      },
+      {
+        "chunk_size": "3441",
+        "start_char": "22639",
+        "cleaned_length": "50604",
+        "petition_number": "Writ Petition No. 506 ",
+        "file_path": "Object_casedocs\\C10.txt",
+        "word_count": "611",
+        "date": "3 September 1987",
+        "paragraph_numbers": "[]",
+        "chunk_id": "C10_24",
+        "judge": "Sabyasachi Mukharji",
+        "end_char": "26080",
+        "court": "Supreme Court of India",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "original_length": "50684",
+        "case_id": "C10",
+        "contains_citation": "True",
+        "total_sections": "47"
+      },
+      {
+        "end_char": "26325",
+        "contains_citation": "False",
+        "court": "Supreme Court of India",
+        "judge": "Sabyasachi Mukharji",
+        "total_sections": "47",
+        "paragraph_numbers": "[]",
+        "date": "3 September 1987",
+        "original_length": "50684",
+        "cleaned_length": "50604",
+        "petition_number": "Writ Petition No. 506 ",
+        "chunk_size": "390",
+        "contains_judgment": "False",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "word_count": "69",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_id": "C10",
+        "start_char": "25935",
+        "chunk_id": "C10_25"
+      },
+      {
+        "cleaned_length": "50604",
+        "start_char": "26214",
+        "date": "3 September 1987",
+        "file_path": "Object_casedocs\\C10.txt",
+        "chunk_size": "1364",
+        "paragraph_numbers": "[]",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "case_id": "C10",
+        "end_char": "27578",
+        "original_length": "50684",
+        "word_count": "242",
+        "contains_citation": "True",
+        "petition_number": "Writ Petition No. 506 ",
+        "judge": "Sabyasachi Mukharji",
+        "contains_judgment": "True",
+        "total_sections": "47",
+        "court": "Supreme Court of India",
+        "chunk_id": "C10_26"
+      },
+      {
+        "cleaned_length": "50604",
+        "chunk_id": "C10_27",
+        "original_length": "50684",
+        "total_sections": "47",
+        "petition_number": "Writ Petition No. 506 ",
+        "date": "3 September 1987",
+        "chunk_size": "860",
+        "judge": "Sabyasachi Mukharji",
+        "paragraph_numbers": "[]",
+        "case_id": "C10",
+        "file_path": "Object_casedocs\\C10.txt",
+        "contains_judgment": "True",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "court": "Supreme Court of India",
+        "start_char": "27467",
+        "end_char": "28327",
+        "word_count": "150",
+        "contains_citation": "True"
+      },
+      {
+        "contains_citation": "True",
+        "chunk_size": "1586",
+        "court": "Supreme Court of India",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "petition_number": "Writ Petition No. 506 ",
+        "paragraph_numbers": "[]",
+        "date": "3 September 1987",
+        "end_char": "29800",
+        "cleaned_length": "50604",
+        "case_id": "C10",
+        "judge": "Sabyasachi Mukharji",
+        "total_sections": "47",
+        "start_char": "28214",
+        "chunk_id": "C10_28",
+        "file_path": "Object_casedocs\\C10.txt",
+        "original_length": "50684",
+        "word_count": "263",
+        "contains_judgment": "False"
+      },
+      {
+        "file_path": "Object_casedocs\\C10.txt",
+        "date": "3 September 1987",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_judgment": "True",
+        "case_id": "C10",
+        "paragraph_numbers": "[]",
+        "contains_citation": "True",
+        "cleaned_length": "50604",
+        "judge": "Sabyasachi Mukharji",
+        "total_sections": "47",
+        "word_count": "226",
+        "original_length": "50684",
+        "end_char": "31000",
+        "court": "Supreme Court of India",
+        "chunk_id": "C10_29",
+        "start_char": "29682",
+        "chunk_size": "1318",
+        "petition_number": "Writ Petition No. 506 "
+      },
+      {
+        "end_char": "34266",
+        "petition_number": "Writ Petition No. 506 ",
+        "word_count": "556",
+        "chunk_id": "C10_30",
+        "start_char": "30886",
+        "case_id": "C10",
+        "court": "Supreme Court of India",
+        "date": "3 September 1987",
+        "original_length": "50684",
+        "contains_judgment": "True",
+        "file_path": "Object_casedocs\\C10.txt",
+        "cleaned_length": "50604",
+        "total_sections": "47",
+        "judge": "Sabyasachi Mukharji",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "chunk_size": "3380",
+        "paragraph_numbers": "[]",
+        "contains_citation": "False"
+      },
+      {
+        "cleaned_length": "50604",
+        "start_char": "34150",
+        "contains_judgment": "False",
+        "contains_citation": "True",
+        "paragraph_numbers": "[]",
+        "end_char": "36874",
+        "chunk_size": "2724",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "judge": "Sabyasachi Mukharji",
+        "file_path": "Object_casedocs\\C10.txt",
+        "date": "3 September 1987",
+        "petition_number": "Writ Petition No. 506 ",
+        "word_count": "455",
+        "case_id": "C10",
+        "total_sections": "47",
+        "court": "Supreme Court of India",
+        "chunk_id": "C10_31",
+        "original_length": "50684"
+      },
+      {
+        "contains_judgment": "True",
+        "word_count": "751",
+        "paragraph_numbers": "[]",
+        "chunk_id": "C10_32",
+        "file_path": "Object_casedocs\\C10.txt",
+        "judge": "Sabyasachi Mukharji",
+        "court": "Supreme Court of India",
+        "start_char": "36742",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_citation": "True",
+        "date": "3 September 1987",
+        "petition_number": "Writ Petition No. 506 ",
+        "cleaned_length": "50604",
+        "chunk_size": "4477",
+        "total_sections": "47",
+        "original_length": "50684",
+        "end_char": "41219",
+        "case_id": "C10"
+      },
+      {
+        "petition_number": "Writ Petition No. 506 ",
+        "court": "Supreme Court of India",
+        "judge": "Sabyasachi Mukharji",
+        "paragraph_numbers": "[]",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "cleaned_length": "50604",
+        "chunk_size": "2089",
+        "start_char": "41083",
+        "file_path": "Object_casedocs\\C10.txt",
+        "case_id": "C10",
+        "total_sections": "47",
+        "contains_citation": "False",
+        "end_char": "43172",
+        "original_length": "50684",
+        "chunk_id": "C10_33",
+        "word_count": "351",
+        "contains_judgment": "True",
+        "date": "3 September 1987"
+      },
+      {
+        "judge": "Sabyasachi Mukharji",
+        "end_char": "43357",
+        "original_length": "50684",
+        "paragraph_numbers": "[]",
+        "chunk_size": "301",
+        "date": "3 September 1987",
+        "contains_citation": "True",
+        "chunk_id": "C10_34",
+        "word_count": "50",
+        "petition_number": "Writ Petition No. 506 ",
+        "case_id": "C10",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "court": "Supreme Court of India",
+        "file_path": "Object_casedocs\\C10.txt",
+        "cleaned_length": "50604",
+        "contains_judgment": "False",
+        "start_char": "43056",
+        "total_sections": "47"
+      },
+      {
+        "judge": "Sabyasachi Mukharji",
+        "petition_number": "Writ Petition No. 506 ",
+        "total_sections": "47",
+        "file_path": "Object_casedocs\\C10.txt",
+        "court": "Supreme Court of India",
+        "paragraph_numbers": "[]",
+        "word_count": "185",
+        "end_char": "44304",
+        "original_length": "50684",
+        "date": "3 September 1987",
+        "chunk_id": "C10_35",
+        "contains_judgment": "False",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "start_char": "43233",
+        "contains_citation": "True",
+        "cleaned_length": "50604",
+        "chunk_size": "1071",
+        "case_id": "C10"
+      },
+      {
+        "contains_citation": "True",
+        "file_path": "Object_casedocs\\C10.txt",
+        "end_char": "45066",
+        "court": "Supreme Court of India",
+        "original_length": "50684",
+        "contains_judgment": "False",
+        "chunk_size": "878",
+        "cleaned_length": "50604",
+        "chunk_id": "C10_36",
+        "start_char": "44188",
+        "case_id": "C10",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "petition_number": "Writ Petition No. 506 ",
+        "date": "3 September 1987",
+        "total_sections": "47",
+        "word_count": "154",
+        "judge": "Sabyasachi Mukharji",
+        "paragraph_numbers": "[]"
+      },
+      {
+        "cleaned_length": "50604",
+        "petition_number": "Writ Petition No. 506 ",
+        "total_sections": "47",
+        "date": "3 September 1987",
+        "contains_judgment": "False",
+        "court": "Supreme Court of India",
+        "judge": "Sabyasachi Mukharji",
+        "contains_citation": "True",
+        "chunk_id": "C10_37",
+        "end_char": "45658",
+        "start_char": "44938",
+        "word_count": "121",
+        "case_id": "C10",
+        "paragraph_numbers": "[]",
+        "chunk_size": "720",
+        "file_path": "Object_casedocs\\C10.txt",
+        "original_length": "50684",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors."
+      },
+      {
+        "paragraph_numbers": "[]",
+        "total_sections": "47",
+        "cleaned_length": "50604",
+        "case_id": "C10",
+        "contains_citation": "False",
+        "file_path": "Object_casedocs\\C10.txt",
+        "court": "Supreme Court of India",
+        "chunk_id": "C10_38",
+        "date": "3 September 1987",
+        "chunk_size": "854",
+        "contains_judgment": "False",
+        "judge": "Sabyasachi Mukharji",
+        "word_count": "146",
+        "end_char": "46393",
+        "original_length": "50684",
+        "start_char": "45539",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "petition_number": "Writ Petition No. 506 "
+      },
+      {
+        "file_path": "Object_casedocs\\C10.txt",
+        "chunk_id": "C10_39",
+        "paragraph_numbers": "[]",
+        "judge": "Sabyasachi Mukharji",
+        "end_char": "47102",
+        "cleaned_length": "50604",
+        "date": "3 September 1987",
+        "court": "Supreme Court of India",
+        "chunk_size": "833",
+        "contains_judgment": "False",
+        "case_id": "C10",
+        "total_sections": "47",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "petition_number": "Writ Petition No. 506 ",
+        "start_char": "46269",
+        "original_length": "50684",
+        "contains_citation": "False",
+        "word_count": "150"
+      },
+      {
+        "start_char": "46990",
+        "judge": "Sabyasachi Mukharji",
+        "paragraph_numbers": "[]",
+        "total_sections": "47",
+        "date": "3 September 1987",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_citation": "True",
+        "end_char": "47475",
+        "court": "Supreme Court of India",
+        "word_count": "88",
+        "file_path": "Object_casedocs\\C10.txt",
+        "chunk_id": "C10_40",
+        "original_length": "50684",
+        "cleaned_length": "50604",
+        "chunk_size": "485",
+        "case_id": "C10",
+        "contains_judgment": "True",
+        "petition_number": "Writ Petition No. 506 "
+      },
+      {
+        "cleaned_length": "50604",
+        "word_count": "124",
+        "contains_citation": "False",
+        "end_char": "48033",
+        "petition_number": "Writ Petition No. 506 ",
+        "case_id": "C10",
+        "judge": "Sabyasachi Mukharji",
+        "original_length": "50684",
+        "court": "Supreme Court of India",
+        "paragraph_numbers": "[]",
+        "chunk_size": "676",
+        "start_char": "47357",
+        "total_sections": "47",
+        "case_name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "contains_judgment": "False",
+        "date": "3 September 1987",
+        "chunk_id": "C10_41",
+        "file_path": "Object_casedocs\\C10.txt"
+      }
+    ]
+  },
+  "knowledge_graph": {
+    "node_counts": [
+      {
+        "NodeType": "Case",
+        "Count": 1482
+      },
+      {
+        "NodeType": "IPCSection",
+        "Count": 439
+      },
+      {
+        "NodeType": "Offense",
+        "Count": 378
+      },
+      {
+        "NodeType": "Judge",
+        "Count": 189
+      },
+      {
+        "NodeType": "Punishment",
+        "Count": 81
+      },
+      {
+        "NodeType": "Article",
+        "Count": 16
+      },
+      {
+        "NodeType": "Court",
+        "Count": 1
+      }
+    ],
+    "ipc_sections": [
+      {
+        "section": "140",
+        "offense": "Wearing the dress or carrying any token used by a soldier, sailor or airman with intent that it may be believed that he is such a soldier, sailor or airman",
+        "punishment": "3 Months or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "127",
+        "offense": "Receiving property taken by war or depredation mentioned in sections 125 And 126",
+        "punishment": "7 Years   Fine   forfeiture of property",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "128",
+        "offense": "Public servant voluntarily allowing prisoner of State or war in his custody to escape",
+        "punishment": "Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "129",
+        "offense": "Public servant negligently suffering prisoner of State or war in his custody to escape",
+        "punishment": "Simple Imprisonment 3 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "130",
+        "offense": "Aiding escape of, rescuing or harbouring, such prisoner, or offering Any resistance to the recapture of such prisoner",
+        "punishment": "Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "131",
+        "offense": "Abetting mutiny, or attempting to seduce an officer, soldier sailor or airman from his allegiance or duty",
+        "punishment": "Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "132",
+        "offense": "Abetment of mutiny, if mutiny is committed in consequence thereof",
+        "punishment": "Death or Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "133",
+        "offense": "Abetment of an assault by An officer, soldier, sailor Or airman on his superior officer, when in the execution of his office",
+        "punishment": "3 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "134",
+        "offense": "Abetment of such assault, if the assault is committed",
+        "punishment": "7 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "135",
+        "offense": "Abetment of the desertion of an officer, soldier, sailor or airman",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "136",
+        "offense": "Harbouring such an officer, soldier, sailor or airman who has deserted",
+        "punishment": "2 Years or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "122",
+        "offense": "Collecting arms, etc., with The intention of waging War against the Government of India",
+        "punishment": "Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "137",
+        "offense": "Deserter concealed on board merchant vessel, through negligence of master or person in charge thereof",
+        "punishment": "Fine",
+        "cognizable": "Non-Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "138",
+        "offense": "Abetment of act of insubordination by an officer, soldier, sailor or airman, if the offence be committed in consequence",
+        "punishment": "6 Months or Fine or Both",
+        "cognizable": "Cognizable",
+        "bailable": "Bailable"
+      },
+      {
+        "section": "121A",
+        "offense": "Conspiring to commit certain offences against the State",
+        "punishment": "Imprisonment for Life or 10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "123",
+        "offense": "Concealing with intent to facilitate a design to wage War",
+        "punishment": "10 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "124",
+        "offense": "Assaulting President, Governor, etc., with intent to compel or restrain the exercise of any lawful power",
+        "punishment": "7 Years   Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "124A",
+        "offense": "Sedition",
+        "punishment": "Imprisonment for Life   Fine or 3 Years   Fine or Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "125",
+        "offense": "Waging war against any Asiatic power in alliance or at peace with the Government of India, or abetting the waging of such war",
+        "punishment": "Imprisonment for Life   Fine or 7 Years   Fine or Fine",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      },
+      {
+        "section": "126",
+        "offense": "Committing depredation On the territories of any power in alliance or at peace with the Government of India",
+        "punishment": "7 Years   Fine   forfeiture of property",
+        "cognizable": "Cognizable",
+        "bailable": "Non-Bailable"
+      }
+    ],
+    "cases": [
+      {
+        "id": "C1",
+        "name": "Masud Khan v State Of Uttar Pradesh",
+        "date": "26 September 1973"
+      },
+      {
+        "id": null,
+        "name": "AIR 1960 All. 434",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "1959 Indlaw ALL 154",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "AIR 1960 All. 431",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "1959 Indlaw ALL 153",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "AIR1956 SC 415",
+        "date": null
+      },
+      {
+        "id": "C10",
+        "name": "Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.",
+        "date": "3 September 1987"
+      },
+      {
+        "id": "C100",
+        "name": "Hiten P. Dalal v Bratindranath Banerjee",
+        "date": "11 July 2001"
+      },
+      {
+        "id": null,
+        "name": "(1998) 2 SCC 418",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "1998 Indlaw SC 438",
+        "date": null
+      },
+      {
+        "id": null,
+        "name": "Minoo Mehta V. Shavak D. Mehta 1998 Indlaw SC 438",
+        "date": null
+      },
+      {
+        "id": "C1000",
+        "name": "Ashok Kumar and Others v State of Tamil Nadu",
+        "date": "5 May 2006"
+      },
+      {
+        "id": "C1001",
+        "name": "Ashok Dhingra v N.C.T. of Delhi",
+        "date": "3 March 2000"
+      },
+      {
+        "id": null,
+        "name": "u/s. 439(2)",
+        "date": null
+      },
+      {
+        "id": "C1002",
+        "name": "Bridge and Roof Company (India), Limited and Others v Union of India and Others",
+        "date": "11 September 1962"
+      },
+      {
+        "id": null,
+        "name": "1962 Indlaw SC 311",
+        "date": null
+      },
+      {
+        "id": "C1003",
+        "name": "Main Pal v State of Haryana",
+        "date": "7 September 2010"
+      },
+      {
+        "id": "C1004",
+        "name": "Minor P. Rajendran v State of Madras and Others",
+        "date": "17 January 1968"
+      },
+      {
+        "id": "C1005",
+        "name": "State of Bihar v Gopi Kishore Prasad",
+        "date": "25 November 1959"
+      },
+      {
+        "id": null,
+        "name": "L.R. 75 I.A. 225",
+        "date": null
+      }
+    ],
+    "judges": [
+      {
+        "name": "A. Alagiriswami, J."
+      },
+      {
+        "name": "Sabyasachi Mukharji, J."
+      },
+      {
+        "name": "Ruma Pal, J"
+      },
+      {
+        "name": "S. B. Sinha, J."
+      },
+      {
+        "name": "K. N. Wanchoo, J."
+      },
+      {
+        "name": "R. V. Raveendran, J."
+      },
+      {
+        "name": "Kailas Nath Wanchoo, J."
+      },
+      {
+        "name": "B. P. Sinha, J."
+      },
+      {
+        "name": "D. A. Desai, J."
+      },
+      {
+        "name": "P. Venkatarama Reddi, J."
+      },
+      {
+        "name": "AHMADI, J."
+      },
+      {
+        "name": "S. B. Majmudar, J."
+      },
+      {
+        "name": "Dr. Arijit Pasayat, J."
+      },
+      {
+        "name": "Arijit Pasayat, J."
+      },
+      {
+        "name": "M. B. Shah, J."
+      }
+    ],
+    "courts": [
+      {
+        "name": "Supreme Court of India"
+      }
+    ],
+    "relationships": [
+      {
+        "RelationType": "CITES",
+        "Count": 1184
+      },
+      {
+        "RelationType": "APPLIES_TO",
+        "Count": 379
+      },
+      {
+        "RelationType": "PRESCRIBES",
+        "Count": 379
+      },
+      {
+        "RelationType": "HEARD_IN",
+        "Count": 300
+      },
+      {
+        "RelationType": "DECIDED_BY",
+        "Count": 286
+      }
+    ],
+    "case_ipc_relationships": [],
+    "top_cited_ipc": [],
+    "articles": [
+      {
+        "number": "3",
+        "title": "Implementation of Article 2 — Fixed boundary and demarcation of adversely possessed territories between India and Bangladesh"
+      },
+      {
+        "number": "1",
+        "title": "ENCLAVES"
+      },
+      {
+        "number": "2",
+        "title": "Enclaves"
+      },
+      {
+        "number": "99",
+        "title": "Index of Articles 105–181: Parliamentary privileges and procedure; legislative and financial procedure; President's ordinance power; Union Judiciary; Comptroller and Auditor-General; State executive and legislatures"
+      },
+      {
+        "number": "39",
+        "title": "Right to Constitutional Remedies"
+      },
+      {
+        "number": "109",
+        "title": "111: Assent to Bills; 112: Annual financial statement; 113: Procedure in Parliament with respect to estimates; 114: Appropriation Bills"
+      },
+      {
+        "number": "132",
+        "title": "Officers and servants and the expenses of the Supreme Court"
+      },
+      {
+        "number": "124",
+        "title": "Appointment and conditions of the office of a Judge of a High Court"
+      },
+      {
+        "number": "239",
+        "title": "Power of administrator to promulgate Ordinances during recess of Legislature"
+      },
+      {
+        "number": "363",
+        "title": "Things of value within territorial waters or continental shelf and resources of the exclusive economic zone to vest in the Union"
+      },
+      {
+        "number": "301",
+        "title": "Power of State to impose tax on imported goods and to impose reasonable restrictions on trade, commerce or intercourse"
+      },
+      {
+        "number": "344",
+        "title": "Proclamation of Emergency"
+      },
+      {
+        "number": "391",
+        "title": "Commencement"
+      },
+      {
+        "number": "33",
+        "title": "Directive Principles of State Policy (selected articles 36–43)"
+      },
+      {
+        "number": "198",
+        "title": "Assent to Bills; Bills reserved for consideration; Procedure in Financial Matters (Annual financial statement, estimates, grants, appropriation)"
+      }
+    ]
+  }
+}

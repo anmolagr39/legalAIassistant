@@ -1,0 +1,351 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Based on the information from the legal databases, specifically the **IPC RAG**, the punishment for wearing a soldier's uniform or carrying a token resembling one with the intent to deceive others into believing one is a soldier, sailor, or airman, under **IPC Section 140**, is as follows:\n\n*   **Imprisonment:** Up to three months, or\n*   **Fine:** Up to 500 rupees, or\n*   **Both** imprisonment and fine.\n\nSection 140 of the Indian Penal Code states: \"Whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such a soldier, sailor or airman with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.\"\n\nThe \"Past Cases RAG\" and \"Legal Acts RAG\" databases did not contain specific information regarding the punishment for this particular offense under IPC Section 140, but the \"IPC RAG\" database directly addresses it.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.11473274230957,
+    "evaluation_time": 11.17247724533081,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies IPC Section 140 and provides the correct punishment details, including the imprisonment term, fine amount, and the option for both. It also includes a direct quote of the relevant section, which adds significant authority and clarity. The answer is highly relevant to the question asked. However, it misses some additional key legal details mentioned in the ground truth regarding the nature of the offense (cognizable and bailable) and its triability (by any Magistrate). While these are not strictly 'punishment' details, they are crucial aspects of describing a legal offense and were present in the comprehensive ground truth answer. Despite this omission, the core 'punishment' aspect of the question is perfectly addressed.",
+      "strengths": [
+        "Accurate identification of IPC Section 140.",
+        "Precise description of the punishment (imprisonment term, fine, or both).",
+        "Includes the exact statutory language of Section 140, enhancing authority.",
+        "Clear and concise presentation of information, especially the bullet-pointed punishment.",
+        "Directly addresses the question regarding punishment.",
+        "Correctly attributes the information to an 'IPC RAG' source."
+      ],
+      "weaknesses": [
+        "Omits additional legal details present in the ground truth, specifically that the offense is cognizable and bailable, and triable by any Magistrate."
+      ]
+    },
+    "timestamp": "2025-11-23T23:01:14.798705"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the information provided from the legal databases, it is **not possible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense.**\n\nHere's a synthesis of the information from the databases:\n\n*   **IPC RAG:** This database provides the text of IPC Section 131, which states: \"Whoever abets the committing of mutiny by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India or attempts to seduce any such officer, soldier, sailor or airman from his allegiance or his duty, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\" However, it explicitly notes that \"The provided context does not specify if it is cognizable or non-cognizable.\"\n*   **Past Cases RAG:** This database unequivocally states, \"it is impossible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense. None of the provided documents mention Section 131 or provide any information about the nature of offenses under it.\"\n*   **Legal Acts RAG:** This database similarly concludes, \"it is **not possible to determine whether abetting mutiny by a military officer is a cognizable or non-cognizable offense under IPC Section 131.**\" It explains this limitation by highlighting the \"Absence of Indian Penal Code (IPC) Information\" beyond the bare section text and, crucially, the \"Absence of Definitions for 'Cognizable' or 'Non-Cognizable'\" within the provided documents. These terms are typically defined and applied within the Code of Criminal Procedure (CrPC), and the IPC itself often classifies offenses within its schedules, none of which are present in the given information. The constitutional articles discussed in this database (Articles 33, 34, 35, 16, 243ZQ, 243ZR, 32) do not provide the necessary classification for IPC offenses.\n\nIn conclusion, while IPC Section 131 defines the offense of abetting mutiny and prescribes its punishment (imprisonment for life or up to ten years, plus a fine), none of the provided legal databases contain the necessary information (such as a schedule from the CrPC or a more detailed IPC classification) to classify it as either a cognizable or non-cognizable offense.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 15.573444604873657,
+    "evaluation_time": 6.870399236679077,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 5,
+      "legal_reasoning_score": 2,
+      "overall_score": 1.75,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer fundamentally fails to provide the correct classification of the offense. The ground truth clearly states that abetting mutiny under IPC Section 131 is a 'cognizable and non-bailable offense.' The generated answer, however, states that it is 'not possible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense.' This directly contradicts the established legal fact. While the generated answer provides elaborate reasoning for *why its internal RAG databases could not find the answer*, this explanation of a retrieval failure does not substitute for providing the correct legal information. The task is to answer the legal question, not to explain the limitations of the retrieval system. Therefore, despite its detailed explanation of its internal process, the core answer to the legal question is incorrect.",
+      "strengths": [
+        "Clearly articulated the limitations of its internal 'legal databases' (RAG sources).",
+        "Correctly identified that classifications like 'cognizable' or 'non-cognizable' are typically found in the Code of Criminal Procedure (CrPC) schedules, showing an understanding of where such information resides in the legal framework, even if it couldn't retrieve it."
+      ],
+      "weaknesses": [
+        "Provided an incorrect and non-committal answer to the core legal question, stating it was 'not possible to determine' when the ground truth provides a definitive answer.",
+        "Failed to retrieve or infer the correct legal classification of the offense, which is a critical piece of information.",
+        "Did not cover any of the other key points provided in the ground truth, such as the offense being non-bailable, the prescribed punishment, or the triable court."
+      ]
+    },
+    "timestamp": "2025-11-23T23:01:39.245494"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Based on the information provided, the key legal issue in the case of *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* was **the validity of clauses in contracts of employment that were deemed unconscionable and against public policy.**\n\nSpecifically, the case focused on:\n*   The validity of service rules or employment contracts, particularly those of Central Inland Water Transport Corporation Ltd. (a government company).\n*   The court found certain clauses in these employment contracts to be unfair and oppressive.\n*   These unfair clauses were deemed to violate public policy, leading to their unenforceability.\n*   The judgment established a significant precedent for protecting employees from unfair terms within their employment contracts.\n\nThe other legal databases (IPC RAG and Legal Acts RAG) did not contain specific information regarding the legal issue in this particular case. The IPC RAG only listed other cases that cited it, while the Legal Acts RAG focused on various articles of the Constitution of India unrelated to the specific contractual principles discussed in this case.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 16.535078287124634,
+    "evaluation_time": 12.495997905731201,
+    "evaluation": {
+      "correctness_score": 8,
+      "completeness_score": 6,
+      "relevance_score": 7,
+      "legal_reasoning_score": 6,
+      "overall_score": 6.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core issue of the case, which revolved around the validity of unconscionable clauses in employment contracts, particularly those of a government company, and their violation of public policy. This is a central aspect of the judgment. However, the ground truth provides a more comprehensive breakdown of the *specific legal issues* that the court addressed to arrive at this conclusion. The generated answer misses explicit mention of several key constitutional articles (Article 12, Article 14, Article 21) and legal principles (natural justice, scope of judicial review) that constituted distinct legal questions in the case. While the generated answer's points are conceptually related to these, they are not articulated as distinct legal issues in the same detailed manner as the ground truth. The inclusion of meta-commentary about the RAG sources in the generated answer detracts from its relevance and professionalism.",
+      "strengths": [
+        "Correctly identifies the central theme of the case regarding unconscionable employment contract clauses.",
+        "Accurately notes the involvement of a government company, which is crucial for the case's constitutional implications.",
+        "Focuses directly on the 'key legal issue' asked in the question."
+      ],
+      "weaknesses": [
+        "Lacks completeness by not explicitly listing the specific constitutional articles (Articles 12, 14, 21) and legal principles (natural justice, judicial review scope) that were key legal issues in the case, unlike the detailed ground truth.",
+        "The statement about 'other legal databases' and RAG sources is irrelevant and should not be part of the answer to the user.",
+        "The legal reasoning aspect could be stronger by explaining how these specific constitutional principles led to the finding of unconscionability, rather than just stating the outcome."
+      ]
+    },
+    "timestamp": "2025-11-23T23:02:10.279782"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 127",
+    "ground_truth": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Based on the information from the legal databases:\n\nUnder **Indian Penal Code (IPC) Section 127**, the punishment for receiving property knowing it was taken in the commission of offenses mentioned in sections 125 (waging war against the Government of India) and 126 (committing depredation on territories of any Power at peace with the Government of India) is:\n\n*   **Imprisonment** of either description for a term which may extend to **seven years**.\n*   The offender shall also be liable to a **fine**.\n*   The **forfeiture of the property** so received.\n\nWhile the \"Past Cases RAG\" did not explicitly mention a specific punishment for IPC Section 127, it noted that for \"possessing the looted properties,\" convicts were sentenced to \"R. Imprisonment for one year.\" However, this one-year sentence is not definitively stated to be under Section 127 in the provided case summary but suggests a potential alignment for possessing looted property.\n\nThe \"Legal Acts RAG\" provided no information regarding IPC Section 127 or its specific punishment, focusing instead on other constitutional articles and legislative entries not directly relevant to this query.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 14.460591793060303,
+    "evaluation_time": 11.70721173286438,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 6,
+      "relevance_score": 8,
+      "legal_reasoning_score": 8,
+      "overall_score": 7.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core punishment details for IPC Section 127, including the imprisonment term (up to seven years, either description), liability to fine, and forfeiture of property. It also accurately references the related sections 125 and 126. However, it significantly omits crucial procedural information provided in the ground truth, specifically that the offense is cognizable, non-bailable, and triable by the Court of Session. The inclusion of meta-commentary about the RAG sources, while potentially for transparency, adds tangential information and slightly detracts from the direct answer, especially the mention of a 'one-year' sentence for 'possessing looted properties' which, even if qualified, could be confusing given the statutory seven-year maximum.",
+      "strengths": [
+        "Accurately states the main components of the punishment: imprisonment term, fine, and forfeiture of property.",
+        "Correctly identifies the relevant IPC section (127) and the related underlying offenses (sections 125 and 126).",
+        "Presents the information in a clear and structured format using bullet points."
+      ],
+      "weaknesses": [
+        "Fails to mention critical procedural aspects of the offense: that it is cognizable, non-bailable, and triable by the Court of Session.",
+        "Includes unnecessary meta-information about the RAG process and its findings, which is not part of the legal answer itself.",
+        "The RAG commentary about a 'one-year' sentence for 'possessing looted properties' from 'Past Cases RAG' introduces potential ambiguity or confusion regarding the actual statutory punishment under Section 127, even though the primary answer correctly states the seven-year maximum."
+      ]
+    },
+    "timestamp": "2025-11-23T23:02:38.452661"
+  },
+  {
+    "question_id": 5,
+    "question": "In the case of Masud Khan v State Of Uttar Pradesh, what was the court's decision regarding the burden of proof for establishing citizenship?",
+    "category": "Citizenship_Law",
+    "source": "Past Cases RAG - Supreme Court Case 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court held that under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The burden is upon the petitioner to establish that he is a citizen of India. The Court stated that there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950. The petitioner must discharge this burden by providing proof, and mere statements without evidence cannot be accepted as true.",
+    "generated_answer": "In the case of *Masud Khan v State Of Uttar Pradesh*, the Supreme Court ruled that under Section 9 of the Foreigners Act, the onus of proving that a person is **not** a foreigner lies upon that person (the petitioner).",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 9.164806127548218,
+    "evaluation_time": 9.334497451782227,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 6,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 8.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies the core holding of the Supreme Court in *Masud Khan v State Of Uttar Pradesh* regarding the burden of proof for establishing citizenship under Section 9 of the Foreigners Act. It correctly states that the onus is on the individual (petitioner) to prove they are not a foreigner. This addresses the question directly and without error. However, it is less complete than the ground truth. It omits the year of the judgment (1973) and some important nuances from the ground truth, specifically the Court's clarification that there is no room for a presumption of presence in India on 26-1-1950, and that mere statements without evidence cannot be accepted as true. Despite these omissions, the central legal principle is accurately conveyed.",
+      "strengths": [
+        "Accurately identifies the case name, court, and relevant legal section (Section 9 of the Foreigners Act).",
+        "Correctly states the core legal principle that the burden of proving one is not a foreigner lies upon that person (the petitioner).",
+        "Directly answers the question without including any irrelevant information."
+      ],
+      "weaknesses": [
+        "Omits the year of the judgment (1973).",
+        "Does not include the Supreme Court's clarification that there is no room for any presumption of presence in India on 26-1-1950.",
+        "Does not specify that the burden must be discharged by providing proof and that mere statements without evidence are insufficient, which is an important detail from the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T23:02:58.955876"
+  },
+  {
+    "question_id": 6,
+    "question": "What are the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 128",
+    "ground_truth": "Under IPC Section 128, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Based on the information provided from the legal databases, the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128 are clearly outlined by the **IPC RAG** database.\n\nTo be punished under IPC Section 128, the following conditions must be met:\n\n1.  **Public Servant:** The individual must be a public servant.\n2.  **Custody of Prisoner:** The public servant must have the custody of either a State prisoner or a prisoner of war.\n3.  **Voluntary/Intentional Act:** The public servant must voluntarily or intentionally allow such prisoner to escape.\n4.  **Escape from Confinement:** The escape must occur from a place where the prisoner is confined.\n\nIf these conditions are met, the public servant can be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to a fine.\n\nThe **Past Cases RAG** and **Legal Acts RAG** databases did not contain specific information related to IPC Section 128 or the conditions for punishment concerning a public servant allowing a prisoner of war to escape. Their content focused on other legal aspects such as termination of service, preventive detention, and constitutional articles, rather than the specifics of this IPC section.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 12.5075523853302,
+    "evaluation_time": 9.930879831314087,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 8,
+      "relevance_score": 9,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is highly accurate in outlining the conditions for punishment under IPC Section 128. It correctly identifies the key elements: the individual being a public servant, having custody of a State prisoner or prisoner of war, voluntarily allowing escape, and the escape occurring from confinement. The punishment details are also perfectly accurate. The answer is well-structured and easy to understand. However, it misses one aspect mentioned in the ground truth, which is the nature of the offense (cognizable, non-bailable, triable by Court of Session). While the question specifically asked for 'conditions under which a public servant can be punished,' the ground truth provided a slightly more comprehensive legal description of the section, including this detail. The mention of RAG databases is meta-information about the answer's source rather than legal content itself, making it slightly less concise, but does not detract from the legal accuracy.",
+      "strengths": [
+        "Provides highly accurate legal conditions for punishment under IPC Section 128.",
+        "Clearly and logically lists all essential elements of the offense.",
+        "Correctly states the associated punishment details.",
+        "The answer is well-structured with bullet points, enhancing readability and comprehension.",
+        "Directly answers the core of the question asked."
+      ],
+      "weaknesses": [
+        "Omits the information about the nature of the offense (cognizable, non-bailable, triable by Court of Session) which was included in the ground truth.",
+        "Includes meta-information about the RAG databases that, while potentially internal context, is not strictly legal information relevant to the section itself."
+      ]
+    },
+    "timestamp": "2025-11-23T23:03:23.398004"
+  },
+  {
+    "question_id": 7,
+    "question": "What was the Supreme Court's reasoning in Central Inland Water Transport Corporation case regarding the right to livelihood under Article 21?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 21 Interpretation",
+    "ground_truth": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the Supreme Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment. The court reasoned that the right to livelihood is an integral part of the right to life, and any arbitrary action that affects a person's livelihood would be a violation of Article 21. The court found that Rule 9(i) which allowed termination without reason was arbitrary and violated Article 21 as it arbitrarily affected the employees' means of livelihood.",
+    "generated_answer": "Based on the information provided from the legal databases, there is no relevant information regarding the Supreme Court's reasoning in the *Central Inland Water Transport Corporation* case concerning the right to livelihood under Article 21 of the Constitution of India.\n\nSpecifically:\n*   The **IPC RAG** documents discuss sections 164 and 165 of the Indian Penal Code, noting the repeal of Section 165 by the Prevention of Corruption Act, 1988. This information is unrelated to your question.\n*   The **Past Cases RAG** explicitly states: \"The provided documents do not contain the Supreme Court's reasoning in *Central Inland Water Transport Corporation* regarding the right to livelihood under Article 21. They do not mention the case or discuss the right to livelihood. Therefore, I am unable to provide an answer based on the provided documents.\"\n*   The **Legal Acts RAG** also clearly indicates: \"Based on the provided legal documents, there is **no information** regarding Article 21 of the Constitution of India, the right to livelihood, or any Supreme Court's reasoning in the 'Central Inland Water Transport Corporation case'.\" It lists other articles and entries covered in its database, none of which pertain to your specific query.\n\nTherefore, I am unable to synthesize an answer to your question based *strictly* on the information available in the provided legal databases.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 16.25442361831665,
+    "evaluation_time": 11.501189470291138,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 2,
+      "legal_reasoning_score": 0,
+      "overall_score": 0.5,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer completely fails to provide any information regarding the Supreme Court's reasoning in the *Central Inland Water Transport Corporation* case concerning the right to livelihood under Article 21. Instead, it states that no relevant information was found in its legal databases. While this statement about its internal limitations might be factually correct for the AI's internal process, it does not constitute an answer to the legal question posed. Therefore, it scores 0 for correctness, completeness, and legal reasoning as it provides none of the requested legal content. Its relevance is minimal as it explains *why* it cannot answer, rather than *answering* the question, and includes some irrelevant details about other RAG document contents (e.g., IPC sections).",
+      "strengths": [
+        "Clearly states its inability to answer based on the provided documents.",
+        "Transparently references the specific RAG documents it consulted and their lack of relevant information."
+      ],
+      "weaknesses": [
+        "Fails entirely to provide the requested legal information.",
+        "Does not demonstrate any understanding or retrieval of the Supreme Court's reasoning.",
+        "Includes information about unrelated sections from the IPC RAG, which is not relevant to the question."
+      ]
+    },
+    "timestamp": "2025-11-23T23:03:53.158328"
+  },
+  {
+    "question_id": 8,
+    "question": "Under IPC Section 130, what is the punishment for aiding the escape of a State prisoner or prisoner of war?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 130",
+    "ground_truth": "According to IPC Section 130, whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Based on the information provided, the punishment for aiding the escape of a State prisoner or prisoner of war under **IPC Section 130** is as follows:\n\nAccording to Section 130 of the Indian Penal Code (IPC), whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner, shall be punished with:\n\n*   **Imprisonment for life**, OR\n*   **Imprisonment of either description for a term which may extend to ten years**, AND\n*   Shall also be **liable to fine**.\n\nIt is important to note that while the \"IPC RAG\" database directly provides this detailed information regarding Section 130, the \"Past Cases RAG\" and \"Legal Acts RAG\" databases did not contain specific information about the punishment under this section. The \"Legal Acts RAG\" did confirm that \"Criminal law, including all matters included in the Indian Penal Code,\" falls under Entry 1 of the Concurrent List (List III of the Seventh Schedule) of the Constitution of India, establishing the legal framework for the IPC.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.33218264579773,
+    "evaluation_time": 10.278552055358887,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 7,
+      "legal_reasoning_score": 10,
+      "overall_score": 8.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides an accurate and detailed explanation of the punishment for aiding the escape of a State prisoner or prisoner of war under IPC Section 130. It correctly lists the various actions constituting the offense and precisely outlines the two options for imprisonment (life or up to ten years) and the liability to fine, mirroring the ground truth perfectly in this regard. The core information requested by the question is present and accurate.\n\nHowever, the answer falls short on completeness by omitting crucial procedural details mentioned in the ground truth, specifically that the offense is cognizable, non-bailable, and triable by the Court of Session. While these are not 'punishments' per se, they are integral aspects of understanding the legal implications of the section, which the ground truth provided comprehensively. Furthermore, the generated answer includes extraneous information about the RAG databases it accessed and a constitutional entry, which, while factually correct, is not directly relevant to the question about the *punishment* under Section 130.",
+      "strengths": [
+        "Accurately identifies and details the punishment options and conditions as per IPC Section 130.",
+        "The description of the acts constituting the offense is comprehensive and correct.",
+        "Presents the punishment clearly using bullet points."
+      ],
+      "weaknesses": [
+        "Omits important procedural details about the offense (cognizable, non-bailable, triable by Court of Session) that were present in the ground truth.",
+        "Includes irrelevant information about internal RAG database usage and constitutional entries, detracting from direct relevance to the question."
+      ]
+    },
+    "timestamp": "2025-11-23T23:04:18.773279"
+  },
+  {
+    "question_id": 9,
+    "question": "What was the principle of issue estoppel discussed in Masud Khan v State Of Uttar Pradesh case?",
+    "category": "Criminal_Procedure",
+    "source": "Past Cases RAG - Supreme Court 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court discussed the principle of issue estoppel and held that it arises only if both the earlier and subsequent proceedings were criminal prosecutions. The Court cited that where an issue of fact has been tried by a competent court and a finding has been reached in favor of an accused, such finding would constitute an estoppel against the prosecution, not as a bar to trial but as precluding the reception of evidence to disturb that finding when the accused is tried for a different offense. However, in this case, while the earlier proceeding was a criminal prosecution, the present was merely an action under the Foreigners (Internment) Order, not a criminal proceeding. Therefore, the principle of issue estoppel did not apply.",
+    "generated_answer": "Based on the information available from the provided legal databases, there is **no mention of the case \"Masud Khan v State Of Uttar Pradesh\" or the principle of issue estoppel as discussed within that specific case.** All three legal databases explicitly state that they do not contain this information.\n\nTherefore, a detailed legal analysis of the principle of issue estoppel as discussed in *Masud Khan v State Of Uttar Pradesh* cannot be provided from the given context.\n\nHowever, the \"Past Cases RAG\" document does provide a general understanding of the principle of issue estoppel:\n\n*   **Issue estoppel** prevents the prosecution from re-litigating an issue of fact that has been previously decided in favor of the accused by a competent court. This finding operates as an estoppel (or res judicata) against the prosecution regarding that specific issue, although it does not necessarily bar the entire trial.\n*   It arises when a specific point was determined in favor of a prisoner in a previous criminal trial, and that same point is subsequently brought into issue in a later criminal trial involving the same prisoner. This requires a prior proceeding where the determination was against the Crown.\n\nCases such as *Pritam Singh v. State of Punjab*, *Manipur Administration v. Thokchom, Bira Singh*, and *The King v. Wilkes* are cited as references for understanding this concept generally.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 11.445200681686401,
+    "evaluation_time": 8.875520944595337,
+    "evaluation": {
+      "correctness_score": 3,
+      "completeness_score": 0,
+      "relevance_score": 2,
+      "legal_reasoning_score": 2,
+      "overall_score": 1.75,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer fundamentally fails to address the question. The question specifically asks about the principle of issue estoppel *as discussed in Masud Khan v State Of Uttar Pradesh*. The generated answer explicitly states that 'there is no mention of the case 'Masud Khan v State Of Uttar Pradesh' or the principle of issue estoppel as discussed within that specific case' in the provided databases. This assertion is directly contradicted by the ground truth, which provides a detailed explanation of the principle as discussed in that very case. Therefore, the core premise of the generated answer is incorrect and leads to a complete failure to answer the specific prompt. While the general explanation of issue estoppel provided afterwards is mostly correct, it does not compensate for the inability to address the specific case as requested.",
+      "strengths": [
+        "Provides a generally accurate definition of the principle of issue estoppel.",
+        "Cites relevant general cases for the concept of issue estoppel."
+      ],
+      "weaknesses": [
+        "Incorrectly states that information regarding Masud Khan v State Of Uttar Pradesh and its discussion of issue estoppel is unavailable.",
+        "Completely fails to provide the specific discussion of issue estoppel from Masud Khan v State Of Uttar Pradesh, which was the core of the question.",
+        "The answer is not relevant to the specific inquiry about the Masud Khan case.",
+        "Lacks any specific legal reasoning or analysis pertaining to the Masud Khan case itself."
+      ]
+    },
+    "timestamp": "2025-11-23T23:04:41.100744"
+  },
+  {
+    "question_id": 10,
+    "question": "What is the punishment for abetting mutiny if the mutiny is actually committed as a consequence, under IPC Section 132?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 132",
+    "ground_truth": "Under IPC Section 132, whoever abets the committing of mutiny by an officer, soldier, sailor or airman in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Based on the information from the legal databases:\n\nUnder **IPC Section 132**, if an individual abets the committing of mutiny by an officer, soldier, sailor, or airman in the Army, Navy, or Air Force of the Government of India, and the mutiny is committed as a consequence of that abetment, the punishment is:\n\n*   **Death**, or\n*   **Imprisonment for life**, or\n*   **Imprisonment** of either description for a term which may extend to **ten years**,\n*   And the offender shall also be liable to a **fine**.\n\nWhile other databases (Past Cases RAG and Legal Acts RAG) indicated that they did not contain specific information regarding IPC Section 132 or its associated punishment within their respective documents, the IPC RAG database directly provides the detailed answer to your query.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 12.678560495376587,
+    "evaluation_time": 10.244373321533203,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 9,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is highly accurate and directly addresses the core of the question regarding the punishment under IPC Section 132. It correctly identifies the section and precisely details the various forms of punishment: death, imprisonment for life, imprisonment up to ten years, and liability to a fine. The answer also accurately describes the conditions under which these punishments apply (abetting mutiny by specific personnel, where mutiny is committed as a consequence).\n\nHowever, the answer is not entirely complete when compared to the ground truth. It omits crucial procedural details about the nature of the offense, specifically that it is cognizable, non-bailable, and triable by the Court of Session. While these are not 'punishments' per se, they are standard and important legal characteristics of the offense under the section, which the ground truth included. The inclusion of RAG database attribution is meta-information about the answer's generation rather than legal content, slightly reducing its relevance score.",
+      "strengths": [
+        "Accurately states the specific punishments for abetting mutiny under IPC Section 132.",
+        "Correctly identifies the conditions under which the punishment applies (who abets, by whom, and the consequence).",
+        "Clear and well-structured presentation of the punishment details.",
+        "Directly answers the primary question about the punishment."
+      ],
+      "weaknesses": [
+        "Omits important procedural details about the offense (cognizable, non-bailable, triable by Court of Session) which were present in the ground truth.",
+        "Includes meta-information about the RAG database sources, which is not part of the legal answer to the user's query."
+      ]
+    },
+    "timestamp": "2025-11-23T23:05:06.029588"
+  }
+]

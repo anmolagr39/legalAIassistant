@@ -1,0 +1,35 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel, with the intent to deceive and be believed as such, they shall be punished.\n\nThe punishment for this offence is:\n*   Imprisonment of either description for a term which may extend to **three months**, or\n*   A fine which may extend to **five hundred rupees**, or\n*   **Both**.\n\nThis information is derived from the IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 19.536179304122925,
+    "evaluation_time": 2.442373275756836,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 9.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately and completely addresses the question, providing the correct legal information regarding the punishment for impersonating a soldier under IPC Section 140. It accurately outlines the imprisonment and fine, and the introductory sentence is well-written and relevant. The only minor weakness is the lack of explicit mention of the 'cognizable and bailable' nature of the offense, which is present in the ground truth. This is a crucial element that distinguishes the nature of the crime and its implications on how the process is carried out, however, since the question only asked about the punishment, it is acceptable. Overall, the answer is excellent.",
+      "strengths": [
+        "Accurate depiction of the legal elements.",
+        "Complete information about the punishment.",
+        "Clear and concise presentation.",
+        "Directly addresses the question.",
+        "Well-structured answer."
+      ],
+      "weaknesses": [
+        "Does not explicitly state that the offence is cognizable and bailable, like the ground truth does."
+      ]
+    },
+    "timestamp": "2025-11-22T17:24:53.102472"
+  }
+]

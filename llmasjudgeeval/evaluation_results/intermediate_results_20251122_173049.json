@@ -1,0 +1,95 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel with the intent to deceive (i.e., with the intention that it may be believed they are such a soldier, sailor, or airman), they shall be punished as follows:\n\n*   **Imprisonment:** For a term which may extend to three months (of either description).\n*   **Fine:** Which may extend to five hundred rupees.\n*   **Or both** imprisonment and fine.\n\nThis information is derived from the provided IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 20.84365749359131,
+    "evaluation_time": 1.9114022254943848,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is perfectly accurate and complete in addressing the question. It correctly states the punishment under IPC Section 140, including the imprisonment term, fine amount, and the possibility of both. The answer is also highly relevant, directly answering the question without any extraneous information. Legal reasoning is sound as it accurately presents the legal consequences. The answer is well-structured and easy to understand.",
+      "strengths": [
+        "Perfect accuracy in legal facts.",
+        "Complete coverage of the relevant information.",
+        "Directly addresses the question asked.",
+        "Clear and concise presentation of the information."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-22T17:30:27.171815"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the provided information, the retrieved context does not specify whether abetting mutiny by a military officer under Indian Penal Code (IPC) Section 131 is a cognizable or non-cognizable offense (IPC RAG).\n\nHowever, it is confirmed that abetting the committing of mutiny by an officer, soldier, sailor, or airman in the Army, Navy, or Air Force of the Government of India, or attempting to seduce such personnel from their allegiance or duty, is a punishable offense under IPC Section 131. The punishment for this offense is imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to a fine (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.486999273300171,
+    "evaluation_time": 2.866384267807007,
+    "evaluation": {
+      "correctness_score": 3,
+      "completeness_score": 4,
+      "relevance_score": 7,
+      "legal_reasoning_score": 3,
+      "overall_score": 4,
+      "verdict": "FAIL",
+      "reasoning": "The answer misses a critical piece of information: whether the offense is cognizable and bailable. It correctly states the punishment. The answer also states that the retrieved context did not specify if the offense is cognizable or non-cognizable, which is incorrect as the ground truth clearly states it is cognizable. The legal reasoning is weak, as it fails to provide the critical information asked in the question. It is partially relevant, as it provides the correct details of the offense but fails to answer the main question. This clearly indicates a failure in retrieving the required information. The answer is not completely correct because it's missing the most important information asked in the question and incorrectly claims the source did not provide the information. ",
+      "strengths": [
+        "Correctly identifies that abetting mutiny is a punishable offense under IPC Section 131.",
+        "Correctly states the punishment for the offense."
+      ],
+      "weaknesses": [
+        "Fails to state whether the offense is cognizable or non-cognizable, which is the main question.",
+        "Incorrectly claims that the retrieved context does not provide information about cognizance",
+        "Lacks completeness by omitting crucial details from the ground truth.",
+        "Poor legal reasoning as it doesn't provide a complete answer."
+      ]
+    },
+    "timestamp": "2025-11-22T17:30:37.528368"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "The key legal issue in *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* primarily concerned the resolution of a significant legal controversy regarding the interpretation and application of existing legal precedents (Past Cases RAG). This controversy was particularly noted among various High Courts (Document 3). The case also involved the necessity of distinguishing the *ratio decidendi* of a prior constitution bench decision (Document 2), indicating a focus on clarifying the scope and applicability of established law. Ultimately, the matter aimed at resolving this legal dispute, which potentially involved a challenge to previously established legal principles (Past Cases RAG).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 7.312148809432983,
+    "evaluation_time": 2.325883626937866,
+    "evaluation": {
+      "correctness_score": 1.0,
+      "completeness_score": 1.0,
+      "relevance_score": 2.0,
+      "legal_reasoning_score": 1.0,
+      "overall_score": 1.0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is almost entirely incorrect. It fails to identify the core legal issues in the case and instead offers a vague and generic description. It mentions 'past cases' and high courts without providing any specific legal issues or applying legal reasoning. The answer does not mention any of the central legal issues concerning Article 12, 14, 21, natural justice or arbitrary termination. Therefore, the answer demonstrates a lack of understanding of the case and its legal significance.",
+      "strengths": [],
+      "weaknesses": [
+        "Incorrect identification of legal issues.",
+        "Lack of specific legal details or arguments.",
+        "Failure to mention relevant constitutional articles.",
+        "Vague and non-specific answer."
+      ]
+    },
+    "timestamp": "2025-11-22T17:30:49.168975"
+  }
+]

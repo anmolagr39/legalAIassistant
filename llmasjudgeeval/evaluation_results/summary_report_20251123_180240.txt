@@ -1,0 +1,100 @@
+================================================================================
+LLM-as-a-Judge Evaluation Summary Report
+Legal Assistant System Evaluation
+================================================================================
+
+Evaluation Date: 2025-11-23T18:02:40.857940
+Total Time: 693.34 seconds
+
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total Questions: 40
+Completed: 40
+Failed: 0
+Passed: 28 (70.0%)
+Not Passed: 12 (30.0%)
+
+AVERAGE SCORES (0-10)
+--------------------------------------------------------------------------------
+Correctness:     6.10/10
+Completeness:    4.97/10
+Relevance:       8.15/10
+Legal Reasoning: 5.35/10
+Overall:         6.09/10
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Average Query Time: 11.86s
+Average Evaluation Time: 3.52s
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+IPC_Section:
+  Total: 9
+  Passed: 7 (77.8%)
+  Average Score: 7.53/10
+
+Constitutional_Law:
+  Total: 7
+  Passed: 5 (71.4%)
+  Average Score: 5.82/10
+
+Citizenship_Law:
+  Total: 2
+  Passed: 2 (100.0%)
+  Average Score: 6.00/10
+
+Criminal_Procedure:
+  Total: 2
+  Passed: 2 (100.0%)
+  Average Score: 7.90/10
+
+Rent_Control_Law:
+  Total: 5
+  Passed: 4 (80.0%)
+  Average Score: 5.31/10
+
+Securities_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 5.12/10
+
+Negotiable_Instruments:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 2.25/10
+
+Legislative_History:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 1.00/10
+
+Evidence_Law:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 7.50/10
+
+Legal_Analytics:
+  Total: 3
+  Passed: 2 (66.7%)
+  Average Score: 6.33/10
+
+Case_Citations:
+  Total: 4
+  Passed: 3 (75.0%)
+  Average Score: 6.08/10
+
+IPC_Offense_Punishment:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 4.50/10
+
+Case_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 5.90/10
+
+================================================================================
+End of Report
+================================================================================

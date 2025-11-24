@@ -1,0 +1,87 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp\nPlease retry in 19.213106337s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 19\n}\n]",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.9172277450561523,
+    "evaluation_time": 1.4759931564331055,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer did not provide any information. It indicated an error with the API, and thus no content was produced. Therefore, it is incorrect, incomplete, irrelevant, and lacks legal reasoning.",
+      "strengths": [],
+      "weaknesses": [
+        "No response was generated.",
+        "The response indicates technical issues with the API."
+      ]
+    },
+    "timestamp": "2025-11-23T21:28:41.860545"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp\nPlease retry in 15.577198713s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 15\n}\n]",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.16023516654968262,
+    "evaluation_time": 1.7557473182678223,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer did not provide any information due to an API error. Therefore, it is completely incorrect, incomplete, irrelevant, and lacks any legal reasoning.",
+      "strengths": [],
+      "weaknesses": [
+        "The response is entirely missing due to an API error.",
+        "It fails to answer the question.",
+        "It lacks any legal content."
+      ]
+    },
+    "timestamp": "2025-11-23T21:28:45.779774"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Error generating response: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/usage?tab=rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp\nPlease retry in 11.656132281s. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_requests\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\nviolations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\"\n  quota_id: \"GenerateContentInputTokensPerModelPerMinute-FreeTier\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n}\n, retry_delay {\n  seconds: 11\n}\n]",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.15810275077819824,
+    "evaluation_time": 1.9972903728485107,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is incomplete as it did not generate any answer. The error message indicates that the quota was exceeded, and hence no legal information can be evaluated. Therefore, the scores across all categories are zero.",
+      "strengths": [],
+      "weaknesses": [
+        "The response is missing.",
+        "Unable to assess the quality of the legal information provided due to the lack of response."
+      ]
+    },
+    "timestamp": "2025-11-23T21:28:49.938223"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.710242509841919,
+    "evaluation_time": 0.1547384262084961,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:31:57.669411"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.14877820014953613,
+    "evaluation_time": 0.37768006324768066,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:00.198864"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.1509718894958496,
+    "evaluation_time": 0.39302587509155273,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:02.750192"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 127",
+    "ground_truth": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.14563918113708496,
+    "evaluation_time": 0.3781888484954834,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:05.277696"
+  },
+  {
+    "question_id": 5,
+    "question": "In the case of Masud Khan v State Of Uttar Pradesh, what was the court's decision regarding the burden of proof for establishing citizenship?",
+    "category": "Citizenship_Law",
+    "source": "Past Cases RAG - Supreme Court Case 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court held that under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The burden is upon the petitioner to establish that he is a citizen of India. The Court stated that there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950. The petitioner must discharge this burden by providing proof, and mere statements without evidence cannot be accepted as true.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.15217304229736328,
+    "evaluation_time": 0.38594484329223633,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:07.819251"
+  },
+  {
+    "question_id": 6,
+    "question": "What are the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 128",
+    "ground_truth": "Under IPC Section 128, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.15404081344604492,
+    "evaluation_time": 0.3064579963684082,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:10.283236"
+  },
+  {
+    "question_id": 7,
+    "question": "What was the Supreme Court's reasoning in Central Inland Water Transport Corporation case regarding the right to livelihood under Article 21?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 21 Interpretation",
+    "ground_truth": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the Supreme Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment. The court reasoned that the right to livelihood is an integral part of the right to life, and any arbitrary action that affects a person's livelihood would be a violation of Article 21. The court found that Rule 9(i) which allowed termination without reason was arbitrary and violated Article 21 as it arbitrarily affected the employees' means of livelihood.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.1890394687652588,
+    "evaluation_time": 0.3184940814971924,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:12.794461"
+  },
+  {
+    "question_id": 8,
+    "question": "Under IPC Section 130, what is the punishment for aiding the escape of a State prisoner or prisoner of war?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 130",
+    "ground_truth": "According to IPC Section 130, whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.15123748779296875,
+    "evaluation_time": 0.3104119300842285,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:15.259005"
+  },
+  {
+    "question_id": 9,
+    "question": "What was the principle of issue estoppel discussed in Masud Khan v State Of Uttar Pradesh case?",
+    "category": "Criminal_Procedure",
+    "source": "Past Cases RAG - Supreme Court 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court discussed the principle of issue estoppel and held that it arises only if both the earlier and subsequent proceedings were criminal prosecutions. The Court cited that where an issue of fact has been tried by a competent court and a finding has been reached in favor of an accused, such finding would constitute an estoppel against the prosecution, not as a bar to trial but as precluding the reception of evidence to disturb that finding when the accused is tried for a different offense. However, in this case, while the earlier proceeding was a criminal prosecution, the present was merely an action under the Foreigners (Internment) Order, not a criminal proceeding. Therefore, the principle of issue estoppel did not apply.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.23078560829162598,
+    "evaluation_time": 0.266467809677124,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:17.759342"
+  },
+  {
+    "question_id": 10,
+    "question": "What is the punishment for abetting mutiny if the mutiny is actually committed as a consequence, under IPC Section 132?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 132",
+    "ground_truth": "Under IPC Section 132, whoever abets the committing of mutiny by an officer, soldier, sailor or airman in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.14971709251403809,
+    "evaluation_time": 0.34436607360839844,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:20.256145"
+  },
+  {
+    "question_id": 11,
+    "question": "What are the rules for language use in Parliament?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 120",
+    "ground_truth": "Article 120 of the Constitution of India deals with the language to be used in Parliament. It states that business in Parliament shall be transacted in Hindi or in English. However, the Chairman of the Council of States or Speaker of the House of the People may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue. Unless Parliament by law otherwise provides, this provision for the use of English was to cease after fifteen years from the commencement of the Constitution (i.e., by 1965), but the Official Languages Act, 1963 allowed for the continued use of English.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.15162944793701172,
+    "evaluation_time": 0.3261435031890869,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:22.737144"
+  },
+  {
+    "question_id": 12,
+    "question": "What is the punishment for negligently suffering a prisoner of State or war to escape under IPC Section 129?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 129",
+    "ground_truth": "According to IPC Section 129, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, negligently suffers such prisoner to escape from any place of confinement in which such prisoner is confined, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.2330307960510254,
+    "evaluation_time": 0.3124701976776123,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:25.286017"
+  },
+  {
+    "question_id": 13,
+    "question": "In Prabhakaran Nair vs State Of Tamil Nadu case, what was the challenge to Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the petitioners challenged Section 14(1)(b) and Section 16(2) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 on the ground of being arbitrary, discriminatory and unreasonable. The main ground of attack was that while other Rent Acts in case of eviction for demolition permit the tenant to be re-inducted after reconstruction, the Tamil Nadu Rent Act did not provide such an option. It was argued that this discrimination against tenants in Tamil Nadu was invidious and violated Article 14 of the Constitution. However, the Supreme Court upheld the validity of these provisions.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.14554476737976074,
+    "evaluation_time": 0.3189265727996826,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:27.755710"
+  },
+  {
+    "question_id": 14,
+    "question": "What is the punishment for abetting an assault by a military officer on his superior officer under IPC Section 133?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 133",
+    "ground_truth": "Under IPC Section 133, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.14157533645629883,
+    "evaluation_time": 0.39161181449890137,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:32:30.293076"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), an individual who, not being a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India, wears any garb or carries any token resembling that used by such personnel with the intent to deceive (i.e., to be believed that they are such a soldier, sailor, or airman) is subject to punishment.\n\nThe punishment for this offense is:\n*   Imprisonment of either description for a term which may extend to **three months**, or\n*   A fine which may extend to **five hundred rupees**, or\n*   **Both** (imprisonment and fine).\n\n(Source: IPC RAG)",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 19.881969213485718,
+    "evaluation_time": 2.6244261264801025,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 9,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the offense under IPC Section 140, including the elements of the crime and the prescribed punishment. It correctly specifies the imprisonment term, fine amount, and the possibility of both. The answer is well-structured and easy to understand. While it doesn't explicitly mention the offense being cognizable and bailable, as the ground truth does, it provides all the crucial information. The legal reasoning is sound and presents the information directly related to the question.",
+      "strengths": [
+        "Accurate description of the offense under IPC Section 140.",
+        "Correctly states the punishment, including imprisonment and fine.",
+        "Well-structured and easy to understand.",
+        "Highly relevant to the question."
+      ],
+      "weaknesses": [
+        "Does not explicitly mention that the offense is cognizable and bailable."
+      ]
+    },
+    "timestamp": "2025-11-22T17:26:32.101864"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Abetting mutiny by a military officer under Indian Penal Code (IPC) Section 131 is an offense punishable with imprisonment for life or up to ten years, and a fine (IPC RAG).\n\nHowever, the provided information does not specify whether this offense is cognizable or non-cognizable (IPC RAG). Therefore, based on the available sources, it is not possible to definitively state its classification in this regard.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.544351100921631,
+    "evaluation_time": 2.6351191997528076,
+    "evaluation": {
+      "correctness_score": 4,
+      "completeness_score": 3,
+      "relevance_score": 10,
+      "legal_reasoning_score": 2,
+      "overall_score": 4.75,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer correctly identifies the relevant section of the IPC and the potential punishment. However, it fails to provide the critical information about the offense being cognizable and non-bailable, which is a key element of the ground truth. The legal reasoning is weak as it acknowledges the inability to classify the offense without explicitly stating the classification, which renders the answer incomplete and, in this context, inaccurate. The reliance on 'available sources' is a weak point, especially when the required information should be readily available from a standard legal resource. It is relevant to the question, but misses the most crucial point about the offense's nature.",
+      "strengths": [
+        "Correctly identifies the relevant IPC section.",
+        "Accurately states the possible punishment."
+      ],
+      "weaknesses": [
+        "Fails to state that the offense is cognizable and non-bailable.",
+        "Lack of complete legal information.",
+        "Weak legal reasoning.",
+        "Does not provide the full scope of information as provided in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-22T17:26:41.785179"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "The key legal issue in *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* likely concerned the validity and enforceability of contractual terms, specifically those pertaining to the termination of employment (Retrieved Information: Past Cases RAG). The case involved legal disputes that reached the Supreme Court, suggesting a challenge to existing legal precedents concerning contractual rights and potentially the fairness of termination clauses (Retrieved Information: Past Cases RAG). Furthermore, the matter had generated significant controversy among various High Courts prior to the Supreme Court's involvement (Retrieved Information: Past Cases RAG).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 6.397308111190796,
+    "evaluation_time": 2.6199657917022705,
+    "evaluation": {
+      "correctness_score": 3,
+      "completeness_score": 2,
+      "relevance_score": 7,
+      "legal_reasoning_score": 4,
+      "overall_score": 4,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is partially relevant but lacks crucial details and specifics related to the key legal issues of the case. While it correctly identifies that the case involved contractual terms and termination of employment, it fails to mention the key constitutional issues such as Article 12, Article 14, and Article 21, which were central to the court's decision. The answer's reliance on 'Retrieved Information: Past Cases RAG' is also not a substitute for accurate legal analysis. It does mention legal disputes and the Supreme Court, but it doesn't adequately elaborate on the specific legal arguments involved. The lack of specifics leads to low scores in correctness and completeness.",
+      "strengths": [
+        "Identifies the case involves contractual terms",
+        "Mentions the termination of employment as a key aspect."
+      ],
+      "weaknesses": [
+        "Fails to identify the key constitutional issues (Article 12, 14, 21).",
+        "Lacks specific details regarding the case.",
+        "Relies heavily on general statements",
+        "Does not demonstrate any understanding of the reasoning behind the court's decision."
+      ]
+    },
+    "timestamp": "2025-11-22T17:26:52.305123"
+  }
+]

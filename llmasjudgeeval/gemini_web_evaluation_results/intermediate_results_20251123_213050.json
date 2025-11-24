@@ -1,0 +1,29 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.6884987354278564,
+    "evaluation_time": 0.15772771835327148,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T21:30:50.932085"
+  }
+]

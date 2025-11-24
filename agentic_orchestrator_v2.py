@@ -393,12 +393,14 @@ class IPCRagSystem:
         
         try:
             # Load rag_engine module from ipcrag path
+            # Keep ipcrag_path in sys.path to allow imports to work properly
+            if ipcrag_path not in sys.path:
+                sys.path.insert(0, ipcrag_path)
+            
             rag_engine_file = os.path.join(ipcrag_path, 'rag_engine.py')
             spec = importlib.util.spec_from_file_location("ipcrag_rag_engine", rag_engine_file)
             rag_engine_module = importlib.util.module_from_spec(spec)
-            sys.path.insert(0, ipcrag_path)  # Needed for rag_engine's other imports
             spec.loader.exec_module(rag_engine_module)
-            sys.path.pop(0)  # Remove ipcrag_path immediately after loading
             
             FIRRagEngine = rag_engine_module.FIRRagEngine
         finally:
@@ -714,16 +716,16 @@ class AgenticOrchestrator:
             
             if "results" in result and result["results"]:
                 context_parts.append(f"Retrieved {len(result['results'])} records")
-                # Limit context size
-                context_parts.append(json.dumps(result["results"][:3], indent=2, default=str)[:1000])
+                # Include more results without truncation
+                context_parts.append(json.dumps(result["results"][:10], indent=2, default=str))
             
             if "answer" in result and result["answer"]:
-                context_parts.append(f"Answer: {result['answer'][:800]}")
+                context_parts.append(f"Answer: {result['answer']}")
             
             if "retrieved_docs" in result:
                 context_parts.append(f"Documents: {len(result['retrieved_docs'])} retrieved")
         
-        context = "\n".join(context_parts)[:3000]  # Limit total context
+        context = "\n".join(context_parts)[:8000]  # Increased context limit
         
         prompt = f"""You are an expert legal assistant. Synthesize a comprehensive answer based on information from multiple sources.
 
@@ -750,7 +752,7 @@ Answer:"""
                 prompt,
                 generation_config={
                     'temperature': 0.3,
-                    'max_output_tokens': 800
+                    'max_output_tokens': 2048  # Increased for longer, complete answers
                 }
             )
             
@@ -840,8 +842,13 @@ Answer:"""
                 print(f"\n{'='*80}")
                 print("✅ FINAL ANSWER:")
                 print(f"{'='*80}")
-                print(result["final_answer"])
+                # Print full answer without truncation
+                final_answer = result["final_answer"]
+                print(final_answer)
                 print(f"{'='*80}\n")
+                
+                # Save to file
+                self._save_response_to_file(user_query, result)
                 
             except KeyboardInterrupt:
                 print("\n\n👋 Goodbye!")
@@ -850,6 +857,27 @@ Answer:"""
                 print(f"\n❌ Error: {e}")
                 import traceback
                 traceback.print_exc()
+    
+    def _save_response_to_file(self, query: str, result: Dict):
+        """Save query and response to a text file"""
+        try:
+            from datetime import datetime
+            log_file = "orchestrator_responses.txt"
+            
+            with open(log_file, 'a', encoding='utf-8') as f:
+                f.write(f"\n{'='*80}\n")
+                f.write(f"TIMESTAMP: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"{'='*80}\n")
+                f.write(f"QUERY: {query}\n")
+                f.write(f"\nROUTING:\n")
+                routing = result.get('routing_decision', {})
+                f.write(f"  Systems: {[s.value for s in routing.get('systems', [])]}\n")
+                f.write(f"  Reasoning: {routing.get('reasoning', 'N/A')}\n")
+                f.write(f"\nFINAL ANSWER:\n")
+                f.write(result.get('final_answer', 'No answer generated'))
+                f.write(f"\n{'='*80}\n\n")
+        except Exception as e:
+            print(f"⚠️ Failed to save response to file: {e}")
     
     def close(self):
         """Cleanup resources"""

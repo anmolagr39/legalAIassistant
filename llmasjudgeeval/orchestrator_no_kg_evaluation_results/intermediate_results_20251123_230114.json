@@ -1,0 +1,38 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Based on the information from the legal databases, specifically the **IPC RAG**, the punishment for wearing a soldier's uniform or carrying a token resembling one with the intent to deceive others into believing one is a soldier, sailor, or airman, under **IPC Section 140**, is as follows:\n\n*   **Imprisonment:** Up to three months, or\n*   **Fine:** Up to 500 rupees, or\n*   **Both** imprisonment and fine.\n\nSection 140 of the Indian Penal Code states: \"Whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such a soldier, sailor or airman with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.\"\n\nThe \"Past Cases RAG\" and \"Legal Acts RAG\" databases did not contain specific information regarding the punishment for this particular offense under IPC Section 140, but the \"IPC RAG\" database directly addresses it.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.11473274230957,
+    "evaluation_time": 11.17247724533081,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies IPC Section 140 and provides the correct punishment details, including the imprisonment term, fine amount, and the option for both. It also includes a direct quote of the relevant section, which adds significant authority and clarity. The answer is highly relevant to the question asked. However, it misses some additional key legal details mentioned in the ground truth regarding the nature of the offense (cognizable and bailable) and its triability (by any Magistrate). While these are not strictly 'punishment' details, they are crucial aspects of describing a legal offense and were present in the comprehensive ground truth answer. Despite this omission, the core 'punishment' aspect of the question is perfectly addressed.",
+      "strengths": [
+        "Accurate identification of IPC Section 140.",
+        "Precise description of the punishment (imprisonment term, fine, or both).",
+        "Includes the exact statutory language of Section 140, enhancing authority.",
+        "Clear and concise presentation of information, especially the bullet-pointed punishment.",
+        "Directly addresses the question regarding punishment.",
+        "Correctly attributes the information to an 'IPC RAG' source."
+      ],
+      "weaknesses": [
+        "Omits additional legal details present in the ground truth, specifically that the offense is cognizable and bailable, and triable by any Magistrate."
+      ]
+    },
+    "timestamp": "2025-11-23T23:01:14.798705"
+  }
+]

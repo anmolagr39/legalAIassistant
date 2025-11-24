@@ -1,0 +1,31 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: Unknown field for FunctionDeclaration: google_search",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.00023055076599121094,
+    "evaluation_time": 4.221608877182007,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message ('Error generating response: Unknown field for FunctionDeclaration: google_search') and does not provide any substantive content in response to the legal question. It completely fails to address the question or provide any legal information whatsoever. Therefore, it scores 0 on all criteria.",
+      "strengths": [],
+      "weaknesses": [
+        "The response is an error message, not a legal answer.",
+        "It provides no information about the punishment for wearing a soldier's uniform under IPC Section 140.",
+        "It lacks any legal facts, reasoning, or relevance to the question."
+      ]
+    },
+    "timestamp": "2025-11-23T21:40:29.008418"
+  }
+]

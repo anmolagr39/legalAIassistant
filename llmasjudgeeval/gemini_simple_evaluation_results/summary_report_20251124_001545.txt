@@ -1,0 +1,102 @@
+================================================================================
+LLM-as-a-Judge Evaluation Summary Report
+Gemini 2.5 Flash (Simple - No Web Search)
+================================================================================
+
+Evaluation Date: 2025-11-24T00:15:45.065906
+Model: gemini-2.5-flash
+Mode: simple (no web search)
+Total Time: 1210.11 seconds
+
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total Questions: 40
+Completed: 40
+Failed: 0
+Passed: 27 (67.5%)
+Not Passed: 13 (32.5%)
+
+AVERAGE SCORES (0-10)
+--------------------------------------------------------------------------------
+Correctness:     6.90/10
+Completeness:    6.10/10
+Relevance:       7.65/10
+Legal Reasoning: 7.92/10
+Overall:         7.13/10
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Average Query Time: 14.25s
+Average Evaluation Time: 14.05s
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+IPC_Section:
+  Total: 9
+  Passed: 8 (88.9%)
+  Average Score: 8.86/10
+
+Constitutional_Law:
+  Total: 7
+  Passed: 6 (85.7%)
+  Average Score: 8.39/10
+
+Citizenship_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 6.75/10
+
+Criminal_Procedure:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 6.62/10
+
+Rent_Control_Law:
+  Total: 5
+  Passed: 4 (80.0%)
+  Average Score: 7.85/10
+
+Securities_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 5.50/10
+
+Negotiable_Instruments:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 9.25/10
+
+Legislative_History:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 3.25/10
+
+Evidence_Law:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 9.50/10
+
+Legal_Analytics:
+  Total: 3
+  Passed: 2 (66.7%)
+  Average Score: 6.25/10
+
+Case_Citations:
+  Total: 4
+  Passed: 0 (0.0%)
+  Average Score: 2.25/10
+
+IPC_Offense_Punishment:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 10.00/10
+
+Case_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 4.96/10
+
+================================================================================
+End of Report
+================================================================================

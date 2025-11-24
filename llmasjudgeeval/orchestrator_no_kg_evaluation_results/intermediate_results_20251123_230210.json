@@ -1,0 +1,107 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Based on the information from the legal databases, specifically the **IPC RAG**, the punishment for wearing a soldier's uniform or carrying a token resembling one with the intent to deceive others into believing one is a soldier, sailor, or airman, under **IPC Section 140**, is as follows:\n\n*   **Imprisonment:** Up to three months, or\n*   **Fine:** Up to 500 rupees, or\n*   **Both** imprisonment and fine.\n\nSection 140 of the Indian Penal Code states: \"Whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such a soldier, sailor or airman with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both.\"\n\nThe \"Past Cases RAG\" and \"Legal Acts RAG\" databases did not contain specific information regarding the punishment for this particular offense under IPC Section 140, but the \"IPC RAG\" database directly addresses it.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.11473274230957,
+    "evaluation_time": 11.17247724533081,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies IPC Section 140 and provides the correct punishment details, including the imprisonment term, fine amount, and the option for both. It also includes a direct quote of the relevant section, which adds significant authority and clarity. The answer is highly relevant to the question asked. However, it misses some additional key legal details mentioned in the ground truth regarding the nature of the offense (cognizable and bailable) and its triability (by any Magistrate). While these are not strictly 'punishment' details, they are crucial aspects of describing a legal offense and were present in the comprehensive ground truth answer. Despite this omission, the core 'punishment' aspect of the question is perfectly addressed.",
+      "strengths": [
+        "Accurate identification of IPC Section 140.",
+        "Precise description of the punishment (imprisonment term, fine, or both).",
+        "Includes the exact statutory language of Section 140, enhancing authority.",
+        "Clear and concise presentation of information, especially the bullet-pointed punishment.",
+        "Directly addresses the question regarding punishment.",
+        "Correctly attributes the information to an 'IPC RAG' source."
+      ],
+      "weaknesses": [
+        "Omits additional legal details present in the ground truth, specifically that the offense is cognizable and bailable, and triable by any Magistrate."
+      ]
+    },
+    "timestamp": "2025-11-23T23:01:14.798705"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the information provided from the legal databases, it is **not possible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense.**\n\nHere's a synthesis of the information from the databases:\n\n*   **IPC RAG:** This database provides the text of IPC Section 131, which states: \"Whoever abets the committing of mutiny by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India or attempts to seduce any such officer, soldier, sailor or airman from his allegiance or his duty, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine.\" However, it explicitly notes that \"The provided context does not specify if it is cognizable or non-cognizable.\"\n*   **Past Cases RAG:** This database unequivocally states, \"it is impossible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense. None of the provided documents mention Section 131 or provide any information about the nature of offenses under it.\"\n*   **Legal Acts RAG:** This database similarly concludes, \"it is **not possible to determine whether abetting mutiny by a military officer is a cognizable or non-cognizable offense under IPC Section 131.**\" It explains this limitation by highlighting the \"Absence of Indian Penal Code (IPC) Information\" beyond the bare section text and, crucially, the \"Absence of Definitions for 'Cognizable' or 'Non-Cognizable'\" within the provided documents. These terms are typically defined and applied within the Code of Criminal Procedure (CrPC), and the IPC itself often classifies offenses within its schedules, none of which are present in the given information. The constitutional articles discussed in this database (Articles 33, 34, 35, 16, 243ZQ, 243ZR, 32) do not provide the necessary classification for IPC offenses.\n\nIn conclusion, while IPC Section 131 defines the offense of abetting mutiny and prescribes its punishment (imprisonment for life or up to ten years, plus a fine), none of the provided legal databases contain the necessary information (such as a schedule from the CrPC or a more detailed IPC classification) to classify it as either a cognizable or non-cognizable offense.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 15.573444604873657,
+    "evaluation_time": 6.870399236679077,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 5,
+      "legal_reasoning_score": 2,
+      "overall_score": 1.75,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer fundamentally fails to provide the correct classification of the offense. The ground truth clearly states that abetting mutiny under IPC Section 131 is a 'cognizable and non-bailable offense.' The generated answer, however, states that it is 'not possible to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense.' This directly contradicts the established legal fact. While the generated answer provides elaborate reasoning for *why its internal RAG databases could not find the answer*, this explanation of a retrieval failure does not substitute for providing the correct legal information. The task is to answer the legal question, not to explain the limitations of the retrieval system. Therefore, despite its detailed explanation of its internal process, the core answer to the legal question is incorrect.",
+      "strengths": [
+        "Clearly articulated the limitations of its internal 'legal databases' (RAG sources).",
+        "Correctly identified that classifications like 'cognizable' or 'non-cognizable' are typically found in the Code of Criminal Procedure (CrPC) schedules, showing an understanding of where such information resides in the legal framework, even if it couldn't retrieve it."
+      ],
+      "weaknesses": [
+        "Provided an incorrect and non-committal answer to the core legal question, stating it was 'not possible to determine' when the ground truth provides a definitive answer.",
+        "Failed to retrieve or infer the correct legal classification of the offense, which is a critical piece of information.",
+        "Did not cover any of the other key points provided in the ground truth, such as the offense being non-bailable, the prescribed punishment, or the triable court."
+      ]
+    },
+    "timestamp": "2025-11-23T23:01:39.245494"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Based on the information provided, the key legal issue in the case of *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* was **the validity of clauses in contracts of employment that were deemed unconscionable and against public policy.**\n\nSpecifically, the case focused on:\n*   The validity of service rules or employment contracts, particularly those of Central Inland Water Transport Corporation Ltd. (a government company).\n*   The court found certain clauses in these employment contracts to be unfair and oppressive.\n*   These unfair clauses were deemed to violate public policy, leading to their unenforceability.\n*   The judgment established a significant precedent for protecting employees from unfair terms within their employment contracts.\n\nThe other legal databases (IPC RAG and Legal Acts RAG) did not contain specific information regarding the legal issue in this particular case. The IPC RAG only listed other cases that cited it, while the Legal Acts RAG focused on various articles of the Constitution of India unrelated to the specific contractual principles discussed in this case.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 16.535078287124634,
+    "evaluation_time": 12.495997905731201,
+    "evaluation": {
+      "correctness_score": 8,
+      "completeness_score": 6,
+      "relevance_score": 7,
+      "legal_reasoning_score": 6,
+      "overall_score": 6.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core issue of the case, which revolved around the validity of unconscionable clauses in employment contracts, particularly those of a government company, and their violation of public policy. This is a central aspect of the judgment. However, the ground truth provides a more comprehensive breakdown of the *specific legal issues* that the court addressed to arrive at this conclusion. The generated answer misses explicit mention of several key constitutional articles (Article 12, Article 14, Article 21) and legal principles (natural justice, scope of judicial review) that constituted distinct legal questions in the case. While the generated answer's points are conceptually related to these, they are not articulated as distinct legal issues in the same detailed manner as the ground truth. The inclusion of meta-commentary about the RAG sources in the generated answer detracts from its relevance and professionalism.",
+      "strengths": [
+        "Correctly identifies the central theme of the case regarding unconscionable employment contract clauses.",
+        "Accurately notes the involvement of a government company, which is crucial for the case's constitutional implications.",
+        "Focuses directly on the 'key legal issue' asked in the question."
+      ],
+      "weaknesses": [
+        "Lacks completeness by not explicitly listing the specific constitutional articles (Articles 12, 14, 21) and legal principles (natural justice, judicial review scope) that were key legal issues in the case, unlike the detailed ground truth.",
+        "The statement about 'other legal databases' and RAG sources is irrelevant and should not be part of the answer to the user.",
+        "The legal reasoning aspect could be stronger by explaining how these specific constitutional principles led to the finding of unconscionability, rather than just stating the outcome."
+      ]
+    },
+    "timestamp": "2025-11-23T23:02:10.279782"
+  }
+]

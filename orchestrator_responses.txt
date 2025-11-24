@@ -1,0 +1,206 @@
+
+================================================================================
+TIMESTAMP: 2025-11-21 16:58:33
+================================================================================
+QUERY: tell judges with most cases
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+Based on the retrieved information: 
+--- Knowledge Graph ---
+Retrieved 10 records
+[
+  [
+    "S. B. Sinha",
+    15
+  ],
+  [
+    "Arijit Pasayat",
+    12
+  ],
+  [
+    "Dr. Arijit Pasayat",
+    8
+  ]
+]...
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-21 17:01:49
+================================================================================
+QUERY: judges with most no of cases
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+Based on the provided Knowledge Graph, the judges with the highest number of associated cases are:
+
+1.  **Arijit Pasayat** (including "Dr. Arijit Pasayat," "Arijit Pasayat, J.," and "Dr. Arijit Pasayat, J."): 26 cases
+2.  **S. B. Sinha** (including "S. B. Sinha, J."): 19 cases
+3.  **K. T. Thomas**: 4 cases
+
+Other judges listed with fewer cases include P. Sathasivam (3 cases), Swatanter Kumar, J. (3 cases), and G. T. Nanavati, J. (3 cases) [Knowledge Graph].
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-22 15:16:01
+================================================================================
+QUERY: what is ipc 302
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+I apologize, but I am unable to provide a comprehensive answer regarding "IPC 302" at this time. The retrieved information from the `knowledge_graph` and `ipc_rag` sources was unavailable due to technical errors.
+
+Therefore, I cannot synthesize a detailed explanation based on the requested sources.
+
+**General Information (without source verification):**
+
+However, based on common legal knowledge, "IPC 302" refers to Section 302 of the Indian Penal Code (IPC). This section deals with the punishment for murder. It is one of the most serious offenses under Indian law.
+
+*   **Section 302, IPC:** Prescribes the punishment for a person who commits murder. The penalties can include imprisonment for life or the death penalty, and also a fine.
+*   **Section 300, IPC:** Defines what constitutes "murder" under Indian law, outlining various circumstances that qualify an act as murder (e.g., intention to cause death, intention to cause bodily injury likely to cause death, knowledge that the act is so imminently dangerous that it must in all probability cause death or such bodily injury as is likely to cause death, without any excuse for incurring the risk of causing death or such injury).
+
+To provide a truly comprehensive and accurate answer, I would require access to the specified legal databases.
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-22 15:20:15
+================================================================================
+QUERY: what is ipc 302
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+IPC Section 302 deals with the offense of **Murder** under the Indian Penal Code.
+
+Here's a breakdown based on the retrieved information:
+
+*   **Offense:** Section 302 of the IPC specifically pertains to the crime of **Murder** (Knowledge Graph).
+*   **Punishment:** The penalties prescribed for murder under IPC 302 are severe, including **Death or Imprisonment for Life**, along with a **Fine** (Knowledge Graph).
+*   **Nature of Offense:**
+    *   It is a **Non-Bailable** offense, meaning an accused person generally does not have an automatic right to bail and its grant is at the discretion of the court under strict conditions (Knowledge Graph).
+    *   It is a **Cognizable** offense, which means that a police officer can arrest an accused person without a warrant and can start an investigation without the prior permission of a court (Knowledge Graph).
+
+**Source Limitations:**
+The `ipc_rag` source, which would typically provide detailed legal text, interpretations, and potentially case law related to IPC 302, was unavailable due to an error. Therefore, this answer is synthesized solely from the provided Knowledge Graph, which offers a concise summary of the section's key attributes. A full understanding of "Murder" under Indian law would require examining the definition provided in IPC Section 300, which outlines what constitutes murder and its exceptions.
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-22 15:23:45
+================================================================================
+QUERY: what is ipc 302
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+IPC Section 302 deals with the offense of **Murder**.
+
+Based on the retrieved information from the Knowledge Graph:
+*   **Offense:** Section 302 of the Indian Penal Code (IPC) specifically pertains to **Murder**.
+*   **Punishment:** The prescribed punishment for murder under IPC 302 is **Death or Imprisonment for Life**, along with a **Fine**.
+*   **Nature of Offense:** It is classified as a **Non-Bailable** offense, meaning that bail is not a matter of right and is typically granted only under exceptional circumstances by a court. It is also a **Cognizable** offense, which means that police can register a First Information Report (FIR) and initiate an investigation without a warrant or prior permission from a magistrate.
+
+(Source: Knowledge Graph)
+
+Please note that the `ipc_rag` source encountered an error and could not be accessed for additional information.
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-22 15:26:25
+================================================================================
+QUERY: what is ipc 302
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+Indian Penal Code (IPC) Section 302 addresses the offense of **Murder**.
+
+According to the retrieved information:
+*   **Offense:** Murder (Knowledge Graph)
+*   **Punishment:** Death or Imprisonment for Life, along with a Fine (Knowledge Graph)
+*   **Nature of Offense:**
+    *   **Bailability:** Non-Bailable (Knowledge Graph)
+    *   **Cognizability:** Cognizable (Knowledge Graph)
+
+A "cognizable" offense means that a police officer can arrest an accused person without a warrant, and an investigation can begin without the prior permission of a court. A "non-bailable" offense means that bail is not a matter of right and is at the discretion of the court.
+
+It is important to note that while the Knowledge Graph provides specific details for IPC Section 302, the IPC RAG source explicitly states that its provided context does not contain information about IPC Section 302, instead focusing on repealed sections 165A and 165 (IPC RAG).
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-22 15:30:43
+================================================================================
+QUERY: explain prabhakaran nair's case
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+Based on the retrieved information, the case involving Prabhakaran Nair is identified as **Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.** (Past Cases RAG).
+
+Here's what is known about the case:
+*   **Court:** The case was heard by the Supreme Court of India (Past Cases RAG).
+*   **Date:** The judgment was delivered on September 3, 1987 (Past Cases RAG).
+*   **Judge:** The judgment was delivered by Justice Sabyasachi Mukharji (Past Cases RAG).
+
+However, the retrieved documents provide limited information regarding the specifics of the case. The nature of the case, the charges involved, the factual background, or the verdict are not detailed in the available information (Past Cases RAG). Therefore, a comprehensive explanation of the specific details of "Prabhakaran Nair's case" cannot be provided based solely on the supplied documents.
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-23 16:31:05
+================================================================================
+QUERY: Which case is the most cited?
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+Based on the retrieved information, it is not possible to definitively identify "the most cited case" globally or historically.
+
+The provided Knowledge Graph lists one record:
+*   **2006 (4) SCC 1** with a citation count of 2 (Source: Knowledge Graph).
+
+This single data point, indicating a citation count of 2 for a specific case, is insufficient to determine the most cited case overall, which would typically involve thousands or even hundreds of thousands of citations across various jurisdictions and legal databases. Therefore, while the Knowledge Graph provides an example of a cited case, it does not offer enough information to answer the user's question comprehensively regarding *the* most cited case.
+================================================================================
+
+
+================================================================================
+TIMESTAMP: 2025-11-23 16:32:57
+================================================================================
+QUERY: Find cases decided by judges who have served in the Supreme Court of India and have decided more than 10 cases.
+
+ROUTING:
+  Systems: []
+  Reasoning: N/A
+
+FINAL ANSWER:
+The provided information is insufficient to answer your question. To identify Supreme Court of India judges who have decided more than 10 cases, I would require a database or list containing:
+1.  The names of judges who have served on the Supreme Court of India.
+2.  A count of the cases decided by each of those judges.
+
+Without this specific data, it is not possible to synthesize a comprehensive answer.
+================================================================================
+

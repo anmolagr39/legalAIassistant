@@ -1,0 +1,100 @@
+================================================================================
+LLM-as-a-Judge Evaluation Summary Report
+Gemini 2.5 Flash (Google Search Grounding) Evaluation
+================================================================================
+
+Evaluation Date: 2025-11-23T21:59:37.529639
+Total Time: 850.82 seconds
+
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total Questions: 40
+Completed: 40
+Failed: 0
+Passed: 31 (77.5%)
+Not Passed: 9 (22.5%)
+
+AVERAGE SCORES (0-10)
+--------------------------------------------------------------------------------
+Correctness:     7.59/10
+Completeness:    6.50/10
+Relevance:       8.12/10
+Legal Reasoning: 7.56/10
+Overall:         7.45/10
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Average Query Time: 6.80s
+Average Evaluation Time: 12.51s
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+IPC_Section:
+  Total: 9
+  Passed: 9 (100.0%)
+  Average Score: 9.64/10
+
+Constitutional_Law:
+  Total: 7
+  Passed: 6 (85.7%)
+  Average Score: 7.78/10
+
+Citizenship_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 5.38/10
+
+Criminal_Procedure:
+  Total: 2
+  Passed: 2 (100.0%)
+  Average Score: 9.50/10
+
+Rent_Control_Law:
+  Total: 5
+  Passed: 5 (100.0%)
+  Average Score: 8.15/10
+
+Securities_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 5.75/10
+
+Negotiable_Instruments:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 9.75/10
+
+Legislative_History:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 3.00/10
+
+Evidence_Law:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 9.50/10
+
+Legal_Analytics:
+  Total: 3
+  Passed: 0 (0.0%)
+  Average Score: 1.17/10
+
+Case_Citations:
+  Total: 4
+  Passed: 3 (75.0%)
+  Average Score: 6.62/10
+
+IPC_Offense_Punishment:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 4.00/10
+
+Case_Law:
+  Total: 2
+  Passed: 2 (100.0%)
+  Average Score: 9.25/10
+
+================================================================================
+End of Report
+================================================================================

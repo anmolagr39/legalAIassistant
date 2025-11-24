@@ -1,0 +1,72 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if a person who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India, wears any uniform or carries any token resembling those used by such personnel with the intention that it may be believed they are such a soldier, sailor, or airman, they shall be punished.\n\nThe punishment for this offense is:\n*   Imprisonment of either description for a term which may extend to **three months**, or\n*   A fine which may extend to **five hundred rupees**, or\n*   **Both**.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.279236793518066,
+    "evaluation_time": 8.035143852233887,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies IPC Section 140 and correctly describes the prohibited act (wearing garb/token resembling military personnel with intent to deceive, by someone not actually military personnel). Crucially, it precisely states the associated punishments: imprisonment of either description for a term which may extend to three months, or a fine which may extend to five hundred rupees, or both. The answer is well-structured and easy to understand. The only minor omission compared to the ground truth is the procedural classification of the offense (cognizable, bailable, triable by any Magistrate). While this information is relevant to the section, the question specifically asks for the 'punishment,' which the generated answer fully provides. However, as the ground truth included these details, a slight reduction in completeness is warranted.",
+      "strengths": [
+        "Accurately identifies the relevant IPC section (140).",
+        "Correctly describes the elements of the offense.",
+        "Precisely states the maximum term of imprisonment and fine amount.",
+        "Clearly presents the punishment options (imprisonment, fine, or both).",
+        "The answer is well-structured and easy to comprehend."
+      ],
+      "weaknesses": [
+        "Does not include the procedural classification of the offense (cognizable, bailable, triable by any Magistrate) which was present in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T22:39:17.056004"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the information provided from the legal databases, there is no specific information to determine whether abetting mutiny by a military officer under Indian Penal Code (IPC) Section 131 is a cognizable or non-cognizable offense.\n\nHere's what the databases indicate:\n\n*   **IPC RAG:** This database details IPC Section 131, stating that \"Whoever abets the committing of mutiny by an officer, soldier, sailor or airman... or attempts to seduce any such officer, soldier, sailor or airman from his allegiance or his duty, shall be punished with imprisonment for life, or with imprisonment... for a term which may extend to ten years, and shall also be liable to fine.\" However, it explicitly notes that \"The provided context does not specify if it is cognizable or non-cognizable.\"\n*   **Past Cases RAG:** This database also confirms the absence of information, stating, \"The provided documents do not contain information to determine whether abetting mutiny by a military officer under IPC Section 131 is a cognizable or non-cognizable offense.\"\n*   **Legal Acts RAG:** Similarly, this database indicates, \"Based on the provided legal documents, there is no information regarding Indian Penal Code (IPC) Section 131, nor any classification of offenses as 'cognizable' or 'non-cognizable.'\"\n\nIn summary, while the nature of the offense and its punishment under IPC Section 131 are described, the provided legal databases do not contain the necessary information to classify it as either a cognizable or non-cognizable offense.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 11.84413480758667,
+    "evaluation_time": 8.009642601013184,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 7,
+      "legal_reasoning_score": 0,
+      "overall_score": 1.75,
+      "verdict": "FAIL",
+      "reasoning": "The core of the question was whether the offense is cognizable or non-cognizable. The ground truth explicitly states that it is a 'cognizable and non-bailable offense'. The generated answer completely fails to provide this crucial information, instead stating that it cannot determine this based on its databases. While the answer correctly quotes the punishment details from IPC Section 131, its inability to answer the primary legal classification makes it fundamentally incorrect and incomplete regarding the question asked. Reporting the limitations of its internal RAG databases is not a substitute for providing the correct legal information.",
+      "strengths": [
+        "Acknowledges the specific question regarding cognizable/non-cognizable classification.",
+        "Accurately quotes the punishment details of IPC Section 131."
+      ],
+      "weaknesses": [
+        "Fails to provide the correct legal classification (cognizable) for the offense, which was the central point of the question.",
+        "Provides a non-answer by stating its databases lack the information, rather than providing the actual legal status.",
+        "Lacks any legal reasoning to determine the cognizable status (e.g., reference to the First Schedule of CrPC).",
+        "The overall conclusion is factually incorrect regarding the determinability of the offense's nature."
+      ]
+    },
+    "timestamp": "2025-11-23T22:39:38.913294"
+  }
+]

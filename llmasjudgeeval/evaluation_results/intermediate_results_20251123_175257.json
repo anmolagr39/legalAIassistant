@@ -1,0 +1,125 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel, with the intent to deceive others into believing they are such a service member, they shall be punished.\n\nThe punishment for this offense includes:\n*   Imprisonment of either description for a term which may extend to three months, or\n*   A fine which may extend to five hundred rupees, or\n*   Both.\n\nThis information is derived from the provided IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 66.46397519111633,
+    "evaluation_time": 2.223419666290283,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 9,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 9.3,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under IPC Section 140. It correctly identifies the elements of the offense and the penalties involved, including the term of imprisonment and the fine. The answer is also relevant, directly addressing the question asked. However, it lacks information on the nature of the offense, i.e., whether it is cognizable and bailable, and the court which can try the case. But, as a legal assistant, its response is acceptable.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 140.",
+        "Correctly identifies the elements of the offense.",
+        "Relevance to the question asked."
+      ],
+      "weaknesses": [
+        "Does not specify if the offense is cognizable or bailable.",
+        "Does not mention the court that can try the case."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:16.205024"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the provided information, the retrieved context does not specify whether abetting mutiny by a military officer under Indian Penal Code (IPC) Section 131 is a cognizable or non-cognizable offense (IPC RAG).\n\nHowever, IPC Section 131 outlines that whoever abets the committing of mutiny by an officer, soldier, sailor, or airman in the Army, Navy, or Air Force of the Government of India, or attempts to seduce any such person from their allegiance or duty, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.054771184921265,
+    "evaluation_time": 0.524895191192627,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:23.787514"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "The key legal issue in *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* primarily revolved around the **validity of contracts of employment**, specifically concerning whether certain clauses within these contracts were **unconscionable or against public policy** (Past Cases RAG).\n\nThe case addressed the interpretation and application of legal principles laid down by the Supreme Court, particularly regarding fairness in contracts of employment (Past Cases RAG). The court found that some clauses within the employment contracts were oppressive and subsequently struck them down, indicating that the case hinged on the issue of unfair contract terms, especially within employer-employee relationships (Past Cases RAG).\n\nMore broadly, the case also touched upon the interpretation of Supreme Court decisions and the authority of such decisions, reflecting a concern about how legal principles, particularly those from Constitution Bench decisions, should be applied and understood (Past Cases RAG, Document 2, Document 3).",
+    "systems_used": [
+      "knowledge_graph",
+      "past_cases_rag"
+    ],
+    "query_time": 20.154346466064453,
+    "evaluation_time": 2.604243755340576,
+    "evaluation": {
+      "correctness_score": 6,
+      "completeness_score": 4,
+      "relevance_score": 10,
+      "legal_reasoning_score": 6,
+      "overall_score": 6,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core issue as contract validity, but it misses several crucial aspects mentioned in the ground truth. While it focuses on unfair contract terms, it doesn't mention the constitutional dimensions, such as Article 14 and Article 21, which were key to the case. The reasoning is sound but not comprehensive. The answer touches on the unconscionable clauses but misses out on the broader legal implications on the State and the implications of the arbitrary termination of employment. The focus is correct, but the depth is lacking compared to the ground truth.",
+      "strengths": [
+        "Correctly identifies the main issue as the validity of employment contracts.",
+        "Highlights the unconscionable or against public policy aspects of the contracts."
+      ],
+      "weaknesses": [
+        "Fails to mention critical constitutional aspects of the case (Article 12, 14, and 21).",
+        "Lacks the detail and breadth of legal issues presented in the ground truth.",
+        "Misses the broader context of the case's implications on State entities."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:48.549472"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 127",
+    "ground_truth": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Indian Penal Code (IPC) Section 127, the punishment for receiving property knowing it to have been taken during war or depredation (offenses mentioned in Sections 125 and 126) is:\n\n*   **Imprisonment:** Of either description for a term which may extend to seven years.\n*   **Fine:** The offender shall also be liable to a fine.\n*   **Forfeiture:** The property so received shall also be subject to forfeiture.\n\nThis information is derived from the `IPC RAG` source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 4.918409824371338,
+    "evaluation_time": 2.271653652191162,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under IPC Section 127, including imprisonment term, fine, and forfeiture. It is completely relevant to the question. The legal reasoning is implicitly present through stating the components of the punishment, although it lacks specifics such as the offense being cognizable, non-bailable, and triable by the Court of Session (as mentioned in the ground truth). This slightly reduces the legal reasoning score.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 127.",
+        "Complete information about imprisonment, fine, and forfeiture.",
+        "Highly relevant to the question."
+      ],
+      "weaknesses": [
+        "The answer does not explicitly mention that it is a cognizable, non-bailable offence triable by the Court of Session."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:57.742493"
+  }
+]

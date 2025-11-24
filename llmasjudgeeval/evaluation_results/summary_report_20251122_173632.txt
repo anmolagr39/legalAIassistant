@@ -1,0 +1,80 @@
+================================================================================
+LLM-as-a-Judge Evaluation Summary Report
+Legal Assistant System Evaluation
+================================================================================
+
+Evaluation Date: 2025-11-22T17:36:32.064801
+Total Time: 387.65 seconds
+
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total Questions: 30
+Completed: 30
+Failed: 0
+Passed: 14 (46.7%)
+Not Passed: 16 (53.3%)
+
+AVERAGE SCORES (0-10)
+--------------------------------------------------------------------------------
+Correctness:     5.90/10
+Completeness:    4.43/10
+Relevance:       8.40/10
+Legal Reasoning: 5.30/10
+Overall:         5.92/10
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Average Query Time: 8.52s
+Average Evaluation Time: 2.47s
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+IPC_Section:
+  Total: 10
+  Passed: 7 (70.0%)
+  Average Score: 7.35/10
+
+Constitutional_Law:
+  Total: 6
+  Passed: 2 (33.3%)
+  Average Score: 4.50/10
+
+Citizenship_Law:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 8.50/10
+
+Criminal_Procedure:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 5.25/10
+
+Rent_Control_Law:
+  Total: 6
+  Passed: 3 (50.0%)
+  Average Score: 5.46/10
+
+Securities_Law:
+  Total: 2
+  Passed: 0 (0.0%)
+  Average Score: 4.62/10
+
+Negotiable_Instruments:
+  Total: 2
+  Passed: 0 (0.0%)
+  Average Score: 4.50/10
+
+Legislative_History:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 4.00/10
+
+Evidence_Law:
+  Total: 1
+  Passed: 1 (100.0%)
+  Average Score: 8.25/10
+
+================================================================================
+End of Report
+================================================================================

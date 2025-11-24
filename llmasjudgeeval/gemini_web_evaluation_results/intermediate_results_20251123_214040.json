@@ -1,0 +1,89 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: Unknown field for FunctionDeclaration: google_search",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.00023055076599121094,
+    "evaluation_time": 4.221608877182007,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message ('Error generating response: Unknown field for FunctionDeclaration: google_search') and does not provide any substantive content in response to the legal question. It completely fails to address the question or provide any legal information whatsoever. Therefore, it scores 0 on all criteria.",
+      "strengths": [],
+      "weaknesses": [
+        "The response is an error message, not a legal answer.",
+        "It provides no information about the punishment for wearing a soldier's uniform under IPC Section 140.",
+        "It lacks any legal facts, reasoning, or relevance to the question."
+      ]
+    },
+    "timestamp": "2025-11-23T21:40:29.008418"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Error generating response: Unknown field for FunctionDeclaration: google_search",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.00016736984252929688,
+    "evaluation_time": 3.5134494304656982,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message, 'Error generating response: Unknown field for FunctionDeclaration: google_search'. It provides no legal information, facts, reasoning, or any attempt to answer the question. Therefore, it completely fails to meet any of the evaluation criteria.",
+      "strengths": [],
+      "weaknesses": [
+        "Did not generate a substantive answer.",
+        "Provided an error message instead of an answer.",
+        "Completely failed to address the legal question."
+      ]
+    },
+    "timestamp": "2025-11-23T21:40:34.528960"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Error generating response: Unknown field for FunctionDeclaration: google_search",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.00019025802612304688,
+    "evaluation_time": 3.7320446968078613,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message ('Error generating response: Unknown field for FunctionDeclaration: google_search') and contains no substantive content. Therefore, it completely fails to address the question or provide any information that can be evaluated against the ground truth. It is neither correct, complete, relevant, nor does it demonstrate any legal reasoning.",
+      "strengths": [],
+      "weaknesses": [
+        "Failure to generate any response.",
+        "Inability to provide information relevant to the question.",
+        "No legal content was produced."
+      ]
+    },
+    "timestamp": "2025-11-23T21:40:40.263450"
+  }
+]

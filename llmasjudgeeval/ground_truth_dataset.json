@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "ground_truth_answer": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "source": "IPC RAG - Section 140",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "ground_truth_answer": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "source": "IPC RAG - Section 131",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "ground_truth_answer": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "source": "Constitution RAG - Supreme Court Case",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "ground_truth_answer": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "source": "IPC RAG - Section 127",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 5,
+    "question": "In the case of Masud Khan v State Of Uttar Pradesh, what was the court's decision regarding the burden of proof for establishing citizenship?",
+    "ground_truth_answer": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court held that under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The burden is upon the petitioner to establish that he is a citizen of India. The Court stated that there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950. The petitioner must discharge this burden by providing proof, and mere statements without evidence cannot be accepted as true.",
+    "source": "Past Cases RAG - Supreme Court Case 1973",
+    "category": "Citizenship_Law"
+  },
+  {
+    "id": 6,
+    "question": "What are the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128?",
+    "ground_truth_answer": "Under IPC Section 128, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "source": "IPC RAG - Section 128",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 7,
+    "question": "What was the Supreme Court's reasoning in Central Inland Water Transport Corporation case regarding the right to livelihood under Article 21?",
+    "ground_truth_answer": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the Supreme Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment. The court reasoned that the right to livelihood is an integral part of the right to life, and any arbitrary action that affects a person's livelihood would be a violation of Article 21. The court found that Rule 9(i) which allowed termination without reason was arbitrary and violated Article 21 as it arbitrarily affected the employees' means of livelihood.",
+    "source": "Constitution RAG - Article 21 Interpretation",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 8,
+    "question": "Under IPC Section 130, what is the punishment for aiding the escape of a State prisoner or prisoner of war?",
+    "ground_truth_answer": "According to IPC Section 130, whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "source": "IPC RAG - Section 130",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 9,
+    "question": "What was the principle of issue estoppel discussed in Masud Khan v State Of Uttar Pradesh case?",
+    "ground_truth_answer": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court discussed the principle of issue estoppel and held that it arises only if both the earlier and subsequent proceedings were criminal prosecutions. The Court cited that where an issue of fact has been tried by a competent court and a finding has been reached in favor of an accused, such finding would constitute an estoppel against the prosecution, not as a bar to trial but as precluding the reception of evidence to disturb that finding when the accused is tried for a different offense. However, in this case, while the earlier proceeding was a criminal prosecution, the present was merely an action under the Foreigners (Internment) Order, not a criminal proceeding. Therefore, the principle of issue estoppel did not apply.",
+    "source": "Past Cases RAG - Supreme Court 1973",
+    "category": "Criminal_Procedure"
+  },
+  {
+    "id": 10,
+    "question": "What is the punishment for abetting mutiny if the mutiny is actually committed as a consequence, under IPC Section 132?",
+    "ground_truth_answer": "Under IPC Section 132, whoever abets the committing of mutiny by an officer, soldier, sailor or airman in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "source": "IPC RAG - Section 132",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 11,
+    "question": "What are the rules for language use in Parliament?",
+    "ground_truth_answer": "Article 120 of the Constitution of India deals with the language to be used in Parliament. It states that business in Parliament shall be transacted in Hindi or in English. However, the Chairman of the Council of States or Speaker of the House of the People may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue. Unless Parliament by law otherwise provides, this provision for the use of English was to cease after fifteen years from the commencement of the Constitution (i.e., by 1965), but the Official Languages Act, 1963 allowed for the continued use of English.",
+    "source": "Constitution RAG - Article 120",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 12,
+    "question": "What is the punishment for negligently suffering a prisoner of State or war to escape under IPC Section 129?",
+    "ground_truth_answer": "According to IPC Section 129, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, negligently suffers such prisoner to escape from any place of confinement in which such prisoner is confined, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, bailable offense triable by a Magistrate of the First Class.",
+    "source": "IPC RAG - Section 129",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 13,
+    "question": "In Prabhakaran Nair vs State Of Tamil Nadu case, what was the challenge to Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the petitioners challenged Section 14(1)(b) and Section 16(2) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 on the ground of being arbitrary, discriminatory and unreasonable. The main ground of attack was that while other Rent Acts in case of eviction for demolition permit the tenant to be re-inducted after reconstruction, the Tamil Nadu Rent Act did not provide such an option. It was argued that this discrimination against tenants in Tamil Nadu was invidious and violated Article 14 of the Constitution. However, the Supreme Court upheld the validity of these provisions.",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Rent_Control_Law"
+  },
+  {
+    "id": 14,
+    "question": "What is the punishment for abetting an assault by a military officer on his superior officer under IPC Section 133?",
+    "ground_truth_answer": "Under IPC Section 133, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by a Magistrate of the First Class.",
+    "source": "IPC RAG - Section 133",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 15,
+    "question": "Provisions under Articles 153-158 about Governors?",
+    "ground_truth_answer": "Articles 153 to 158 of the Constitution of India deal with the Governor of States. Article 153 mandates a Governor for each State. Article 154 vests the executive power of the State in the Governor. Article 155 states the Governor is appointed by the President. Article 156 provides that the Governor holds office during the pleasure of the President, typically for a term of five years. Article 157 sets qualifications: must be a citizen of India and at least 35 years old. Article 158 outlines conditions of office, including not being a member of Parliament or State Legislature and not holding any other office of profit.",
+    "source": "Constitution RAG - Articles 153-158",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 16,
+    "question": "In the Prabhakaran Nair case, what was the Supreme Court's reasoning for upholding Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court upheld Section 14(1)(b) reasoning that the provision for re-induction in case of repairs and absence of such provision in case of demolition and reconstruction is quite understandable and rational. The Court noted that demolition has to be completed within three months but reconstruction of a new building might take years. During that period, a tenant is bound to have found alternative accommodation. In contrast, for repairs, a tenant may arrange temporary accommodation for a few months and return. The Court held it is not practicable and would be anomalous to expect a landlord to take back a tenant after a long lapse of time. Thus, the classification was found to be reasonable and not violative of Article 14.",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Rent_Control_Law"
+  },
+  {
+    "id": 17,
+    "question": "What is the punishment if an assault on a superior officer is actually committed following abetment under IPC Section 134?",
+    "ground_truth_answer": "Under IPC Section 134, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall, if such assault be committed in consequence of that abetment be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. This makes the punishment more severe when the assault is actually carried out as a result of the abetment.",
+    "source": "IPC RAG - Section 134",
+    "category": "IPC_Section"
+  },
+  {
+    "id": 18,
+    "question": "In Hiten P. Dalal v Bratindranath Banerjee case, what was the jurisdictional issue regarding the Special Court?",
+    "ground_truth_answer": "In Hiten P. Dalal v Bratindranath Banerjee (2001), the jurisdictional issue was whether the Special Court set up under the Special Court (Trial of Offences relating to Transactions in Securities) Act, 1992 had jurisdiction over offences committed after 6 June 1992. The Supreme Court held that the statutory period specified in Section 3(2) qualifies the word 'transactions' and not the word 'offence'. The jurisdiction of the Special Court extends to offences relating to transactions in securities that took place between 1 April 1991 and 6 June 1992, regardless of when the offence itself was committed. Since the cheques in this case were issued during the statutory period for transactions within that period, the Special Court had jurisdiction.",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "category": "Securities_Law"
+  },
+  {
+    "id": 19,
+    "question": "What does Article 131 say about Supreme Court's original jurisdiction?",
+    "ground_truth_answer": "Article 131 of the Constitution of India grants the Supreme Court exclusive original jurisdiction in any dispute: (a) between the Government of India and one or more States; (b) between the Government of India and any State or States on one side and one or more other States on the other; or (c) between two or more States. This jurisdiction applies if the dispute involves any question (whether of law or fact) on which the existence or extent of a legal right depends. It excludes disputes arising out of any treaty, agreement, covenant, engagement, sanad, or other similar instrument entered into before the commencement of the Constitution.",
+    "source": "Constitution RAG - Article 131",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 20,
+    "question": "What is the principle of issue estoppel in criminal cases?",
+    "ground_truth_answer": "The principle of issue estoppel in criminal cases, as discussed in cases like Masud Khan v State of UP, means that where an issue of fact has been tried by a competent court on a former occasion and a finding has been reached in favor of an accused, such a finding would constitute an estoppel or res judicata against the prosecution. It does not bar the trial itself for a different offense but precludes the reception of evidence to disturb that finding of fact when the accused is tried subsequently, even for a different offense.",
+    "source": "Past Cases RAG - Criminal Procedure",
+    "category": "Criminal_Procedure"
+  },
+  {
+    "id": 21,
+    "question": "What legal precedents were used in the Central Inland Water Transport Corporation case?",
+    "ground_truth_answer": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the legal precedents used were: (1) The Supreme Court's previous decisions that defined 'State' under Article 12 broadly to include various agencies and instrumentalities beyond just statutory bodies, establishing that government companies undertaking public functions qualify as 'State'; (2) The principle that unreasonable and arbitrary contractual terms can be struck down under Article 14, establishing that Rule 9(i) conferring unfettered power to terminate without hearing is arbitrary and violative of natural justice; (3) The precedent that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment, establishing that right to livelihood is integral to right to life.",
+    "source": "Constitution RAG - Legal Precedents",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 22,
+    "question": "What was the court's position on comparative study of different state laws in the Prabhakaran Nair case?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court cited the Constitution Bench decision in State of Madhya Pradesh v. G.C. Mandawar (1955) which observed that Article 14 of the Constitution does not authorize the striking down of a law of one State on the ground that in contrast with a law of another State on the same subject its provisions are discriminatory. Article 14 does not contemplate a law of the Centre or of the State dealing with similar subjects being held to be unconstitutional by a process of comparative study of the provisions of two enactments. The source of authority for the two statutes being different, Article 14 can have no application. Therefore, the absence of re-induction provisions in Tamil Nadu Rent Act compared to other state laws could not be a ground for unconstitutionality.",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Constitutional_Law"
+  },
+  {
+    "id": 23,
+    "question": "What presumptions were available to the complainant bank under the Negotiable Instruments Act in the Hiten P. Dalal case?",
+    "ground_truth_answer": "In Hiten P. Dalal v Bratindranath Banerjee (2001), three presumptions were available to the Bank: (1) Under Section 118 - that every negotiable instrument was made or drawn for consideration, and when accepted, indorsed, negotiated or transferred, it was for consideration; (2) Under Section 138 - where any cheque is returned unpaid because of insufficient funds, the drawer shall be deemed to have committed an offence (subject to presentation, notice, and non-payment conditions); (3) Under Section 139 - it shall be presumed that the holder received the cheque for the discharge, in whole or in part, of any debt or other liability. These mandatory presumptions placed the evidential burden on the accused to prove the contrary.",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "category": "Negotiable_Instruments"
+  },
+  {
+    "id": 24,
+    "question": "What was the historical context of Section 14 of the Tamil Nadu Rent Act as explained in Prabhakaran Nair case?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court explained that a similar enactment was in operation from 1949 to 1960 which did not contain provisions like Sections 14 to 16 for eviction on grounds of demolition and reconstruction. The 1949 Act contained a provision empowering the Government to exempt buildings from the Act's provisions. When landlords desired to evict tenants for demolition and reconstruction, they would apply for exemption under Section 13 of the 1949 Act. The Government would impose conditions requiring landlords to complete reconstruction within four months and take back old tenants. The Legislature, based on experience gained from 1949 to 1960, enacted Sections 14 to 16 in the 1960 Act, improving the position by providing eviction as a statutory ground and leaving it to judicial adjudication by the Rent Controller.",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Legislative_History"
+  },
+  {
+    "id": 25,
+    "question": "How does the Supreme Court determine if someone is a foreigner?",
+    "ground_truth_answer": "As per Section 9 of the Foreigners Act, 1946, and upheld in cases like Masud Khan v State of Uttar Pradesh, the burden of proof lies upon the person to show that they are not a foreigner. If a question arises whether a person is or is not a foreigner, the onus is on that person to prove they are a citizen of India. Mere oral statements or lack of documentation from the prosecution is not sufficient; the individual must provide evidence of citizenship.",
+    "source": "Past Cases RAG - Citizenship Law",
+    "category": "Citizenship_Law"
+  },
+  {
+    "id": 26,
+    "question": "What was the Supreme Court's interpretation of 'bona fide requirement' in demolition cases as per Prabhakaran Nair?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court cited Metalware and Co. v. Bansilal Sharma (1979) which emphasized that Section 14(1)(b) uses the phrase 'the building was bona fide required by the landlord' which clearly refers to the bona fide requirement of the landlord, meaning genuineness of his claim. The Rent Controller must take into account all surrounding circumstances including not merely factors like the landlord possessing sufficient means or funds and steps taken, but also the existing condition of the building, its age and situation, and possibility of it being put to a more profitable use after reconstruction. All these factors being relevant must enter the verdict of the Rent Controller on the question of bona fide requirement under Section 14(1)(b).",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Rent_Control_Law"
+  },
+  {
+    "id": 27,
+    "question": "What was the effect of Section 16(2) of Tamil Nadu Rent Act after reconstruction as explained in Prabhakaran Nair case?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Court explained that Section 16(2) of the Tamil Nadu Rent Act (amended by Act 23 of 1973) states that where in pursuance of an order passed under clause (b) of sub-section (1) of Section 14, any building is totally demolished and a new building is erected in its place, all the provisions of this Act shall cease to apply to such new building for a period of five years from the date on which the construction of such new building is completed and notified to the local authority concerned. This means neither the old tenant nor any new tenant would be entitled to protection of the Rent Control Act after reconstruction for five years, similar to the exemption for newly constructed buildings under Section 30(i).",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Rent_Control_Law"
+  },
+  {
+    "id": 28,
+    "question": "How did the Supreme Court address the defense in Hiten P. Dalal regarding the cheques being for intended transactions?",
+    "ground_truth_answer": "In Hiten P. Dalal v Bratindranath Banerjee (2001), the appellant's defense was that the four cheques were given for intended transactions which never materialized and should not have been acted upon. However, the Supreme Court found this defense unsubstantiated. The Court noted that the appellant did not enter the witness box to support his case that the cheques were given for any arrangement or non-materialized transactions. None of the four defense witnesses gave evidence supporting the appellant's only defense - why he had executed and delivered the particular cheques or that they were not given to discharge his debts. The Court emphasized that the appellant alone could have explained why he admittedly executed the four cheques, handed them to the Bank, and never asked for their return. Since he chose not to testify, the defense failed to rebut the mandatory presumptions under Sections 138 and 139 of the Negotiable Instruments Act.",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "category": "Evidence_Law"
+  },
+  {
+    "id": 29,
+    "question": "What was the balance that the Tamil Nadu Rent Act sought to achieve according to the Prabhakaran Nair judgment?",
+    "ground_truth_answer": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court explained that the Tamil Nadu Rent Act sought to restore the balance in the scale which is otherwise weighted in favour of the stronger party with larger bargaining power. The Act balances the scales and regulates the rights of the parties fairly and cannot be construed only in favour of the tenant. The Court cited Raval and Co. v. K.C. Ramachandran (1974) which held that the Madras Legislature did not proceed on the basis that the legislation was only for the benefit of tenants. It wanted it to be fair both to the landlord and the tenant. The Legislature realized that pegging rents at 1940 rates had discouraged building construction, and to encourage new constructions, exempted them from the Act's provisions. The Act provided for fixation of fair rent which was to be fair both to landlords and tenants.",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "category": "Rent_Control_Law"
+  },
+  {
+    "id": 30,
+    "question": "What was the court's ruling on when offence versus transaction timing matters for Special Court jurisdiction in securities cases?",
+    "ground_truth_answer": "In Hiten P. Dalal v Bratindranath Banerjee (2001), the Supreme Court definitively ruled that the statutory period mentioned in Section 3(2) of the Special Court (Trial of Offences relating to Transactions in Securities) Act, 1992 qualifies the word 'transactions' and not the word 'offence'. The Court held that the jurisdiction of the Special Court extends to all offences relating to transactions in securities that occurred between 1 April 1991 and 6 June 1992, regardless of when the offence itself was committed. The date of the offence is immaterial as long as it relates to transactions within the statutory period. This interpretation was supported by the Statement of Objects and Reasons, the preamble, and other sections of the Act including Section 9-A(1)(b) which clarified that jurisdiction is over matters arising out of transactions entered into during the specified period.",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "category": "Securities_Law"
+  },
+  {
+    "id": 31,
+    "question": "Which judge has decided the most cases?",
+    "ground_truth_answer": "Justice S. B. Sinha has decided the most cases with 15 cases. Following him are Justice Arijit Pasayat with 12 cases and Dr. Arijit Pasayat with 8 cases.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Legal_Analytics"
+  },
+  {
+    "id": 32,
+    "question": "What cases did the Masud Khan case cite?",
+    "ground_truth_answer": "The Masud Khan v State Of Uttar Pradesh case cited several precedents including: AIR 1960 All. 434, AIR 1960 All. 431, AIR1956 SC 415 (Pritam Singh v. State of Punjab), and other cases like Mohd. Hanif Khan v. State and Ali Sher v. The State.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Citations"
+  },
+  {
+    "id": 33,
+    "question": "Which case cites the precedent 'AIR 1960 All. 434'?",
+    "ground_truth_answer": "The case 'Masud Khan v State Of Uttar Pradesh' cites the precedent 'AIR 1960 All. 434'.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Citations"
+  },
+  {
+    "id": 34,
+    "question": "Which IPC section prescribes the punishment of 'Death or Imprisonment for Life'?",
+    "ground_truth_answer": "IPC Section 132 prescribes the punishment of 'Death or Imprisonment for Life or 10 Years with Fine'.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "IPC_Offense_Punishment"
+  },
+  {
+    "id": 35,
+    "question": "Which case from 2008 involved the Belgachi Tea Company?",
+    "ground_truth_answer": "The case 'Union of India and Another v Belgachi Tea Company Limited and Others' was decided on 9 May 2008.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Law"
+  },
+  {
+    "id": 36,
+    "question": "How many cases has Justice S. B. Sinha decided according to the database?",
+    "ground_truth_answer": "Justice S. B. Sinha has decided 15 cases in the database.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Legal_Analytics"
+  },
+  {
+    "id": 37,
+    "question": "Which case cites 'Writ Petition No. 117 of 1973'?",
+    "ground_truth_answer": "The case 'Masud Khan v State Of Uttar Pradesh' cites 'Writ Petition No. 117 of 1973'.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Citations"
+  },
+  {
+    "id": 38,
+    "question": "Which case is the most cited?",
+    "ground_truth_answer": "The cases '2006 (4) SCC 1' and '2006 Indlaw SC 125' are the most cited with 2 citations each, followed by several other cases with 1 citation each.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Citations"
+  },
+  {
+    "id": 39,
+    "question": "Which judge decided the case 'Main Pal v State of Haryana'?",
+    "ground_truth_answer": "Justice R. V. Raveendran (R. V. Raveendran, J.) decided the case 'Main Pal v State of Haryana'.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Case_Law"
+  },
+  {
+    "id": 40,
+    "question": "Find cases decided by judges who have served in the Supreme Court of India and have decided more than 10 cases.",
+    "ground_truth_answer": "Judges who served in the Supreme Court of India and decided more than 10 cases include: Justice S. B. Sinha with 15 cases (including cases like 'Ashok Kumar and Others v State of Tamil Nadu') and Justice Arijit Pasayat with 12 cases. These judges represent the most prolific contributors to Supreme Court jurisprudence in the database.",
+    "source": "Neo4j Knowledge Graph",
+    "category": "Legal_Analytics"
+  }
+]

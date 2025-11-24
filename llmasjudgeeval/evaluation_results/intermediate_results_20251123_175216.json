@@ -1,0 +1,34 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel, with the intent to deceive others into believing they are such a service member, they shall be punished.\n\nThe punishment for this offense includes:\n*   Imprisonment of either description for a term which may extend to three months, or\n*   A fine which may extend to five hundred rupees, or\n*   Both.\n\nThis information is derived from the provided IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 66.46397519111633,
+    "evaluation_time": 2.223419666290283,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 9,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 9.3,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under IPC Section 140. It correctly identifies the elements of the offense and the penalties involved, including the term of imprisonment and the fine. The answer is also relevant, directly addressing the question asked. However, it lacks information on the nature of the offense, i.e., whether it is cognizable and bailable, and the court which can try the case. But, as a legal assistant, its response is acceptable.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 140.",
+        "Correctly identifies the elements of the offense.",
+        "Relevance to the question asked."
+      ],
+      "weaknesses": [
+        "Does not specify if the offense is cognizable or bailable.",
+        "Does not mention the court that can try the case."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:16.205024"
+  }
+]

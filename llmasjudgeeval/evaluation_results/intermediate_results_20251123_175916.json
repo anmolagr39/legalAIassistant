@@ -1,0 +1,904 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel, with the intent to deceive others into believing they are such a service member, they shall be punished.\n\nThe punishment for this offense includes:\n*   Imprisonment of either description for a term which may extend to three months, or\n*   A fine which may extend to five hundred rupees, or\n*   Both.\n\nThis information is derived from the provided IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 66.46397519111633,
+    "evaluation_time": 2.223419666290283,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 9,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 9.3,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under IPC Section 140. It correctly identifies the elements of the offense and the penalties involved, including the term of imprisonment and the fine. The answer is also relevant, directly addressing the question asked. However, it lacks information on the nature of the offense, i.e., whether it is cognizable and bailable, and the court which can try the case. But, as a legal assistant, its response is acceptable.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 140.",
+        "Correctly identifies the elements of the offense.",
+        "Relevance to the question asked."
+      ],
+      "weaknesses": [
+        "Does not specify if the offense is cognizable or bailable.",
+        "Does not mention the court that can try the case."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:16.205024"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Based on the provided information, the retrieved context does not specify whether abetting mutiny by a military officer under Indian Penal Code (IPC) Section 131 is a cognizable or non-cognizable offense (IPC RAG).\n\nHowever, IPC Section 131 outlines that whoever abets the committing of mutiny by an officer, soldier, sailor, or airman in the Army, Navy, or Air Force of the Government of India, or attempts to seduce any such person from their allegiance or duty, shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.054771184921265,
+    "evaluation_time": 0.524895191192627,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "Evaluation failed due to error: 429 Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+      "strengths": [],
+      "weaknesses": [
+        "Evaluation error occurred"
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:23.787514"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "The key legal issue in *Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly* primarily revolved around the **validity of contracts of employment**, specifically concerning whether certain clauses within these contracts were **unconscionable or against public policy** (Past Cases RAG).\n\nThe case addressed the interpretation and application of legal principles laid down by the Supreme Court, particularly regarding fairness in contracts of employment (Past Cases RAG). The court found that some clauses within the employment contracts were oppressive and subsequently struck them down, indicating that the case hinged on the issue of unfair contract terms, especially within employer-employee relationships (Past Cases RAG).\n\nMore broadly, the case also touched upon the interpretation of Supreme Court decisions and the authority of such decisions, reflecting a concern about how legal principles, particularly those from Constitution Bench decisions, should be applied and understood (Past Cases RAG, Document 2, Document 3).",
+    "systems_used": [
+      "knowledge_graph",
+      "past_cases_rag"
+    ],
+    "query_time": 20.154346466064453,
+    "evaluation_time": 2.604243755340576,
+    "evaluation": {
+      "correctness_score": 6,
+      "completeness_score": 4,
+      "relevance_score": 10,
+      "legal_reasoning_score": 6,
+      "overall_score": 6,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core issue as contract validity, but it misses several crucial aspects mentioned in the ground truth. While it focuses on unfair contract terms, it doesn't mention the constitutional dimensions, such as Article 14 and Article 21, which were key to the case. The reasoning is sound but not comprehensive. The answer touches on the unconscionable clauses but misses out on the broader legal implications on the State and the implications of the arbitrary termination of employment. The focus is correct, but the depth is lacking compared to the ground truth.",
+      "strengths": [
+        "Correctly identifies the main issue as the validity of employment contracts.",
+        "Highlights the unconscionable or against public policy aspects of the contracts."
+      ],
+      "weaknesses": [
+        "Fails to mention critical constitutional aspects of the case (Article 12, 14, and 21).",
+        "Lacks the detail and breadth of legal issues presented in the ground truth.",
+        "Misses the broader context of the case's implications on State entities."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:48.549472"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 127",
+    "ground_truth": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Indian Penal Code (IPC) Section 127, the punishment for receiving property knowing it to have been taken during war or depredation (offenses mentioned in Sections 125 and 126) is:\n\n*   **Imprisonment:** Of either description for a term which may extend to seven years.\n*   **Fine:** The offender shall also be liable to a fine.\n*   **Forfeiture:** The property so received shall also be subject to forfeiture.\n\nThis information is derived from the `IPC RAG` source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 4.918409824371338,
+    "evaluation_time": 2.271653652191162,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under IPC Section 127, including imprisonment term, fine, and forfeiture. It is completely relevant to the question. The legal reasoning is implicitly present through stating the components of the punishment, although it lacks specifics such as the offense being cognizable, non-bailable, and triable by the Court of Session (as mentioned in the ground truth). This slightly reduces the legal reasoning score.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 127.",
+        "Complete information about imprisonment, fine, and forfeiture.",
+        "Highly relevant to the question."
+      ],
+      "weaknesses": [
+        "The answer does not explicitly mention that it is a cognizable, non-bailable offence triable by the Court of Session."
+      ]
+    },
+    "timestamp": "2025-11-23T17:52:57.742493"
+  },
+  {
+    "question_id": 5,
+    "question": "In the case of Masud Khan v State Of Uttar Pradesh, what was the court's decision regarding the burden of proof for establishing citizenship?",
+    "category": "Citizenship_Law",
+    "source": "Past Cases RAG - Supreme Court Case 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court held that under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The burden is upon the petitioner to establish that he is a citizen of India. The Court stated that there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950. The petitioner must discharge this burden by providing proof, and mere statements without evidence cannot be accepted as true.",
+    "generated_answer": "In *Masud Khan v State Of Uttar Pradesh*, the Supreme Court of India held that the burden of proving that a person is not a foreigner, when such a question arises, lies squarely upon that individual. This principle is rooted in Section 9 of the Foreigners Act (Past Cases RAG).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 5.273656129837036,
+    "evaluation_time": 2.590642213821411,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 6,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 7,
+      "verdict": "PASS",
+      "reasoning": "The answer accurately states the core principle of *Masud Khan v. State of Uttar Pradesh*, which is that the burden of proof lies on the individual to prove they are not a foreigner. It correctly references Section 9 of the Foreigners Act. However, it is incomplete because it doesn't mention the specifics of *how* the burden must be discharged (i.e., by providing proof, not just making statements), and it does not mention the date (1973) or the implications of not providing such proof. The reference to 'Past Cases RAG' is not useful as it doesn't provide any concrete information. Therefore, the score is not higher due to lack of completeness and specificity.",
+      "strengths": [
+        "Correctly identifies the main legal principle of the case.",
+        "Accurately references Section 9 of the Foreigners Act.",
+        "Directly answers the question."
+      ],
+      "weaknesses": [
+        "Incomplete: omits crucial details about the burden of proof (how it's discharged).",
+        "Lacks the specific year of the judgment.",
+        "The reference to \"Past Cases RAG\" is not informative and does not contribute to the legal reasoning."
+      ]
+    },
+    "timestamp": "2025-11-23T17:53:07.609818"
+  },
+  {
+    "question_id": 6,
+    "question": "What are the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 128",
+    "ground_truth": "Under IPC Section 128, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Section 128 of the Indian Penal Code (IPC), a public servant can be punished for voluntarily allowing a prisoner of war to escape under the following conditions:\n\n1.  **Status of the Offender:** The individual must be a public servant (IPC RAG).\n2.  **Custody:** The public servant must have custody of a State prisoner or a prisoner of war (IPC RAG).\n3.  **Act:** The public servant must voluntarily allow the prisoner to escape (IPC RAG).\n4.  **Location:** The escape must occur from any place in which the prisoner is confined (IPC RAG).\n\nIf these conditions are met, the public servant shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine (IPC RAG, Knowledge Graph).",
+    "systems_used": [
+      "ipc_rag",
+      "knowledge_graph"
+    ],
+    "query_time": 10.976423978805542,
+    "evaluation_time": 2.41042160987854,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately reflects the conditions for punishment under IPC Section 128. It correctly identifies the key elements: the status of the offender, custody, the act of allowing escape, and the location of confinement. The answer also provides the correct punishment details, including the potential for life imprisonment, imprisonment for up to ten years, and a fine. The legal reasoning is sound and well-structured, breaking down the elements into easily understandable points. Citations are present, although they seem somewhat generic (IPC RAG, Knowledge Graph), which is a minor area for improvement. However, the overall substance is excellent.",
+      "strengths": [
+        "Accurate identification of the key legal elements.",
+        "Correctly states the punishment.",
+        "Well-structured and easy to understand.",
+        "Provides clear and relevant information."
+      ],
+      "weaknesses": [
+        "Citations are generic and could be more specific (e.g., to specific clauses of the section or relevant case law, though not strictly required in this task)"
+      ]
+    },
+    "timestamp": "2025-11-23T17:53:23.001037"
+  },
+  {
+    "question_id": 7,
+    "question": "What was the Supreme Court's reasoning in Central Inland Water Transport Corporation case regarding the right to livelihood under Article 21?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 21 Interpretation",
+    "ground_truth": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the Supreme Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment. The court reasoned that the right to livelihood is an integral part of the right to life, and any arbitrary action that affects a person's livelihood would be a violation of Article 21. The court found that Rule 9(i) which allowed termination without reason was arbitrary and violated Article 21 as it arbitrarily affected the employees' means of livelihood.",
+    "generated_answer": "The provided information is insufficient to answer your question regarding the Supreme Court's reasoning in the *Central Inland Water Transport Corporation* case concerning the right to livelihood under Article 21.\n\nThe retrieved information pertains exclusively to Sections 164 and 165 of the Indian Penal Code, their repeal by the Prevention of Corruption Act, 1988, and the nature of offenses related to public servants obtaining valuable things without consideration (Source: IPC RAG). This information does not address the *Central Inland Water Transport Corporation* case, Article 21 of the Indian Constitution, or the right to livelihood.",
+    "systems_used": [
+      "knowledge_graph",
+      "ipc_rag"
+    ],
+    "query_time": 18.144374132156372,
+    "evaluation_time": 2.120520830154419,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer completely fails to address the question. It incorrectly states that the provided information (which is not included in the prompt) is insufficient. It then misinterprets the prompt, suggesting it's related to sections of the Indian Penal Code. The answer does not mention the case name, the relevant article, or the key legal principles involved. It is entirely off-topic and inaccurate.",
+      "strengths": [],
+      "weaknesses": [
+        "Incorrectly claims insufficient information.",
+        "Completely misses the core concepts of the question.",
+        "Demonstrates no understanding of the legal topic or relevant case.",
+        "Provides unrelated information about the Indian Penal Code."
+      ]
+    },
+    "timestamp": "2025-11-23T17:53:45.268647"
+  },
+  {
+    "question_id": 8,
+    "question": "Under IPC Section 130, what is the punishment for aiding the escape of a State prisoner or prisoner of war?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 130",
+    "ground_truth": "According to IPC Section 130, whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Section 130 of the Indian Penal Code (IPC), the punishment for aiding the escape of a State prisoner or prisoner of war is imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to a fine (IPC RAG).\n\nSpecifically, this section applies to anyone who knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue such a prisoner, or harbours or conceals an escaped prisoner, or offers or attempts to offer any resistance to the recapture of such a prisoner (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.130066394805908,
+    "evaluation_time": 2.2980024814605713,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 8.5,
+      "verdict": "PASS",
+      "reasoning": "The answer is mostly correct and directly addresses the question. It accurately describes the punishment under IPC Section 130. It covers the core elements of the ground truth but misses the details about the offense being cognizable, non-bailable, and triable by the Court of Session. The legal reasoning is implicitly present through the description of the law.",
+      "strengths": [
+        "Accurate description of the punishment.",
+        "Directly answers the question.",
+        "Explains the scope of the section."
+      ],
+      "weaknesses": [
+        "Missing details regarding the nature of the offense (cognizable, non-bailable, Court of Session trial).",
+        "Could benefit from more explicit legal reasoning (e.g., stating the type of offense, the court that tries it)."
+      ]
+    },
+    "timestamp": "2025-11-23T17:53:54.700903"
+  },
+  {
+    "question_id": 9,
+    "question": "What was the principle of issue estoppel discussed in Masud Khan v State Of Uttar Pradesh case?",
+    "category": "Criminal_Procedure",
+    "source": "Past Cases RAG - Supreme Court 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court discussed the principle of issue estoppel and held that it arises only if both the earlier and subsequent proceedings were criminal prosecutions. The Court cited that where an issue of fact has been tried by a competent court and a finding has been reached in favor of an accused, such finding would constitute an estoppel against the prosecution, not as a bar to trial but as precluding the reception of evidence to disturb that finding when the accused is tried for a different offense. However, in this case, while the earlier proceeding was a criminal prosecution, the present was merely an action under the Foreigners (Internment) Order, not a criminal proceeding. Therefore, the principle of issue estoppel did not apply.",
+    "generated_answer": "The principle of issue estoppel, as discussed in the context of *Masud Khan v. State of Uttar Pradesh* and related precedents, dictates that a factual issue previously decided by a competent court in a prior proceeding cannot be relitigated in a subsequent trial, particularly when the finding was favorable to the accused (Document 1).\n\nSpecifically, if a court has made a finding of fact in a previous criminal trial that benefits an accused on a point brought into issue in a second trial of the same accused, the prosecution is estopped from re-arguing that identical issue (Document 1). This prevents the prosecution from attempting to prove a fact that has already been conclusively determined against them in an earlier proceeding involving the same parties and the same factual point (Document 1, Document 3).\n\nThis principle is supported by precedents such as *Pritam Singh v. State of Punjab* (AIR 1956 SC 415), *Manipur Administration v. Thokchom, Bira Singh* (1964 7 SCR 123), *Piara Singh S. State of Punjab* (Document 1), and *The King v. Wilkes* (77 C.L.R.511) (Document 3).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 6.558181047439575,
+    "evaluation_time": 2.4125583171844482,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 6,
+      "relevance_score": 9,
+      "legal_reasoning_score": 7,
+      "overall_score": 7.3,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a generally accurate explanation of issue estoppel, but it lacks the crucial context of *Masud Khan v. State of Uttar Pradesh*. While it correctly states the principle, it doesn't mention the specifics of the case, such as the court's holding about both proceedings needing to be criminal. It mentions the general principle and supporting precedents but misses the core holding in this specific case. However, it's still relatively relevant to the question. The reasoning is sound but not as detailed as the ground truth.",
+      "strengths": [
+        "Provides a general overview of issue estoppel.",
+        "Correctly identifies that a factual issue decided in a prior proceeding cannot be relitigated.",
+        "Provides supporting precedents."
+      ],
+      "weaknesses": [
+        "Fails to mention the crucial detail that both proceedings need to be criminal in Masud Khan v. State of Uttar Pradesh.",
+        "Missing the specific context of the case.",
+        "Not as complete as the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T17:54:05.675212"
+  },
+  {
+    "question_id": 10,
+    "question": "What is the punishment for abetting mutiny if the mutiny is actually committed as a consequence, under IPC Section 132?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 132",
+    "ground_truth": "Under IPC Section 132, whoever abets the committing of mutiny by an officer, soldier, sailor or airman in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Indian Penal Code (IPC) Section 132, if a person abets the committing of mutiny by an officer, soldier, sailor, or airman in the Army, Navy, or Air Force of the Government of India, and the mutiny is actually committed as a consequence of that abetment, the punishment is as follows:\n\n*   **Death**, or\n*   **Imprisonment for life**, or\n*   **Imprisonment of either description for a term which may extend to ten years**, and\n*   The offender shall also be **liable to a fine** (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 4.759418964385986,
+    "evaluation_time": 2.139718532562256,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is accurate and completely addresses the question, providing the correct legal information regarding the punishment for abetting mutiny under IPC Section 132. The answer accurately lists the potential punishments (death, life imprisonment, or imprisonment up to 10 years, and fine). The legal reasoning is implicitly sound, as the answer directly states the legal requirements. The inclusion of '(IPC RAG)' is unnecessary but doesn't detract from the accuracy.",
+      "strengths": [
+        "Accurate legal information",
+        "Complete answer addressing all aspects of the question",
+        "Direct and relevant response"
+      ],
+      "weaknesses": [
+        "The inclusion of '(IPC RAG)' is a minor stylistic flaw."
+      ]
+    },
+    "timestamp": "2025-11-23T17:54:14.578622"
+  },
+  {
+    "question_id": 11,
+    "question": "What are the rules for language use in Parliament?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 120",
+    "ground_truth": "Article 120 of the Constitution of India deals with the language to be used in Parliament. It states that business in Parliament shall be transacted in Hindi or in English. However, the Chairman of the Council of States or Speaker of the House of the People may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue. Unless Parliament by law otherwise provides, this provision for the use of English was to cease after fifteen years from the commencement of the Constitution (i.e., by 1965), but the Official Languages Act, 1963 allowed for the continued use of English.",
+    "generated_answer": "The rules for language use in Parliament in India are primarily governed by the Constitution of India, specifically Articles 346, 348, and 349. These provisions address the language for transacting business, the authoritative texts of legislation, and special procedures for language-related laws.\n\nHere is a comprehensive breakdown of the rules:\n\n1.  **Language for Transacting Business in Parliament (Article 348):**\n    *   **Primary Languages:** Business in Parliament is to be transacted in **Hindi or in English** (Legal Acts RAG).\n    *   **Mother-Tongue Exception:** The Chairman of the Council of States (Rajya Sabha) or the Speaker of the House of the People (Lok Sabha), or any person acting in their stead, **may permit** a member who cannot adequately express themselves in Hindi or English to address the House in their **mother-tongue** (Legal Acts RAG).\n    *   **Temporary Provision for English:** The Constitution originally stipulated that, after fifteen years from its commencement, the use of English for transacting business would cease unless Parliament by law otherwise provided. This implies an original intent for Hindi to become the sole language, subject to parliamentary legislation to continue English (Legal Acts RAG).\n\n2.  **Language for Authoritative Texts of Bills and Acts of Parliament (Article 348(1)(b)):**\n    *   **Default Language:** Until Parliament by law otherwise provides, the authoritative texts of the following must be in the **English language**:\n        *   All Bills introduced or amendments moved in either House of Parliament (Legal Acts RAG).\n        *   All Acts passed by Parliament (Legal Acts RAG).\n        *   All orders, rules, regulations, and bye-laws issued under any law made by Parliament (Legal Acts RAG).\n\n3.  **Special Procedure for Enactment of Laws Relating to Language (Article 349):**\n    *   **Initial 15-Year Restriction:** For the first fifteen years from the commencement of the Constitution, any Bill or amendment making provision for certain language uses (the full details of which are not provided in the retrieved information) could not be introduced or moved in either House of Parliament without the **previous sanction of the President**. This imposed a temporary procedural safeguard on legislative changes concerning language (Legal Acts RAG).\n\n4.  **Language for Communication with States (Article 346):**\n    *   **Union-State Communication:** The language authorized for use in the Union for official purposes at any given time serves as the official language for communication between a State and the Union. While not directly about internal parliamentary proceedings, Parliament, as a Union body, would adhere to this for its official communications with states (Legal Acts RAG).\n\nAll the aforementioned rules are **constitutional provisions** derived directly from the Constitution of India. The provided information does not detail any specific \"statutory provisions\" (laws passed by Parliament) that might have altered or supplemented these constitutional rules, although the Constitution explicitly allows Parliament to do so in certain areas (Legal Acts RAG).\n\n**Information Not Sufficiently Provided:**\n*   The complete content of **Article 343**, which specifies the official language of the Union, is not fully detailed, though Article 348 implies Hindi and English (Legal Acts RAG).\n*   The full scope of \"the purposes mentioned in clause (1)\" of **Article 349**, which were subject to the special procedure for language-related legislation during the initial 15-year period, is not provided (Legal Acts RAG).",
+    "systems_used": [
+      "legal_acts_rag"
+    ],
+    "query_time": 29.18743133544922,
+    "evaluation_time": 3.385437488555908,
+    "evaluation": {
+      "correctness_score": 8,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 8.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a generally accurate and comprehensive overview of the constitutional provisions regarding language use in the Indian Parliament. It correctly identifies the relevant articles (though missing the most crucial one initially) and explains their key aspects. The reasoning is sound, connecting the provisions and highlighting nuances, such as the initial 15-year restriction and the power of the Speaker/Chairman. The answer also acknowledges areas where information might be incomplete, demonstrating a critical understanding. The use of \"Legal Acts RAG\" is a bit odd but doesn't detract significantly from the legal accuracy. However, it initially misses Article 120, which is the cornerstone for the main question and therefore receives some point reduction.",
+      "strengths": [
+        "Accurate identification of relevant constitutional articles.",
+        "Clear explanation of key provisions, including the mother-tongue exception and the temporary provision for English.",
+        "Sound legal reasoning and analysis.",
+        "Comprehensive coverage of the topic, considering the provided context.",
+        "Acknowledges limitations in the provided information."
+      ],
+      "weaknesses": [
+        "Initially missed the primary article, Article 120, which is directly relevant to the question.",
+        "The use of \"Legal Acts RAG\" is not ideal and may indicate a misunderstanding of how the information was provided."
+      ]
+    },
+    "timestamp": "2025-11-23T17:54:49.155387"
+  },
+  {
+    "question_id": 12,
+    "question": "What is the punishment for negligently suffering a prisoner of State or war to escape under IPC Section 129?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 129",
+    "ground_truth": "According to IPC Section 129, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, negligently suffers such prisoner to escape from any place of confinement in which such prisoner is confined, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "Under Section 129 of the Indian Penal Code (IPC), a public servant who, having custody of any State prisoner or prisoner of war, negligently allows such prisoner to escape from confinement, shall be punished with:\n\n*   **Simple imprisonment** for a term which may extend to **three years**.\n*   And shall also be **liable to a fine**.\n\nThis information is derived from the **IPC RAG** source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.320667028427124,
+    "evaluation_time": 2.3536601066589355,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 6,
+      "overall_score": 7.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment under Section 129 of the IPC. It correctly states the term of imprisonment and the liability to a fine. However, it's missing crucial information about the nature of the offense, such as it being cognizable and bailable, and the court which will try the case. The legal reasoning is adequate, directly answering the question, but could be strengthened by adding the type of offense and court details from the ground truth.",
+      "strengths": [
+        "Accurate description of the punishment (imprisonment and fine).",
+        "Directly addresses the question asked."
+      ],
+      "weaknesses": [
+        "Missing details about the nature of the offense (cognizable, bailable).",
+        "Missing details about the court that tries the case.",
+        "Limited legal reasoning beyond simply stating the facts."
+      ]
+    },
+    "timestamp": "2025-11-23T17:54:58.833188"
+  },
+  {
+    "question_id": 13,
+    "question": "In Prabhakaran Nair vs State Of Tamil Nadu case, what was the challenge to Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the petitioners challenged Section 14(1)(b) and Section 16(2) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 on the ground of being arbitrary, discriminatory and unreasonable. The main ground of attack was that while other Rent Acts in case of eviction for demolition permit the tenant to be re-inducted after reconstruction, the Tamil Nadu Rent Act did not provide such an option. It was argued that this discrimination against tenants in Tamil Nadu was invidious and violated Article 14 of the Constitution. However, the Supreme Court upheld the validity of these provisions.",
+    "generated_answer": "In the case of *Prabhakaran Nair vs. State of Tamil Nadu*, the challenge was directed at the validity of Section 14(1)(b) of the Tamil Nadu Rent Act (Document 3).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 5.198664665222168,
+    "evaluation_time": 2.179375410079956,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 3,
+      "relevance_score": 10,
+      "legal_reasoning_score": 5,
+      "overall_score": 6.3,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the section of the Tamil Nadu Rent Act that was challenged. However, it is incomplete as it does not specify the grounds of the challenge or any reasoning behind it. The ground truth provides the context of the challenge being based on arbitrariness, discrimination, and unreasonableness and the comparison with other rent control acts. The legal reasoning is minimal, only stating the section number. While the question only asks *what* was challenged, the ground truth's added information is useful for a more comprehensive answer.",
+      "strengths": [
+        "Correctly identifies the section of the Tamil Nadu Rent Act that was challenged.",
+        "Directly addresses the question."
+      ],
+      "weaknesses": [
+        "Incomplete answer, missing key details about the grounds of the challenge.",
+        "Lacks legal reasoning and context."
+      ]
+    },
+    "timestamp": "2025-11-23T17:55:08.215547"
+  },
+  {
+    "question_id": 14,
+    "question": "What is the punishment for abetting an assault by a military officer on his superior officer under IPC Section 133?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 133",
+    "ground_truth": "Under IPC Section 133, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "The retrieved information indicates that the relevant provision for abetting an assault by a military officer on a superior officer is **Indian Penal Code (IPC) Section 134**, not Section 133 as specified in your query.\n\nUnder IPC Section 134, if an individual abets an assault by an officer, soldier, sailor, or airman of the Army, Navy, or Air Force of the Government of India on any superior officer who is in the execution of their office, and such assault is committed in consequence of that abetment, the abettor shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.286000728607178,
+    "evaluation_time": 2.324385643005371,
+    "evaluation": {
+      "correctness_score": 2,
+      "completeness_score": 4,
+      "relevance_score": 8,
+      "legal_reasoning_score": 3,
+      "overall_score": 4,
+      "verdict": "FAIL",
+      "reasoning": "The answer is incorrect because it misidentifies the relevant section of the IPC. The question asks about Section 133, and the generated answer claims it should be 134. While the answer provides some details about the punishment under Section 134, it fails to address the question's premise. The answer is partially relevant because it describes the punishment and contextually includes the relevant actors in the scenario but lacks accuracy and completeness based on the question. The legal reasoning is poor as the core identification of the law is wrong.",
+      "strengths": [
+        "Provides information on the punishment related to the subject matter of the question.",
+        "Identifies key elements like abetment of assault and involved parties."
+      ],
+      "weaknesses": [
+        "Incorrectly identifies the section of the IPC.",
+        "Misses the specifics of Section 133, as requested in the question.",
+        "Poor legal reasoning regarding section identification."
+      ]
+    },
+    "timestamp": "2025-11-23T17:55:17.830247"
+  },
+  {
+    "question_id": 15,
+    "question": "Provisions under Articles 153-158 about Governors?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Articles 153-158",
+    "ground_truth": "Articles 153 to 158 of the Constitution of India deal with the Governor of States. Article 153 mandates a Governor for each State. Article 154 vests the executive power of the State in the Governor. Article 155 states the Governor is appointed by the President. Article 156 provides that the Governor holds office during the pleasure of the President, typically for a term of five years. Article 157 sets qualifications: must be a citizen of India and at least 35 years old. Article 158 outlines conditions of office, including not being a member of Parliament or State Legislature and not holding any other office of profit.",
+    "generated_answer": "The provisions concerning Governors under Articles 153-158 of the Constitution of India, as detailed in the retrieved legal documents, are as follows:\n\n1.  **Article 153: Governors of States**\n    This article establishes the fundamental requirement for the office of Governor, stating that there shall be a Governor for each State (Legal Acts RAG).\n\n2.  **Article 154: Executive Power of State**\n    This article vests the executive power of the State in the Governor (Legal Acts RAG).\n\n3.  **Article 155: Appointment of Governor**\n    The Governor of a State is appointed by the President by warrant under his hand and seal (Legal Acts RAG).\n\n4.  **Article 156: Term of Office of Governor**\n    This article outlines the duration and conditions for holding the Governor's office:\n    *   The Governor holds office during the pleasure of the President.\n    *   The Governor may resign by writing under his hand addressed to the President.\n    *   Subject to the foregoing provisions, a Governor holds office for a term of five years (Legal Acts RAG).\n\n5.  **Article 157: Qualifications for Appointment as Governor**\n    The retrieved information identifies the heading for this article as \"Qualifications for appointment as Governor.\" However, the actual content detailing the specific qualifications required for appointment is not provided in the given legal documents (Legal Acts RAG).\n\n6.  **Article 158: Conditions of Governor's Office**\n    The retrieved information identifies the heading for this article as \"Conditions of Governor‘s office.\" However, the actual content outlining the specific conditions of the Governor's office is not provided in the given legal documents (Legal Acts RAG).\n\nIn summary, the provided documents establish the existence of the Governor's office, vest state executive power in them, detail their appointment process by the President, and specify their term of office, including the President's pleasure and resignation provisions. However, the specific qualifications for appointment (Article 157) and the conditions of the Governor's office (Article 158) are not elaborated upon in the provided text, despite their article headings being mentioned.",
+    "systems_used": [
+      "legal_acts_rag"
+    ],
+    "query_time": 12.181142091751099,
+    "evaluation_time": 7.796050786972046,
+    "evaluation": {
+      "correctness_score": 8,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 7.5,
+      "verdict": "PASS",
+      "reasoning": "The answer is mostly correct and relevant. It accurately describes Articles 153-156. The answer acknowledges that the provided documents do not give the full information on Articles 157 and 158 but are correct on the headings which are very relevant and needed for the question. While the answer correctly states the lack of information on the content, it could have potentially inferred based on the headings or what is commonly known about the topic. However, this is more of a limitation related to the retrieved documents, but is correctly identified as such. There is no major legal error, but it could be slightly more complete with details about 157 and 158. Overall a good answer.",
+      "strengths": [
+        "Accurate description of Articles 153-156.",
+        "Correctly identifies the lack of detailed information regarding Articles 157 and 158 from the retrieved documents.",
+        "Well-organized and easy to understand.",
+        "Relevant to the question asked."
+      ],
+      "weaknesses": [
+        "Could have attempted to briefly describe Article 157 and 158 based on general legal knowledge, even if not explicitly provided in the retrieved documents.",
+        "While not a factual error, could be more complete in its description."
+      ]
+    },
+    "timestamp": "2025-11-23T17:55:39.811275"
+  },
+  {
+    "question_id": 16,
+    "question": "In the Prabhakaran Nair case, what was the Supreme Court's reasoning for upholding Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court upheld Section 14(1)(b) reasoning that the provision for re-induction in case of repairs and absence of such provision in case of demolition and reconstruction is quite understandable and rational. The Court noted that demolition has to be completed within three months but reconstruction of a new building might take years. During that period, a tenant is bound to have found alternative accommodation. In contrast, for repairs, a tenant may arrange temporary accommodation for a few months and return. The Court held it is not practicable and would be anomalous to expect a landlord to take back a tenant after a long lapse of time. Thus, the classification was found to be reasonable and not violative of Article 14.",
+    "generated_answer": "Based on the retrieved information, the specific reasoning provided by the Supreme Court for upholding Section 14(1)(b) of the Tamil Nadu Rent Act in the *Prabhakaran Nair* case is not explicitly stated in the provided documents.\n\nBoth the \"Past Cases RAG\" and \"Legal Acts RAG\" sources indicate that their respective documents do not contain information detailing the Supreme Court's reasoning for this decision. While the \"Past Cases RAG\" source establishes that the *Prabhakaran Nair* case concerned the validity of Section 14(1)(b) and notes the Tamil Nadu Rent Act's nature as beneficial legislation aimed at addressing issues of exorbitant rents and unreasonable evictions, it does not provide the Court's rationale for upholding the specific section. The \"Legal Acts RAG\" source further confirms the absence of any reference to the *Prabhakaran Nair* case or the relevant Supreme Court reasoning within its materials.",
+    "systems_used": [
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 12.042627811431885,
+    "evaluation_time": 2.015920400619507,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 0,
+      "relevance_score": 10,
+      "legal_reasoning_score": 0,
+      "overall_score": 5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly states that the specific reasoning for the court's decision is not found in the documents. It accurately assesses the limitations of the provided sources. However, it fails to provide the actual reasoning, thus receiving a low completeness score. The legal reasoning score is low because it doesn't offer any legal reasoning, but it does accurately reflect the lack of information in the context.",
+      "strengths": [
+        "Accurately reports the limitations of the sources.",
+        "Correctly identifies that the specific reasoning is not included."
+      ],
+      "weaknesses": [
+        "Lacks the actual reasoning of the Supreme Court.",
+        "Fails to provide the answer to the question."
+      ]
+    },
+    "timestamp": "2025-11-23T17:55:55.873842"
+  },
+  {
+    "question_id": 17,
+    "question": "What is the punishment if an assault on a superior officer is actually committed following abetment under IPC Section 134?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 134",
+    "ground_truth": "Under IPC Section 134, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall, if such assault be committed in consequence of that abetment be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. This makes the punishment more severe when the assault is actually carried out as a result of the abetment.",
+    "generated_answer": "Under Indian Penal Code (IPC) Section 134, if an individual abets an assault by an officer, soldier, sailor, or airman of the Indian armed forces on a superior officer who is in the execution of their office, and the assault is committed as a consequence of that abetment, the abettor shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to a fine (IPC RAG).",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 5.675253391265869,
+    "evaluation_time": 2.446821928024292,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately reflects the punishment prescribed under IPC Section 134 for abetting an assault on a superior officer, when the assault is actually committed. The answer correctly identifies the relevant section, the nature of the offense, and the potential penalties. The legal reasoning is sound and the answer directly addresses the question, offering a clear and concise explanation of the law. The inclusion of 'IPC RAG' at the end is a minor stylistic issue, but it doesn't detract from the overall accuracy and clarity of the response.",
+      "strengths": [
+        "Accurate identification of IPC Section 134.",
+        "Correctly describes the offense.",
+        "Accurately states the punishment.",
+        "Directly answers the question.",
+        "Clear and concise language."
+      ],
+      "weaknesses": [
+        "The inclusion of 'IPC RAG' at the end might be considered unnecessary or non-standard."
+      ]
+    },
+    "timestamp": "2025-11-23T17:56:05.999911"
+  },
+  {
+    "question_id": 18,
+    "question": "In Hiten P. Dalal v Bratindranath Banerjee case, what was the jurisdictional issue regarding the Special Court?",
+    "category": "Securities_Law",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "ground_truth": "In Hiten P. Dalal v Bratindranath Banerjee (2001), the jurisdictional issue was whether the Special Court set up under the Special Court (Trial of Offences relating to Transactions in Securities) Act, 1992 had jurisdiction over offences committed after 6 June 1992. The Supreme Court held that the statutory period specified in Section 3(2) qualifies the word 'transactions' and not the word 'offence'. The jurisdiction of the Special Court extends to offences relating to transactions in securities that took place between 1 April 1991 and 6 June 1992, regardless of when the offence itself was committed. Since the cheques in this case were issued during the statutory period for transactions within that period, the Special Court had jurisdiction.",
+    "generated_answer": "In *Hiten P. Dalal v. Bratindranath Banerjee*, the jurisdictional issue concerning the Special Court revolved around its authority to try offences under the Negotiable Instruments Act, 1881 (Past Cases RAG).\n\nSpecifically, the appellant was found guilty of an offence under Section 138 of the Negotiable Instruments Act, 1881, by the Special Court (Past Cases RAG). This Special Court was established under the Special Court (Trial of Offences relating to Transactions in Securities) Act, 1992 (Past Cases RAG).\n\nThe jurisdictional question thus arose as to whether the Special Court, constituted under the 1992 Act, possessed the requisite statutory authority to exercise jurisdiction over offences arising from the Negotiable Instruments Act, 1881. The provided information indicates this was the point of contention, but it does not elaborate on the specific arguments made regarding this jurisdictional challenge or the ultimate resolution of this particular aspect (Past Cases RAG).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 6.431982517242432,
+    "evaluation_time": 2.5453569889068604,
+    "evaluation": {
+      "correctness_score": 3,
+      "completeness_score": 2,
+      "relevance_score": 6,
+      "legal_reasoning_score": 3,
+      "overall_score": 3.5,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer misinterprets the jurisdictional issue in Hiten P. Dalal v. Bratindranath Banerjee. It focuses on the Negotiable Instruments Act, which is not the primary issue in the case. The actual issue concerned the Special Court's jurisdiction over offences related to securities transactions after a specific date. The answer only touches on the establishment of the special court, without addressing the core legal point. The use of 'Past Cases RAG' indicates placeholder text and detracts from the quality. The legal reasoning is weak, and the answer lacks critical details from the ground truth. It is somewhat relevant by mentioning the case name and the Special Court, but it fails to capture the essence of the jurisdictional dispute.",
+      "strengths": [
+        "Mentions the correct case name.",
+        "Identifies the Special Court involved."
+      ],
+      "weaknesses": [
+        "Misinterprets the central jurisdictional issue.",
+        "Fails to address the core legal question regarding the time frame for the Special Court's jurisdiction.",
+        "Includes placeholder text.",
+        "Lacks sufficient legal reasoning and explanation.",
+        "Fails to mention the relevant dates and legal principles discussed in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T17:56:16.982184"
+  },
+  {
+    "question_id": 19,
+    "question": "What does Article 131 say about Supreme Court's original jurisdiction?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 131",
+    "ground_truth": "Article 131 of the Constitution of India grants the Supreme Court exclusive original jurisdiction in any dispute: (a) between the Government of India and one or more States; (b) between the Government of India and any State or States on one side and one or more other States on the other; or (c) between two or more States. This jurisdiction applies if the dispute involves any question (whether of law or fact) on which the existence or extent of a legal right depends. It excludes disputes arising out of any treaty, agreement, covenant, engagement, sanad, or other similar instrument entered into before the commencement of the Constitution.",
+    "generated_answer": "Article 131 of the Constitution of India defines the **Original Jurisdiction of the Supreme Court**, establishing its authority to hear certain disputes at the first instance, to the exclusion of any other court (Legal Acts RAG).\n\nSpecifically, Article 131 states:\n\"**131. Original jurisdiction of the Supreme Court.—Subject to the provisions of this Constitution, the Supreme Court shall, to the exclusion of any other court, have original jurisdiction in any dispute—(a) between the Government of India**\" (Legal Acts RAG).\n\nBased on this, the key aspects of Article 131 are:\n\n1.  **Exclusivity**: The Supreme Court holds **exclusive original jurisdiction** over the disputes specified under this Article. This means that no other court in India, including High Courts, can entertain these matters at the initial stage (Legal Acts RAG).\n2.  **Parties to the Dispute**: The provided text indicates that this jurisdiction applies to disputes involving \"(a) between the Government of India\" (Legal Acts RAG).\n3.  **Subjection to Constitutional Provisions**: The phrase \"Subject to the provisions of this Constitution\" signifies that while Article 131 grants this original jurisdiction, its exercise is not absolute and may be qualified or limited by other provisions within the Constitution (Legal Acts RAG).\n\n**Conclusion**: Article 131 establishes the Supreme Court's original and exclusive jurisdiction for certain disputes, beginning with those \"between the Government of India.\" However, the provided text for Article 131 is incomplete, specifically clause (a) which appears truncated, meaning the full scope of parties or types of disputes covered by Article 131 cannot be definitively determined from the given information alone (Legal Acts RAG).",
+    "systems_used": [
+      "knowledge_graph",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.13741135597229,
+    "evaluation_time": 5.96315860748291,
+    "evaluation": {
+      "correctness_score": 6,
+      "completeness_score": 6,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 7.25,
+      "verdict": "PASS",
+      "reasoning": "The answer is generally correct and relevant to the question, accurately identifying Article 131's focus on the Supreme Court's original jurisdiction. It rightly points out the exclusivity of this jurisdiction. However, it's incomplete because it only partially quotes Article 131 and doesn't mention the other categories of disputes (between the Government of India and States, and between States) detailed in the ground truth. The reasoning is sound but relies heavily on the limited text provided, leading to an incomplete understanding of the article. The conclusion correctly acknowledges the text's incompleteness, which is commendable. The scores reflect these considerations, with high relevance and decent correctness but lower completeness due to the partial quote.",
+      "strengths": [
+        "Accurately identifies the core concept of Article 131: Original Jurisdiction.",
+        "Highlights the exclusive nature of the Supreme Court's jurisdiction.",
+        "The reasoning is logically sound given the provided text.",
+        "Acknowledges the incomplete information and its impact on the analysis."
+      ],
+      "weaknesses": [
+        "Provides an incomplete quote of Article 131, omitting critical details about the types of disputes.",
+        "The analysis is therefore limited to the provided text which limits its scope and effectiveness."
+      ]
+    },
+    "timestamp": "2025-11-23T17:56:38.087025"
+  },
+  {
+    "question_id": 20,
+    "question": "What is the principle of issue estoppel in criminal cases?",
+    "category": "Criminal_Procedure",
+    "source": "Past Cases RAG - Criminal Procedure",
+    "ground_truth": "The principle of issue estoppel in criminal cases, as discussed in cases like Masud Khan v State of UP, means that where an issue of fact has been tried by a competent court on a former occasion and a finding has been reached in favor of an accused, such a finding would constitute an estoppel or res judicata against the prosecution. It does not bar the trial itself for a different offense but precludes the reception of evidence to disturb that finding of fact when the accused is tried subsequently, even for a different offense.",
+    "generated_answer": "The principle of issue estoppel in criminal cases prevents the prosecution from re-litigating an issue of fact that has been previously determined in favor of the accused in a prior criminal trial.\n\nSpecifically, issue estoppel applies \"if it appears by record of itself or as explained by proper evidence, that the same point was determined in favour of a prisoner in a previous criminal trial which is brought in issue on a second criminal trial of the same prisoners\" (Document 1). This means that if an issue of fact has been tried by a competent court on a former occasion and a finding has been reached in favor of the accused, such a finding constitutes an estoppel against the prosecution (Document 2). In essence, it bars the prosecution from attempting to prove a fact that a court has already found not to be true regarding the accused in an earlier proceeding.",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 5.311060428619385,
+    "evaluation_time": 2.3742270469665527,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 8.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a good explanation of issue estoppel in criminal cases. It accurately captures the core principle of preventing the prosecution from re-litigating facts already determined in favor of the accused. The use of the phrase \"if it appears by record of itself or as explained by proper evidence, that the same point was determined in favour of a prisoner in a previous criminal trial which is brought in issue on a second criminal trial of the same prisoners\" is well-phrased to emphasize its nature and application. While the answer is solid, it would have been improved by including a specific case name like the ground truth did (Masud Khan v State of UP).",
+      "strengths": [
+        "Accurate definition of issue estoppel.",
+        "Clear explanation of the principle's effect.",
+        "Addresses the core concept of preventing re-litigation of determined facts."
+      ],
+      "weaknesses": [
+        "Lacks the specific case name example provided in the ground truth, which could improve clarity."
+      ]
+    },
+    "timestamp": "2025-11-23T17:56:47.776735"
+  },
+  {
+    "question_id": 21,
+    "question": "What legal precedents were used in the Central Inland Water Transport Corporation case?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Legal Precedents",
+    "ground_truth": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the legal precedents used were: (1) The Supreme Court's previous decisions that defined 'State' under Article 12 broadly to include various agencies and instrumentalities beyond just statutory bodies, establishing that government companies undertaking public functions qualify as 'State'; (2) The principle that unreasonable and arbitrary contractual terms can be struck down under Article 14, establishing that Rule 9(i) conferring unfettered power to terminate without hearing is arbitrary and violative of natural justice; (3) The precedent that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment, establishing that right to livelihood is integral to right to life.",
+    "generated_answer": "Based on the retrieved information, the legal precedent mentioned as likely used in the Central Inland Water Transport Corporation case is:\n\n*   **Moti Ram Deka etc. v. General Manager. N.E.F. Railways etc, [1964]** (Document 3)",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 4.058706521987915,
+    "evaluation_time": 2.5998001098632812,
+    "evaluation": {
+      "correctness_score": 3,
+      "completeness_score": 1,
+      "relevance_score": 7,
+      "legal_reasoning_score": 4,
+      "overall_score": 3.75,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is partially correct in identifying a precedent. However, the ground truth outlines several key precedents used in the Central Inland Water Transport Corporation case. The generated answer only mentions one case, 'Moti Ram Deka etc. v. General Manager. N.E.F. Railways etc, [1964]', which is likely related but doesn't capture the core legal principles established in the main case. It misses the core principles that establish the government companies as 'State', the arbitrariness of contractual terms, and their violation of natural justice, and their impact on Article 21. Therefore the answer is highly incomplete and doesn't showcase an understanding of the legal reasoning used in the case. The relevance is decent because it attempts to answer the question, but the lack of completeness and accuracy is a significant flaw.",
+      "strengths": [
+        "Identifies a potentially relevant case.",
+        "Attempts to answer the question."
+      ],
+      "weaknesses": [
+        "Significantly incomplete, missing the main precedents from the ground truth.",
+        "Doesn't accurately reflect the legal reasoning of the case.",
+        "Lacks key legal facts and principles established in the case."
+      ]
+    },
+    "timestamp": "2025-11-23T17:56:56.439934"
+  },
+  {
+    "question_id": 22,
+    "question": "What was the court's position on comparative study of different state laws in the Prabhakaran Nair case?",
+    "category": "Constitutional_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court cited the Constitution Bench decision in State of Madhya Pradesh v. G.C. Mandawar (1955) which observed that Article 14 of the Constitution does not authorize the striking down of a law of one State on the ground that in contrast with a law of another State on the same subject its provisions are discriminatory. Article 14 does not contemplate a law of the Centre or of the State dealing with similar subjects being held to be unconstitutional by a process of comparative study of the provisions of two enactments. The source of authority for the two statutes being different, Article 14 can have no application. Therefore, the absence of re-induction provisions in Tamil Nadu Rent Act compared to other state laws could not be a ground for unconstitutionality.",
+    "generated_answer": "Based on the retrieved information, the provided documents do not explicitly state the court's position on a comparative study of different state laws in the *Prabhakaran Nair* case. The documents only introduce the case and cite other cases, without detailing the court's stance on this specific methodological approach (Past Cases RAG). Therefore, the information is insufficient to answer your query regarding the court's position on comparative study of different state laws in this particular case.",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 5.0285964012146,
+    "evaluation_time": 2.659618616104126,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 5,
+      "relevance_score": 10,
+      "legal_reasoning_score": 6,
+      "overall_score": 7.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly states that the provided documents do not explicitly state the court's position on a comparative study. This is accurate based on the context provided. The answer acknowledges the limitations of the provided information. While it doesn't provide the complete ground truth answer (and thus misses important information on the court's reasoning), it correctly identifies the information gap. The legal reasoning is adequate, though it could be improved by summarizing the relevant legal principles that inform the court's position. The fact that the answer only draws conclusions about the limitations of the documents, does not make it inaccurate.",
+      "strengths": [
+        "Correctly identifies the limitation of the available information.",
+        "Accurately reflects the absence of the requested information in the source material.",
+        "Provides a relevant and focused response to the question."
+      ],
+      "weaknesses": [
+        "Lacks the specific legal principles that inform the court's position on comparative law, as stated in the ground truth.",
+        "The completeness could be better by providing a concise summary of the court's stance based on the provided ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T17:57:06.132831"
+  },
+  {
+    "question_id": 23,
+    "question": "What presumptions were available to the complainant bank under the Negotiable Instruments Act in the Hiten P. Dalal case?",
+    "category": "Negotiable_Instruments",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "ground_truth": "In Hiten P. Dalal v Bratindranath Banerjee (2001), three presumptions were available to the Bank: (1) Under Section 118 - that every negotiable instrument was made or drawn for consideration, and when accepted, indorsed, negotiated or transferred, it was for consideration; (2) Under Section 138 - where any cheque is returned unpaid because of insufficient funds, the drawer shall be deemed to have committed an offence (subject to presentation, notice, and non-payment conditions); (3) Under Section 139 - it shall be presumed that the holder received the cheque for the discharge, in whole or in part, of any debt or other liability. These mandatory presumptions placed the evidential burden on the accused to prove the contrary.",
+    "generated_answer": "In the *Hiten P. Dalal* case, under the Negotiable Instruments Act, the complainant bank (Standard Chartered Bank) was available the **presumption of the admitted execution of the cheques** by the appellant (Document 1). This presumption arose directly from the appellant's admitted execution of the four cheques, which benefited the bank in its case by establishing the authenticity of the instruments.",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 13.336923599243164,
+    "evaluation_time": 14.853129148483276,
+    "evaluation": {
+      "correctness_score": 2,
+      "completeness_score": 1,
+      "relevance_score": 4,
+      "legal_reasoning_score": 2,
+      "overall_score": 2.25,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is largely incorrect and misses the core legal principles from the ground truth. It misstates the presumptions available to the bank. The ground truth correctly identifies the presumptions under Sections 118, 138, and 139 of the Negotiable Instruments Act. The generated answer mentions a 'presumption of admitted execution' which is not the same and is a gross simplification of the legal position. The answer fails to identify any of the crucial presumptions available to the bank in such cases. The reference to 'Document 1' is also unclear and unhelpful. The legal reasoning is weak, and the answer shows a fundamental misunderstanding of the relevant legal principles.",
+      "strengths": [],
+      "weaknesses": [
+        "Incorrect identification of legal presumptions.",
+        "Missing key information regarding the presumptions available under the Negotiable Instruments Act.",
+        "Poor legal reasoning and explanation.",
+        "Misrepresents the legal principles involved in the Hiten P. Dalal case."
+      ]
+    },
+    "timestamp": "2025-11-23T17:57:36.327465"
+  },
+  {
+    "question_id": 24,
+    "question": "What was the historical context of Section 14 of the Tamil Nadu Rent Act as explained in Prabhakaran Nair case?",
+    "category": "Legislative_History",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court explained that a similar enactment was in operation from 1949 to 1960 which did not contain provisions like Sections 14 to 16 for eviction on grounds of demolition and reconstruction. The 1949 Act contained a provision empowering the Government to exempt buildings from the Act's provisions. When landlords desired to evict tenants for demolition and reconstruction, they would apply for exemption under Section 13 of the 1949 Act. The Government would impose conditions requiring landlords to complete reconstruction within four months and take back old tenants. The Legislature, based on experience gained from 1949 to 1960, enacted Sections 14 to 16 in the 1960 Act, improving the position by providing eviction as a statutory ground and leaving it to judicial adjudication by the Rent Controller.",
+    "generated_answer": "The historical context of Section 14 of the Tamil Nadu Rent Act, as explained in the Prabhakaran Nair case, was primarily shaped by the post-World War II period. This era was characterized by a substantial influx of population into major cities and urban centers, which consequently led to an acute shortage of accommodation. The Act was conceived as beneficial legislation intended to address the pressing issues of rackrenting (exorbitant rents) and unreasonable evictions, which arose directly from this severe housing crisis (Past Cases RAG, Document 1).\n\nIt is important to note, however, that a separate set of retrieved legal documents explicitly stated that they contained no information regarding the \"Tamil Nadu Rent Act,\" \"Section 14\" of such an Act, or the \"Prabhakaran Nair case\" (Legal Acts RAG, 5 retrieved documents). Despite this, the information regarding the historical context was provided by the \"Past Cases RAG\" source.",
+    "systems_used": [
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.442935705184937,
+    "evaluation_time": 2.866607904434204,
+    "evaluation": {
+      "correctness_score": 1.0,
+      "completeness_score": 1.0,
+      "relevance_score": 1.0,
+      "legal_reasoning_score": 1.0,
+      "overall_score": 1.0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is almost entirely incorrect. It misrepresents the historical context, failing to mention the crucial period between the 1949 and 1960 acts and the specific issue of demolition and reconstruction, which is the heart of Section 14.  The generated answer also makes broad statements about post-World War II housing shortages, which are not directly tied to the *Prabhakaran Nair* case or Section 14 in the context of the ground truth.  The answer's reliance on 'Past Cases RAG' and its mention of documents stating that they contain no information are also problematic; it indicates the answer is drawing from sources that do not contain the necessary information. The answer completely fails to address the specific historical context outlined in the ground truth and instead provides a general, largely irrelevant overview.",
+      "strengths": [],
+      "weaknesses": [
+        "Incorrect factual information regarding the historical context.",
+        "Missing the core information regarding the 1949 and 1960 acts and demolition/reconstruction.",
+        "Irrelevant information about post-war housing shortages that does not relate to the case.",
+        "Use of sources that don't contain relevant information, leading to an inaccurate answer."
+      ]
+    },
+    "timestamp": "2025-11-23T17:57:54.641828"
+  },
+  {
+    "question_id": 25,
+    "question": "How does the Supreme Court determine if someone is a foreigner?",
+    "category": "Citizenship_Law",
+    "source": "Past Cases RAG - Citizenship Law",
+    "ground_truth": "As per Section 9 of the Foreigners Act, 1946, and upheld in cases like Masud Khan v State of Uttar Pradesh, the burden of proof lies upon the person to show that they are not a foreigner. If a question arises whether a person is or is not a foreigner, the onus is on that person to prove they are a citizen of India. Mere oral statements or lack of documentation from the prosecution is not sufficient; the individual must provide evidence of citizenship.",
+    "generated_answer": "The Supreme Court determines if someone is a foreigner by assessing their status against established legal frameworks for citizenship and foreign status, often in the context of specific legal proceedings.\n\n1.  **Constitutional Basis for Citizenship:**\n    At the commencement of the Constitution, Article 5 of the Constitution of India defined who was deemed a citizen. This article outlines criteria based on birth in India (as defined in the Government of India Act, 1935), migration history from territories now in Pakistan, and residency requirements (Legal Acts RAG, Document 1). A person not meeting these criteria would not be considered a citizen under this provision, thereby implying their status as a foreigner at that specific historical juncture (Legal Acts RAG, Document 1).\n\n2.  **Role of the Foreigners Act and Prior Proceedings:**\n    In contemporary disputes, the Supreme Court's involvement in determining foreign status often arises in cases brought under the **Foreigners Act** (Past Cases RAG, Documents 1, 3). The Foreigners Act serves as the statutory basis for determining an individual's status as a foreigner (Past Cases RAG, Document 1). When making such determinations, the Court considers prior legal proceedings and judgments, such as a previous acquittal under the Foreigners Act, as relevant factors (Past Cases RAG, Document 1).\n\n3.  **Supreme Court's Specific Jurisdiction/Procedure:**\n    It is important to note that while the Constitution provides foundational definitions of citizenship, the provided legal documents (including Articles 124A, 129, 130, 131, 324, and 225) **do not explicitly outline a specific power, jurisdiction, or procedure for the Supreme Court to directly determine an individual's \"foreigner\" status in a general sense or in contemporary disputes** (Legal Acts RAG, Documents 2-5). For instance, the Supreme Court's original jurisdiction under Article 131 primarily covers disputes between governmental entities and does not encompass the direct adjudication of an individual's foreign status (Legal Acts RAG, Document 4). Therefore, while the Court addresses these questions in specific cases, the precise methodology or statutory framework for a direct, general determination by the Supreme Court is not detailed in the provided legal acts (Legal Acts RAG, Conclusion).",
+    "systems_used": [
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 21.22238802909851,
+    "evaluation_time": 3.178191661834717,
+    "evaluation": {
+      "correctness_score": 4,
+      "completeness_score": 4,
+      "relevance_score": 7,
+      "legal_reasoning_score": 5,
+      "overall_score": 5.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides some relevant information but makes several significant errors and omissions, particularly regarding the core legal principles. It correctly identifies the Foreigners Act as relevant but fails to highlight the crucial element of burden of proof, which is the cornerstone of how the Supreme Court determines someone's foreign status, as outlined in the ground truth. The answer focuses on constitutional provisions and general procedures, which, while relevant to citizenship, do not directly address the question of how the court determines if someone is a foreigner. The legal reasoning is somewhat sound but lacks precision. While it acknowledges the lack of specific, general procedures, it misinterprets the role of the Foreigners Act and its impact on the court's determinations. It does not mention the landmark case related to the burden of proof. The use of \"Legal Acts RAG\" and \"Past Cases RAG\" is not ideal and lacks real-world legal context.",
+      "strengths": [
+        "Identifies the Foreigners Act as a relevant statute.",
+        "Acknowledges the role of constitutional provisions in defining citizenship.",
+        "Mentions the Supreme Court's involvement in disputes related to foreign status."
+      ],
+      "weaknesses": [
+        "Fails to mention the burden of proof, a key legal principle.",
+        "Omits the case law like Masud Khan v State of Uttar Pradesh, or any specific case example.",
+        "Lacks the specific details of how the court determines foreigner status based on the Act.",
+        "The reasoning is too generalized and less focused on how the Supreme Court specifically acts in these cases.",
+        "The use of \"Legal Acts RAG\" and \"Past Cases RAG\" is not representative of actual legal analysis and adds a layer of confusion."
+      ]
+    },
+    "timestamp": "2025-11-23T17:58:21.046619"
+  },
+  {
+    "question_id": 26,
+    "question": "What was the Supreme Court's interpretation of 'bona fide requirement' in demolition cases as per Prabhakaran Nair?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court cited Metalware and Co. v. Bansilal Sharma (1979) which emphasized that Section 14(1)(b) uses the phrase 'the building was bona fide required by the landlord' which clearly refers to the bona fide requirement of the landlord, meaning genuineness of his claim. The Rent Controller must take into account all surrounding circumstances including not merely factors like the landlord possessing sufficient means or funds and steps taken, but also the existing condition of the building, its age and situation, and possibility of it being put to a more profitable use after reconstruction. All these factors being relevant must enter the verdict of the Rent Controller on the question of bona fide requirement under Section 14(1)(b).",
+    "generated_answer": "The provided information does not contain the Supreme Court's specific interpretation of \"bona fide requirement\" in demolition cases as articulated in *Prabhakaran Nair, Etc. v State Of Tamil Nadu And Ors.* (Knowledge Graph, Past Cases RAG).\n\nHowever, the Supreme Court has generally interpreted \"bona fide requirement\" in the context of demolition and reconstruction as referring to the **bona fide requirement of the landlord** (Past Cases RAG, citing *Metalware and Co. etc. v. Bansilal Sharma and Ors. etc.* from Document 1). Furthermore, the landlord's desire to put the property to a more profitable use after demolition and reconstruction is a factor that may be considered in favor of the landlord (Past Cases RAG, citing *Panchamal Narayan Shenoy v. Basthi Venkatesha Shenoy* from Document 3).",
+    "systems_used": [
+      "knowledge_graph",
+      "past_cases_rag"
+    ],
+    "query_time": 21.833149194717407,
+    "evaluation_time": 2.0955045223236084,
+    "evaluation": {
+      "correctness_score": 8,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 8,
+      "overall_score": 8.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core interpretation of 'bona fide requirement' as it relates to demolition cases. It accurately points to the genuineness of the landlord's claim. While it doesn't explicitly mention all the factors the Rent Controller considers, like the ground truth does, it captures the essential meaning. It also correctly cites relevant case law. The primary weakness is in its completeness; it doesn't provide *all* the key details from the ground truth.",
+      "strengths": [
+        "Correctly identifies the core interpretation.",
+        "Cites relevant case law.",
+        "Accurate legal facts."
+      ],
+      "weaknesses": [
+        "Lacks some of the specifics from the ground truth (e.g., factors Rent Controller considers)."
+      ]
+    },
+    "timestamp": "2025-11-23T17:58:46.980663"
+  },
+  {
+    "question_id": 27,
+    "question": "What was the effect of Section 16(2) of Tamil Nadu Rent Act after reconstruction as explained in Prabhakaran Nair case?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Court explained that Section 16(2) of the Tamil Nadu Rent Act (amended by Act 23 of 1973) states that where in pursuance of an order passed under clause (b) of sub-section (1) of Section 14, any building is totally demolished and a new building is erected in its place, all the provisions of this Act shall cease to apply to such new building for a period of five years from the date on which the construction of such new building is completed and notified to the local authority concerned. This means neither the old tenant nor any new tenant would be entitled to protection of the Rent Control Act after reconstruction for five years, similar to the exemption for newly constructed buildings under Section 30(i).",
+    "generated_answer": "Based on the retrieved information, a comprehensive answer regarding the effect of Section 16(2) of the Tamil Nadu Rent Act after reconstruction, as explained in the *Prabhakaran Nair* case, can be synthesized as follows:\n\nWhile the *Prabhakaran Nair* case itself is not directly found in the provided documents, the \"Past Cases RAG\" source implies an understanding of the effect of Section 16(2) of the Tamil Nadu Rent Act after reconstruction. According to this source, the Act, unlike some other rent control legislations, **did not impose an automatic obligation for the landlord to re-induct the tenant or offer them the same space in the reconstructed building after an eviction for the purpose of reconstruction** (Past Cases RAG, document 2). This suggests that tenants did not have an inherent right to return to the premises post-reconstruction under this specific section.\n\nHowever, it is important to note a discrepancy in the information provided by the sources. The \"Legal Acts RAG\" explicitly states that its documents do not contain any mention of a \"Tamil Nadu Rent Act\" (or equivalent Rent Control legislation), any specific section like \"Section 16(2),\" or the \"Prabhakaran Nair case\" or any judicial pronouncement explaining the effect of reconstruction in the context of rent control laws (Legal Acts RAG). This source concludes that it lacks sufficient information to address the query.\n\nTherefore, while the \"Past Cases RAG\" provides an interpretation of the effect of Section 16(2) of the Tamil Nadu Rent Act, a direct explanation *as explained in the Prabhakaran Nair case* cannot be fully provided due to the case not appearing directly in the documents and the conflicting statements regarding the availability of information on the Act and section itself.",
+    "systems_used": [
+      "legal_acts_rag",
+      "past_cases_rag"
+    ],
+    "query_time": 14.81680941581726,
+    "evaluation_time": 2.742377281188965,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 5,
+      "relevance_score": 9,
+      "legal_reasoning_score": 7,
+      "overall_score": 7,
+      "verdict": "PASS",
+      "reasoning": "The answer correctly identifies the core issue: the effect of Section 16(2) after reconstruction. It also acknowledges the challenge of not finding the specific case (Prabhakaran Nair) in the provided documents and the conflicting information from different sources.  While it doesn't provide the complete and specific details of the ground truth (the five-year cessation of the Act's applicability), it correctly interprets the implication of the tenant's rights to the reconstructed building. The reasoning is sound, considering the limitations of the provided context. The points are generally relevant. However, the completeness is lower since the essential details about the five-year period are missing.",
+      "strengths": [
+        "Correctly identifies the core issue.",
+        "Acknowledges the limitations of the provided context.",
+        "Provides a reasonable interpretation based on the available information.",
+        "Logical structure and clear explanation."
+      ],
+      "weaknesses": [
+        "Misses the crucial detail regarding the five-year period of exemption.",
+        "The answer relies too heavily on the limitations of the sources rather than attempting to synthesize a complete picture within the available information (even though acknowledging the missing case is understandable)."
+      ]
+    },
+    "timestamp": "2025-11-23T17:59:06.544384"
+  },
+  {
+    "question_id": 28,
+    "question": "How did the Supreme Court address the defense in Hiten P. Dalal regarding the cheques being for intended transactions?",
+    "category": "Evidence_Law",
+    "source": "Past Cases RAG - Supreme Court 2001",
+    "ground_truth": "In Hiten P. Dalal v Bratindranath Banerjee (2001), the appellant's defense was that the four cheques were given for intended transactions which never materialized and should not have been acted upon. However, the Supreme Court found this defense unsubstantiated. The Court noted that the appellant did not enter the witness box to support his case that the cheques were given for any arrangement or non-materialized transactions. None of the four defense witnesses gave evidence supporting the appellant's only defense - why he had executed and delivered the particular cheques or that they were not given to discharge his debts. The Court emphasized that the appellant alone could have explained why he admittedly executed the four cheques, handed them to the Bank, and never asked for their return. Since he chose not to testify, the defense failed to rebut the mandatory presumptions under Sections 138 and 139 of the Negotiable Instruments Act.",
+    "generated_answer": "In *Hiten P. Dalal*, the Supreme Court did not accept the defense that the cheques in question were issued for intended transactions that ultimately did not materialize (Document 2). The Court observed that while witnesses testified regarding the general nature of transactions between the appellant and the Bank, no defense witness presented any evidence specifically supporting the claim that the four cheques were indeed for such unfulfilled intended transactions (Document 2).",
+    "systems_used": [
+      "past_cases_rag"
+    ],
+    "query_time": 5.008590936660767,
+    "evaluation_time": 2.598001003265381,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 6,
+      "relevance_score": 10,
+      "legal_reasoning_score": 7,
+      "overall_score": 7.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the core issue: the Supreme Court's rejection of the defense that the cheques were for unrealized transactions. It accurately states that the Court found this defense unsupported. However, it lacks some crucial details. Specifically, it misses the important point that the appellant did not testify, and that the other witnesses did not support the specific claim about the cheques. It mentions \"witnesses\" but doesn't explain the lack of specific evidence about the cheques which was central to the Court's reasoning. The answer is relevant and the legal reasoning is generally sound, but a fuller explanation would have been better.",
+      "strengths": [
+        "Correctly identifies the core issue of the defense.",
+        "Accurately states the court's rejection of the defense.",
+        "Relevant to the question asked."
+      ],
+      "weaknesses": [
+        "Misses the crucial detail that the appellant did not testify.",
+        "Doesn't fully explain the Court's reasoning regarding the evidence (or lack thereof) relating specifically to the cheques.",
+        "Lacks some critical details from the Ground Truth."
+      ]
+    },
+    "timestamp": "2025-11-23T17:59:16.155707"
+  }
+]

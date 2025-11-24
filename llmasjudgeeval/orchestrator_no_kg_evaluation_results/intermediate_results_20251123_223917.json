@@ -1,0 +1,37 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if a person who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India, wears any uniform or carries any token resembling those used by such personnel with the intention that it may be believed they are such a soldier, sailor, or airman, they shall be punished.\n\nThe punishment for this offense is:\n*   Imprisonment of either description for a term which may extend to **three months**, or\n*   A fine which may extend to **five hundred rupees**, or\n*   **Both**.",
+    "systems_used": [
+      "ipc_rag",
+      "past_cases_rag",
+      "legal_acts_rag"
+    ],
+    "query_time": 13.279236793518066,
+    "evaluation_time": 8.035143852233887,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 9.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies IPC Section 140 and correctly describes the prohibited act (wearing garb/token resembling military personnel with intent to deceive, by someone not actually military personnel). Crucially, it precisely states the associated punishments: imprisonment of either description for a term which may extend to three months, or a fine which may extend to five hundred rupees, or both. The answer is well-structured and easy to understand. The only minor omission compared to the ground truth is the procedural classification of the offense (cognizable, bailable, triable by any Magistrate). While this information is relevant to the section, the question specifically asks for the 'punishment,' which the generated answer fully provides. However, as the ground truth included these details, a slight reduction in completeness is warranted.",
+      "strengths": [
+        "Accurately identifies the relevant IPC section (140).",
+        "Correctly describes the elements of the offense.",
+        "Precisely states the maximum term of imprisonment and fine amount.",
+        "Clearly presents the punishment options (imprisonment, fine, or both).",
+        "The answer is well-structured and easy to comprehend."
+      ],
+      "weaknesses": [
+        "Does not include the procedural classification of the offense (cognizable, bailable, triable by any Magistrate) which was present in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T22:39:17.056004"
+  }
+]

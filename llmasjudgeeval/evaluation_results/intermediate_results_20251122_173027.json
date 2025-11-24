@@ -1,0 +1,32 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), if an individual who is not a soldier, sailor, or airman in the Military, Naval, or Air service of the Government of India wears any garb or carries any token resembling that used by such personnel with the intent to deceive (i.e., with the intention that it may be believed they are such a soldier, sailor, or airman), they shall be punished as follows:\n\n*   **Imprisonment:** For a term which may extend to three months (of either description).\n*   **Fine:** Which may extend to five hundred rupees.\n*   **Or both** imprisonment and fine.\n\nThis information is derived from the provided IPC RAG source.",
+    "systems_used": [
+      "ipc_rag"
+    ],
+    "query_time": 20.84365749359131,
+    "evaluation_time": 1.9114022254943848,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is perfectly accurate and complete in addressing the question. It correctly states the punishment under IPC Section 140, including the imprisonment term, fine amount, and the possibility of both. The answer is also highly relevant, directly answering the question without any extraneous information. Legal reasoning is sound as it accurately presents the legal consequences. The answer is well-structured and easy to understand.",
+      "strengths": [
+        "Perfect accuracy in legal facts.",
+        "Complete coverage of the relevant information.",
+        "Directly addresses the question asked.",
+        "Clear and concise presentation of the information."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-22T17:30:27.171815"
+  }
+]

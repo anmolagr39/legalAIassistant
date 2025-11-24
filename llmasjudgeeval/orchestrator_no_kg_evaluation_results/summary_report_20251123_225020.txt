@@ -1,0 +1,100 @@
+================================================================================
+LLM-as-a-Judge Evaluation Summary Report
+Orchestrator WITHOUT Knowledge Graph (3 RAGs Only)
+================================================================================
+
+Evaluation Date: 2025-11-23T22:50:20.973524
+Total Time: 685.23 seconds
+
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total Questions: 40
+Completed: 40
+Failed: 0
+Passed: 12 (30.0%)
+Not Passed: 28 (70.0%)
+
+AVERAGE SCORES (0-10)
+--------------------------------------------------------------------------------
+Correctness:     3.05/10
+Completeness:    2.15/10
+Relevance:       3.60/10
+Legal Reasoning: 2.52/10
+Overall:         2.83/10
+
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+Average Query Time: 9.18s
+Average Evaluation Time: 5.99s
+
+CATEGORY BREAKDOWN
+--------------------------------------------------------------------------------
+
+IPC_Section:
+  Total: 9
+  Passed: 7 (77.8%)
+  Average Score: 7.14/10
+
+Constitutional_Law:
+  Total: 7
+  Passed: 3 (42.9%)
+  Average Score: 3.57/10
+
+Citizenship_Law:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 4.00/10
+
+Criminal_Procedure:
+  Total: 2
+  Passed: 1 (50.0%)
+  Average Score: 4.25/10
+
+Rent_Control_Law:
+  Total: 5
+  Passed: 0 (0.0%)
+  Average Score: 0.95/10
+
+Securities_Law:
+  Total: 2
+  Passed: 0 (0.0%)
+  Average Score: 1.38/10
+
+Negotiable_Instruments:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+Legislative_History:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+Evidence_Law:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+Legal_Analytics:
+  Total: 3
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+Case_Citations:
+  Total: 4
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+IPC_Offense_Punishment:
+  Total: 1
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+Case_Law:
+  Total: 2
+  Passed: 0 (0.0%)
+  Average Score: 0.00/10
+
+================================================================================
+End of Report
+================================================================================

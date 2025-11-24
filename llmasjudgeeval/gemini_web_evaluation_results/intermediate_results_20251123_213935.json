@@ -1,0 +1,89 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Error generating response: 400 google_search_retrieval is not supported. Please use google_search tool instead.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.9805684089660645,
+    "evaluation_time": 2.6817402839660645,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message indicating a failure to generate a response, rather than providing an answer to the legal question. Therefore, it completely fails to address the prompt or provide any legal information.",
+      "strengths": [],
+      "weaknesses": [
+        "The assistant failed to generate any legal content.",
+        "The response was an error message, not an answer.",
+        "No information from the ground truth was included."
+      ]
+    },
+    "timestamp": "2025-11-23T21:39:25.307482"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Error generating response: 400 google_search_retrieval is not supported. Please use google_search tool instead.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.7559340000152588,
+    "evaluation_time": 2.152959108352661,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message from the tool, not a response to the legal question. It provides no legal information and thus cannot be evaluated on correctness, completeness, relevance, or legal reasoning. It completely fails to answer the question.",
+      "strengths": [],
+      "weaknesses": [
+        "Did not provide an answer to the question.",
+        "Generated an error message instead of legal content.",
+        "Lacks any information or reasoning."
+      ]
+    },
+    "timestamp": "2025-11-23T21:39:30.219902"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "Error generating response: 400 google_search_retrieval is not supported. Please use google_search tool instead.",
+    "systems_used": [
+      "error"
+    ],
+    "query_time": 0.5587489604949951,
+    "evaluation_time": 2.906989812850952,
+    "evaluation": {
+      "correctness_score": 0,
+      "completeness_score": 0,
+      "relevance_score": 0,
+      "legal_reasoning_score": 0,
+      "overall_score": 0,
+      "verdict": "FAIL",
+      "reasoning": "The generated answer is an error message, not a substantive response to the legal question. It completely failed to provide any information regarding the key legal issues in the specified case, therefore scoring 0 across all criteria. There is no legal content to evaluate for correctness, completeness, relevance, or reasoning.",
+      "strengths": [],
+      "weaknesses": [
+        "Failed to generate a relevant response.",
+        "Provided an internal error message instead of an answer.",
+        "Lacked any substantive legal content."
+      ]
+    },
+    "timestamp": "2025-11-23T21:39:35.688294"
+  }
+]

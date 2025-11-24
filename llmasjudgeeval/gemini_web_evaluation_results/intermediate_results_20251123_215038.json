@@ -1,0 +1,551 @@
+[
+  {
+    "question_id": 1,
+    "question": "What is the punishment for wearing a soldier's uniform with intent to deceive under IPC Section 140?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 140",
+    "ground_truth": "According to IPC Section 140, whoever, not being a soldier, sailor or airman in the Military, Naval or Air service of the Government of India, wears any garb or carries any token resembling any garb or token used by such personnel with the intention that it may be believed that he is such a soldier, sailor or airman, shall be punished with imprisonment of either description for a term which may extend to three months, or with fine which may extend to five hundred rupees, or with both. The offense is cognizable and bailable, triable by any Magistrate.",
+    "generated_answer": "Under Section 140 of the Indian Penal Code (IPC), wearing a soldier's uniform or carrying a token resembling one with the intent to deceive others into believing one is a soldier, sailor, or airman, carries the following punishments:\n\n*   **Imprisonment:** A term that may extend to three months.\n*   **Fine:** A fine which may extend to five hundred rupees.\n*   **Both:** The offender may be subject to both imprisonment and a fine.\n\nThis offense applies to individuals not serving in the Military, Naval, or Air service of the Government of India. The law aims to prevent the impersonation of military personnel and maintain the integrity and honor of the armed forces.\n\nIt is important to note that as of July 1, 2024, IPC Section 140 has been replaced by Section 168 of the Bharatiya Nyaya Sanhita (BNS). Under BNS Section 168, the upper limit of the fine has been increased from five hundred rupees to two thousand rupees.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.792349338531494,
+    "evaluation_time": 9.05509066581726,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately provides the punishment details for IPC Section 140 as requested, including the imprisonment term, fine amount, and the condition for applying 'both.' It correctly identifies the individuals to whom the section applies and the intent required for the offense. Furthermore, the answer demonstrates excellent foresight and legal awareness by including a critical and timely update regarding the replacement of IPC Section 140 with BNS Section 168 as of July 1, 2024, and the change in the maximum fine under the new legislation. This addition significantly enhances the utility and correctness of the answer for anyone seeking current legal information. The only minor omission is the procedural classification of the offense (cognizable, bailable, triable by any Magistrate) which was present in the ground truth, but this is outweighed by the valuable legislative update provided.",
+      "strengths": [
+        "Accurate depiction of IPC Section 140's punishment and conditions.",
+        "Includes highly relevant and timely legislative update regarding the replacement by BNS Section 168 and the updated fine.",
+        "Clearly structured and easy to understand.",
+        "Provides additional context regarding the law's purpose."
+      ],
+      "weaknesses": [
+        "Omits the procedural details (cognizable, bailable, triable by any Magistrate) mentioned in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T21:45:40.553942"
+  },
+  {
+    "question_id": 2,
+    "question": "Is abetting mutiny by a military officer a cognizable or non-cognizable offense under IPC Section 131?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 131",
+    "ground_truth": "Under IPC Section 131, abetting the committing of mutiny by an officer, soldier, sailor or airman, or attempting to seduce them from their allegiance or duty, is a cognizable and non-bailable offense. The punishment is imprisonment for life or imprisonment of either description for a term which may extend to ten years, and the offender shall also be liable to fine. The offense is triable by a Court of Session.",
+    "generated_answer": "Abetting mutiny by a military officer, or attempting to seduce a soldier, sailor, or airman from their duty, as defined under Section 131 of the Indian Penal Code (IPC), is a cognizable offense.\n\nIn India, cognizable offenses are considered serious crimes, allowing the police to arrest an accused without a warrant and initiate an investigation without prior approval from a magistrate. Conversely, for non-cognizable offenses, police cannot make an arrest without a warrant and require a magistrate's permission to begin an investigation.\n\nIPC Section 131 outlines the punishment for such an offense, which can include imprisonment for life or imprisonment for a term extending to ten years, along with a fine. The offense is also non-bailable and triable by a Court of Session.\n\nIt is important to note that as of July 1, 2024, IPC Section 131 has been replaced by Section 159 of the Bharatiya Nyaya Sanhita (BNS).",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.741466760635376,
+    "evaluation_time": 9.075782299041748,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It correctly identifies the offense as cognizable and non-bailable under IPC Section 131. It provides all the details mentioned in the ground truth, including the specific acts constituting the offense, the punishment, and the court of trial. Furthermore, it adds valuable contextual information by explaining what a cognizable offense entails and crucially, informs the user about the replacement of IPC Section 131 by Section 159 of the Bharatiya Nyaya Sanhita (BNS) as of July 1, 2024, which is a significant and highly relevant update. This makes the answer not just correct for the past/present IPC but also forward-looking and practical. The legal reasoning is sound in accurately categorizing the offense and explaining its implications.",
+      "strengths": [
+        "Perfectly accurate legal information regarding IPC Section 131.",
+        "Completely covers all key points from the ground truth.",
+        "Adds highly relevant and valuable contextual information (explanation of cognizable offense, and the transition to BNS).",
+        "Directly addresses the question and provides a holistic understanding of the offense.",
+        "Demonstrates excellent awareness of current legal reforms in India."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-23T21:45:56.375197"
+  },
+  {
+    "question_id": 3,
+    "question": "What was the key legal issue in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Supreme Court Case",
+    "ground_truth": "The key legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly & Anr. (1986 AIR 1571) were: (1) Whether a government company falls under the definition of 'State' as per Article 12 of the Indian Constitution; (2) The constitutional validity of Rule 9(i) that allows termination of service without reason and whether it violates Article 14; (3) The application of principles of natural justice and constitutional protections in contractual relationships, particularly in employment contracts of state entities; (4) The impact of arbitrary termination of employment on the right to life and livelihood under Article 21; (5) The scope of judicial review of state action in contractual matters.",
+    "generated_answer": "The key legal issues in the case of Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly revolved around the constitutional validity of arbitrary termination clauses in employment contracts and the scope of \"State\" under Article 12 of the Indian Constitution.\n\nSpecifically, the primary legal issues were:\n*   **Definition of \"State\" under Article 12 of the Constitution** The Supreme Court examined whether a government company, as defined under Section 617 of the Companies Act, 1956, falls within the ambit of \"the State\" under Article 12 of the Constitution of India. This determination was crucial because if an entity is considered \"the State,\" it is subject to the fundamental rights enshrined in the Constitution, particularly Article 14, which guarantees equality.\n*   **Arbitrariness and Unconscionability of Contractual Terms** The case significantly addressed the validity of Rule 9(i) of the Central Inland Water Transport Corporation Limited's Service, Discipline and Appeal Rules, 1979. This rule allowed the Corporation to terminate the services of a permanent employee by simply giving three months' notice or three months' pay and allowances in lieu thereof. The central question was whether such a clause was arbitrary, unfair, unreasonable, unconscionable, and therefore violative of Article 14 of the Constitution.\n*   **Public Policy and Unequal Bargaining Power** The court also considered whether such an unfair and unreasonable term in an employment contract, especially one where there was a significant imbalance in bargaining power between the employer and the employee, could be deemed void under Section 23 of the Indian Contract Act, 1872, as being against public policy.\n\nThe Supreme Court ultimately held that the Central Inland Water Transport Corporation Ltd. was indeed \"the State\" under Article 12 and that Rule 9(i) was arbitrary, unconscionable, and against public policy, thus striking it down as void.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 7.517685651779175,
+    "evaluation_time": 10.258151292800903,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies and explains the primary legal issues in Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly. It correctly identifies the definition of 'State' under Article 12 and the constitutional validity of arbitrary termination clauses (Rule 9(i)) under Article 14, providing excellent context and reasoning for these points. It also correctly introduces the issue of public policy and unequal bargaining power under the Indian Contract Act, which was a significant aspect of the court's decision. However, the answer misses explicit mention of the application of 'principles of natural justice' (though implicitly covered by 'arbitrariness' and 'unconscionability'), the impact of arbitrary termination on 'right to life and livelihood under Article 21', and the broader 'scope of judicial review of state action in contractual matters' as distinct key issues, which were present in the ground truth. Despite these omissions, the explanation of the issues covered is thorough and legally sound.",
+      "strengths": [
+        "Accurately identifies and explains the most critical legal issues, particularly the definition of 'State' under Article 12 and the validity of Rule 9(i) under Article 14.",
+        "Provides clear and sound legal reasoning for why these were key issues, including the interlinkage between Article 12 and fundamental rights.",
+        "Correctly identifies the relevance of public policy and unequal bargaining power under the Indian Contract Act, adding valuable depth to the answer.",
+        "The overall structure and clarity of explanation are excellent."
+      ],
+      "weaknesses": [
+        "Does not explicitly cover all the key legal issues listed in the ground truth, specifically missing a direct mention of Article 21 (right to life/livelihood) and the scope of judicial review as distinct issues.",
+        "While concepts related to natural justice are touched upon, the explicit phrase 'principles of natural justice' as a key issue is not used."
+      ]
+    },
+    "timestamp": "2025-11-23T21:46:16.158484"
+  },
+  {
+    "question_id": 4,
+    "question": "What is the punishment for receiving property taken during war or depredation under IPC Section 127?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 127",
+    "ground_truth": "According to IPC Section 127, whoever receives any property knowing the same to have been taken in the commission of offences mentioned in sections 125 and 126, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine and to forfeiture of the property so received. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Section 127 of the Indian Penal Code (IPC), anyone who receives property knowing it to have been taken during acts of war or depredation, as described in Sections 125 and 126 of the IPC, is subject to punishment. The punishment entails imprisonment of either description for a term that may extend to seven years. Additionally, the offender is liable to a fine and to the forfeiture of the property so received.\n\nIt is important to note that as of July 1, 2024, IPC Section 127 has been replaced with Bhartiya Nyaya Sanhita (BNS) Section 155.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 3.403393030166626,
+    "evaluation_time": 8.420315504074097,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately describes the punishment for receiving property taken during war or depredation under IPC Section 127. It correctly details the imprisonment term, liability to fine, and forfeiture of property. A significant strength is the inclusion of the highly relevant and accurate information about IPC Section 127 being replaced by Bhartiya Nyaya Sanhita (BNS) Section 155, effective July 1, 2024. This shows an excellent understanding of current legal changes. However, the answer is slightly incomplete as it omits the procedural classification of the offense (cognizable, non-bailable) and the court of trial (Court of Session), which were present in the ground truth and are important aspects of understanding a legal provision. Despite this omission, the core punishment details are correct and the added context about BNS is a valuable addition.",
+      "strengths": [
+        "Accurate description of the punishment under IPC Section 127.",
+        "Correctly references Sections 125 and 126 for the origin of the property.",
+        "Provides highly relevant and accurate legal update regarding the replacement by BNS Section 155 and its effective date."
+      ],
+      "weaknesses": [
+        "Omits procedural details of the offense (cognizable, non-bailable) and the court of trial (Court of Session) which were present in the ground truth."
+      ]
+    },
+    "timestamp": "2025-11-23T21:46:29.986182"
+  },
+  {
+    "question_id": 5,
+    "question": "In the case of Masud Khan v State Of Uttar Pradesh, what was the court's decision regarding the burden of proof for establishing citizenship?",
+    "category": "Citizenship_Law",
+    "source": "Past Cases RAG - Supreme Court Case 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court held that under Section 9 of the Foreigners Act, whenever a question arises whether a person is or is not a foreigner, the onus of proving that he is not a foreigner lies upon him. The burden is upon the petitioner to establish that he is a citizen of India. The Court stated that there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950. The petitioner must discharge this burden by providing proof, and mere statements without evidence cannot be accepted as true.",
+    "generated_answer": "In the case of *Masud Khan v. State of Uttar Pradesh*, the Supreme Court of India ruled that the burden of proof for establishing citizenship lies with the individual claiming to be a citizen.\n\nSpecifically, the court held that under Section 9 of the Foreigners Act, whenever a question arises as to whether a person is or is not a foreigner, the onus of proving that they are not a foreigner lies upon that person. Therefore, the petitioner, Masud Khan, had the burden to establish that he was a citizen of India in the manner he claimed. The court found that Masud Khan failed to discharge this burden, leading to the decision that he was a foreigner.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.076125621795654,
+    "evaluation_time": 9.665251731872559,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 7,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 8.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately identifies the key holding of the Supreme Court in Masud Khan v. State of Uttar Pradesh regarding the burden of proof for establishing citizenship. It correctly cites Section 9 of the Foreigners Act as the basis for this principle. The answer clearly states that the onus lies on the individual claiming to be a citizen and specifically on the petitioner to establish citizenship. It also correctly infers the outcome for Masud Khan based on this burden.\n\nHowever, the answer is not entirely complete when compared to the ground truth. It misses two specific elaborations provided in the ground truth: (1) the statement that 'there is no room for any presumption that the petitioner should be deemed to have been present in India on 26-1-1950', and (2) the emphasis that the burden must be discharged by 'providing proof, and mere statements without evidence cannot be accepted as true.' While the generated answer's assertion that Masud Khan 'failed to discharge this burden' implies the need for proof, it doesn't explicitly state the limitations on mere statements or the absence of presumption as clearly as the ground truth. The generated answer also omits the year of the judgment (1973) which was present in the ground truth, although this is a minor omission given the correct case name and court.",
+      "strengths": [
+        "Accurately identifies the core legal principle regarding the burden of proof for citizenship.",
+        "Correctly cites Section 9 of the Foreigners Act.",
+        "Clearly states the onus on the individual/petitioner.",
+        "Directly answers the question without irrelevant information.",
+        "Correctly attributes the decision to the Supreme Court."
+      ],
+      "weaknesses": [
+        "Omits specific details from the ground truth regarding the absence of presumption of presence on 26-1-1950.",
+        "Does not explicitly state that mere statements without evidence are insufficient to discharge the burden of proof, although it is implied.",
+        "Misses the year of the judgment (1973)."
+      ]
+    },
+    "timestamp": "2025-11-23T21:46:45.731745"
+  },
+  {
+    "question_id": 6,
+    "question": "What are the conditions under which a public servant can be punished for voluntarily allowing a prisoner of war to escape under IPC Section 128?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 128",
+    "ground_truth": "Under IPC Section 128, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, voluntarily allows such prisoner to escape from any place in which such prisoner is confined, shall be punished with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Section 128 of the Indian Penal Code (IPC), a public servant can be punished for voluntarily allowing a prisoner of war to escape under specific conditions:\n\n1.  **Status of the Accused**: The individual must be a public servant. This includes government employees responsible for the custody of prisoners, such as jailors, prison officers, and other officials.\n2.  **Status of the Prisoner**: The person who escapes must be either a \"State prisoner\" or a \"prisoner of war.\" A prisoner of war is a captured enemy soldier during wartime, while a State prisoner is someone whose imprisonment is vital for national security against internal disturbances or foreign hostility.\n3.  **Custody of the Prisoner**: The public servant must have lawful custody of the prisoner of war.\n4.  **Voluntary Act**: The public servant must have *voluntarily* allowed the prisoner to escape. This means the act must be deliberate and intentional, not a result of negligence. For instance, if a public servant accepts a bribe to help a prisoner escape or intentionally leaves a cell door unlocked, it would fall under \"voluntarily allowing\" an escape.\n\nIf these conditions are met, the public servant can be punished with imprisonment for life or imprisonment of either description for a term extending up to ten years, and shall also be liable to a fine. This offense is cognizable, non-bailable, and triable by the Court of Session.\n\nIt is important to note that as of July 1, 2024, IPC Section 128 has been replaced by Section 156 of the Bharatiya Nyaya Sanhita (BNS).",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 5.1947596073150635,
+    "evaluation_time": 7.241288185119629,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is excellent. It not only accurately provides all the information present in the ground truth but also structures it more clearly by breaking down the 'conditions' into distinct, numbered points. Furthermore, it provides helpful definitions and examples ('State prisoner', 'prisoner of war', 'voluntarily allowing') that enhance understanding, which the ground truth does not explicitly do. The inclusion of the update regarding the Bharatiya Nyaya Sanhita (BNS) is a highly valuable addition, making the answer more current and practical for users, without detracting from the accuracy of the IPC information. All legal facts, section numbers, and explanations are correct.",
+      "strengths": [
+        "Clearly breaks down the conditions into specific, numbered points, making the answer easy to understand.",
+        "Provides helpful definitions for key terms like 'State prisoner' and 'prisoner of war'.",
+        "Offers a clear example for 'voluntarily allowed' to illustrate the intent requirement.",
+        "Accurately states the punishment and the nature of the offense (cognizable, non-bailable, triable by Court of Session).",
+        "Includes a highly relevant and up-to-date note about the replacement of IPC Section 128 by BNS Section 156, which adds significant value and foresight.",
+        "Covers all aspects of the ground truth and elaborates effectively."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-23T21:47:00.178145"
+  },
+  {
+    "question_id": 7,
+    "question": "What was the Supreme Court's reasoning in Central Inland Water Transport Corporation case regarding the right to livelihood under Article 21?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 21 Interpretation",
+    "ground_truth": "In Central Inland Water Transport Corporation Ltd. vs Brojo Nath Ganguly (1986), the Supreme Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination of employment. The court reasoned that the right to livelihood is an integral part of the right to life, and any arbitrary action that affects a person's livelihood would be a violation of Article 21. The court found that Rule 9(i) which allowed termination without reason was arbitrary and violated Article 21 as it arbitrarily affected the employees' means of livelihood.",
+    "generated_answer": "The Supreme Court, in the case of *Central Inland Water Transport Corporation Ltd. v. Brojo Nath Ganguly* (AIR 1986 SC 1571), did not primarily base its reasoning for striking down Rule 9(i) of the Corporation's Service, Discipline and Appeal Rules on the explicit violation of the \"right to livelihood under Article 21.\" Instead, its reasoning was predominantly anchored in **Article 14 of the Constitution (right to equality)** and **Section 23 of the Indian Contract Act, 1872 (agreements opposed to public policy)**.\n\nThe core of the Court's reasoning can be summarized as follows:\n\n*   **\"State\" under Article 12:** The Court first established that the Central Inland Water Transport Corporation, being a government company jointly owned by the Central Government and two State Governments, fell within the definition of \"the State\" under Article 12 of the Constitution. This meant it was bound by the Fundamental Rights enshrined in Part III of the Constitution, including Article 14.\n*   **Arbitrariness and Inequality of Bargaining Power (Article 14):** Rule 9(i) of the Corporation's rules allowed for the termination of a permanent employee's services by simply giving three months' notice or paying an equivalent amount, without needing to assign any reason. The Supreme Court found this rule to be arbitrary, unfair, and unconscionable. It highlighted the significant imbalance in bargaining power between the Corporation, a public sector undertaking, and its employees. An employee had no meaningful choice but to accept such terms, and refusing would lead to termination and the hardship of finding alternative employment. The Court held that such a clause, giving absolute and arbitrary power to the employer, violated the principle of equality enshrined in Article 14.\n*   **Unconscionable Contract Against Public Policy (Section 23, Indian Contract Act):** The Court further declared Rule 9(i) void under Section 23 of the Indian Contract Act, holding that it was against public policy. A clause that creates a sense of insecurity in the minds of a large number of employees and is injurious to public interest, as it allowed for arbitrary dismissal, was deemed unconscionable and contrary to the principles of a just society.\n\nWhile the arbitrary termination directly impacted the employees' ability to earn a living, thereby affecting their livelihood, the Supreme Court's explicit legal reasoning in this particular case primarily focused on the unreasonableness, unfairness, and arbitrariness of the contractual term in light of Article 14 and general contract law principles against unconscionable bargains. The decision emphasized safeguarding workers' rights against oppressive contractual terms imposed by powerful entities, ensuring fairness in employment contracts with government entities.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 11.286767721176147,
+    "evaluation_time": 20.3901948928833,
+    "evaluation": {
+      "correctness_score": 4,
+      "completeness_score": 0,
+      "relevance_score": 1,
+      "legal_reasoning_score": 5,
+      "overall_score": 2.5,
+      "verdict": "FAIL",
+      "reasoning": "The question specifically asks about the Supreme Court's reasoning in *Central Inland Water Transport Corporation* regarding the *right to livelihood under Article 21*. The ground truth correctly states that the Court held that the right to life and livelihood under Article 21 is affected by arbitrary termination and reasoned that livelihood is an integral part of life. It explicitly links the arbitrary Rule 9(i) to a violation of Article 21 by affecting livelihood. \n\nThe generated answer, however, directly contradicts this central point. It explicitly states that the Court 'did not primarily base its reasoning... on the explicit violation of the 'right to livelihood under Article 21'.' While it is true that Article 14 and Section 23 of the Contract Act were prominent grounds, the judgment *did* inherently and often explicitly discuss the impact on livelihood as part of the broader right to life and dignity, thereby implicating Article 21. By denying this central premise that the question asks about, the generated answer fails to address the core of the question. Although it provides excellent legal reasoning for the other aspects of the judgment (Article 12, Article 14, Section 23), this information is largely irrelevant to the *specific* reasoning requested concerning Article 21 and livelihood. Therefore, it completely misses the mark on completeness and relevance for the specific question asked, and makes a critical factual misdirection regarding the requested Article 21 reasoning.",
+      "strengths": [
+        "Accurate identification of the case name and citation.",
+        "Correctly identifies the corporation as a 'State' under Article 12.",
+        "Provides an excellent and detailed explanation of the Court's reasoning regarding Article 14 (arbitrariness and inequality of bargaining power).",
+        "Provides a correct explanation of the Court's reasoning regarding Section 23 of the Indian Contract Act (unconscionable contracts against public policy).",
+        "Well-structured and clearly written."
+      ],
+      "weaknesses": [
+        "Directly contradicts the ground truth and the spirit of the judgment regarding the explicit link between arbitrary termination, livelihood, and Article 21.",
+        "Fails to answer the specific question about the Supreme Court's reasoning *regarding the right to livelihood under Article 21* by stating it was not the primary basis.",
+        "Misses the entire point of the question by redirecting to other aspects of the judgment, however correct those other aspects may be."
+      ]
+    },
+    "timestamp": "2025-11-23T21:47:33.859964"
+  },
+  {
+    "question_id": 8,
+    "question": "Under IPC Section 130, what is the punishment for aiding the escape of a State prisoner or prisoner of war?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 130",
+    "ground_truth": "According to IPC Section 130, whoever knowingly aids or assists any State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue any such prisoner, or harbours or conceals any such prisoner who has escaped from lawful custody, or offers or attempts to offer any resistance to the recapture of such prisoner shall be punished with imprisonment for life, or with imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Indian Penal Code (IPC) Section 130, anyone who knowingly aids or assists a State prisoner or prisoner of war in escaping from lawful custody, or rescues or attempts to rescue such a prisoner, or harbors or conceals an escaped prisoner, or offers resistance to their recapture, shall be punished.\n\nThe punishment for such an offense is:\n*   Imprisonment for life, or\n*   Imprisonment of either description for a term which may extend to ten years, and\n*   Also be liable to a fine.\n\nIt's important to note that as per new Indian Criminal law, IPC Section 130 has been replaced with Bhartiya Nyaya Sanhita (BNS) Section 158, effective from July 1, 2024. Therefore, for updated procedures and punishments after this date, BNS 158 would be the relevant section to refer to.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.038050651550293,
+    "evaluation_time": 7.489030122756958,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 8,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a highly accurate and comprehensive response to the question. It correctly identifies the acts constituting the offense under IPC Section 130 and the corresponding punishments (imprisonment for life, or up to ten years, and a fine). \n\nWhile it misses some procedural details mentioned in the ground truth (cognizable, non-bailable, triable by Court of Session), it adds a crucial and highly relevant piece of information regarding the replacement of IPC Section 130 by Bhartiya Nyaya Sanhita (BNS) Section 158, effective from July 1, 2024. This shows an excellent awareness of recent legal reforms and provides immense practical value, making the answer more current and forward-looking. The absence of the procedural details is a minor omission compared to the significant value added by the update on BNS.",
+      "strengths": [
+        "Highly accurate description of the offense and punishment under IPC Section 130.",
+        "Crucial and highly relevant update on the replacement by BNS Section 158, effective July 1, 2024.",
+        "Clear and well-structured presentation of the punishment details.",
+        "Directly answers the question while providing valuable additional context."
+      ],
+      "weaknesses": [
+        "Omits procedural details mentioned in the ground truth (e.g., 'cognizable, non-bailable offense triable by the Court of Session')."
+      ]
+    },
+    "timestamp": "2025-11-23T21:47:47.390730"
+  },
+  {
+    "question_id": 9,
+    "question": "What was the principle of issue estoppel discussed in Masud Khan v State Of Uttar Pradesh case?",
+    "category": "Criminal_Procedure",
+    "source": "Past Cases RAG - Supreme Court 1973",
+    "ground_truth": "In Masud Khan v State Of Uttar Pradesh (1973), the Supreme Court discussed the principle of issue estoppel and held that it arises only if both the earlier and subsequent proceedings were criminal prosecutions. The Court cited that where an issue of fact has been tried by a competent court and a finding has been reached in favor of an accused, such finding would constitute an estoppel against the prosecution, not as a bar to trial but as precluding the reception of evidence to disturb that finding when the accused is tried for a different offense. However, in this case, while the earlier proceeding was a criminal prosecution, the present was merely an action under the Foreigners (Internment) Order, not a criminal proceeding. Therefore, the principle of issue estoppel did not apply.",
+    "generated_answer": "In the case of *Masud Khan v State Of Uttar Pradesh*, the Supreme Court discussed the principle of issue estoppel, specifically in the context of criminal prosecutions. The principle can be summarized as follows:\n\nIssue estoppel arises when a competent court has previously tried an issue of fact and rendered a finding in favor of an accused. This finding then acts as an estoppel or *res judicata* against the prosecution. Its effect is not to bar the trial or conviction of the accused for a different or distinct offense. Instead, it prevents the prosecution from presenting evidence in a subsequent trial that would contradict or disturb the previously established finding of fact, even if the later trial is for a different offense permitted by law.\n\nCrucially, the Court emphasized that issue estoppel applies only when both the earlier and the subsequent proceedings are criminal prosecutions. In the *Masud Khan* case itself, the Court found that issue estoppel did not apply because, while the earlier proceeding was a criminal prosecution, the subsequent action (under the Foreigners (Internment) Order for deportation) was not a criminal prosecution.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.8790998458862305,
+    "evaluation_time": 7.951969861984253,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a perfectly accurate, complete, and relevant explanation of the principle of issue estoppel as discussed in the *Masud Khan v State Of Uttar Pradesh* case. It correctly identifies the core components of the principle, including its conditional application (both proceedings must be criminal), its effect (precluding evidence, not barring trial), and its specific application to the facts of the *Masud Khan* case. The legal reasoning is sound and clearly articulated, mirroring the ground truth effectively.",
+      "strengths": [
+        "Highly accurate in stating the legal principle and its application.",
+        "Completely covers all key points mentioned in the ground truth.",
+        "The explanation of issue estoppel is clear, concise, and easy to understand.",
+        "Effectively highlights the crucial condition for the applicability of issue estoppel.",
+        "Correctly explains why issue estoppel did not apply in the *Masud Khan* case itself."
+      ],
+      "weaknesses": [
+        "None identified."
+      ]
+    },
+    "timestamp": "2025-11-23T21:48:02.226219"
+  },
+  {
+    "question_id": 10,
+    "question": "What is the punishment for abetting mutiny if the mutiny is actually committed as a consequence, under IPC Section 132?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 132",
+    "ground_truth": "Under IPC Section 132, whoever abets the committing of mutiny by an officer, soldier, sailor or airman in the Army, Navy or Air Force of the Government of India, shall, if mutiny be committed in consequence of that abetment, be punished with death or with imprisonment for life, or imprisonment of either description for a term which may extend to ten years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by the Court of Session.",
+    "generated_answer": "Under Section 132 of the Indian Penal Code (IPC), if a person abets the committing of mutiny by an officer, soldier, sailor, or airman in the Indian Army, Navy, or Air Force, and mutiny is actually committed as a consequence of that abetment, the abettor shall be punished with severe penalties.\n\nThe punishment options are:\n*   Death.\n*   Imprisonment for life.\n*   Imprisonment of either description for a term which may extend to ten years.\n*   The abettor shall also be liable to a fine.\n\nThis offense is classified as cognizable, non-bailable, and triable by a Court of Session. Section 132 is considered a more severe offense than Section 131, as it requires the abetted mutiny to actually occur as a result of the abetment. It is important to note that as of July 1, 2024, IPC Section 132 has been replaced with Bharatiya Nyaya Sanhita (BNS) Section 160, which also increases the upper limit of imprisonment.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 5.682728052139282,
+    "evaluation_time": 13.173741340637207,
+    "evaluation": {
+      "correctness_score": 9,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.5,
+      "verdict": "PASS",
+      "reasoning": "The generated answer accurately and comprehensively provides the punishment for abetting mutiny under IPC Section 132, mirroring all key details from the ground truth. This includes the specific conditions, punishment options (death, life imprisonment, up to ten years, and fine), and the nature of the offense (cognizable, non-bailable, triable by Court of Session). Furthermore, the answer significantly enhances its value by providing pertinent additional information, such as a comparison to Section 131 to highlight the severity of 132, and crucially, an accurate update regarding the replacement of IPC Section 132 with Bharatiya Nyaya Sanhita (BNS) Section 160, including its effective date (July 1, 2024) and the change in the upper limit of imprisonment. This forward-looking legal insight is highly valuable for a legal query, even though the question asked about the 'current' IPC provision.",
+      "strengths": [
+        "Highly accurate in detailing the provisions of IPC Section 132, including specific penalties and classifications.",
+        "Completely covers all information presented in the ground truth and adds valuable contextual details.",
+        "Includes a highly relevant and accurate forward-looking legal update regarding the replacement by BNS Section 160, its effective date, and the impact on punishment, which is excellent for a legal assistant.",
+        "Clearly distinguishes the offense from a related section (IPC 131), demonstrating good legal understanding."
+      ],
+      "weaknesses": [
+        "No significant weaknesses. The additional BNS information, while not explicitly asked for by 'What IS the punishment', is clearly marked as a note and is factually correct and relevant for a complete legal understanding."
+      ]
+    },
+    "timestamp": "2025-11-23T21:48:23.088601"
+  },
+  {
+    "question_id": 11,
+    "question": "What are the rules for language use in Parliament?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Article 120",
+    "ground_truth": "Article 120 of the Constitution of India deals with the language to be used in Parliament. It states that business in Parliament shall be transacted in Hindi or in English. However, the Chairman of the Council of States or Speaker of the House of the People may permit any member who cannot adequately express himself in Hindi or in English to address the House in his mother-tongue. Unless Parliament by law otherwise provides, this provision for the use of English was to cease after fifteen years from the commencement of the Constitution (i.e., by 1965), but the Official Languages Act, 1963 allowed for the continued use of English.",
+    "generated_answer": "Rules for language use in parliaments vary significantly depending on the country or international body, but generally encompass official languages for debates and documents, provisions for interpretation and translation, and guidelines on appropriate conduct and \"unparliamentary language.\"\n\n**Official Languages and Interpretation:**\n*   **Canada:** Both English and French are the official languages of the Parliament of Canada. The Constitution Act, 1867, and the Official Languages Act guarantee the right to use either language in debates and other proceedings. Simultaneous interpretation is provided for debates and proceedings, and all parliamentary publications, such as the Journals and Debates, are printed in both official languages. While other languages may occasionally be used, it is not for extended periods.\n*   **European Parliament:** Multilingualism is a core principle, with 24 official EU languages. Members of the European Parliament (MEPs) have the right to speak and write in any of these official languages. Speeches are simultaneously interpreted into other official languages, and all official texts are translated into all 24 languages to ensure citizens can access and understand EU laws.\n*   **India:** Business in the Indian Parliament is conducted in Hindi or English. However, the Chairman or Speaker may permit a member who cannot adequately express themselves in Hindi or English to address the House in their mother tongue, with arrangements for a summary in Hindi or English to be included in the record.\n*   **Other Countries:** Some other parliaments also operate with multiple official languages. For example, Singapore's Parliament allows discourse in any of its four official languages (English, Mandarin Chinese, Malay, and Tamil), and Belgium's national parliament allows the use of Dutch, French, and German, with simultaneous translation provided.\n\n**Unparliamentary Language:**\nParliaments and legislative bodies worldwide impose rules and standards during debates to maintain dignity and decorum. \"Unparliamentary language\" refers to words or phrases deemed inappropriate for use within the legislature while it is in session. This typically includes suggestions of dishonesty, profanity, or any insinuation that another member is dishonorable. The Speaker of the House generally has the discretion to determine what constitutes unparliamentary language and enforce these debating rules. These rules can evolve, and some parliaments are also addressing exclusionary language, such as sexism, racism, and homophobia.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 6.583712816238403,
+    "evaluation_time": 14.27291989326477,
+    "evaluation": {
+      "correctness_score": 6,
+      "completeness_score": 4,
+      "relevance_score": 7,
+      "legal_reasoning_score": 4,
+      "overall_score": 5.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer attempts to provide a broad answer to the question about language use in 'Parliament' by covering various countries, including India. For the Indian context, it correctly identifies Hindi and English as official languages and the provision for members to speak in their mother tongue if they cannot adequately express themselves in Hindi or English. However, it significantly misses key information provided in the ground truth: the direct citation of Article 120 of the Constitution of India as the governing rule, and the crucial historical context regarding the 15-year limit on English use and the subsequent enactment of the Official Languages Act, 1963, which allowed its continuation. While the information presented for other countries is generally correct, it broadens the scope significantly compared to the ground truth, which specifically focused on the Indian Parliament. This broadness, combined with the omission of critical legal and historical details for India, impacts its completeness and legal reasoning when evaluated against the specific, focused ground truth.",
+      "strengths": [
+        "Provides a general overview of language rules in parliaments across different countries/bodies.",
+        "Accurately states the primary official languages (Hindi and English) and the mother-tongue provision for the Indian Parliament.",
+        "Includes an additional relevant aspect of language rules: 'unparliamentary language'."
+      ],
+      "weaknesses": [
+        "Fails to cite Article 120 of the Constitution of India, which is the foundational legal basis mentioned in the ground truth for India.",
+        "Omits the critical historical context about the 15-year expiry clause for English and the role of the Official Languages Act, 1963, in its continued use, a key detail from the ground truth.",
+        "Expands the scope to multiple countries, diverting from the specific focus on the Indian Parliament presented in the ground truth, thereby reducing its direct relevance to the ground truth's intent."
+      ]
+    },
+    "timestamp": "2025-11-23T21:48:45.950209"
+  },
+  {
+    "question_id": 12,
+    "question": "What is the punishment for negligently suffering a prisoner of State or war to escape under IPC Section 129?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 129",
+    "ground_truth": "According to IPC Section 129, whoever, being a public servant and having the custody of any State prisoner or prisoner of war, negligently suffers such prisoner to escape from any place of confinement in which such prisoner is confined, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "Under Section 129 of the Indian Penal Code (IPC), a public servant who, having custody of any State prisoner or prisoner of war, negligently allows such a prisoner to escape from confinement, shall be punished with simple imprisonment for a term which may extend to three years, and shall also be liable to a fine.\n\nThis section specifically addresses negligence rather than intentional acts of facilitating an escape. It emphasizes the importance of vigilance and responsibility for public servants entrusted with the custody of high-risk prisoners, whose detention is crucial for national security or international obligations.\n\nKey aspects of IPC Section 129:\n*   **Offence**: A public servant negligently suffers a prisoner of State or war in their custody to escape.\n*   **Punishment**: Simple imprisonment for a term extending up to three years, and a fine.\n*   **Nature of Offence**: It is a cognizable and bailable offense.\n*   **Triable by**: Magistrate of the First Class.\n\nIt's important to note that as of July 1, 2024, IPC Section 129 has been replaced by Section 157 of the Bharatiya Nyaya Sanhita (BNS).",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.393254518508911,
+    "evaluation_time": 7.220878601074219,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is exceptionally accurate and comprehensive. It perfectly captures all the key elements of IPC Section 129 as provided in the ground truth, including the definition of the offense, the prescribed punishment (simple imprisonment up to three years and fine), the nature of the offense (cognizable, bailable), and the triability (Magistrate of the First Class). \n\nBeyond matching the ground truth, the generated answer enhances its value by providing additional, highly relevant context. It explains the focus on negligence versus intentional acts and emphasizes the responsibility of public servants. Crucially, it includes an important update regarding the replacement of IPC Section 129 by Section 157 of the Bharatiya Nyaya Sanhita (BNS) effective July 1, 2024. This demonstrates an understanding of current legal changes and practical applicability, which is a significant strength. The answer is well-structured and easy to understand.",
+      "strengths": [
+        "Perfectly accurate in all legal facts, section numbers, and details.",
+        "Covers all key points from the ground truth and adds valuable contextual information.",
+        "Includes a critical and highly relevant legal update regarding the replacement of IPC Section 129 by BNS Section 157, demonstrating up-to-date legal knowledge.",
+        "Clear, concise, and well-structured, making the information easy to digest.",
+        "Directly and fully answers the question without any extraneous information."
+      ],
+      "weaknesses": [
+        "No significant weaknesses. The answer is highly proficient."
+      ]
+    },
+    "timestamp": "2025-11-23T21:48:59.568323"
+  },
+  {
+    "question_id": 13,
+    "question": "In Prabhakaran Nair vs State Of Tamil Nadu case, what was the challenge to Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the petitioners challenged Section 14(1)(b) and Section 16(2) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960 on the ground of being arbitrary, discriminatory and unreasonable. The main ground of attack was that while other Rent Acts in case of eviction for demolition permit the tenant to be re-inducted after reconstruction, the Tamil Nadu Rent Act did not provide such an option. It was argued that this discrimination against tenants in Tamil Nadu was invidious and violated Article 14 of the Constitution. However, the Supreme Court upheld the validity of these provisions.",
+    "generated_answer": "In the case of *Prabhakaran Nair vs State Of Tamil Nadu* (1987), the challenge to Section 14(1)(b) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960, was primarily based on grounds of arbitrariness, discrimination, and unreasonableness under Article 14 of the Indian Constitution.\n\nSpecifically, the petitioner, Prabhakaran Nair, contested an eviction order that permitted landlords to demolish and reconstruct buildings without obligating them to re-induct tenants after the reconstruction. This provision was criticized for being discriminatory towards tenants.\n\nThe Supreme Court, however, upheld the validity of Section 14(1)(b) and Section 16(2) of the Act. The Court reasoned that the legislative intent behind these sections was to incentivize landlords to undertake demolition and reconstruction, thereby addressing the severe housing shortage in urban areas. While acknowledging that other states' rent control laws included provisions for tenant re-induction post-reconstruction, the Court concluded that the absence of such clauses in the Tamil Nadu Act did not violate Article 14, as the classification made by the Act was deemed reasonable and served a legitimate public purpose.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 5.763515472412109,
+    "evaluation_time": 9.7103111743927,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10.0,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is exceptionally well-crafted, accurate, and comprehensive. It perfectly captures all the key elements from the ground truth answer, including the correct case name, year, specific section challenged (14(1)(b) and correctly mentions 16(2) in the outcome), the grounds of challenge (arbitrariness, discrimination, unreasonableness, violation of Article 14), and the specific nature of the discrimination (absence of re-induction post-reconstruction compared to other state Acts). Crucially, it also accurately states the Supreme Court's decision to uphold the validity of the provisions. Beyond merely restating the ground truth, the generated answer enhances the explanation by providing a concise and accurate summary of the Supreme Court's reasoning for upholding the sections, which demonstrates a deep understanding of the legal context and adds significant value without introducing extraneous or incorrect information. This makes the answer not just complete, but also enriched.",
+      "strengths": [
+        "Perfect accuracy in legal facts, case details, and section numbers.",
+        "Comprehensive coverage of all key points from the ground truth.",
+        "Clearly explains the specific nature of the legal challenge and its constitutional basis (Article 14).",
+        "Provides additional, accurate, and relevant legal reasoning from the Supreme Court's judgment, enhancing the answer's depth.",
+        "Well-structured and easy to comprehend."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-23T21:49:17.045861"
+  },
+  {
+    "question_id": 14,
+    "question": "What is the punishment for abetting an assault by a military officer on his superior officer under IPC Section 133?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 133",
+    "ground_truth": "Under IPC Section 133, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine. This is a cognizable, non-bailable offense triable by a Magistrate of the First Class.",
+    "generated_answer": "Under Section 133 of the Indian Penal Code (IPC), the punishment for abetting an assault by a military officer, soldier, sailor, or airman on a superior officer, when the superior officer is in the execution of his office, is imprisonment of either description for a term which may extend to three years, and the offender shall also be liable to a fine.\n\nThis offense is classified as cognizable, non-bailable, and triable by a Magistrate of the First Class. The law applies not only to military personnel but also to civilians who instigate or assist in such an assault.\n\nIt's worth noting that IPC Section 133 has been replaced by Section 161 of the Bharatiya Nyaya Sanhita (BNS), effective July 1, 2024. However, the question specifically refers to IPC Section 133.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 4.520490884780884,
+    "evaluation_time": 7.582339286804199,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is excellent. It perfectly matches all the details provided in the ground truth regarding the punishment, nature of the offense (cognizable, non-bailable), and the competent court (Magistrate of the First Class) under IPC Section 133. Beyond merely replicating the ground truth, it adds two highly valuable and correct pieces of information:\n1.  Clarification that the law applies not only to military personnel but also to civilians who instigate or assist in such an assault, which is a correct interpretation of 'whoever abets'.\n2.  A crucial update about IPC Section 133 being replaced by Section 161 of the Bharatiya Nyaya Sanhita (BNS) effective July 1, 2024, while still acknowledging the question's specific reference to IPC Section 133. This demonstrates a comprehensive and up-to-date legal understanding.\n\nAll facts are accurate, the answer is complete, highly relevant, and showcases strong legal reasoning.",
+      "strengths": [
+        "Perfectly accurate rendition of IPC Section 133 details.",
+        "Comprehensive, covering all points from ground truth and adding valuable context.",
+        "Highly relevant to the question, with appropriate additional legal context.",
+        "Demonstrates strong legal reasoning by clarifying the scope of abetment (civilians) and providing current legal updates (BNS replacement).",
+        "Clear and concise language."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-23T21:49:31.152697"
+  },
+  {
+    "question_id": 15,
+    "question": "Provisions under Articles 153-158 about Governors?",
+    "category": "Constitutional_Law",
+    "source": "Constitution RAG - Articles 153-158",
+    "ground_truth": "Articles 153 to 158 of the Constitution of India deal with the Governor of States. Article 153 mandates a Governor for each State. Article 154 vests the executive power of the State in the Governor. Article 155 states the Governor is appointed by the President. Article 156 provides that the Governor holds office during the pleasure of the President, typically for a term of five years. Article 157 sets qualifications: must be a citizen of India and at least 35 years old. Article 158 outlines conditions of office, including not being a member of Parliament or State Legislature and not holding any other office of profit.",
+    "generated_answer": "The Indian Constitution, under Articles 153 to 158, outlines key provisions concerning the Governors of States, establishing their role, appointment, term, qualifications, and conditions of office. These articles are part of Part VI of the Constitution, which deals with the States.\n\nHere's a breakdown of each article:\n\n*   **Article 153: Governors of States**\n    This article states that there shall be a Governor for each State. It also includes a provision that nothing in this article shall prevent the appointment of the same person as Governor for two or more States. The Governor acts as the constitutional head of the State and a representative of the President of India, serving as a link between the Union and State governments.\n\n*   **Article 154: Executive Power of State**\n    This article vests the executive power of the State in the Governor. The Governor exercises this power either directly or through officers subordinate to him in accordance with the Constitution. This provision ensures that while the Governor is the nominal head, the real executive power lies with the Council of Ministers headed by the Chief Minister.\n\n*   **Article 155: Appointment of Governor**\n    Article 155 stipulates that the Governor of a State shall be appointed by the President by warrant under his hand and seal. This process ensures that the appointment is made by the Union Executive, maintaining national unity and federal coordination.\n\n*   **Article 156: Term of office of Governor**\n    This article outlines the term of office for the Governor.\n    *   The Governor holds office during the pleasure of the President.\n    *   The Governor may, by writing under his hand addressed to the President, resign his office.\n    *   Subject to these provisions, a Governor holds office for a term of five years from the date on which he enters upon his office.\n    *   Even after the expiration of his term, a Governor shall continue to hold office until his successor enters upon his office, ensuring continuity in governance.\n\n*   **Article 157: Qualifications for Appointment as Governor**\n    Article 157 specifies the eligibility criteria for the appointment of a Governor. A person is eligible for appointment as Governor only if they are a citizen of India and have completed the age of thirty-five years. These qualifications aim to ensure a certain level of maturity and allegiance to the nation for this important constitutional role.\n\n*   **Article 158: Conditions of Governor's office**\n    This article lays down the conditions applicable to the Governor's office.\n    *   The Governor shall not be a member of either House of Parliament or of a House of the Legislature of any State. If a member of any such House is appointed Governor, they are deemed to have vacated their seat on the date they enter upon their office as Governor.\n    *   The Governor shall not hold any other office of profit.\n    *   The Governor is entitled to the use of official residences without payment of rent and to such emoluments, allowances, and privileges as determined by Parliament by law.\n    *   If the same person is appointed as Governor of two or more States, the emoluments and allowances are allocated among the States in a proportion determined by the President.\n    *   The emoluments and allowances of the Governor cannot be diminished during his term of office. These conditions are designed to maintain the neutrality, dignity, and independence of the Governor's office.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 8.398901462554932,
+    "evaluation_time": 11.206695079803467,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 9,
+      "overall_score": 9.75,
+      "verdict": "PASS",
+      "reasoning": "The generated answer is outstanding. It meticulously covers all the provisions related to Governors under Articles 153-158, mirroring and expanding upon the ground truth with perfect accuracy. It not only reproduces the core facts but also provides valuable additional details and contextual explanations for each article, which are all legally sound and highly relevant. For example, it correctly elaborates on the provision for one Governor for two or more states (Art 153), the distinction between nominal and real executive power (Art 154), the process of resignation and continuity of office (Art 156), and comprehensive conditions regarding emoluments and non-diminution of allowances (Art 158). The structure is clear, making the information easy to digest. There are no factual errors or misstatements of law, and the answer directly addresses the question comprehensively.",
+      "strengths": [
+        "Highly Accurate: All legal facts, article numbers, and provisions are precisely stated and correct.",
+        "Exceptional Completeness: The answer significantly expands upon the ground truth, providing a more detailed and nuanced understanding of each article without introducing irrelevant information. It covers all key points and many important secondary details.",
+        "Clear and Well-Structured: The breakdown of each article is logical, easy to follow, and enhances readability.",
+        "Relevant Context and Explanation: The answer provides appropriate constitutional context and explains the implications of certain provisions, such as the Governor's role as a nominal head and the conditions for maintaining the independence of the office."
+      ],
+      "weaknesses": [
+        "None. The answer is comprehensive, accurate, and well-presented, exceeding expectations."
+      ]
+    },
+    "timestamp": "2025-11-23T21:49:52.762900"
+  },
+  {
+    "question_id": 16,
+    "question": "In the Prabhakaran Nair case, what was the Supreme Court's reasoning for upholding Section 14(1)(b) of the Tamil Nadu Rent Act?",
+    "category": "Rent_Control_Law",
+    "source": "Past Cases RAG - Supreme Court 1987",
+    "ground_truth": "In Prabhakaran Nair vs State Of Tamil Nadu (1987), the Supreme Court upheld Section 14(1)(b) reasoning that the provision for re-induction in case of repairs and absence of such provision in case of demolition and reconstruction is quite understandable and rational. The Court noted that demolition has to be completed within three months but reconstruction of a new building might take years. During that period, a tenant is bound to have found alternative accommodation. In contrast, for repairs, a tenant may arrange temporary accommodation for a few months and return. The Court held it is not practicable and would be anomalous to expect a landlord to take back a tenant after a long lapse of time. Thus, the classification was found to be reasonable and not violative of Article 14.",
+    "generated_answer": "In the Prabhakaran Nair case (Prabhakaran Nair And Others v. State Of Tamil Nadu And Others, 1987), the Supreme Court upheld the validity of Section 14(1)(b) of the Tamil Nadu Buildings (Lease and Rent Control) Act, 1960. The primary reasoning behind this decision was to balance landlord incentives with the larger public purpose of alleviating housing shortages.\n\nThe Court dismissed petitions challenging the constitutionality of Section 14(1)(b) and Section 16(2) of the Act, which were argued to be arbitrary, discriminatory, and unreasonable under Article 14 of the Indian Constitution.\n\nThe Supreme Court reasoned that the legislative intent behind these sections was to encourage landlords to undertake demolition and reconstruction by providing incentives. This, in turn, was aimed at alleviating the acute housing shortage in urban areas. The Court concluded that these provisions were neither arbitrary nor discriminatory.\n\nWhile acknowledging that rent control laws in other states might include provisions for tenant re-induction after reconstruction, the Court held that the absence of such clauses in the Tamil Nadu Act did not violate Article 14. It determined that the classification made by the Act was reasonable and served a legitimate public purpose, and Article 14 does not mandate uniformity across states' laws on similar subjects. The Court emphasized that the Act aimed to balance the rights and interests of both landlords and tenants fairly.",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 5.934147596359253,
+    "evaluation_time": 19.356938362121582,
+    "evaluation": {
+      "correctness_score": 7,
+      "completeness_score": 4,
+      "relevance_score": 9,
+      "legal_reasoning_score": 5,
+      "overall_score": 6.25,
+      "verdict": "PASS",
+      "reasoning": "The generated answer correctly identifies the case name, year, and the section of the Act that was upheld. It accurately states that the Supreme Court upheld Section 14(1)(b) as constitutional, dismissing challenges under Article 14. It also correctly identifies the legislative intent to encourage landlords to undertake demolition and reconstruction to alleviate housing shortages, which served as a public purpose. However, the answer significantly misses the *specific and detailed reasoning* provided by the Supreme Court for *why* the absence of a re-induction provision for demolition and reconstruction (unlike for repairs) was considered rational and not violative of Article 14. The ground truth clearly articulates this distinction based on the differing timeframes (months for repairs vs. years for reconstruction) and the practical difficulties of expecting landlords to take back tenants after a prolonged period. This crucial comparative reasoning, central to the Article 14 challenge, is largely absent from the generated answer, leading to a lower completeness and legal reasoning score.",
+      "strengths": [
+        "Correctly identifies the case name, year, and the upheld section of the Act.",
+        "Accurately states the general outcome regarding the constitutionality of the section and its challenge under Article 14.",
+        "Mentions the legislative intent to encourage reconstruction to alleviate housing shortages, which is a correct public purpose associated with the Act.",
+        "The answer is well-structured and easy to understand."
+      ],
+      "weaknesses": [
+        "Lacks completeness in articulating the Supreme Court's primary and most specific reasoning: the rational distinction between re-induction for repairs versus the absence of it for demolition and reconstruction, based on the vast difference in time duration and practical feasibility.",
+        "Provides a more generalized legal reasoning (balancing landlord incentives with public purpose) rather than the precise comparative and practical justification offered by the Supreme Court for upholding the classification under Article 14."
+      ]
+    },
+    "timestamp": "2025-11-23T21:50:20.059367"
+  },
+  {
+    "question_id": 17,
+    "question": "What is the punishment if an assault on a superior officer is actually committed following abetment under IPC Section 134?",
+    "category": "IPC_Section",
+    "source": "IPC RAG - Section 134",
+    "ground_truth": "Under IPC Section 134, whoever abets an assault by an officer, soldier, sailor or airman, in the Army, Navy or Air Force of the Government of India, on any superior officer being in the execution of his office, shall, if such assault be committed in consequence of that abetment be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. This makes the punishment more severe when the assault is actually carried out as a result of the abetment.",
+    "generated_answer": "If an assault on a superior officer is committed following abetment under Section 134 of the Indian Penal Code (IPC), the punishment for the abettor is imprisonment that may extend to seven years, and they shall also be liable to a fine.\n\nIPC Section 134 specifically addresses cases where a person abets (encourages, instigates, or aids) a soldier, sailor, or airman in the Indian armed forces to assault their superior officer while the superior officer is in the execution of their official duty, and the assault is actually committed as a consequence of that abetment. The severity of the punishment can depend on the extent of abetment and the injury caused.\n\nThis offense is classified as cognizable, meaning the police can arrest without a warrant, and it is non-bailable, requiring judicial discretion for bail. Cases under this section are triable by a Magistrate of the First Class.\n\nIt is important to note that, as of July 1, 2024, IPC Section 134 has been replaced by Section 162 of the Bharatiya Nyaya Sanhita (BNS).",
+    "systems_used": [
+      "gemini_web_search"
+    ],
+    "query_time": 6.823261737823486,
+    "evaluation_time": 9.348472356796265,
+    "evaluation": {
+      "correctness_score": 10,
+      "completeness_score": 10,
+      "relevance_score": 10,
+      "legal_reasoning_score": 10,
+      "overall_score": 10,
+      "verdict": "PASS",
+      "reasoning": "The generated answer provides a perfectly accurate and comprehensive response to the question. It correctly identifies the punishment under IPC Section 134 (imprisonment up to seven years and fine) and accurately describes the conditions of the offense. Beyond the ground truth, it adds highly relevant and valuable information, such as the classification of the offense (cognizable, non-bailable, triable by Magistrate of the First Class) and, critically, the update regarding its replacement by Section 162 of the Bharatiya Nyaya Sanhita (BNS) effective July 1, 2024. This demonstrates excellent legal knowledge and an understanding of providing current, practical legal advice.",
+      "strengths": [
+        "Accurately states the punishment and the elements of the offense under IPC Section 134.",
+        "Provides crucial and up-to-date legal context regarding the replacement of IPC Section 134 by BNS Section 162.",
+        "Includes relevant procedural details such as the offense being cognizable, non-bailable, and triable by a Magistrate of the First Class.",
+        "The answer is clear, well-structured, and highly informative, exceeding the ground truth's scope in a beneficial manner."
+      ],
+      "weaknesses": []
+    },
+    "timestamp": "2025-11-23T21:50:38.236668"
+  }
+]
